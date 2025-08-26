@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Prakhar Rathi # Website name
-baseurl: 'https://prakharrathi25.netlify.app/' # Website URL
-copyright: '© 2022 Prakhar Rathi' # Footer text, e.g. '© {year} Me'
+title: Ritabrata Chakraborty # Website name
+baseurl: 'https://ritabrata-chakraborty.github.io/Portfolio/' # Website URL
+copyright: '© 2025 Ritabrata Chakraborty' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
