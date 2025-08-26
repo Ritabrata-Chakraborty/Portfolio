@@ -26,7 +26,7 @@ experience:
   - title: ML Research Intern
     company: Uber
     company_url: 'https://uber.com'
-  company_logo: icons/companies/Uber.jpeg
+    company_logo: icons/companies/Uber.jpeg
     location: Remote
     date_start: '2025-07-01'
     date_end: 
@@ -41,7 +41,7 @@ experience:
     company_url: 'https://bits-pilani.ac.in'
     supervisor: Dr. Avinash Gautam
     supervisor_url: 'https://www.bits-pilani.ac.in/pilani/avinash-gautam/'
-  company_logo: icons/companies/BITSP.jpeg
+    company_logo: icons/companies/BITSP.jpeg
     location: Rajasthan, India
     date_start: '2025-05-01'
     date_end: 
@@ -56,7 +56,7 @@ experience:
     company_url: 'https://nus.edu.sg'
     supervisor: Dr. Guillaume Sartoretti
     supervisor_url: 'https://www.comp.nus.edu.sg/~guillaume/'
-  company_logo: icons/companies/KUL.jpeg
+    company_logo: icons/companies/KUL.jpeg
     location: Singapore (Remote)
     date_start: '2025-03-01'
     date_end: '2025-07-31'
@@ -71,7 +71,7 @@ experience:
     company_url: 'https://kuleuven.be'
     supervisor: Dr. Pradeep Kundu
     supervisor_url: 'https://www.kuleuven.be/wieiswie/en/person/00135940'
-  company_logo: icons/companies/CEERI.png
+    company_logo: icons/companies/CEERI.png
     location: Belgium (Remote)
     date_start: '2024-10-01'
     date_end: '2025-07-31'
@@ -87,7 +87,7 @@ experience:
     company_url: 'https://ceeri.res.in'
     supervisor: Dr. Kaushal Kishore
     supervisor_url: 'https://www.ceeri.res.in/profiles/kaushal-kishore/'
-  company_logo: icons/companies/BARC.jpeg
+    company_logo: icons/companies/BARC.jpeg
     location: Rajasthan, India
     date_start: '2024-01-01'
     date_end: '2025-02-28'
