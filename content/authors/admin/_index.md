@@ -6,7 +6,7 @@ title: Ritabrata Chakraborty
 superuser: true
 
 # Role/position/tagline
-role: CV Research Intern | Mechanical Engineer with Robotics Expertise
+role: CV Research Intern
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -83,7 +83,7 @@ Hey there! :wave:
 
 I’m **Ritabrata Chakraborty**, a final-year student at **BITS Pilani**, majoring in Mechanical Engineering with a Minor in Data Science. My tech journey started in high school with game development, and that spark has evolved into a full-blown passion for **AI, machine learning, and robotics**.
 
-Currently, I’m working at **Uber** as an ML Research Engineer, building **foundation models** that power autonomous vehicle annotation systems. Along the way, I’ve explored **computer vision, UAV navigation, multi-robot coordination, synthetic data generation, and uncertainty-guided path planning** — always striving to bridge cutting-edge research with real-world impact.
+Currently, I’m working at **Uber** as an CV Research Engineer, building **foundation models** that power annotation tools. Along the way, I’ve explored **computer vision, UAV navigation, multi-robot coordination, synthetic data generation, and uncertainty-guided path planning** — always striving to bridge cutting-edge research with real-world impact.
 
 Beyond tech, I’m a **chess enthusiast**, constantly chasing strategy whether it’s on the board or in tackling research challenges. I’m eager to learn, grow, and collaborate on projects that push the boundaries of what **AI and robotics** can achieve.
 
