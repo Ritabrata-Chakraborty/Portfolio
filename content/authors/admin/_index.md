@@ -83,7 +83,7 @@ Hey there! :wave:
 
 I’m **Ritabrata Chakraborty**, a final-year student at **BITS Pilani**, majoring in Mechanical Engineering with a Minor in Data Science. My tech journey started in high school with game development, and that spark has evolved into a full-blown passion for **AI, machine learning, and robotics**.
 
-Currently, I’m working at **Uber** as an CV Research Engineer, building **foundation models** that power annotation tools. Along the way, I’ve explored **computer vision, UAV navigation, multi-robot coordination, synthetic data generation, and uncertainty-guided path planning** — always striving to bridge cutting-edge research with real-world impact.
+Currently, I’m working at **Uber** as an CV Research Intern, building **foundation models** that power annotation tools. Along the way, I’ve explored **computer vision, UAV navigation, multi-robot coordination, synthetic data generation, and uncertainty-guided path planning** — always striving to bridge cutting-edge research with real-world impact.
 
 Beyond tech, I’m a **chess enthusiast**, constantly chasing strategy whether it’s on the board or in tackling research challenges. I’m eager to learn, grow, and collaborate on projects that push the boundaries of what **AI and robotics** can achieve.
 
@@ -93,7 +93,7 @@ Beyond tech, I’m a **chess enthusiast**, constantly chasing strategy whether i
 - **Vision-Language Grounded Multi-Robot Coordination**: Adapting VLMaps for multi-agent collaboration with decentralized navigation
 - **Uncertainty-Guided Path Planning**: Co-developing CogniPlan with Wasserstein GAN-based conditional inpainting for navigation
 
-## Technical Expertise
+<!-- ## Technical Expertise
 
 - **Machine Learning & Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, OpenCV, Weights & Biases
 - **Robotics & Simulation**: ROS, Gazebo, MoveIt, AirSim, MAVROS, Navigation Stack
@@ -107,8 +107,8 @@ Beyond tech, I’m a **chess enthusiast**, constantly chasing strategy whether i
 - **Conference Paper**: "CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction" accepted at CoRL 2025
 - **PHM 2025**: "An Efficient Approach for Synthetic Data Generation and Fault Diagnosis for Rotating Machinery" (Published in IET Conference Proceedings)
 - **PPSTA 2024**: Poster on "High-Velocity Impact Testing and Analysis of Layered Metal-Composite Shields Using Electromagnetic Railguns"
-- **Leadership**: President of Mechanical Engineering Association and ISHRAE BITS Pilani chapter
+- **Leadership**: President of Mechanical Engineering Association and ISHRAE BITS Pilani chapter -->
 
 I'm passionate about pushing the boundaries of autonomous systems and applying cutting-edge ML techniques to real-world robotics challenges.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}} resumé {{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}} Résumé {{< /staticref >}}.
