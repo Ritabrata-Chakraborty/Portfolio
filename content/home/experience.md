@@ -26,7 +26,7 @@ experience:
   - title: ML Research Intern
     company: Uber
     company_url: 'https://uber.com'
-   company_logo_url: icons/companies/Uber.jpeg
+    company_logo_url: icons/companies/Uber.jpeg
     location: Remote
     date_start: '2025-07-01'
     date_end: 
