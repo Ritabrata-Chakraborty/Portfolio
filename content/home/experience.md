@@ -57,7 +57,7 @@ experience:
     company_url: 'https://kuleuven.be'
     # supervisor: Dr. Pradeep Kundu
     # supervisor_url: 'https://www.kuleuven.be/wieiswie/en/person/00135940'
-    company_logo: org-nus
+    company_logo: org-kul
     location: Belgium (Remote)
     date_start: '2024-10-01'
     date_end: '2025-07-31'
