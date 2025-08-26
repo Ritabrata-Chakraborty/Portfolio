@@ -14,19 +14,19 @@ font_size: L
 
 site_type: Person
 local_business_type: ''
-org_name: 'American Express'
-description: ''
-twitter: 'prakharrathi14'
+org_name: ''
+description: 'Personal portfolio of Ritabrata Chakraborty - Computer Science Engineer and Data Scientist'
+twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: prakharrathi25@gmail.com
+email: your-email@example.com
 # phone: 888 888 88 88
 address:
   # street: 450 Serra Mall
-  city: Gurugram
-  region: Haryana
-  postcode: '122006'
+  city: Your City
+  region: Your Region
+  postcode: 'Your Postcode'
   country: India
   country_code: IN
 # coordinates:
@@ -40,8 +40,12 @@ address:
 contact_links:
   - icon: linkedin
     icon_pack: fab
-    name: DM Me
-    link: 'https://www.linkedin.com/in/prakhar-rathi/'
+    name: Connect on LinkedIn
+    link: 'https://www.linkedin.com/in/ritabrata-chakraborty-a63268251/'
+  - icon: github
+    icon_pack: fab
+    name: Follow on GitHub
+    link: 'https://github.com/Ritabrata-Chakraborty'
   # - icon: keybase
   #   icon_pack: fab
   #   name: Chat on Keybase
