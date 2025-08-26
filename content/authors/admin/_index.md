@@ -6,32 +6,32 @@ title: Ritabrata Chakraborty
 superuser: true
 
 # Role/position/tagline
-role: Computer Science Engineer | Data Scientist
+role: ML Research Engineer | Mechanical Engineer with Data Science Expertise
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Your Organization
-  url: https://example.com
+- name: Uber
+  url: https://uber.com
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a passionate computer science engineer with expertise in data science, machine learning, and software development.
+bio: ML Research Engineer with expertise in robotics, computer vision, and autonomous systems. Currently working on foundation models for autonomous vehicle annotation at Uber.
 
 # Interests to show in About widget
 interests:
-- Data Science
-- Machine Learning
-- Software Development
-- Artificial Intelligence
-- Data Analytics
-- Web Development
+- Machine Learning & Deep Learning
+- Computer Vision & Robotics
+- Autonomous Systems & UAV Navigation
+- Data Science & Synthetic Data Generation
+- Multi-Robot Coordination
+- Path Planning & SLAM
 
 # Education to show in About widget
 education:
   courses:
-  - course: B.Tech in Computer Science and Engineering
-    institution: Your University
-    year: 20XX-20XX
-  # Add more education details as needed
+  - course: B.E. in Mechanical Engineering — Minor in Data Science
+    institution: Birla Institute of Technology and Science, Pilani (BITS Pilani)
+    year: 2022-2026
+    cgpa: "CGPA: 8.27/10 (Expected: 8.57/10)"
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -40,13 +40,19 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:your-email@example.com'
+  link: 'mailto:ritabratabits@gmail.com'
 - icon: github
   icon_pack: fab
   link: https://github.com/Ritabrata-Chakraborty
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/ritabrata-chakraborty-a63268251/
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=your-id
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/your-profile
 # - icon: kaggle
 #   icon_pack: fab
 #   link: https://www.kaggle.com/your-username/
@@ -68,7 +74,7 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "your-email@example.com"
+email: "ritabratabits@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -76,21 +82,31 @@ highlight_name: false
 
 Welcome to my space! :wave:
 
-I am Ritabrata Chakraborty, a passionate computer science engineer with expertise in data science, machine learning, and software development. I have a strong foundation in computational problem-solving and a keen interest in leveraging technology to create innovative solutions.
+I am Ritabrata Chakraborty, an ML Research Engineer currently working at **Uber** on foundation models for autonomous vehicle annotation systems. I'm pursuing a B.E. in Mechanical Engineering with a Minor in Data Science at **BITS Pilani**.
 
-My journey in computer science has equipped me with skills in programming, data analysis, and system design. I enjoy working on challenging projects that combine technical excellence with real-world impact.
+My research focuses on **computer vision**, **robotics**, and **autonomous systems**. I have experience in multi-robot coordination, UAV navigation, synthetic data generation, and uncertainty-guided path planning. My work spans from theoretical research to practical implementations in real-world robotic systems.
 
-## What I Do
+## Current Research & Work
 
-- **Data Science & Analytics**: Extracting insights from complex datasets using statistical methods and machine learning algorithms
-- **Software Development**: Building robust applications and systems using modern programming languages and frameworks  
-- **Machine Learning**: Developing predictive models and AI solutions for various domains
-- **Problem Solving**: Tackling computational challenges with innovative approaches
+- **ML Research Intern at Uber**: Enhancing annotation quality in uLabel by integrating foundation models for RGB/IR image auto-labelling, significantly reducing manual annotation time
+- **Vision-Language Grounded Multi-Robot Coordination**: Adapting VLMaps for multi-agent collaboration with decentralized navigation
+- **Uncertainty-Guided Path Planning**: Co-developing CogniPlan with Wasserstein GAN-based conditional inpainting for navigation
 
-## My Interests
+## Technical Expertise
 
-When I'm not coding or analyzing data, I enjoy exploring new technologies, contributing to open-source projects, and staying updated with the latest trends in computer science and artificial intelligence.
+- **Machine Learning & Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, OpenCV, Weights & Biases
+- **Robotics & Simulation**: ROS, Gazebo, MoveIt, AirSim, MAVROS, Navigation Stack
+- **Computer Vision**: YOLO models, object detection, visual servoing, SLAM
+- **Hardware**: NVIDIA Jetson (Nano, Orin), Raspberry Pi, Arduino, 3D LiDAR, Stereo Cameras
+- **Programming**: Python, C++, C, Shell (Linux)
 
-I believe in continuous learning and am always eager to take on new challenges that help me grow both personally and professionally.
+## Recent Achievements
+
+- **3rd Place**: MathWorks Global Drone Student Challenge 2025
+- **Conference Paper**: "CogniPlan: Uncertainty-Guided Path Planning" accepted at CoRL 2025
+- **Research Publications**: Multiple papers in robotics, UAV navigation, and fault diagnosis
+- **Leadership**: President of Mechanical Engineering Association and ISHRAE BITS Pilani chapter
+
+I'm passionate about pushing the boundaries of autonomous systems and applying cutting-edge ML techniques to real-world robotics challenges.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}} resumé {{< /staticref >}}.

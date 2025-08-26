@@ -21,28 +21,28 @@ feature:
   name: Python
 - icon: code
   icon_pack: fas
-  name: Programming
-- icon: chart-line
-  icon_pack: fas
-  name: Data Analytics
-- icon: "skills/djangoproject-icon"
-  icon_pack: "custom"
-  name: "Django"
-- icon: database
-  name: SQL
-  icon_pack: fas
-- icon: laptop-code
-  icon_pack: fas
-  name: Web Development
+  name: C++ / C
 - icon: brain
   icon_pack: fas
   name: Machine Learning
 - icon: "skills/pytorch"
   icon_pack: "custom"
   name: PyTorch
-- icon: github
-  icon_pack: fab
-  name: Git & GitHub
+- icon: robot
+  icon_pack: fas
+  name: ROS / Robotics
+- icon: eye
+  icon_pack: fas
+  name: Computer Vision
+- icon: database
+  name: Deep Learning
+  icon_pack: fas
+- icon: drone
+  icon_pack: fas
+  name: UAV Navigation
+- icon: microchip
+  icon_pack: fas
+  name: Embedded Systems
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
