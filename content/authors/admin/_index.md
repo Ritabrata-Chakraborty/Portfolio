@@ -8,14 +8,14 @@ superuser: true
 # Role/position/tagline
 role: CV Research Intern
 
-# Organizations/Affiliations to show in About widget
+# Organizations/Affiliations
 organizations:
 - name: Uber
   url: https://uber.com
 
-bio: Research Engineer specializing in robotics, computer vision, and autonomous systems. Currently developing automated data annotation solutions using foundation models for autonomous vehicles at Uber.
+bio: Research Engineer specializing in robotics, computer vision, and autonomous systems. Currently developing automated data annotation solutions with foundation models for autonomous vehicles at Uber.
 
-# Interests to show in About widget
+# Interests
 interests:
 - Machine Learning & Deep Learning
 - Computer Vision & Robotics
@@ -24,18 +24,15 @@ interests:
 - Path Planning & SLAM
 - Data Science & Synthetic Data Generation (Predictive Maintenance)
 
-# Education to show in About widget
+# Education
 education:
   courses:
   - course: B.E. in Mechanical Engineering — Minor in Data Science
     institution: Birla Institute of Technology and Science, Pilani (BITS Pilani)
-    year: 2022-2026
+    year: 2022–2026
     cgpa: "CGPA: 8.27/10 (Expected: 8.57/10)"
 
-# Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+# Social Links
 social:
 - icon: envelope
   icon_pack: fas
@@ -52,63 +49,33 @@ social:
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Ritabrata-Chakraborty-3/research
-# - icon: kaggle
-#   icon_pack: fab
-#   link: https://www.kaggle.com/your-username/
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/your-username
-# - icon: medium 
-#   icon_pack: fab
-#   link: https://medium.com/@your-username
-# - icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
-#   icon_pack: ai
-#   link: https://scholar.google.com/citations?user=your-id
 
-# Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
-# and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "ritabratabits@gmail.com"
 
-# Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
 Hey there! :wave:
 
-I’m **Ritabrata Chakraborty**, a final-year student at **BITS Pilani**, majoring in Mechanical Engineering with a Minor in Data Science. My tech journey started in high school with game development, and that spark has evolved into a full-blown passion for **AI, machine learning, and robotics**.
+I’m **Ritabrata Chakraborty**, a final-year student at **BITS Pilani**, pursuing Mechanical Engineering with a Minor in Data Science.  
 
-Currently, I’m working at **Uber** as an CV Research Intern, building **foundation models** that power annotation tools. Along the way, I’ve explored **computer vision, UAV navigation, multi-robot coordination, synthetic data generation, and uncertainty-guided path planning** — always striving to bridge cutting-edge research with real-world impact.
+My journey began with game development in high school and has since grown into a deep focus on **machine learning, robotics, and computer vision**. Today, I work at **Uber** as a **Computer Vision Research Intern**, where I’m developing **foundation model–driven annotation pipelines** that support autonomous vehicle perception systems.
 
-Beyond tech, I’m a **chess enthusiast**, constantly chasing strategy whether it’s on the board or in tackling research challenges. I’m eager to learn, grow, and collaborate on projects that push the boundaries of what **AI and robotics** can achieve.
+Beyond my current role, I’ve worked on projects involving **UAV navigation, multi-robot coordination, synthetic data generation, and uncertainty-guided path planning**. I aim to bring **cutting-edge ML research into practical robotics applications** — bridging the gap between academic innovation and real-world deployment.
 
-## Current Research & Work
+---
 
-- **CV Research Intern at Uber**: Enhancing annotation quality in uLabel by integrating foundation models for RGB/IR image auto-labelling, significantly reducing manual annotation time
-- **Vision-Language Grounded Multi-Robot Coordination**: Adapting VLMaps for multi-agent collaboration with decentralized navigation
-- **Uncertainty-Guided Path Planning**: Co-developing CogniPlan with Wasserstein GAN-based conditional inpainting for navigation
+## Current Projects
 
-<!-- ## Technical Expertise
+- 🏑 **Automated Hockey Ball Launcher** – Designing a hardware-software loop for controlled trajectory generation, dataset collection, and closed-loop shot classification.  
+- 🌑 **3D Lunar/Mars Terrain Modelling for Rover Simulation** – Building DEM-based environments for planetary exploration and autonomous rover navigation studies.  
 
-- **Machine Learning & Deep Learning**: PyTorch, TensorFlow, Scikit-Learn, OpenCV, Weights & Biases
-- **Robotics & Simulation**: ROS, Gazebo, MoveIt, AirSim, MAVROS, Navigation Stack
-- **Computer Vision**: YOLO models, object detection, visual servoing, SLAM
-- **Hardware**: NVIDIA Jetson (Nano, Orin), Raspberry Pi, Arduino, 3D LiDAR, Stereo Cameras
-- **Programming**: Python, C++, C, Shell (Linux)
+---
 
-## Recent Achievements
+## Looking Ahead
 
-- **3rd Place**: MathWorks Global Drone Student Challenge 2025
-- **Conference Paper**: "CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction" accepted at CoRL 2025
-- **PHM 2025**: "An Efficient Approach for Synthetic Data Generation and Fault Diagnosis for Rotating Machinery" (Published in IET Conference Proceedings)
-- **PPSTA 2024**: Poster on "High-Velocity Impact Testing and Analysis of Layered Metal-Composite Shields Using Electromagnetic Railguns"
-- **Leadership**: President of Mechanical Engineering Association and ISHRAE BITS Pilani chapter -->
+I’m excited about ideas in **vision-language navigation, uncertainty-aware multi-agent planning, and scalable robot simulation**. I’m actively looking to collaborate with researchers and engineers who share a drive for solving **hard, real-world robotics problems**. If this resonates with you, let’s connect!
 
-I'm passionate about pushing the boundaries of autonomous systems and applying cutting-edge ML techniques to real-world robotics challenges.
+---
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}} Résumé {{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}} Résumé {{< /staticref >}}.
