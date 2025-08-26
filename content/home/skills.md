@@ -16,26 +16,54 @@ subtitle: My technical skills and core competencies
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- icon: brain
+- icon: code
   icon_pack: fas
-  name: Machine Learning & Deep Learning
-  description: PyTorch, TensorFlow, Scikit-Learn, OpenCV, Weights & Biases
+  name: Programming Languages
+  description: |
+    • Python
+    • C++
+    • C
+    • Shell (Linux)
 - icon: robot
   icon_pack: fas
   name: Robotics & Simulation
-  description: ROS, Gazebo, MoveIt, AirSim, MAVROS, Navigation Stack
-- icon: eye
+  description: |
+    • ROS (Gazebo, Rviz)
+    • MAVROS
+    • Navigation Stack
+    • MoveIt
+    • AirSim
+    • MATLAB
+    • Simulink
+    • QGIS
+- icon: brain
   icon_pack: fas
-  name: Computer Vision
-  description: YOLO models, object detection, visual servoing, SLAM
+  name: Machine Learning
+  description: |
+    • PyTorch
+    • TensorFlow
+    • Scikit-Learn
+    • OpenCV
+    • Open3D
+    • Matplotlib
+    • Weights & Biases (W&B)
 - icon: microchip
   icon_pack: fas
-  name: Hardware
-  description: NVIDIA Jetson (Nano, Orin), Raspberry Pi, Arduino, 3D LiDAR, Stereo Cameras
-- icon: code
+  name: Hardware & Embedded Systems
+  description: |
+    • NVIDIA Jetson (Nano, Orin)
+    • Raspberry Pi
+    • Arduino
+    • IMUs
+    • Stereo Camera
+    • 3D LiDAR
+- icon: cog
   icon_pack: fas
-  name: Programming
-  description: Python, C++, C, Shell (Linux)
+  name: CAD & Mechanical Simulation
+  description: |
+    • ANSYS Mechanical
+    • SolidWorks
+    • Fusion 360
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"

@@ -12,3 +12,30 @@
 .avatar-circle {
   display: inline-block;
 }
+
+/* Force 5-column layout for skills section */
+.featurette-row .col-md-4 {
+  flex: 0 0 20% !important;
+  max-width: 20% !important;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .featurette-row .col-md-4 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .featurette-row .col-md-4 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Style the skill descriptions with better bullet points */
+.featurette .card-text {
+  white-space: pre-line;
+  line-height: 1.6;
+}
