@@ -13,13 +13,20 @@
   display: inline-block;
 }
 
-/* Force 5-column layout for skills section */
+/* Force 6-column layout for skills section */
 .featurette-row .col-md-4 {
-  flex: 0 0 20% !important;
-  max-width: 20% !important;
+  flex: 0 0 16.666667% !important;
+  max-width: 16.666667% !important;
 }
 
 /* Responsive design for smaller screens */
+@media (max-width: 1200px) {
+  .featurette-row .col-md-4 {
+    flex: 0 0 33.333333% !important;
+    max-width: 33.333333% !important;
+  }
+}
+
 @media (max-width: 768px) {
   .featurette-row .col-md-4 {
     flex: 0 0 50% !important;

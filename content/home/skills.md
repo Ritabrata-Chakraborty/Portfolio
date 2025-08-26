@@ -16,37 +16,45 @@ subtitle: My technical skills and core competencies
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- icon: code
-  icon_pack: fas
-  name: Programming Languages
-  description: |
-    • Python
-    • C++
-    • C
-    • Shell (Linux)
 - icon: robot
   icon_pack: fas
-  name: Robotics & Simulation
+  name: Robotics & Motion Planning
   description: |
     • ROS (Gazebo, Rviz)
-    • MAVROS
     • Navigation Stack
     • MoveIt
+    • MAVROS
     • AirSim
-    • MATLAB
-    • Simulink
+    • MATLAB, Simulink
     • QGIS
+    • Unity
+    • Unreal Engine (UE)
+- icon: eye
+  icon_pack: fas
+  name: Computer Vision & 3D Perception
+  description: |
+    • OpenCV
+    • Open3D
+    • Matplotlib
+    • Seaborn
+    • Plotly
+    • PCL (Point Cloud Library)
+    • PyTorch3D
+    • Detectron2
+    • YOLO (Ultralytics)
+    • Albumentations
 - icon: brain
   icon_pack: fas
-  name: Machine Learning
+  name: Machine Learning & Data Science
   description: |
     • PyTorch
     • TensorFlow
     • Scikit-Learn
-    • OpenCV
-    • Open3D
-    • Matplotlib
-    • Weights & Biases (W&B)
+    • NumPy
+    • Pandas
+    • SciPy
+    • Hugging Face
+    • W&B
 - icon: microchip
   icon_pack: fas
   name: Hardware & Embedded Systems
@@ -57,13 +65,23 @@ feature:
     • IMUs
     • Stereo Camera
     • 3D LiDAR
+    • FPGA
+- icon: code
+  icon_pack: fas
+  name: Programming Languages
+  description: |
+    • Python
+    • C++
+    • C
+    • Shell (Linux)
 - icon: cog
   icon_pack: fas
-  name: CAD & Mechanical Simulation
+  name: CAD & Mechanical Design
   description: |
-    • ANSYS Mechanical
     • SolidWorks
     • Fusion 360
+    • ANSYS Mechanical
+    • AutoCAD
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
@@ -80,5 +98,5 @@ feature:
 #  description: "90%"
 
 design:
-  columns: '5'
+  columns: '6'
 ---
