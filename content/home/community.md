@@ -11,7 +11,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 50
 
-title: Leadership & Teaching
+title: Leadership & Community
 subtitle: Leadership roles and community building activities at BITS Pilani
 
 # Date format for experience
@@ -36,7 +36,7 @@ experience:
         * Coordinated 10+ events and career sessions for 300+ students, facilitating technical exposure and alumni interaction
         * Managed production of 500+ merchandise items and led outreach initiatives that increased student participation by 40%
 
-  - title: President
+  - title: President & Apogee Coordinator
     company: Indian Society of Heating, Refrigerating, and Air Conditioning Engineers (ISHRAE), BITS Pilani
     company_url: 'https://ishrae.in'
     company_logo: 
@@ -45,8 +45,8 @@ experience:
     date_end: '2025-07-31'
     description: |2-
     
-        * Led a team of 25+ members to organize 4+ technical workshops with HVAC industry experts
-        * Hosted 3 competitions and networking events, engaging over 200 students in HVAC awareness and innovation
+        * Led a team of 25+ members to organize 4+ technical workshops with HVAC industry experts and hosted 3 competitions and networking events, engaging over 200 students in HVAC awareness and innovation.
+        * Coordinated Apogee, the annual technical fest, managing event logistics, promotion, and execution to ensure a successful and impactful experience.
 
   - title: Project Manager
     company: Tinkerer's Lab (TL), BITS Pilani
@@ -60,31 +60,6 @@ experience:
         * Supervised 5 interdisciplinary robotics teams (30+ members) on projects including Micromouse and Hexapod
         * Oversaw lab resources, conducted weekly reviews, and mentored 50+ students in hands-on technical skills
 
-  - title: Teaching Assistant - Advanced Mechanics of Solids
-    company: BITS Pilani
-    company_url: 'https://bits-pilani.ac.in'
-    company_logo: 
-    location: Rajasthan, India
-    date_start: '2025-01-01'
-    date_end: '2025-05-31'
-    description: |2-
-    
-        * Course: ME F218: Advanced Mechanics of Solids
-        * Assisted in labs and tutorials for 100+ students, clarifying concepts and linking theory to practical applications
-        * Evaluated assignments and supported faculty in delivering high-impact teaching sessions
-
-  - title: Teaching Assistant - Materials Science and Engineering
-    company: BITS Pilani
-    company_url: 'https://bits-pilani.ac.in'
-    company_logo: 
-    location: Rajasthan, India
-    date_start: '2024-09-01'
-    date_end: '2024-12-31'
-    description: |2-
-    
-        * Course: ME F216: Materials Science and Engineering
-        * Assisted in labs and tutorials for 100+ students, clarifying concepts and linking theory to practical applications
-        * Evaluated assignments and supported faculty in delivering high-impact teaching sessions
 design:
   columns: '2'
 ---
