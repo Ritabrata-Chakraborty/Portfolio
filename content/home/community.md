@@ -27,7 +27,7 @@ experience:
   - title: President & Secretary
     company: Mechanical Engineering Association (MEA), BITS Pilani
     company_url: 'https://bits-pilani.ac.in'
-    company_logo: org-nus
+    company_logo: org-mea
     location: Rajasthan, India
     date_start: '2024-06-01'
     date_end: 
