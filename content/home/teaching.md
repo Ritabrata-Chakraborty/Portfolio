@@ -10,7 +10,7 @@ experience:
   - title: Teaching Assistant - Advanced Mechanics of Solids
     company: BITS Pilani
     company_url: 'https://bits-pilani.ac.in'
-    company_logo_url: icons/companies/BITSP.jpeg
+    company_logo: org-bitsp
     location: Rajasthan, India
     date_start: '2025-01-01'
     date_end: '2025-05-31'
@@ -22,7 +22,7 @@ experience:
   - title: Teaching Assistant - Materials Science and Engineering
     company: BITS Pilani
     company_url: 'https://bits-pilani.ac.in'
-    company_logo_url: icons/companies/BITSP.jpeg
+    company_logo: org-bitsp
     location: Rajasthan, India
     date_start: '2024-09-01'
     date_end: '2024-12-31'
