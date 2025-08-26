@@ -111,4 +111,4 @@ Beyond tech, I’m a **chess enthusiast**, constantly chasing strategy whether i
 
 I'm passionate about pushing the boundaries of autonomous systems and applying cutting-edge ML techniques to real-world robotics challenges.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}} Résumé {{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}} Résumé {{< /staticref >}}
