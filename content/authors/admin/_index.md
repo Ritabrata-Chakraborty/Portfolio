@@ -104,8 +104,9 @@ Beyond tech, I’m a **chess enthusiast**, constantly chasing strategy whether i
 ## Recent Achievements
 
 - **3rd Place**: MathWorks Global Drone Student Challenge 2025
-- **Conference Paper**: "CogniPlan: Uncertainty-Guided Path Planning" accepted at CoRL 2025
-- **Research Publications**: Multiple papers in robotics, UAV navigation, and fault diagnosis
+- **Conference Paper**: "CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction" accepted at CoRL 2025
+- **PHM 2025**: "An Efficient Approach for Synthetic Data Generation and Fault Diagnosis for Rotating Machinery" (Published in IET Conference Proceedings)
+- **PPSTA 2024**: Poster on "High-Velocity Impact Testing and Analysis of Layered Metal-Composite Shields Using Electromagnetic Railguns"
 - **Leadership**: President of Mechanical Engineering Association and ISHRAE BITS Pilani chapter
 
 I'm passionate about pushing the boundaries of autonomous systems and applying cutting-edge ML techniques to real-world robotics challenges.

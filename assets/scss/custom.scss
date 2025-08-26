@@ -1,0 +1,14 @@
+/* Custom CSS to rotate avatar 90 degrees to the right */
+.avatar img,
+.avatar-circle img,
+.portrait-title img,
+.about-section .avatar img {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
+}
+
+/* Ensure the avatar container maintains proper dimensions */
+.avatar,
+.avatar-circle {
+  display: inline-block;
+}
