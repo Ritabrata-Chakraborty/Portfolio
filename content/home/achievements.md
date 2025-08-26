@@ -20,7 +20,9 @@ weight: 30
 * AI Crowd Blitz Hackathon - **Rank 7/400** (2020)
 * National Science Olympiad - **State Rank 1** (2015)
 * Junior Science Talent Search Examination - **Rank 26/70000** (2014) -->
+  
 - **3rd Place, [MathWorks Global Drone Student Challenge](https://in.mathworks.com/academia/students/competitions/minidrones/global-drone-student-challenge.html)**, MathWorks (2025)   |   [🔗 Certificate](https://drive.google.com/file/d/1yxK5NBdcA2p6r5YZyiAC6SyNYLIWyFCQ/view?usp=sharing)
+
 
 - **Finalist, [AI for Space and Geospatial Innovation (ISRO Immersion Startup-Challenge)](https://cie.iiit.ac.in/ai-for-space-amp-geospatial-innovation/)**, CIE-IIITH (2024)   |   [🔗 Presentation](https://drive.google.com/file/d/1QHn3U-iJFZyzYMW3TUlMg7MbXFU9p19_/view)
 
