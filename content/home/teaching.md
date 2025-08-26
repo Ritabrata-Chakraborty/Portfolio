@@ -47,5 +47,8 @@ experience:
         * Course: ME F216: Materials Science and Engineering
         * Assisted in labs and tutorials for 100+ students, clarifying concepts and linking theory to practical applications
         * Evaluated assignments and supported faculty in delivering high-impact teaching sessions
+
 design:
   columns: '2'
+---
+
