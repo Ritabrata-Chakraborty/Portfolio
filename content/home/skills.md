@@ -9,40 +9,33 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Skills
+title: Technical Expertise
 subtitle: My technical skills and core competencies
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- icon: "skills/python-5"
-  icon_pack: custom
-  name: Python
-- icon: code
-  icon_pack: fas
-  name: C++ / C
 - icon: brain
   icon_pack: fas
-  name: Machine Learning
-- icon: "skills/pytorch"
-  icon_pack: "custom"
-  name: PyTorch
+  name: Machine Learning & Deep Learning
+  description: PyTorch, TensorFlow, Scikit-Learn, OpenCV, Weights & Biases
 - icon: robot
   icon_pack: fas
-  name: ROS / Robotics
+  name: Robotics & Simulation
+  description: ROS, Gazebo, MoveIt, AirSim, MAVROS, Navigation Stack
 - icon: eye
   icon_pack: fas
   name: Computer Vision
-- icon: database
-  name: Deep Learning
-  icon_pack: fas
-- icon: drone
-  icon_pack: fas
-  name: UAV Navigation
+  description: YOLO models, object detection, visual servoing, SLAM
 - icon: microchip
   icon_pack: fas
-  name: Embedded Systems
+  name: Hardware
+  description: NVIDIA Jetson (Nano, Orin), Raspberry Pi, Arduino, 3D LiDAR, Stereo Cameras
+- icon: code
+  icon_pack: fas
+  name: Programming
+  description: Python, C++, C, Shell (Linux)
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
@@ -57,4 +50,7 @@ feature:
 #  icon_pack: "custom"
 #  name: "Surfing"
 #  description: "90%"
+
+design:
+  columns: '5'
 ---
