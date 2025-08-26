@@ -27,7 +27,7 @@ experience:
   - title: President & Secretary
     company: Mechanical Engineering Association (MEA), BITS Pilani
     company_url: 'https://bits-pilani.ac.in'
-    company_logo: media/icons/companies/MEA.jpeg
+  company_logo: icons/companies/MEA.jpeg
     location: Rajasthan, India
     date_start: '2024-06-01'
     date_end: 
@@ -39,7 +39,7 @@ experience:
   - title: President & Apogee Coordinator
     company: Indian Society of Heating, Refrigerating, and Air Conditioning Engineers (ISHRAE), BITS Pilani
     company_url: 'https://ishrae.in'
-    company_logo: media/icons/companies/ISHRAE.jpeg
+  company_logo: icons/companies/ISHRAE.jpeg
     location: Rajasthan, India
     date_start: '2024-10-01'
     date_end: '2025-07-31'
@@ -51,7 +51,7 @@ experience:
   - title: Project Manager
     company: Tinkerer's Lab (TL), BITS Pilani
     company_url: 'https://bits-pilani.ac.in'
-    company_logo: media/icons/companies/TL.jpeg
+  company_logo: icons/companies/TL.jpeg
     location: Rajasthan, India
     date_start: '2024-05-01'
     date_end: '2025-07-31'
