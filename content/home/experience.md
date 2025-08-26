@@ -42,7 +42,7 @@ experience:
     company_url: 'https://nus.edu.sg'
     supervisor: Dr. Guillaume Sartoretti
     supervisor_url: 'https://www.comp.nus.edu.sg/~guillaume/'
-    company_logo_url: icons/companies/KUL.jpeg
+    company_logo_url: KUL.jpeg
     location: Singapore (Remote)
     date_start: '2025-03-01'
     date_end: '2025-07-31'
