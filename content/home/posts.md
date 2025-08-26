@@ -9,7 +9,7 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 80
+weight: 40
 
 title: Recent Posts
 subtitle: I share stories and lessons from my journey in robotics, machine learning, and research—whether it’s building real-world projects, collaborating with teams, or navigating new challenges in industry and academia. My goal is to make these experiences relatable and helpful for anyone curious about these fields.

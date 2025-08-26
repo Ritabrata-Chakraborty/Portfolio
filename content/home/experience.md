@@ -7,7 +7,7 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 20
 
 title: Experience
 subtitle:
@@ -26,7 +26,7 @@ experience:
   - title: ML Research Intern
     company: Uber
     company_url: 'https://uber.com'
-    company_logo: org-uber
+  company_logo: org-nus
     location: Remote
     date_start: '2025-07-01'
     date_end: 
@@ -42,7 +42,7 @@ experience:
     company_url: 'https://nus.edu.sg'
     # supervisor: Dr. Guillaume Sartoretti
     # supervisor_url: 'https://www.comp.nus.edu.sg/~guillaume/'
-    company_logo: org-nus
+  company_logo: org-nus
     location: Singapore (Remote)
     date_start: '2025-03-01'
     date_end: '2025-07-31'
@@ -57,7 +57,7 @@ experience:
     company_url: 'https://kuleuven.be'
     # supervisor: Dr. Pradeep Kundu
     # supervisor_url: 'https://www.kuleuven.be/wieiswie/en/person/00135940'
-    company_logo: org-kul
+  company_logo: org-nus
     location: Belgium (Remote)
     date_start: '2024-10-01'
     date_end: '2025-07-31'
@@ -73,7 +73,7 @@ experience:
     company_url: 'https://ceeri.res.in'
   # supervisor: Dr. Kaushal Kishore
   # supervisor_url: 'https://www.ceeri.res.in/profiles/kaushal-kishore/'
-    company_logo: org-ceeri
+  company_logo: org-nus
     location: Rajasthan, India
     date_start: '2024-01-01'
     date_end: '2025-02-28'
@@ -88,7 +88,7 @@ experience:
     company_url: 'https://barc.gov.in'
   # supervisor: Dr. Rishi Verma
   # supervisor_url: 'https://www.barc.gov.in/'
-    company_logo: org-barc
+  company_logo: org-nus
     location: Mumbai, India
     date_start: '2024-06-01'
     date_end: '2024-07-31'
