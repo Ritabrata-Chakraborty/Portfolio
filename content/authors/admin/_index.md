@@ -79,9 +79,9 @@ email: "ritabratabits@gmail.com"
 highlight_name: true
 ---
 
-# 🚀 Exploring AI, Robotics & Beyond
+Hey there! :wave:
 
-Hey there! I’m **Ritabrata Chakraborty**, a final-year student at **BITS Pilani**, majoring in Mechanical Engineering with a Minor in Data Science. My tech journey started in high school with game development, and that spark has evolved into a full-blown passion for **AI, machine learning, and robotics**.
+I’m **Ritabrata Chakraborty**, a final-year student at **BITS Pilani**, majoring in Mechanical Engineering with a Minor in Data Science. My tech journey started in high school with game development, and that spark has evolved into a full-blown passion for **AI, machine learning, and robotics**.
 
 Currently, I’m working at **Uber** as an ML Research Engineer, building **foundation models** that power autonomous vehicle annotation systems. Along the way, I’ve explored **computer vision, UAV navigation, multi-robot coordination, synthetic data generation, and uncertainty-guided path planning** — always striving to bridge cutting-edge research with real-world impact.
 
