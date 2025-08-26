@@ -36,20 +36,6 @@ experience:
         * Built deep learning pipelines for model-assisted pre-annotation, speeding up data curation in autonomy workflows
         * **Tech Stack**: PyTorch, Python, C++
 
-  - title: Research Assistant - Vision-Language Grounded Multi-Robot Coordination
-    company: BITS Pilani
-    company_url: 'https://bits-pilani.ac.in'
-    supervisor: Dr. Avinash Gautam
-    supervisor_url: 'https://www.bits-pilani.ac.in/pilani/avinash-gautam/'
-    company_logo_url: icons/companies/BITSP.jpeg
-    location: Rajasthan, India
-    date_start: '2025-05-01'
-    date_end: 
-    description: |2-
-    
-        * Adapted VLMaps for multi-agent collaboration, enhancing spatial understanding in robot fleets
-        * Coordinated decentralized navigation by integrating 3D visual-language maps with LLM-driven parsing
-        * **Tech Stack**: ROS Noetic (with Gazebo), PyTorch, Python
 
   - title: Research Assistant - Uncertainty-Guided Path Planning
     company: National University of Singapore (NUS)
