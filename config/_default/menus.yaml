@@ -22,6 +22,9 @@ main:
   - name: Achievements
     url: '#achievements'
     weight: 30
+  - name: Teaching
+    url: '#teaching'
+    weight: 59
   - name: Community
     url: '#community'
     weight: 60
