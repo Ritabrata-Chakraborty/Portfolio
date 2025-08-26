@@ -65,17 +65,19 @@ Beyond my current role, I’ve worked on projects involving **UAV navigation, mu
 
 ---
 
-## Current Projects
+## Future Project Initiatives
 
-- 🏑 **Automated Hockey Ball Launcher** – Designing a hardware-software loop for controlled trajectory generation, dataset collection, and closed-loop shot classification.  
-- 🌑 **3D Lunar/Mars Terrain Modelling for Rover Simulation** – Building DEM-based environments for planetary exploration and autonomous rover navigation studies.  
+- 🏑 **Automated Hockey Ball Launcher** – A planned project to develop a hardware-software system for controlled trajectory generation, dataset collection, and closed-loop shot classification. Progress has been limited by hardware and funding constraints. I am actively seeking collaborators with expertise or resources interested in advancing this concept together.
+
+- 🌑 **3D Lunar/Mars Terrain Modelling for Rover Simulation** – An envisioned effort to build DEM-based 3D planetary terrain environments to support autonomous rover navigation research. Execution has been delayed due to resource gaps. Collaboration from researchers or engineers passionate about planetary robotics and simulation is welcome.
+
+If you have relevant expertise, resources, or interest in these projects, I invite you to connect and explore how we can move these initiatives forward together.
 
 ---
 
-## Looking Ahead
+## Open Collaboration & Opportunities
 
-I’m excited about ideas in **vision-language navigation, uncertainty-aware multi-agent planning, and scalable robot simulation**. I’m actively looking to collaborate with researchers and engineers who share a drive for solving **hard, real-world robotics problems**. If this resonates with you, let’s connect!
-
+I am open to collaboration on these or any other robotics, computer vision, or autonomous systems projects. Likewise, I welcome offers for internships, research partnerships, or consultancy roles that align with my skills and interests. Let’s connect and discuss potential synergies.
 ---
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}} Résumé {{< /staticref >}}.
