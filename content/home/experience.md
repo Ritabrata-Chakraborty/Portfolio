@@ -73,7 +73,7 @@ experience:
     company_url: 'https://ceeri.res.in'
   # supervisor: Dr. Kaushal Kishore
   # supervisor_url: 'https://www.ceeri.res.in/profiles/kaushal-kishore/'
-    company_logo: org-nus
+    company_logo: org-ceeri
     location: Rajasthan, India
     date_start: '2024-01-01'
     date_end: '2025-02-28'
@@ -88,7 +88,7 @@ experience:
     company_url: 'https://barc.gov.in'
   # supervisor: Dr. Rishi Verma
   # supervisor_url: 'https://www.barc.gov.in/'
-    company_logo: org-nus
+    company_logo: org-barc
     location: Mumbai, India
     date_start: '2024-06-01'
     date_end: '2024-07-31'
