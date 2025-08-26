@@ -65,7 +65,6 @@ feature:
     • IMUs
     • Stereo Camera
     • 3D LiDAR
-    • FPGA
 - icon: code
   icon_pack: fas
   name: Programming Languages
