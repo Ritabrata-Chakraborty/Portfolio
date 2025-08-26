@@ -1,22 +1,5 @@
----widget: blank
-
-active: true
-
-# This file represents a page section.
-headless: true
-
-# Order that this section appears on the page.
-weight: 40
-
-title: Recent Posts
-subtitle: Coming Soon! I'll be sharing stories and lessons from my journey in robotics, machine learning, and research—stay tuned for insights on building real-world projects, collaborating with teams, and navigating new challenges in industry and academia.
-
-<!-- Original content commented out - Coming soon!
-content:
-  # Page type to display. E.g. post, talk, publication...
-  page_type: post
-  # Choose how many pages you would like to display (0 = all pages)
-  count: 0 the Pages widget.
+---
+# An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: portfolio
 
@@ -26,10 +9,12 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 80
 
 title: Recent Posts
-subtitle: I share stories and lessons from my journey in robotics, machine learning, and research—whether it’s building real-world projects, collaborating with teams, or navigating new challenges in industry and academia. My goal is to make these experiences relatable and helpful for anyone curious about these fields.
+# subtitle: I share stories and lessons from my journey in robotics, machine learning, and research—whether it’s building real-world projects, collaborating with teams, or navigating new challenges in industry and academia. My goal is to make these experiences relatable and helpful for anyone curious about these fields.
+subtitle: Coming Soon! I'll be sharing stories and lessons from my journey in robotics, machine learning, and research—stay tuned for insights on building real-world projects, collaborating with teams, and navigating new challenges in industry and academia.
+
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -61,9 +46,4 @@ design:
   view: 3
 
   flip_alt_rows: false
--->
-
-design:
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '2'
 ---
