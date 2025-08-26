@@ -39,3 +39,46 @@
   white-space: pre-line;
   line-height: 1.6;
 }
+
+/* Custom styling for supervisor information in experience widget */
+.exp-supervisor {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.exp-supervisor a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.exp-supervisor a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.exp-supervisor .pub-icon {
+  margin-right: 0.5rem;
+  color: #28a745;
+}
+
+/* Ensure proper spacing between experience meta elements */
+.exp-meta {
+  margin-bottom: 0.3rem;
+}
+
+.exp-meta-icon {
+  margin-right: 0.5rem;
+  width: 16px;
+  text-align: center;
+}
+
+/* Experience logo styling */
+.experience-logo {
+  height: 20px;
+  width: auto;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
