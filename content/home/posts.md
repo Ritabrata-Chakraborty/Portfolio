@@ -1,5 +1,22 @@
----
-# An instance of the Pages widget.
+---widget: blank
+
+active: true
+
+# This file represents a page section.
+headless: true
+
+# Order that this section appears on the page.
+weight: 40
+
+title: Recent Posts
+subtitle: Coming Soon! I'll be sharing stories and lessons from my journey in robotics, machine learning, and research—stay tuned for insights on building real-world projects, collaborating with teams, and navigating new challenges in industry and academia.
+
+<!-- Original content commented out - Coming soon!
+content:
+  # Page type to display. E.g. post, talk, publication...
+  page_type: post
+  # Choose how many pages you would like to display (0 = all pages)
+  count: 0 the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: portfolio
 
@@ -44,4 +61,9 @@ design:
   view: 3
 
   flip_alt_rows: false
+-->
+
+design:
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns: '2'
 ---
