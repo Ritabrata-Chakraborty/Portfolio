@@ -6,24 +6,23 @@ title: Ritabrata Chakraborty
 superuser: true
 
 # Role/position/tagline
-role: ML Research Engineer | Mechanical Engineer with Data Science Expertise
+role: CV Research Intern | Mechanical Engineer with Robotics Expertise
 
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: Uber
   url: https://uber.com
 
-# Short bio (displayed in user profile at end of posts)
-bio: ML Research Engineer with expertise in robotics, computer vision, and autonomous systems. Currently working on foundation models for autonomous vehicle annotation at Uber.
+bio: Research Engineer specializing in robotics, computer vision, and autonomous systems. Currently developing automated data annotation solutions using foundation models for autonomous vehicles at Uber.
 
 # Interests to show in About widget
 interests:
 - Machine Learning & Deep Learning
 - Computer Vision & Robotics
 - Autonomous Systems & UAV Navigation
-- Data Science & Synthetic Data Generation
 - Multi-Robot Coordination
 - Path Planning & SLAM
+- Data Science & Synthetic Data Generation (Predictive Maintenance)
 
 # Education to show in About widget
 education:
@@ -49,10 +48,10 @@ social:
   link: https://www.linkedin.com/in/ritabrata-chakraborty-a63268251/
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=your-id
+  link: https://scholar.google.com/citations?user=JikCewwAAAAJ&hl=en
 - icon: researchgate
   icon_pack: ai
-  link: https://www.researchgate.net/profile/your-profile
+  link: https://www.researchgate.net/profile/Ritabrata-Chakraborty-3/research
 # - icon: kaggle
 #   icon_pack: fab
 #   link: https://www.kaggle.com/your-username/
@@ -77,18 +76,20 @@ social:
 email: "ritabratabits@gmail.com"
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 ---
 
-Welcome to my space! :wave:
+# 🚀 Exploring AI, Robotics & Beyond
 
-I am Ritabrata Chakraborty, an ML Research Engineer currently working at **Uber** on foundation models for autonomous vehicle annotation systems. I'm pursuing a B.E. in Mechanical Engineering with a Minor in Data Science at **BITS Pilani**.
+Hey there! I’m **Ritabrata Chakraborty**, a final-year student at **BITS Pilani**, majoring in Mechanical Engineering with a Minor in Data Science. My tech journey started in high school with game development, and that spark has evolved into a full-blown passion for **AI, machine learning, and robotics**.
 
-My research focuses on **computer vision**, **robotics**, and **autonomous systems**. I have experience in multi-robot coordination, UAV navigation, synthetic data generation, and uncertainty-guided path planning. My work spans from theoretical research to practical implementations in real-world robotic systems.
+Currently, I’m working at **Uber** as an ML Research Engineer, building **foundation models** that power autonomous vehicle annotation systems. Along the way, I’ve explored **computer vision, UAV navigation, multi-robot coordination, synthetic data generation, and uncertainty-guided path planning** — always striving to bridge cutting-edge research with real-world impact.
+
+Beyond tech, I’m a **chess enthusiast**, constantly chasing strategy whether it’s on the board or in tackling research challenges. I’m eager to learn, grow, and collaborate on projects that push the boundaries of what **AI and robotics** can achieve.
 
 ## Current Research & Work
 
-- **ML Research Intern at Uber**: Enhancing annotation quality in uLabel by integrating foundation models for RGB/IR image auto-labelling, significantly reducing manual annotation time
+- **CV Research Intern at Uber**: Enhancing annotation quality in uLabel by integrating foundation models for RGB/IR image auto-labelling, significantly reducing manual annotation time
 - **Vision-Language Grounded Multi-Robot Coordination**: Adapting VLMaps for multi-agent collaboration with decentralized navigation
 - **Uncertainty-Guided Path Planning**: Co-developing CogniPlan with Wasserstein GAN-based conditional inpainting for navigation
 
