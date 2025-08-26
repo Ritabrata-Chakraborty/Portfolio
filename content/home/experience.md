@@ -40,9 +40,9 @@ experience:
   - title: Research Assistant - Uncertainty-Guided Path Planning
     company: National University of Singapore (NUS)
     company_url: 'https://nus.edu.sg'
-    supervisor: Dr. Guillaume Sartoretti
-    supervisor_url: 'https://www.comp.nus.edu.sg/~guillaume/'
-    company_logo: org-kul
+    # supervisor: Dr. Guillaume Sartoretti
+    # supervisor_url: 'https://www.comp.nus.edu.sg/~guillaume/'
+    company_logo: org-nus
     location: Singapore (Remote)
     date_start: '2025-03-01'
     date_end: '2025-07-31'
@@ -55,8 +55,8 @@ experience:
   - title: Research Assistant - Synthetic Sensor Data Generation
     company: KU Leuven
     company_url: 'https://kuleuven.be'
-    supervisor: Dr. Pradeep Kundu
-    supervisor_url: 'https://www.kuleuven.be/wieiswie/en/person/00135940'
+    # supervisor: Dr. Pradeep Kundu
+    # supervisor_url: 'https://www.kuleuven.be/wieiswie/en/person/00135940'
     company_logo: org-kul
     location: Belgium (Remote)
     date_start: '2024-10-01'
@@ -71,8 +71,8 @@ experience:
   - title: Research Assistant - UAV Navigation for Orchard Monitoring
     company: CSIR-CEERI
     company_url: 'https://ceeri.res.in'
-    supervisor: Dr. Kaushal Kishore
-    supervisor_url: 'https://www.ceeri.res.in/profiles/kaushal-kishore/'
+  # supervisor: Dr. Kaushal Kishore
+  # supervisor_url: 'https://www.ceeri.res.in/profiles/kaushal-kishore/'
     company_logo: org-ceeri
     location: Rajasthan, India
     date_start: '2024-01-01'
@@ -86,8 +86,8 @@ experience:
   - title: Research Assistant - Automated Radar Control
     company: Bhabha Atomic Research Centre (BARC)
     company_url: 'https://barc.gov.in'
-    supervisor: Dr. Rishi Verma
-    supervisor_url: 'https://www.barc.gov.in/'
+  # supervisor: Dr. Rishi Verma
+  # supervisor_url: 'https://www.barc.gov.in/'
     company_logo: org-barc
     location: Mumbai, India
     date_start: '2024-06-01'
