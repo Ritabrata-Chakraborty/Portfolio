@@ -76,8 +76,10 @@ If you have relevant expertise, resources, or interest in these projects, I invi
 ---
 
 ## Open Collaboration & Opportunities
+---
 
 I am open to collaboration on these or any other robotics, computer vision, or autonomous systems projects. Likewise, I welcome offers for internships, research partnerships, or consultancy roles that align with my skills and interests. Let’s connect and discuss potential synergies.
+
 ---
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}} Résumé {{< /staticref >}}.
