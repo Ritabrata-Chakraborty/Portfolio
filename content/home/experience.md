@@ -39,6 +39,8 @@ experience:
   - title: Research Assistant - Vision-Language Grounded Multi-Robot Coordination
     company: BITS Pilani
     company_url: 'https://bits-pilani.ac.in'
+    supervisor: Dr. Avinash Gautam
+    supervisor_url: 'https://www.bits-pilani.ac.in/pilani/avinash-gautam/'
     company_logo: 
     location: Rajasthan, India
     date_start: '2025-05-01'
@@ -47,12 +49,13 @@ experience:
     
         * Adapted VLMaps for multi-agent collaboration, enhancing spatial understanding in robot fleets
         * Coordinated decentralized navigation by integrating 3D visual-language maps with LLM-driven parsing
-        * **Supervisor**: Dr. Avinash Gautam, Associate Professor, BITS Pilani
         * **Tech Stack**: ROS Noetic (with Gazebo), PyTorch, Python
 
   - title: Research Assistant - Uncertainty-Guided Path Planning
     company: National University of Singapore (NUS)
     company_url: 'https://nus.edu.sg'
+    supervisor: Dr. Guillaume Sartoretti
+    supervisor_url: 'https://www.comp.nus.edu.sg/~guillaume/'
     company_logo: 
     location: Singapore (Remote)
     date_start: '2025-03-01'
@@ -61,12 +64,13 @@ experience:
     
         * Co-developed CogniPlan, integrating a Wasserstein GAN-based conditional inpainting model and graph attention network for uncertainty-aware navigation
         * Achieved 17.7% shorter exploration paths and 3.9% better navigation efficiency across 100+ maps
-        * **Supervisor**: Dr. Guillaume Sartoretti, Assistant Professor, MARMoT Lab, NUS
         * **Tech Stack**: ROS Noetic (with Rviz), PyTorch, Python
 
   - title: Research Assistant - Synthetic Sensor Data Generation
     company: KU Leuven
     company_url: 'https://kuleuven.be'
+    supervisor: Dr. Pradeep Kundu
+    supervisor_url: 'https://www.kuleuven.be/wieiswie/en/person/00135940'
     company_logo: 
     location: Belgium (Remote)
     date_start: '2024-10-01'
@@ -76,12 +80,13 @@ experience:
         * Employed Auxiliary Classifier Wasserstein GAN to synthesize time-series sensor data across multiple fault classes
         * Devising Conditional Latent Denoising Diffusion GAN for generating CWT-based time-frequency images
         * Improving LiteFormer, an attention-free, transformer-inspired classifier for fault classification
-        * **Supervisor**: Dr. Pradeep Kundu, Assistant Professor, KU Leuven
         * **Tech Stack**: PyTorch, Python
 
   - title: Research Assistant - UAV Navigation for Orchard Monitoring
     company: CSIR-CEERI
     company_url: 'https://ceeri.res.in'
+    supervisor: Dr. Kaushal Kishore
+    supervisor_url: 'https://www.ceeri.res.in/profiles/kaushal-kishore/'
     company_logo: 
     location: Rajasthan, India
     date_start: '2024-01-01'
@@ -90,12 +95,13 @@ experience:
     
         * Created UAV-based orchard monitoring system using YOLOv11 (Box mAP50: 95.5%, Mask mAP50: 96.5%)
         * Devised B-spline trajectory logic and implemented custom yaw-roll controller, ensuring minimal drift under mild wind
-        * **Supervisor**: Dr. Kaushal Kishore, Senior Scientist, CSIR-CEERI
         * **Tech Stack**: YOLOv11, ROS Noetic, AirSim, NVIDIA Jetson Orin NX
 
   - title: Research Assistant - Automated Radar Control
     company: Bhabha Atomic Research Centre (BARC)
     company_url: 'https://barc.gov.in'
+    supervisor: Dr. Rishi Verma
+    supervisor_url: 'https://www.barc.gov.in/'
     company_logo: 
     location: Mumbai, India
     date_start: '2024-06-01'
@@ -104,8 +110,7 @@ experience:
     
         * Automated radar alignment using YOLOv8 + DeepSORT, improving tracking recall to 91% and speed by 13%
         * Integrated PLC-based actuation system enabling continuous UAV lock-in
-        * **Supervisor**: Dr. Rishi Verma, BARC
-        * **Tech Stack**: YOLOv8, DeepSORT, Python 
+        * **Tech Stack**: YOLOv8, DeepSORT, Python
 
 design:
   columns: '2'

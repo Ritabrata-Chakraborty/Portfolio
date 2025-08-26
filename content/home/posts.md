@@ -10,7 +10,7 @@ headless: true
 weight: 80
 
 title: Recent Posts
-subtitle: I like to write about data science, machine learning and finance. I document personal experiences and projects. I write for organizations like **Towards Data Science**, **The Startup**, **Level up Coding** and **Analytics Vidhya**. My main goal is to break down technical content for non-technical audiences. 
+subtitle: I share stories and lessons from my journey in robotics, machine learning, and research—whether it’s building real-world projects, collaborating with teams, or navigating new challenges in industry and academia. My goal is to make these experiences relatable and helpful for anyone curious about these fields.
 
 content:
   # Page type to display. E.g. post, talk, publication...
