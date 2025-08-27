@@ -6,7 +6,7 @@ tags:
 date: "2022-04-01T00:00:00Z"
 
 authors:
-- CRISS Robotics
+- admin
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -31,8 +31,8 @@ image:
 #     icon: file-alt
 ---
 
-**Competition: European Rover Challenge (ERC) 2023 Remote**  
-**Duration: Apr '22 – Sep '23**
+**Competition: European Rover Challenge (ERC) Remote Edition**  
+**Result: 5th Place + Best Remote Maintenance Award (2023)**
 
 This project develops a comprehensive autonomous rover navigation and robotic manipulation system for the European Rover Challenge, combining advanced computer vision, autonomous navigation, and precision robotic arm control for space exploration applications.
 

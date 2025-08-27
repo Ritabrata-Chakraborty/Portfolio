@@ -6,7 +6,7 @@ tags:
 date: "2025-03-01T00:00:00Z"
 
 authors:
-- Ritabrata Chakraborty
+- admin
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -31,8 +31,8 @@ image:
 #     icon: file-alt
 ---
 
-**Competition: MathWorks Global Student Drone Challenge 2025**  
-**Duration: Mar '25 – Apr '25**
+**Competition: MathWorks Global Student Drone Challenge**  
+**Result: 3rd Place (2025)**
 
 This project develops an autonomous drone navigation system for the MathWorks Global Student Drone Challenge, implementing advanced vision-based control algorithms for precise flight path optimization and autonomous landing capabilities.
 
