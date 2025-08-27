@@ -1,22 +1,30 @@
 ---
 title: An Efficient Approach for Synthetic Data Generation and Fault Diagnosis for Rotating Machinery
-summary: Optimized Generative Adversarial Network for high-quality synthetic data generation.
+summary: This study explores the use of an Auxiliary Classifier Wasserstein GAN with Gradient Penalty (ACWGAN-GP) for synthetic data generation and fault diagnosis in rotating machinery, addressing data scarcity and class imbalance challenges.
 tags:
   - generative-ai
-date: '2025-02-01T00:00:00Z'
+date: '2025-07-05T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: '/publication/synthetic-data-phm-2025/'
 
 image:
-  caption: Efficient GAN Architecture
+  caption: Synthetic Data Generation Pipeline
   focal_point: Smart
 
 links:
-  - icon: github
+  - name: "DOI"
+    url: "https://doi.org/10.1049/icp.2025.2364"
+    icon_pack: ai
+    icon: doi
+  - name: "PDF"
+    url: "https://digital-library.theiet.org/doi/10.1049/icp.2025.2364"
+    icon_pack: fas
+    icon: file-pdf
+  - name: "Code"
+    url: "https://github.com/Ritabrata-Chakraborty/An-Efficient-Approach-for-Synthetic-Data-Generation-and-Fault-Diagnosis-for-Rotating-Machinery"
     icon_pack: fab
-    name: Code
-    url: https://github.com/example/efficient-gan
+    icon: github
 url_code: ''
 url_pdf: ''
 url_slides: ''
@@ -26,37 +34,20 @@ url_video: ''
 slides: ""
 ---
 
-Efficient GAN is an optimized implementation of Generative Adversarial Networks designed for high-quality synthetic data generation with improved computational efficiency and training stability.
+This study explores the use of an Auxiliary Classifier Wasserstein GAN with Gradient Penalty (ACWGAN-GP) for synthetic data generation and fault diagnosis in rotating machinery. The proposed framework addresses data scarcity and class imbalance by generating diverse time-series signals using a 1D-CNN generator and a Temporal Convolutional Network (TCN)-based discriminator, both enhanced with positional embeddings. The discriminator also functions as a fault classifier. Statistical similarity metrics, PCC, Cosine Similarity, KL Divergence, and MMD, are used to validate sample quality. Experiments on the CWRU-bearing dataset demonstrate improved classification robustness and effectiveness.
 
 ## Key Features
 
-- Enhanced training stability through novel loss functions
-- Reduced computational requirements
-- High-quality synthetic data generation
-- Multi-modal data support
-- Progressive training methodology
-- Advanced regularization techniques
+- Auxiliary Classifier Wasserstein GAN with Gradient Penalty (ACWGAN-GP)
+- 1D-CNN generator with positional embeddings
+- Temporal Convolutional Network (TCN)-based discriminator
+- Statistical similarity validation metrics
+- Fault diagnosis capabilities
 
 ## Technologies Used
 
-- PyTorch/TensorFlow
-- CUDA for GPU acceleration
-- Advanced optimization algorithms
-- Custom loss functions
-- Data augmentation techniques
-- Distributed training support
-
-## Applications
-
-- Synthetic dataset creation
-- Data augmentation for machine learning
-- Image-to-image translation
-- Style transfer applications
-- Privacy-preserving data generation
-
-## Achievements
-
-- 40% reduction in training time compared to baseline GANs
-- Improved Fréchet Inception Distance (FID) scores
-- Enhanced mode collapse resistance
-- Better gradient flow and convergence properties
+- Deep Learning frameworks
+- Generative Adversarial Networks
+- Temporal Convolutional Networks
+- Statistical analysis tools
+- CWRU-bearing dataset
