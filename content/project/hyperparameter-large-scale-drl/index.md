@@ -3,7 +3,7 @@ title: Hyperparameter Optimization for Large Scale DRL-based Robot Exploration
 summary: Advanced hyperparameter optimization framework for scaling deep reinforcement learning algorithms to large-scale multi-robot exploration scenarios.
 tags:
   - robotics
-date: '2025-06-01T00:00:00Z'
+date: 'Jun 2025'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
