@@ -20,7 +20,7 @@ links:
   - name: "PDF"
     url: "https://www.arxiv.org/abs/2508.03027"
     icon_pack: fas
-    icon: file-pdf
+    icon: file-pdf 
   - name: "Code"
     url: "https://github.com/marmotlab/CogniPlan"
     icon_pack: fab
