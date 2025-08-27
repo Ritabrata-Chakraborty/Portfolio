@@ -14,10 +14,6 @@ image:
   preview_only: false
 
 links:
-  - name: "DOI"
-    url: "https://doi.org/10.1049/icp.2025.2364"
-    icon_pack: ai
-    icon: doi
   - name: "PDF"
     url: "https://digital-library.theiet.org/doi/10.1049/icp.2025.2364"
     icon_pack: fas

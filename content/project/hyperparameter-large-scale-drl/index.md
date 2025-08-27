@@ -15,17 +15,13 @@ image:
 
 links:
   - name: "Paper"
-    url: "#"
+    url: "https://arxiv.org/abs/2403.10833"
     icon_pack: fas
     icon: file-pdf
   - name: "Code"
-    url: "#"
+    url: "https://github.com/marmotlab/large-scale-DRL-exploration"
     icon_pack: fab
     icon: github
-  - name: "Report"
-    url: "#"
-    icon_pack: fas
-    icon: file-alt
 ---
 
 This project addresses the critical challenge of hyperparameter optimization in large-scale deep reinforcement learning systems for robot exploration, developing novel techniques to efficiently tune and scale DRL algorithms across hundreds or thousands of autonomous agents.
