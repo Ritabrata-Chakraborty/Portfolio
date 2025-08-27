@@ -5,29 +5,31 @@ tags:
   - computer-vision
 date: '2025-08-01T00:00:00Z'
 
+authors:
+- Ritabrata Chakraborty
+- Rishi Verma
+
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
   caption: Visual Servoing Radar Control System
   focal_point: Smart
+  preview_only: false
 
-  # Added featured image for the project
-  filename: Radar.png
-
-links:
-  - name: "Paper"
-    url: "#"
-    icon_pack: fas
-    icon: file-pdf
-  - name: "Code"
-    url: "#"
-    icon_pack: fab
-    icon: github
-  - name: "Report"
-    url: "#"
-    icon_pack: fas
-    icon: file-alt
+# links:
+#   - name: "Paper"
+#     url: "#"
+#     icon_pack: fas
+#     icon: file-pdf
+#   - name: "Code"
+#     url: "#"
+#     icon_pack: fab
+#     icon: github
+#   - name: "Report"
+#     url: "#"
+#     icon_pack: fas
+#     icon: file-alt
 ---
 
 This project develops a sophisticated visual servoing system that combines computer vision, control theory, and radar technology to create an automated radar positioning system capable of real-time UAV tracking and surveillance applications.
@@ -129,26 +131,13 @@ The Image-Based Visual Servoing (IBVS) system represents a cutting-edge approach
 
 ## Research Contributions
 
----
 Image-Based Visual Servoing for Automated Radar Control and UAV Tracking  
-Supervisor: Dr. Rishi Verma, Bhabha Atomic Research Centre (BARC)  
+Supervisor: Rishi Verma, Bhabha Atomic Research Centre (BARC)  
 Jun ’24– Jul ’24  
-• Automated radar alignment using YOLOv8 + DeepSORT, improving tracking recall to 91% and speed by 13%.  
-• Integrated PLC-based actuation system enabling continuous UAV lock-in.  
-• Tech Stack: YOLOv8, DeepSORT, Python
-
-### Novel Algorithms
-- Adaptive visual servoing for dynamic environments
-- Predictive tracking with environmental compensation
-- Robust feature tracking under adverse conditions
-- Multi-modal sensor fusion techniques
-
-### System Integration
-- Hardware-software co-design for real-time performance
-- Scalable architecture for multiple radar integration
-- Fault-tolerant operation with graceful degradation
-- Cybersecurity measures for critical infrastructure
-
+Ritabrata Chakraborty — Implemented and trained the YOLOv8 object detector and integrated the DeepSORT tracker; evaluation on the recorded dataset achieved 91% tracking recall and a 13% reduction in per-frame processing time through model pruning and optimized batching.  
+Ritabrata Chakraborty & Rishi Verma — Designed and implemented the PLC-based actuation interface and closed-loop command pipeline that maintains continuous radar lock during target handovers.  
+Ritabrata Chakraborty — Authored reproducible Python scripts, deployment configurations, and evaluation notebooks for training, inference, and benchmarking (YOLOv8 + DeepSORT).  
+Tech Stack: YOLOv8, DeepSORT, Python
 ## Expected Outcomes
 
 - Significant improvement in automated radar efficiency

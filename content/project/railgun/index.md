@@ -11,6 +11,7 @@ external_link: '/Portfolio/publication/railgun-impact-ppsta-2024/'
 image:
   caption: Electromagnetic Railgun Setup
   focal_point: Smart
+  preview_only: false
 
 links:
   - name: "Poster"
