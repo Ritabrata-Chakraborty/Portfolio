@@ -23,11 +23,11 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
 
-  - title: ML Research Intern
+  - title: CV Research Intern - Data Labeling & Automation
     company: Uber
     company_url: 'https://uber.com'
     company_logo: org-uber
-    location: Remote
+    location: Bangalore, India
     date_start: '2025-07-01'
     date_end: 
     description: |2-
@@ -37,7 +37,7 @@ experience:
         * **Tech Stack**: PyTorch, Python, C++
 
 
-  - title: Research Assistant - Uncertainty-Guided Path Planning
+  - title: Research Intern - Uncertainty-Guided Path Planning
     company: National University of Singapore (NUS)
     company_url: 'https://nus.edu.sg'
     # supervisor: Dr. Guillaume Sartoretti
@@ -52,7 +52,7 @@ experience:
         * Achieved 17.7% shorter exploration paths and 3.9% better navigation efficiency across 100+ maps
         * **Tech Stack**: ROS Noetic (with Rviz), PyTorch, Python
 
-  - title: Research Assistant - Synthetic Sensor Data Generation
+  - title: Research Intern - Synthetic Sensor Data Generation
     company: KU Leuven
     company_url: 'https://kuleuven.be'
     # supervisor: Dr. Pradeep Kundu
@@ -68,7 +68,7 @@ experience:
         * Improving LiteFormer, an attention-free, transformer-inspired classifier for fault classification
         * **Tech Stack**: PyTorch, Python
 
-  - title: Research Assistant - UAV Navigation for Orchard Monitoring
+  - title: Research Intern - UAV Navigation for Orchard Monitoring
     company: CSIR-CEERI
     company_url: 'https://ceeri.res.in'
   # supervisor: Dr. Kaushal Kishore
@@ -83,13 +83,13 @@ experience:
         * Devised B-spline trajectory logic and implemented custom yaw-roll controller, ensuring minimal drift under mild wind
         * **Tech Stack**: YOLOv11, ROS Noetic, AirSim, NVIDIA Jetson Orin NX
 
-  - title: Research Assistant - Automated Radar Control
+  - title: Research Intern - Automated Radar Control
     company: Bhabha Atomic Research Centre (BARC)
     company_url: 'https://barc.gov.in'
   # supervisor: Dr. Rishi Verma
   # supervisor_url: 'https://www.barc.gov.in/'
     company_logo: org-barc
-    location: Mumbai, India
+    location: Visakhapatnam, India
     date_start: '2024-06-01'
     date_end: '2024-07-31'
     description: |2-
