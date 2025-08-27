@@ -5,7 +5,7 @@ tags:
   - planetary-simulation
   - computer-vision
   - robotics
-date: 'Aug 2025'
+date: "2025-08-01T00:00:00Z"
 
 authors:
 - admin

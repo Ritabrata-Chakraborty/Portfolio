@@ -3,7 +3,7 @@ title: High-Velocity Impact Testing and Analysis of Layered Metal-Composite Shie
 summary: This study investigates the impact resistance of layered composite materials (SS 304, Al 6061-T6, GFRP) subjected to high-velocity impact using experimental testing with RAFTAR facility and FEM analysis with Johnson-Cook models.
 tags:
   - fem
-date: 'Sep 2024'
+date: "2024-09-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: '/Portfolio/publication/railgun-impact-ppsta-2024/'

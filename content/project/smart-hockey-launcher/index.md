@@ -6,7 +6,7 @@ authors:
 summary: Intelligent automated system for field hockey training featuring precise ball launching, trajectory control, and adaptive training programs for skill development.
 tags:
   - robotics
-date: 'Jul 2025'
+date: "2025-07-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

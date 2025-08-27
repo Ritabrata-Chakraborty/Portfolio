@@ -3,7 +3,7 @@ title: Vision-Language Grounded Multi-Robot Coordination and Navigation
 summary: Advanced multi-robot system that integrates vision and natural language processing for coordinated navigation and task execution in dynamic environments.
 tags:
   - robotics
-date: 'May 2025'
+date: "2025-05-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

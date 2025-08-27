@@ -7,7 +7,7 @@ authors:
 summary: Advanced GAN architecture combining Conditional Latent Diffusion Denoising with Continuous Wavelet Transform generation for enhanced fault classification in industrial systems.
 tags:
   - generative-ai
-date: 'Apr 2025'
+date: "2025-04-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

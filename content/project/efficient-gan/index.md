@@ -3,7 +3,7 @@ title: An Efficient Approach for Synthetic Data Generation and Fault Diagnosis f
 summary: This study explores the use of an Auxiliary Classifier Wasserstein GAN with Gradient Penalty (ACWGAN-GP) for synthetic data generation and fault diagnosis in rotating machinery, addressing data scarcity and class imbalance challenges.
 tags:
   - generative-ai
-date: 'Jul 2025'
+date: "2025-07-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: '/Portfolio/publication/synthetic-data-phm-2025/'

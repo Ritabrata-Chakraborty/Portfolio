@@ -3,7 +3,7 @@ title: Image-Based Visual Servoing for Automated Radar Control and UAV Tracking
 summary: Advanced computer vision system that enables automated radar positioning and UAV tracking through real-time image-based visual servoing techniques.
 tags:
   - computer-vision
-date: 'Jul 2024'
+date: "2024-07-01T00:00:00Z"
 
 authors:
 - Ritabrata Chakraborty
