@@ -18,7 +18,7 @@ image:
 
 links:
   - name: "Presentation"
-    url: "#"
+    url: "https://drive.google.com/file/d/1QHn3U-iJFZyzYMW3TUlMg7MbXFU9p19_/view"
     icon_pack: fas
     icon: presentation
 ---
