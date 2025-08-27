@@ -12,6 +12,9 @@ image:
   caption: Visual Servoing Radar Control System
   focal_point: Smart
 
+  # Added featured image for the project
+  filename: Radar.png
+
 links:
   - name: "Paper"
     url: "#"
@@ -125,6 +128,14 @@ The Image-Based Visual Servoing (IBVS) system represents a cutting-edge approach
 - Network protocols for distributed operation
 
 ## Research Contributions
+
+---
+Image-Based Visual Servoing for Automated Radar Control and UAV Tracking  
+Supervisor: Dr. Rishi Verma, Bhabha Atomic Research Centre (BARC)  
+Jun ’24– Jul ’24  
+• Automated radar alignment using YOLOv8 + DeepSORT, improving tracking recall to 91% and speed by 13%.  
+• Integrated PLC-based actuation system enabling continuous UAV lock-in.  
+• Tech Stack: YOLOv8, DeepSORT, Python
 
 ### Novel Algorithms
 - Adaptive visual servoing for dynamic environments
