@@ -25,7 +25,7 @@ links:
 
 This work focuses on developing a high-fidelity 3D lunar surface modeling system using Chandrayaan-2 TMC DEM data, addressing critical limitations in existing ROS simulators for planetary rover mission planning and autonomous navigation research.
 
-**Competition: AI for Space and Geospatial Innovation (ISRO Immersion Startup-Challenge), CIE-IIITH**  
+**Competition: AI for Space and Geospatial Innovation (ISRO Immersion Startup-Challenge)**  
 **Result: Finalist (2024)**
 
 **This work is currently in development and I am actively seeking collaboration opportunities.**
