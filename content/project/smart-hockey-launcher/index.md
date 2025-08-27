@@ -7,7 +7,7 @@ summary: Intelligent automated system for field hockey training featuring precis
 tags:
   - robotics
   - fem
-date: "2025-07-01T00:00:00Z"
+date: "2024-07-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
@@ -33,125 +33,44 @@ links:
     icon: file-alt
 ---
 
-This project involves the complete design and development of an intelligent automated field hockey ball launcher system that revolutionizes training methodologies through precision control, adaptive learning, and comprehensive performance analytics.
+This project focuses on developing an automated field hockey ball launcher with precision pneumatic control, variable trajectory programming, and integrated safety systems for training applications in sports facilities.
 
-## Overview
+**This work is currently in development and seeking collaboration opportunities for prototype validation.**
 
-The Smart Automated Field Hockey Ball Launcher represents a breakthrough in sports training technology, combining mechanical engineering excellence with advanced control systems and machine learning to create an adaptive training partner for field hockey players of all skill levels.
+## Project Overview
 
-## Key Features
+This research addresses the lack of automated training equipment in field hockey by developing a pneumatic-driven ball launcher system capable of delivering consistent ball trajectories with programmable speed, angle, and timing control for skill development applications.
 
-- **Precision Ball Launch System**: High-accuracy pneumatic/electric launcher with variable speed and angle control
-- **Adaptive Training Programs**: AI-driven training routines that adjust to player skill level and progress
-- **Real-time Trajectory Control**: Dynamic adjustment of ball placement and timing
-- **Performance Analytics**: Comprehensive tracking and analysis of training sessions
-- **Mobile App Integration**: Wireless control and monitoring through dedicated mobile application
+## Key Components
 
-## Technical Specifications
+• **Pneumatic Launch System**: Compressed air-driven mechanism with pressure regulation valve system enabling ball speeds from 20-80 km/h with ±3% repeatability across multiple launches.
 
-### Mechanical Design
+• **3-Axis Positioning Platform**: Motorized servo system providing azimuth rotation (±90°), elevation control (-5° to +45°), and ball feed positioning with 0.5° accuracy for precise trajectory placement.
 
-1. **Launch Mechanism**: Pneumatic cylinder system with pressure regulation for speed control
-2. **Positioning System**: 3-axis motorized platform for precise ball placement
-3. **Ball Feeding**: Automated ball loading and queuing system
-4. **Safety Features**: Emergency stops, protective barriers, and proximity sensors
-5. **Portable Design**: Lightweight, collapsible structure for field deployment
+• **Microcontroller Integration**: Arduino Mega-based control system with sensor feedback loops, safety interlocks, and wireless communication modules for remote operation and parameter adjustment.
 
-### Control System
+## Technical Innovation
 
-- **Microcontroller**: High-performance embedded system for real-time control
-- **Motor Controllers**: Precision servo drives for accurate positioning
-- **Sensor Integration**: Position encoders, pressure sensors, and safety monitors
-- **Wireless Communication**: WiFi/Bluetooth connectivity for remote operation
-- **User Interface**: Touchscreen display and mobile app control
+The system addresses training limitations in field hockey where manual ball feeding lacks consistency and precision. The pneumatic approach ensures silent operation compared to mechanical alternatives while providing rapid-fire capability (3-5 balls/minute) essential for drill sequences.
 
-## Smart Features
+## Current Development Status
 
-### Adaptive Training Algorithm
-- Machine learning models for skill assessment
-- Progressive difficulty adjustment based on player performance
-- Personalized training routine generation
-- Historical performance tracking and analysis
+- Completed mechanical design and CAD modeling with stress analysis validation
+- Implemented pneumatic system with pressure regulation and ball feed mechanism  
+- Developed control software with trajectory calculation algorithms
+- Integrated safety systems including emergency stops and pressure monitoring
 
-### Precision Control
-- Variable launch speed: 10-100 km/h with ±2% accuracy
-- Elevation angle control: -10° to +45° with 0.5° precision
-- Azimuth positioning: 360° rotation with 0.1° accuracy
-- Launch timing control with millisecond precision
+## Expected Contributions
 
-### Training Modes
-- **Skill Development**: Progressive drills for technique improvement
-- **Reaction Training**: Random timing and placement for reflexes
-- **Match Simulation**: Realistic game scenario recreation
-- **Custom Programs**: User-defined training sequences
-- **Assessment Mode**: Standardized skill evaluation protocols
+- First automated pneumatic ball launcher specifically designed for field hockey training
+- Novel ball feed mechanism optimized for hockey ball geometry and weight
+- Integrated safety system meeting sports equipment standards
+- Cost-effective solution for training facilities and coaching programs
 
-## Applications
+## Collaboration Opportunities
 
-- Professional field hockey training facilities
-- School and university sports programs
-- Individual player skill development
-- Coaching and technique analysis
-- Sports research and biomechanics studies
-- Rehabilitation and injury recovery programs
-
-## Technologies Used
-
-- Embedded systems programming (C/C++, Python)
-- Computer-aided design (SolidWorks/Fusion 360)
-- Control systems and automation
-- Mobile app development (Flutter/React Native)
-- Machine learning frameworks (TensorFlow Lite)
-- IoT communication protocols
-- 3D printing and rapid prototyping
-- Pneumatic and electrical systems
-
-## Development Phases
-
-### Phase 1: Design and Simulation
-- Mechanical design and stress analysis
-- Control system architecture development
-- Trajectory calculation and optimization algorithms
-- Safety analysis and risk assessment
-
-### Phase 2: Prototype Development
-- Component sourcing and fabrication
-- Control system implementation and testing
-- Initial software development and integration
-- Basic functionality validation
-
-### Phase 3: Smart Features Integration
-- Machine learning algorithm development
-- Mobile app creation and testing
-- Advanced training program implementation
-- Performance analytics dashboard
-
-### Phase 4: Testing and Validation
-- Extensive field testing with players
-- Safety certification and compliance
-- Performance benchmarking
-- User feedback integration and refinement
-
-## Expected Outcomes
-
-- Commercially viable training equipment for field hockey
-- Patent applications for innovative design features
-- Improved training efficiency and player development
-- Potential expansion to other sports applications
-- Technology transfer opportunities for sports equipment manufacturers
-
-## Innovation Highlights
-
-- First fully automated, AI-powered field hockey training system
-- Advanced trajectory control algorithms
-- Integrated performance analytics and progress tracking
-- Portable and user-friendly design
-- Cost-effective solution for training facilities
-
-## Future Enhancements
-
-- Computer vision integration for ball tracking and player analysis
-- Multi-ball launching capability for advanced drills
-- Integration with wearable sensors for biomechanics analysis
-- Cloud-based coaching platforms and remote monitoring
-- Expansion to other stick-and-ball sports
+I am actively seeking collaboration with:
+- Sports equipment manufacturers for commercialization potential
+- Field hockey coaching professionals for validation testing
+- Mechanical engineering teams for advanced automation features
+- Sports facilities for real-world deployment and feedback
