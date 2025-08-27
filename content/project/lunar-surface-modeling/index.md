@@ -67,4 +67,4 @@ I am actively seeking collaboration with:
 - Academic institutions for joint research publications
 - Industry partners for commercial applications
 
-**Contact for collaboration**: [Presentation slides](https://drive.google.com/file/d/1QHn3U-iJFZyzYMW3TUlMg7MbXFU9p19_/view) available for detailed technical discussion.
+**Contact for collaboration**: [Proposal](https://docs.google.com/document/d/1HRz1ukUfeNL3hqlYc-ujwStbHiagaJXslbwzokdMNBc/edit?tab=t.0) available for review.
