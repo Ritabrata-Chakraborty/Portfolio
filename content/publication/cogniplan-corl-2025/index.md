@@ -47,7 +47,7 @@ links:
   icon_pack: fas
   icon: external-link-alt
 - name: "PDF"
-  url: "http://arxiv.org/abs/https://arxiv.org/pdf/2508.03027"
+  url: "https://www.arxiv.org/abs/2508.03027"
   icon_pack: fas
   icon: file-pdf
 - name: "Code"
@@ -82,6 +82,6 @@ projects: []
 slides: ""
 ---
 
-Path planning in unknown environments is a crucial yet inherently challenging capability for mobile robots, which primarily encompasses two coupled tasks: autonomous exploration and point-goal navigation. CogniPlan addresses this challenge by leveraging multiple plausible layouts predicted by a conditional generative inpainting model, mirroring how humans rely on cognitive maps during navigation. 
+Path planning in unknown environments is challenging for mobile robots, encompassing exploration and navigation tasks. CogniPlan uses conditional generative inpainting to predict multiple plausible layouts, mimicking human cognitive maps. 
 
-The framework demonstrates strong synergy between generative image-based layout prediction and graph-attention-based path planning, combining the scalability of graph representations with the fidelity and predictiveness of occupancy maps. Extensive evaluation on two datasets (hundreds of maps and realistic floor plans) shows CogniPlan consistently outperforming state-of-the-art planners, with successful deployment in both high-fidelity simulators and real hardware.
+The framework combines generative layout prediction with graph-attention-based planning, merging graph scalability with occupancy map fidelity. Evaluation across hundreds of maps shows CogniPlan outperforming state-of-the-art planners, with successful simulator and hardware deployment.

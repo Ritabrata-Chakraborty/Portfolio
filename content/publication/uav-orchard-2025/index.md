@@ -73,8 +73,5 @@ projects: []
 slides: ""
 ---
 
-This research addresses the challenge of autonomous UAV navigation in structured orchard environments through a novel monocular vision-based treeline following approach. The system is specifically designed to maintain flight stability and precision under mild wind disturbances, which is crucial for reliable agricultural operations.
+This research presents a monocular vision-based UAV navigation system for autonomous treeline following in structured orchards. The approach uses instance segmentation to identify individual treelines and employs curve-fitting algorithms to generate navigation trajectories. The system calculates yaw and roll corrections based on the fitted line's offset and slope relative to the image center, while maintaining constant pitch. This method enhances UAV stability and precision under mild wind disturbances, advancing agricultural automation.
 
-The key innovation lies in the use of instance segmentation techniques to identify and differentiate individual treelines within the orchard structure. Unlike conventional grid-based or path-trail navigation methods, this approach provides more accurate tree detection and tracking capabilities. The system employs a sophisticated curve-fitting algorithm that processes the segmented treeline data to generate optimal navigation trajectories.
-
-The control strategy utilizes the offset and slope of the fitted navigation line relative to the image center to compute real-time yaw and roll corrections, while maintaining constant pitch for stable flight dynamics. This methodology significantly enhances UAV stability and navigation precision in complex orchard environments, contributing to the advancement of agricultural automation and precision farming technologies.

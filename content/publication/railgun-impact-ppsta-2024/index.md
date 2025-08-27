@@ -79,8 +79,4 @@ projects: []
 slides: ""
 ---
 
-This research presents a comprehensive investigation into the impact resistance of strategically layered metal-composite shields under high-velocity impact conditions. The study combines experimental testing using the electromagnetic launcher facility (RAFTAR) at BARC (F), Visakhapatnam, with advanced finite element method (FEM) simulations to understand deformation and failure mechanisms.
-
-The layered composite design incorporates SS 304 stainless steel, Al 6061-T6 aluminum alloy, and Glass Fiber Reinforced Polymer (GFRP) materials, strategically arranged for optimal energy absorption and protection capabilities. Johnson-Cook constitutive models are employed in the numerical simulations to accurately predict material behavior under extreme loading conditions.
-
-This work contributes valuable insights to defense applications and protective structure design, particularly in understanding the synergistic effects of different material layers in mitigating high-velocity impact threats.
+This research investigates layered metal-composite shields under high-velocity impact using electromagnetic launcher testing (RAFTAR facility, BARC Visakhapatnam) and FEM simulations. The study examines SS 304, Al 6061-T6, and GFRP materials arranged for optimal energy absorption, employing Johnson-Cook models to predict material behavior under extreme loading. Results provide insights for defense applications and protective structure design.
