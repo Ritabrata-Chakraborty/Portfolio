@@ -11,6 +11,7 @@ external_link: ''
 image:
   caption: Large Scale DRL Robot Exploration Framework
   focal_point: Smart
+  preview_only: false
 
 links:
   - name: "Paper"

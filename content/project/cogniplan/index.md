@@ -11,6 +11,7 @@ external_link: '/Portfolio/publication/cogniplan-corl-2025/'
 image:
   caption: CogniPlan Architecture
   focal_point: Smart
+  preview_only: false
 
 links:
   - name: "Project"

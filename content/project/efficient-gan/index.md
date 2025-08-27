@@ -11,6 +11,7 @@ external_link: '/Portfolio/publication/synthetic-data-phm-2025/'
 image:
   caption: Synthetic Data Generation Pipeline
   focal_point: Smart
+  preview_only: false
 
 links:
   - name: "DOI"

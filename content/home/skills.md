@@ -18,7 +18,7 @@ subtitle: My technical skills and core competencies
 feature:
 - icon: robot
   icon_pack: fas
-  name: Robotics & Motion Planning
+  name: Robotics & Simulation
   description: |
     • ROS (Gazebo, Rviz)
     • Navigation Stack

@@ -16,6 +16,8 @@ image:
   caption: Visual Servoing Radar Control System
   focal_point: Smart
   preview_only: false
+  focal_point: Smart
+  preview_only: false
 
 # links:
 #   - name: "Paper"

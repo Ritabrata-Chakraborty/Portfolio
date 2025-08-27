@@ -11,6 +11,7 @@ external_link: ''
 image:
   caption: Multi-Robot Vision-Language Coordination System
   focal_point: Smart
+  preview_only: false
 
 links:
   - name: "Paper"
