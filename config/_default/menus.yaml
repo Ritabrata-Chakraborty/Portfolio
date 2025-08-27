@@ -11,7 +11,7 @@ main:
     url: '#experience'
     weight: 20
   - name: Projects
-    url: '/allprojects'
+    url: 'allprojects'
     weight: 25
   - name: Achievements
     url: '#achievements'
