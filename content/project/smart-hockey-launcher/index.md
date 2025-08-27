@@ -19,16 +19,16 @@ image:
   preview only: false
 
 links:
-  - name: "Paper"
-    url: "#"
-    icon_pack: fas
-    icon: file-pdf
-  - name: "Code"
-    url: "#"
-    icon_pack: fab
-    icon: github
+  # - name: "Paper"
+  #   url: "#"
+  #   icon_pack: fas
+  #   icon: file-pdf
+  # - name: "Code"
+  #   url: "#"
+  #   icon_pack: fab
+  #   icon: github
   - name: "Report"
-    url: "#"
+    url: "https://drive.google.com/file/d/1QDty-PrLTTn8jVPFWLypn5EpkhZXvrKT/view?usp=sharing"
     icon_pack: fas
     icon: file-alt
 ---
