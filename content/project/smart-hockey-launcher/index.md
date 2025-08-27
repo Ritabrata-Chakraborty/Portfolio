@@ -11,6 +11,7 @@ external_link: ''
 image:
   caption: Smart Field Hockey Ball Launcher System
   focal_point: Smart
+  preview only: false
 
 links:
   - name: "Paper"

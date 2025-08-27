@@ -1,5 +1,9 @@
 ---
 title: CLDDGAN for CWT Generation and Fault Classification Using LiteFormer2D
+authors:
+- admin
+- T. Mian
+- P. Kundu
 summary: Advanced GAN architecture combining Conditional Latent Diffusion Denoising with Continuous Wavelet Transform generation for enhanced fault classification in industrial systems.
 tags:
   - generative-ai
