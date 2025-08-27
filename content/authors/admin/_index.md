@@ -68,12 +68,12 @@ Beyond my current role, I’ve worked on projects involving **UAV navigation, mu
 ## Future Project Initiatives
 
 - **🏑 Automated Hockey Ball Launcher** - Planned hardware-software system for controlled shot generation and data collection. Progress limited by hardware and funding. Seeking collaborators to advance this project.  
-[💡 View Proposal](https://docs.google.com/document/d/1HRz1ukUfeNL3hqlYc-ujwStbHiagaJXslbwzokdMNBc/edit?tab=t.0)
+{{< icon name="external-link-alt" pack="fas" >}} [Proposal](https://docs.google.com/document/d/HRz1ukUfeNL3hqlYc-ujwStbHiagaJXslbwzokdMNBc/edit?tab=t.0)
 
 <!-- this blank line creates a visible gap -->
 
 - **🌑 3D Lunar/Mars Terrain Modelling for Rover Simulation** - Proposed DEM-based 3D planetary terrain environment for rover navigation research. Delayed by resource constraints. Open to collaboration from planetary robotics experts.  
-[💡 View Proposal](https://docs.google.com/document/d/1HRz1ukUfeNL3hqlYc-ujwStbHiagaJXslbwzokdMNBc/edit?tab=t.0)
+{{< icon name="external-link-alt" pack="fas" >}} [Proposal](https://docs.google.com/document/d/1HRz1ukUfeNL3hqlYc-ujwStbHiagaJXslbwzokdMNBc/edit?tab=t.0)
 
 If you have relevant expertise, resources, or interest in these projects, I invite you to connect and explore how we can move these initiatives forward together.
 
