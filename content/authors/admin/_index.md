@@ -36,7 +36,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:ritabratabits(at)gmail(com)'
+  link: '#contact'
 - icon: github
   icon_pack: fab
   link: https://github.com/Ritabrata-Chakraborty
@@ -50,7 +50,7 @@ social:
   icon_pack: ai
   link: https://www.researchgate.net/profile/Ritabrata-Chakraborty-3/research
 
-email: "ritabratabits(at)gmail(com)"
+email: "ritabratabits (at) gmail (dot) com"
 
 highlight_name: true
 ---
