@@ -21,17 +21,20 @@ weight: 30
 * National Science Olympiad - **State Rank 1** (2015)
 * Junior Science Talent Search Examination - **Rank 26/70000** (2014) -->
   
-- **{{< icon name="award" pack="fas" >}} 3rd Place, [MathWorks Global Drone Student Challenge](https://in.mathworks.com/academia/students/competitions/minidrones/global-drone-student-challenge.html)**, MathWorks (2025)  
-  {{< icon name="certificate" pack="fas" >}} [Certificate](https://drive.google.com/file/d/1yxK5NBdcA2p6r5YZyiAC6SyNYLIWyFCQ/view?usp=sharing) | {{< icon name="rocket" pack="fas" >}} [Related Project: UAV Orchard Monitoring]({{< relref "/project/uav-orchard" >}})
+- **{{< icon name="award" pack="fas" >}} 3rd Place, [MathWorks Global Drone Student Challenge](https://in.mathworks.com/academia/students/competitions/minidrones/global-drone-student-challenge.html)**, MathWorks (2025)
+  - {{< icon name="certificate" pack="fas" >}} [Certificate](https://drive.google.com/file/d/1yxK5NBdcA2p6r5YZyiAC6SyNYLIWyFCQ/view?usp=sharing)
+  - {{< icon name="rocket" pack="fas" >}} [Related Project: Autonomous Drone Navigation]({{< relref "/project/autonomous-drone-navigation" >}})
 
-- **{{< icon name="trophy" pack="fas" >}} Finalist, [AI for Space and Geospatial Innovation (ISRO Immersion Startup-Challenge)](https://cie.iiit.ac.in/ai-for-space-amp-geospatial-innovation/)**, CIE-IIITH (2024)  
-  {{< icon name="file-powerpoint" pack="fas" >}} [Presentation](https://drive.google.com/file/d/1QHn3U-iJFZyzYMW3TUlMg7MbXFU9p19_/view) | {{< icon name="satellite" pack="fas" >}} [Related Project: Vision-Language Multi-Robot]({{< relref "/project/vision-language-multi-robot" >}})
+- **{{< icon name="trophy" pack="fas" >}} Finalist, [AI for Space and Geospatial Innovation (ISRO Immersion Startup-Challenge)](https://cie.iiit.ac.in/ai-for-space-amp-geospatial-innovation/)**, CIE-IIITH (2024)
+  - {{< icon name="file-powerpoint" pack="fas" >}} [Presentation](https://drive.google.com/file/d/1QHn3U-iJFZyzYMW3TUlMg7MbXFU9p19_/view)
+  - {{< icon name="satellite" pack="fas" >}} [Related Project: Vision-Language Multi-Robot]({{< relref "/project/vision-language-multi-robot" >}})
 
-- **{{< icon name="medal" pack="fas" >}} Top 15 (Top 5 in College), [The American Express Campus Challenge (Product Track)](https://unstop.com/competitions/product-track-the-american-express-campus-challenge-2024-981114)**, American Express (2024)  
-  {{< icon name="file-powerpoint" pack="fas" >}} [Presentation](https://drive.google.com/file/d/1YUsAl1bRKwu2QfN2xsTHNaFxEMftxbwf/view)
+- **{{< icon name="medal" pack="fas" >}} Top 15 (Top 5 in College), [The American Express Campus Challenge (Product Track)](https://unstop.com/competitions/product-track-the-american-express-campus-challenge-2024-981114)**, American Express (2024)
+  - {{< icon name="file-powerpoint" pack="fas" >}} [Presentation](https://drive.google.com/file/d/1YUsAl1bRKwu2QfN2xsTHNaFxEMftxbwf/view)
 
-- **{{< icon name="trophy" pack="fas" >}} 5th Place + Best Remote Maintenance Award, [European Rover Challenge (ERC), Remote Edition](https://roverchallenge.eu/)**, European Space Foundation (2023)  
-  {{< icon name="file-alt" pack="fas" >}} [Report](https://drive.google.com/file/d/1QJRA6asLI0yMat95uZLIqbMXP-4b_i9R/view) | {{< icon name="robot" pack="fas" >}} [Related Project: CogniPlan]({{< relref "/project/cogniplan" >}})
+- **{{< icon name="trophy" pack="fas" >}} 5th Place + Best Remote Maintenance Award, [European Rover Challenge (ERC), Remote Edition](https://roverchallenge.eu/)**, European Space Foundation (2023)
+  - {{< icon name="file-alt" pack="fas" >}} [Report](https://drive.google.com/file/d/1QJRA6asLI0yMat95uZLIqbMXP-4b_i9R/view)
+  - {{< icon name="robot" pack="fas" >}} [Related Project: ExoMy Rover Navigation]({{< relref "/project/exomy-rover-navigation" >}})
 
 
 
