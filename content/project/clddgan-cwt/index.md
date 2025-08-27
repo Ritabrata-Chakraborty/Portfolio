@@ -11,73 +11,51 @@ external_link: ''
 image:
   caption: CLDDGAN Architecture with LiteFormer2D
   focal_point: Smart
+  preview_only: false
 
-links:
-  - name: "Paper"
-    url: "#"
-    icon_pack: fas
-    icon: file-pdf
-  - name: "Code"
-    url: "#"
-    icon_pack: fab
-    icon: github
-  - name: "Report"
-    url: "#"
-    icon_pack: fas
-    icon: file-alt
+# links:
+#   - name: "Paper"
+#     url: "#"
+#     icon_pack: fas
+#     icon: file-pdf
+#   - name: "Code"
+#     url: "#"
+#     icon_pack: fab
+#     icon: github
+#   - name: "Report"
+#     url: "#"
+#     icon_pack: fas
+#     icon: file-alt
 ---
 
-CLDDGAN represents a cutting-edge approach to synthetic data generation and fault classification, combining Conditional Latent Diffusion Denoising Generative Adversarial Networks with Continuous Wavelet Transform (CWT) generation and LiteFormer2D architecture for enhanced fault detection in industrial systems.
+This work focuses on devising a Conditional Latent Denoising Diffusion GAN for generating CWT-based time-frequency images and improving LiteFormer, an attention-free, transformer-inspired classifier for fault classification on augmented datasets.
 
-## Overview
+**This work is in progress currently.**
 
-This project introduces a novel framework that leverages the power of conditional latent diffusion models within a GAN architecture to generate high-quality CWT representations of industrial signals. The LiteFormer2D component provides efficient transformer-based processing for accurate fault classification.
+## Project Overview
 
-## Key Features
+This research introduces a novel approach that combines conditional latent denoising diffusion models with Generative Adversarial Networks to generate high-quality Continuous Wavelet Transform (CWT) based time-frequency representations for industrial fault diagnosis.
 
-- **Conditional Latent Diffusion**: Advanced diffusion process for controlled synthetic data generation
-- **CWT Generation**: Specialized generation of Continuous Wavelet Transform representations
-- **LiteFormer2D Architecture**: Lightweight transformer model optimized for 2D signal processing
-- **Multi-class Fault Classification**: Robust classification across various fault types
-- **Industrial Signal Processing**: Tailored for real-world industrial monitoring applications
+## Key Components
 
-## Technical Approach
+• **Conditional Latent Denoising Diffusion GAN**: A hybrid architecture that leverages the stability of diffusion models with the adversarial training of GANs for controlled generation of CWT-based time-frequency images.
 
-### Architecture Components
+• **Enhanced LiteFormer**: An improved version of the attention-free, transformer-inspired classifier designed specifically for fault classification tasks on augmented datasets, providing efficient processing without traditional attention mechanisms.
 
-1. **Conditional Generator**: Employs latent diffusion denoising for high-fidelity CWT generation
-2. **LiteFormer2D Discriminator**: Efficient transformer-based architecture for classification
-3. **CWT Processing Pipeline**: Specialized preprocessing for wavelet transform data
-4. **Multi-scale Feature Extraction**: Hierarchical feature learning for fault patterns
+## Technical Innovation
 
-### Methodology
+The project addresses the challenge of limited fault data in industrial systems by generating realistic CWT-based time-frequency representations that capture both temporal and frequency domain characteristics of machinery signals. The conditional nature of the generation process allows for targeted synthesis of specific fault patterns.
 
-- Conditional generation based on fault type and severity parameters
-- Latent diffusion denoising for improved sample quality
-- LiteFormer2D for efficient processing of 2D CWT representations
-- Progressive training strategy for stable convergence
+## Current Development Status
 
-## Applications
+- Architecture design and implementation
+- Initial experiments with CWT generation
+- LiteFormer improvements and optimization
+- Performance evaluation on industrial datasets
 
-- Industrial equipment monitoring
-- Predictive maintenance systems
-- Automated fault detection and diagnosis
-- Quality control in manufacturing
-- Real-time system health monitoring
+## Expected Contributions
 
-## Technologies Used
-
-- PyTorch/TensorFlow for deep learning implementation
-- Custom diffusion models architecture
-- Transformer-based processing (LiteFormer2D)
-- Continuous Wavelet Transform libraries
-- Industrial signal processing tools
-- GPU acceleration for training and inference
-
-## Expected Outcomes
-
-- Improved fault classification accuracy
-- Enhanced synthetic data quality for training
-- Reduced false positive rates in fault detection
-- Scalable solution for various industrial applications
-- Real-time processing capabilities
+- Novel conditional diffusion-GAN hybrid for time-frequency image generation
+- Improved attention-free transformer architecture for fault classification
+- Enhanced data augmentation techniques for industrial fault diagnosis
+- Comprehensive evaluation on real-world industrial datasets
