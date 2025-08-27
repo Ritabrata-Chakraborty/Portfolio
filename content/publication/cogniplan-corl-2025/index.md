@@ -82,6 +82,4 @@ projects: []
 slides: ""
 ---
 
-Path planning in unknown environments is challenging for mobile robots, encompassing exploration and navigation tasks. CogniPlan uses conditional generative inpainting to predict multiple plausible layouts, mimicking human cognitive maps. 
-
-The framework combines generative layout prediction with graph-attention-based planning, merging graph scalability with occupancy map fidelity. Evaluation across hundreds of maps shows CogniPlan outperforming state-of-the-art planners, with successful simulator and hardware deployment.
+CogniPlan addresses path planning in unknown environments using conditional generative inpainting to predict multiple plausible layouts, mimicking human cognitive maps. The framework combines generative prediction with graph-attention planning, achieving superior performance over state-of-the-art planners across extensive evaluations and real-world deployments.

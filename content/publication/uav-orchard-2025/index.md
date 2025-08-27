@@ -73,5 +73,4 @@ projects: []
 slides: ""
 ---
 
-This research presents a monocular vision-based UAV navigation system for autonomous treeline following in structured orchards. The approach uses instance segmentation to identify individual treelines and employs curve-fitting algorithms to generate navigation trajectories. The system calculates yaw and roll corrections based on the fitted line's offset and slope relative to the image center, while maintaining constant pitch. This method enhances UAV stability and precision under mild wind disturbances, advancing agricultural automation.
-
+This research presents a monocular vision-based UAV system for autonomous treeline following in orchards. Using instance segmentation and curve-fitting algorithms, the system calculates yaw and roll corrections from the fitted line's offset and slope, maintaining stability under wind disturbances.
