@@ -1,5 +1,8 @@
 ---
 title: Design and Development of Smart Automated Field Hockey Ball Launcher
+authors:
+- admin
+- Mani Sankar Dasgupta
 summary: Intelligent automated system for field hockey training featuring precise ball launching, trajectory control, and adaptive training programs for skill development.
 tags:
   - robotics
