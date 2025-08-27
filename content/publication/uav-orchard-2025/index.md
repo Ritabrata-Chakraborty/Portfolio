@@ -39,10 +39,6 @@ tags:
 featured: false
 
 links:
-- name: "In Preparation"
-  url: "#"
-  icon_pack: fas
-  icon: edit
 
 # links:
 # - name: ""

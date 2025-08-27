@@ -46,15 +46,17 @@ links:
   url: "https://yizhuo-wang.com/cogniplan/"
   icon_pack: fas
   icon: external-link-alt
-
-# links:
-# - name: ""
-#   url: ""
-url_pdf: 'http://arxiv.org/abs/https://arxiv.org/pdf/2508.03027'
-url_code: 'https://github.com/marmotlab/CogniPlan'
+- name: "PDF"
+  url: "http://arxiv.org/abs/https://arxiv.org/pdf/2508.03027"
+  icon_pack: fas
+  icon: file-pdf
+- name: "Code"
+  url: "https://github.com/marmotlab/CogniPlan"
+  icon_pack: fab
+  icon: github
 url_dataset: ''
 url_poster: ''
-url_project: 'https://yizhuo-wang.com/cogniplan/'
+url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''

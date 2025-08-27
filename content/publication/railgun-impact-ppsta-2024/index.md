@@ -52,7 +52,7 @@ links:
 url_pdf: ''
 url_code: ''
 url_dataset: ''
-url_poster: 'https://drive.google.com/file/d/1QMy15UyYiLYC76tkm0Lv_1kLyeyiFlzy/view'
+url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
