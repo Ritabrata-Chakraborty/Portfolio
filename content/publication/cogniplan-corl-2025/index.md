@@ -50,13 +50,13 @@ links:
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://yizhuo-wang.com/cogniplan/'
-url_code: ''
+url_pdf: 'http://arxiv.org/abs/https://arxiv.org/pdf/2508.03027'
+url_code: 'https://github.com/marmotlab/CogniPlan'
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://yizhuo-wang.com/cogniplan/'
 url_slides: ''
-url_source: 'https://yizhuo-wang.com/cogniplan/'
+url_source: ''
 url_video: ''
 
 # Featured image
