@@ -30,10 +30,10 @@ weight: 30
   - {{< icon name="external-link-alt" pack="fas" >}} [Project]({{< relref "/project/lunar-surface-modeling" >}})
 
 - **{{< icon name="medal" pack="fas" >}} Top 15 (Top 5 in College), [The American Express Campus Challenge (Product Track)](https://unstop.com/competitions/product-track-the-american-express-campus-challenge-2024-981114)**, American Express (2024)
-  - {{< icon name="file-powerpoint" pack="fas" >}} [Presentation](https://drive.google.com/file/d/1YUsAl1bRKwu2QfN2xsTHNaFxEMftxbwf/view)
+  - {{< icon name="file-powerpoint" pack="fas" >}} [Presentation](https://drive.google.com/file/d/1QJRA6asLI0yMat95uZLIqbMXP-4b_i9R/view)
 
 - **{{< icon name="trophy" pack="fas" >}} 5th Place + Best Remote Maintenance Award, [European Rover Challenge (ERC), Remote Edition](https://roverchallenge.eu/)**, European Space Foundation (2023)
-  - {{< icon name="file-alt" pack="fas" >}} [Report](https://drive.google.com/file/d/1QJRA6asLI0yMat95uZLIqbMXP-4b_i9R/view)
+  - {{< icon name="file-alt" pack="fas" >}} [Report](https://drive.google.com/file/d/1YUsAl1bRKwu2QfN2xsTHNaFxEMftxbwf/view)
   - {{< icon name="external-link-alt" pack="fas" >}} [Project]({{< relref "/project/exomy-rover-navigation" >}})
 
 
