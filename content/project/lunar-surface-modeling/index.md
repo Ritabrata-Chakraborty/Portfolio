@@ -23,60 +23,48 @@ links:
     icon: presentation
 ---
 
-**Research Focus: Planetary Surface Simulation & Rover Mission Planning**  
-**Duration: Current Development**
+This work focuses on developing a high-fidelity 3D lunar surface modeling system using Chandrayaan-2 TMC DEM data, addressing critical limitations in existing ROS simulators for planetary rover mission planning and autonomous navigation research.
 
-This project develops an advanced 3D lunar surface modeling system using Chandrayaan-2 Terrain Mapping Camera (TMC) Digital Elevation Model (DEM) data, creating highly realistic planetary simulation environments optimized for autonomous rover navigation and mission planning.
+**Finalist, AI for Space and Geospatial Innovation (ISRO Immersion Startup-Challenge), CIE-IIITH (2024)**
+
+**This work is currently in development and I am actively seeking collaboration opportunities.**
 
 ## Project Overview
 
-The research addresses limitations in current ROS-based simulators for large-scale planetary surface modeling by leveraging Unreal Engine 5's advanced rendering capabilities and Nanite technology to create photorealistic lunar terrain simulations from authentic satellite data.
+This research introduces a novel planetary simulation framework that leverages Unreal Engine 5's Nanite technology to create photorealistic lunar environments from authentic ISRO satellite datasets, enabling comprehensive testing of rover navigation algorithms before deployment.
+
+## Key Components
+
+• **Chandrayaan-2 TMC DEM Integration**: Direct import and processing of high-resolution Digital Elevation Model data from India's lunar mission, providing authentic terrain geometry for simulation environments.
+
+• **Nanite-Powered Terrain Rendering**: Revolutionary virtualized geometry system enabling efficient large-world rendering and seamless loading of massive planetary surface datasets without traditional polygon limitations.
+
+• **Advanced Material Systems**: Sophisticated surface property simulation incorporating lunar regolith characteristics, lighting conditions, and photometric properties for realistic computer vision algorithm testing.
 
 ## Technical Innovation
 
-### Current ROS Simulator Limitations
-• **Terrain Import Constraints**: Existing open-source simulators (AirSim, CARLA) support basic terrain import but lack optimization for large-scale planetary datasets
-• **Engine Limitations**: Most ROS simulators utilize UE4 (4.26/4.27) without access to Nanite technology for efficient large-world rendering
-• **Scalability Issues**: Traditional approaches struggle with the massive scale and detail requirements of planetary surface modeling
-
-### Why Unreal Engine 5 Over Gazebo
-• **Photorealistic Environments**: Highly realistic visual fidelity essential for computer vision algorithm development and testing
-• **Nanite Technology**: Revolutionary virtualized geometry system enabling efficient large-world rendering and seamless terrain loading
-• **Advanced Materials**: Sophisticated material systems for accurate surface property simulation
+The project addresses fundamental scalability issues in current open-source simulators (AirSim, CARLA) that lack optimization for planetary-scale datasets and utilize outdated UE4 engines. By leveraging UE5's cutting-edge rendering pipeline, the system achieves unprecedented fidelity while maintaining computational efficiency.
 
 ## Current Development Status
 
-### Implemented Features
-• **Local Terrain Data Import**: Successfully developed plugin capability for importing Chandrayaan-2 TMC DEM data into Unreal Engine 5 environment
-• **High-Fidelity Surface Reconstruction**: Implemented algorithms for converting satellite elevation data into detailed 3D terrain meshes
-• **Optimized Rendering Pipeline**: Leveraged Nanite technology for efficient rendering of large-scale planetary surfaces
+- Successfully implemented Chandrayaan-2 DEM data import pipeline
+- Developed high-fidelity surface reconstruction algorithms
+- Optimized rendering system for large-scale planetary environments
+- Established foundation for future ROS integration and SLAM capabilities
 
-## Future Development Roadmap
+## Expected Contributions
 
-### Phase 1: ROS Integration
-🔹 **ROS Bridge Development**: Implement comprehensive ROS integration for seamless rover mission planning and simulation
-🔹 **Communication Protocols**: Establish robust data exchange between UE5 simulation environment and ROS navigation stack
+- First comprehensive UE5-based lunar simulation environment using authentic ISRO data
+- Novel DEM-to-mesh conversion algorithms optimized for planetary terrain
+- Scalable framework for multi-mission planetary surface modeling
+- Open-source toolkit for planetary robotics research community
 
-### Phase 2: Advanced Data Integration
-🔹 **Direct Satellite Data Import**: Develop automated pipeline for importing real-time satellite data for dynamic planetary simulation updates
-🔹 **Multi-Source Data Fusion**: Integrate multiple satellite datasets for enhanced surface accuracy and detail
+## Collaboration Opportunities
 
-### Phase 3: Autonomous Navigation Systems
-🔹 **SLAM Integration**: Implement Simultaneous Localization and Mapping capabilities for autonomous rover navigation in simulated environments
-🔹 **Path Planning Algorithms**: Develop sophisticated navigation algorithms optimized for planetary terrain challenges
+I am actively seeking collaboration with:
+- Planetary robotics researchers for algorithm validation
+- Space agencies for real-world mission scenario testing  
+- Academic institutions for joint research publications
+- Industry partners for commercial applications
 
-### Phase 4: Robotic Task Integration
-🔹 **MoveIt Integration**: Seamless integration with MoveIt motion planning framework for robotic arm manipulation tasks
-🔹 **Mission Simulation**: Complete rover mission simulation capabilities including sample collection and scientific operations
-
-## Technical Stack
-
-**Simulation Engine**: Unreal Engine 5 with Nanite technology  
-**Data Source**: Chandrayaan-2 TMC DEM datasets  
-**Future Integration**: ROS, SLAM algorithms, MoveIt framework  
-**Development**: C++, Blueprint Visual Scripting  
-**Optimization**: Large-world rendering, streaming LOD systems
-
-## Research Impact
-
-This project represents a significant advancement in planetary simulation technology, providing researchers and mission planners with unprecedented fidelity in lunar surface modeling while maintaining computational efficiency through cutting-edge rendering technologies. The system enables comprehensive testing of rover navigation algorithms in realistic lunar conditions before actual deployment.
+**Contact for collaboration**: [Presentation slides](https://drive.google.com/file/d/1QHn3U-iJFZyzYMW3TUlMg7MbXFU9p19_/view) available for detailed technical discussion.
