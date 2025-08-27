@@ -20,7 +20,7 @@ links:
   - name: "Presentation"
     url: "https://drive.google.com/file/d/1QHn3U-iJFZyzYMW3TUlMg7MbXFU9p19_/view"
     icon_pack: fas
-    icon: presentation
+    icon: file-presentation
 ---
 
 This work focuses on developing a high-fidelity 3D lunar surface modeling system using Chandrayaan-2 TMC DEM data, addressing critical limitations in existing ROS simulators for planetary rover mission planning and autonomous navigation research.
