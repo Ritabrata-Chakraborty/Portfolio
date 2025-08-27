@@ -33,6 +33,8 @@ content:
     tag: robotics
   - name: Generative AI
     tag: generative-ai
+  - name: Simulation
+    tag: sim
   - name: Structural Analysis
     tag: fem
 
