@@ -6,9 +6,6 @@ widget: portfolio
 # This file represents a page section.
 headless: true
 
-# Make this page disappear from home page 
-active: false
-
 # Order that this section appears on the page.
 weight: 65
 
@@ -30,12 +27,12 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning not
+  - name: Deep Learning
     tag: Deep Learning
   - name: Natural Language Processing
     tag: nlp
   - name: Data Science
-    tag: Data Science
+    tag: data science
   - name: Tools and Applications
     tag: apps
   - name: Open Source
