@@ -1,10 +1,9 @@
 ---
 title: Image-Based Visual Servoing for Automated Radar Control and UAV Tracking
-authors: Ritabrata Chakraborty, Rishi Verma
 summary: Advanced computer vision system that enables automated radar positioning and UAV tracking through real-time image-based visual servoing techniques.
 tags:
   - computer-vision
-date: '2025-08-01T00:00:00Z'
+date: '2024-07-01T00:00:00Z'
 
 authors:
 - Ritabrata Chakraborty
@@ -35,9 +34,7 @@ image:
 
 ## Overview
 
-Image-Based Visual Servoing for Automated Radar Control and UAV Tracking  
-Supervisor: Dr. Rishi Verma, Bhabha Atomic Research Centre (BARC)  
-Jun '24– Jul '24  
+
 • Automated radar alignment using YOLOv8 + DeepSORT, improving tracking recall to 91% and speed by 13%.  
 • Integrated PLC-based actuation system enabling continuous UAV lock-in.  
 • Tech Stack: YOLOv8, DeepSORT, Python
