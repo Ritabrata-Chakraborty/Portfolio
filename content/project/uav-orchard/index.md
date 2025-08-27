@@ -11,6 +11,7 @@ external_link: '/Portfolio/publication/uav-orchard-2025/'
 image:
   caption: UAV Orchard Monitoring System
   focal_point: Smart
+  preview only: false
 ---
 
 Monocular vision-based UAV treeline following system using instance segmentation and curve-fitting algorithms for precise orchard navigation under wind disturbances.
