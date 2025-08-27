@@ -27,16 +27,14 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Natural Language Processing
-    tag: nlp
-  - name: Data Science
-    tag: data science
-  - name: Tools and Applications
-    tag: apps
-  - name: Open Source
-    tag: open-source
+  - name: Computer Vision
+    tag: computer-vision
+  - name: Robotics
+    tag: robotics
+  - name: Generative AI
+    tag: generative-ai
+  - name: Structural Analysis
+    tag: fem
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
