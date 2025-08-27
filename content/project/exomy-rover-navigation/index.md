@@ -5,9 +5,6 @@ tags:
   - robotics
 date: "2022-04-01T00:00:00Z"
 
-authors:
-- admin
-
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
@@ -16,15 +13,7 @@ image:
   focal_point: Smart
   preview_only: false
 
-# links:
-#   - name: "Paper"
-#     url: "#"
-#     icon_pack: fas
-#     icon: file-pdf
-#   - name: "Code"
-#     url: "#"
-#     icon_pack: fab
-#     icon: github
+links:
   - name: "Report"
     url: "https://drive.google.com/file/d/1YUsAl1bRKwu2QfN2xsTHNaFxEMftxbwf/view"
     icon_pack: fas
