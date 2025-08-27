@@ -14,18 +14,18 @@ image:
   preview_only: false
 
 links:
-  - name: "Paper"
-    url: "#"
-    icon_pack: fas
-    icon: file-pdf
-  - name: "Code"
-    url: "#"
-    icon_pack: fab
-    icon: github
-  - name: "Report"
-    url: "#"
-    icon_pack: fas
-    icon: file-alt
+  # - name: "Paper"
+  #   url: "#"
+  #   icon_pack: fas
+  #   icon: file-pdf
+  # - name: "Code"
+  #   url: "#"
+  #   icon_pack: fab
+  #   icon: github
+  # - name: "Report"
+  #   url: "#"
+  #   icon_pack: fas
+  #   icon: file-alt
 ---
 
 This project develops an innovative multi-robot coordination system that combines computer vision with natural language processing to enable seamless communication and collaborative navigation among autonomous robots in complex environments.
