@@ -5,7 +5,7 @@ authors:
 - T. Mian
 - P. Kundu
 date: "2025-07-05T00:00:00Z"
-doi: ""
+doi: "10.1049/icp.2025.2364"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-07-05T00:00:00Z"
@@ -35,6 +35,12 @@ tags:
 - Predictive Maintenance
 
 featured: false
+
+links:
+- name: "DOI"
+  url: "https://doi.org/10.1049/icp.2025.2364"
+  icon_pack: ai
+  icon: doi
 
 url_pdf: 'https://digital-library.theiet.org/doi/10.1049/icp.2025.2364'
 url_code: 'https://github.com/Ritabrata-Chakraborty/An-Efficient-Approach-for-Synthetic-Data-Generation-and-Fault-Diagnosis-for-Rotating-Machinery'

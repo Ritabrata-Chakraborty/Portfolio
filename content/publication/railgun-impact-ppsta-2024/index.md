@@ -40,6 +40,12 @@ tags:
 
 featured: false
 
+links:
+- name: "Poster"
+  url: "https://drive.google.com/file/d/1QMy15UyYiLYC76tkm0Lv_1kLyeyiFlzy/view"
+  icon_pack: fas
+  icon: file-image
+
 # links:
 # - name: ""
 #   url: ""

@@ -41,10 +41,16 @@ tags:
 
 featured: true
 
+links:
+- name: "Project"
+  url: "https://yizhuo-wang.com/cogniplan/"
+  icon_pack: fas
+  icon: external-link-alt
+
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+url_pdf: 'https://yizhuo-wang.com/cogniplan/'
 url_code: ''
 url_dataset: ''
 url_poster: ''
