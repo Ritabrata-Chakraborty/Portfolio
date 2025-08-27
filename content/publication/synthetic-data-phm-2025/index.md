@@ -4,11 +4,11 @@ authors:
 - admin
 - T. Mian
 - P. Kundu
-date: "2025-01-15T00:00:00Z"
+date: "2025-07-05T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-01-15T00:00:00Z"
+publishDate: "2025-07-05T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -17,28 +17,27 @@ publishDate: "2025-01-15T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: 15th Prognostics and System Health Management Conference (PHM)
-publication_short: PHM 2025
+publication: The Institution of Engineering and Technology (IET) Conference Proceedings
+publication_short: IET 2025
 
-abstract: "This paper presents an efficient approach for synthetic data generation and fault diagnosis in rotating machinery using advanced generative models and deep learning techniques for predictive maintenance applications."
+abstract: "This study explores the use of an Auxiliary Classifier Wasserstein GAN with Gradient Penalty (ACWGAN-GP) for synthetic data generation and fault diagnosis in rotating machinery. The proposed framework addresses data scarcity and class imbalance by generating diverse time-series signals using a 1D-CNN generator and a Temporal Convolutional Network (TCN)-based discriminator, both enhanced with positional embeddings. The discriminator also functions as a fault classifier. Statistical similarity metrics, PCC, Cosine Similarity, KL Divergence, and MMD, are used to validate sample quality. Experiments on the CWRU-bearing dataset demonstrate improved classification robustness and effectiveness."
 
 # Summary. An optional shortened abstract.
-summary: "Novel synthetic data generation approach for fault diagnosis in rotating machinery using generative models."
+summary: "This study explores the use of an Auxiliary Classifier Wasserstein GAN with Gradient Penalty (ACWGAN-GP) for synthetic data generation and fault diagnosis in rotating machinery, addressing data scarcity and class imbalance challenges."
 
 tags:
 - Fault Diagnosis
 - Synthetic Data
 - Rotating Machinery
-- Predictive Maintenance
+- ACWGAN-GP
+- Temporal Convolutional Networks
 - Deep Learning
+- Predictive Maintenance
 
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://digital-library.theiet.org/doi/10.1049/icp.2025.2364'
+url_code: 'https://github.com/Ritabrata-Chakraborty/An-Efficient-Approach-for-Synthetic-Data-Generation-and-Fault-Diagnosis-for-Rotating-Machinery'
 url_dataset: ''
 url_poster: ''
 url_project: ''

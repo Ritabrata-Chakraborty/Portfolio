@@ -19,15 +19,20 @@ publication_types: ["3"]
 publication: Manuscript in preparation
 publication_short: In Preparation
 
-abstract: "This manuscript presents a comprehensive approach for UAV-based orchard monitoring using computer vision and advanced path planning algorithms for precision agriculture applications."
+abstract: "This paper presents a monocular vision-based approach for treeline following, designed to maintain stability under mild wind disturbances. In structured orchards, where trees are arranged in parallel rows, precise automated navigation is essential. Unlike traditional grid-based or path-trail methods, this work utilises instance segmentation to identify and track individual treelines, ensuring accurate differentiation. A curve-fitting algorithm generates a navigation line, with its offset and slope relative to the image centre guiding yaw and roll corrections, while pitch remains constant. The proposed method improves UAV stability and precision in orchard environments, advancing agricultural automation."
 
 # Summary. An optional shortened abstract.
-summary: "UAV path planning system for automated orchard monitoring and tree canopy tracking using computer vision."
+summary: "Monocular vision-based UAV treeline following system using instance segmentation and curve-fitting algorithms for precise orchard navigation under wind disturbances."
 
 tags:
 - UAV Navigation
-- Orchard Monitoring  
-- Path Planning
+- Monocular Vision
+- Treeline Following
+- Instance Segmentation
+- Curve Fitting
+- Wind Disturbance
+- Orchard Automation
+- Agricultural UAV
 - Computer Vision
 - Precision Agriculture
 
@@ -66,4 +71,8 @@ projects: []
 slides: ""
 ---
 
-This work develops an intelligent UAV navigation system for orchard monitoring, incorporating YOLOv11-based computer vision with B-spline trajectory planning and custom control algorithms for precision agriculture applications.
+This research addresses the challenge of autonomous UAV navigation in structured orchard environments through a novel monocular vision-based treeline following approach. The system is specifically designed to maintain flight stability and precision under mild wind disturbances, which is crucial for reliable agricultural operations.
+
+The key innovation lies in the use of instance segmentation techniques to identify and differentiate individual treelines within the orchard structure. Unlike conventional grid-based or path-trail navigation methods, this approach provides more accurate tree detection and tracking capabilities. The system employs a sophisticated curve-fitting algorithm that processes the segmented treeline data to generate optimal navigation trajectories.
+
+The control strategy utilizes the offset and slope of the fitted navigation line relative to the image center to compute real-time yaw and roll corrections, while maintaining constant pitch for stable flight dynamics. This methodology significantly enhances UAV stability and navigation precision in complex orchard environments, contributing to the advancement of agricultural automation and precision farming technologies.

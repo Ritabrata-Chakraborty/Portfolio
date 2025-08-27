@@ -21,19 +21,23 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: Conference on Robot Learning (CoRL)
-publication_short: CoRL
+publication_short: CoRL 2025
 
-abstract: "We present CogniPlan, a novel approach for uncertainty-guided path planning that integrates a Wasserstein GAN-based conditional inpainting model with a graph attention network. Our method achieves 17.7% shorter exploration paths and 3.9% better navigation efficiency across 100+ maps compared to existing approaches."
+abstract: "Path planning in unknown environments is a crucial yet inherently challenging capability for mobile robots, which primarily encompasses two coupled tasks: autonomous exploration and point-goal navigation. In both cases, the robot must perceive the environment, update its belief, and accurately estimate potential information gain on-the-fly to guide planning. In this work, we propose CogniPlan, a novel path planning framework that leverages multiple plausible layouts predicted by a conditional generative inpainting model, mirroring how humans rely on cognitive maps during navigation. These predictions, based on the partially observed map and a set of layout conditioning vectors, enable our planner to reason effectively under uncertainty. We demonstrate strong synergy between generative image-based layout prediction and graph-attention-based path planning, allowing CogniPlan to combine the scalability of graph representations with the fidelity and predictiveness of occupancy maps, yielding notable performance gains in both exploration and navigation. We extensively evaluate CogniPlan on two datasets (hundreds of maps and realistic floor plans), consistently outperforming state-of-the-art planners. We further deploy it in a high-fidelity simulator and on hardware, showcasing its high-quality path planning and real-world applicability."
 
 # Summary. An optional shortened abstract.
-summary: "A novel uncertainty-guided path planning approach using conditional generative layout prediction, achieving significant improvements in exploration efficiency."
+summary: "CogniPlan leverages conditional generative inpainting models to predict multiple plausible layouts, mirroring human cognitive maps for uncertainty-guided path planning in unknown environments."
 
 tags:
 - Path Planning
 - Robotics
 - Uncertainty
-- GANs
+- Conditional Generative Models
+- Graph Attention Networks
+- Cognitive Maps
+- Mobile Robots
 - Navigation
+- Exploration
 
 featured: true
 
@@ -46,7 +50,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://yizhuo-wang.com/cogniplan/'
 url_video: ''
 
 # Featured image
@@ -70,4 +74,6 @@ projects: []
 slides: ""
 ---
 
-This work presents CogniPlan, an innovative approach to uncertainty-guided path planning that combines conditional generative models with graph attention networks for improved navigation efficiency in unknown environments.
+Path planning in unknown environments is a crucial yet inherently challenging capability for mobile robots, which primarily encompasses two coupled tasks: autonomous exploration and point-goal navigation. CogniPlan addresses this challenge by leveraging multiple plausible layouts predicted by a conditional generative inpainting model, mirroring how humans rely on cognitive maps during navigation. 
+
+The framework demonstrates strong synergy between generative image-based layout prediction and graph-attention-based path planning, combining the scalability of graph representations with the fidelity and predictiveness of occupancy maps. Extensive evaluation on two datasets (hundreds of maps and realistic floor plans) shows CogniPlan consistently outperforming state-of-the-art planners, with successful deployment in both high-fidelity simulators and real hardware.
