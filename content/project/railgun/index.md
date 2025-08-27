@@ -1,12 +1,12 @@
 ---
-title: Railgun
+title: High-Velocity Impact Testing and Analysis of Layered Metal-Composite Shields Using Electromagnetic Railguns
 summary: Advanced finite element analysis tool for electromagnetic railgun structural design.
 tags:
   - fem
 date: '2024-12-15T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: '/publication/railgun-impact-ppsta-2024/'
 
 image:
   caption: Railgun Structural Analysis

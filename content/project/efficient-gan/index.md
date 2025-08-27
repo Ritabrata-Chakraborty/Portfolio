@@ -1,12 +1,12 @@
 ---
-title: Efficient GAN
+title: An Efficient Approach for Synthetic Data Generation and Fault Diagnosis for Rotating Machinery
 summary: Optimized Generative Adversarial Network for high-quality synthetic data generation.
 tags:
   - generative-ai
 date: '2025-02-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: '/publication/synthetic-data-phm-2025/'
 
 image:
   caption: Efficient GAN Architecture

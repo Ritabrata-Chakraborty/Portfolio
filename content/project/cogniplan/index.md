@@ -1,12 +1,12 @@
 ---
-title: CogniPlan
+title: 'CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction'
 summary: An intelligent robotic path planning system using advanced cognitive algorithms.
 tags:
   - robotics
 date: '2025-01-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: '/publication/cogniplan-corl-2025/'
 
 image:
   caption: CogniPlan Robotic System

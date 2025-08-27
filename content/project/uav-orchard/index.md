@@ -1,12 +1,12 @@
 ---
-title: UAV Orchard
+title: Path Planning of Low-Altitude UAV for Tree Canopy Tracking and Orchard Monitoring
 summary: Autonomous UAV system for precision agriculture and orchard monitoring.
 tags:
   - robotics
 date: '2025-01-15T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: '/publication/uav-orchard-2025/'
 
 image:
   caption: UAV Orchard Monitoring System
