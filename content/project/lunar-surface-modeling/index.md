@@ -2,9 +2,8 @@
 title: 3D Lunar Surface Modeling Using Chandrayaan-2 TMC DEM Data
 summary: Advanced planetary simulation system leveraging Unreal Engine 5 and Chandrayaan-2 Terrain Mapping Camera data for high-fidelity lunar surface modeling and rover mission planning applications.
 tags:
-  - planetary-simulation
-  - computer-vision
   - robotics
+  - sim
 date: "2025-08-01T00:00:00Z"
 
 authors:

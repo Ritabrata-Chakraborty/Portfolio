@@ -3,8 +3,6 @@ title: ERC 2023 Remote
 summary: Advanced autonomous rover navigation system with robotic arm manipulation capabilities, implementing ArUco-based localization and collision-free motion planning for space exploration applications.
 tags:
   - robotics
-  - autonomous-systems
-  - motion-planning
 date: "2022-04-01T00:00:00Z"
 
 authors:
