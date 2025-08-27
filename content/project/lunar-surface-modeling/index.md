@@ -16,19 +16,11 @@ image:
   focal_point: Smart
   preview_only: false
 
-# links:
-#   - name: "Paper"
-#     url: "#"
-#     icon_pack: fas
-#     icon: file-pdf
-#   - name: "Code"
-#     url: "#"
-#     icon_pack: fab
-#     icon: github
-#   - name: "Report"
-#     url: "#"
-#     icon_pack: fas
-#     icon: file-alt
+links:
+  - name: "Presentation"
+    url: "#"
+    icon_pack: fas
+    icon: presentation
 ---
 
 **Research Focus: Planetary Surface Simulation & Rover Mission Planning**  
