@@ -34,7 +34,7 @@ image:
 
 This work focuses on devising a Conditional Latent Denoising Diffusion GAN for generating CWT-based time-frequency images and improving LiteFormer, an attention-free, transformer-inspired classifier for fault classification on augmented datasets.
 
-**This work is in progress currently.**
+**Work in Progress**
 
 ## Project Overview
 
