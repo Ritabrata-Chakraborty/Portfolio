@@ -25,13 +25,14 @@
       <div class="card">
         <div class="card-body">
 
+          {{ $company := .company }}
           {{ with .company_logo }}
           <div class="section-subheading card-title exp-company text-muted my-0">
-            <img src="{{ printf "media/icons/brands/%s.svg" . | relURL }}" alt="{{ $.company }}" class="experience-logo">
-            {{ $.company }}
+            <img src="{{ printf "media/icons/brands/%s.svg" . | relURL }}" alt="{{ $company }}" class="experience-logo">
+            {{ $company }}
           </div>
           {{ else }}
-          <div class="section-subheading card-title exp-company text-muted my-0">{{ .company }}</div>
+          <div class="section-subheading card-title exp-company text-muted my-0">{{ $company }}</div>
           {{ end }}
 
           <div class="section-subheading card-title exp-title text-muted my-0">{{ .title | markdownify | emojify }}</div>
