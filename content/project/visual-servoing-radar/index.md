@@ -6,7 +6,7 @@ tags:
 date: "2024-07-01T00:00:00Z"
 
 authors:
-- Ritabrata Chakraborty
+- admin
 - Rishi Verma
 
 # Optional external URL for project (replaces project detail page).
