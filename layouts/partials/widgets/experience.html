@@ -26,29 +26,29 @@
         <div class="card-body">
 
           {{ $company := .company }}
-          {{ with .company_logo }}
+          {{ $supervisor_url := .supervisor_url }}
           <div class="section-subheading card-title exp-company text-muted my-0">
-            <img src="{{ printf "media/icons/brands/%s.svg" . | relURL }}" alt="{{ $company }}" class="experience-logo">
-            {{ $company }}
+            {{ with .company_logo }}
+              <img src="{{ printf "media/icons/brands/%s.svg" . | relURL }}" alt="{{ $company }}" class="experience-logo">
+            {{ end }}
+            
+            <span class="exp-company-name">{{ $company }}</span>
+            
+            {{ with .supervisor }}
+              <span class="exp-separator"> · </span>
+              <span class="exp-supervisor">
+                {{ if $supervisor_url }}
+                  <a href="{{ $supervisor_url }}" target="_blank" rel="noopener">{{ . }}</a>
+                {{ else }}
+                  {{ . }}
+                {{ end }}
+              </span>
+            {{ end }}
           </div>
-          {{ else }}
-          <div class="section-subheading card-title exp-company text-muted my-0">{{ $company }}</div>
-          {{ end }}
 
           <div class="section-subheading card-title exp-title text-muted my-0">{{ .title | markdownify | emojify }}</div>
           
-          <!-- Custom supervisor field -->
-          {{ if .supervisor }}
-          <div class="card-text exp-supervisor">
-            {{ if .supervisor_url }}
-            <i class="fas fa-user-graduate pub-icon" aria-hidden="true"></i>
-            <strong>Supervisor:</strong> <a href="{{ .supervisor_url }}" target="_blank" rel="noopener">{{ .supervisor }}</a>
-            {{ else }}
-            <i class="fas fa-user-graduate pub-icon" aria-hidden="true"></i>
-            <strong>Supervisor:</strong> {{ .supervisor }}
-            {{ end }}
-          </div>
-          {{ end }}
+          <!-- Custom supervisor field removed since it's now integrated above -->
           
           {{ with .location }}
           <div class="card-text exp-meta">
