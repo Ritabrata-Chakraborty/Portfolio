@@ -44,17 +44,11 @@ The research focuses on developing a comprehensive autonomous navigation solutio
 
 • **Vision-Based Control Implementation**: Programmed sophisticated vision-based control algorithms for Parrot Mambo using dynamic masking techniques, ray-tracing algorithms, and closed-loop yaw control for precise navigation and obstacle avoidance.
 
-• **Adaptive Flight Optimization**: Integrated intelligent speed variation algorithms and zone-based automatic landing systems to minimize track completion time while maintaining flight stability and safety.
+• **Adaptive Flight Optimization**:
+Integrated intelligent speed variation algorithms and zone-based automatic landing systems to minimize track completion time while maintaining flight stability and safety.
 
 • **Competition Performance**: Developed and tested the complete autonomous navigation stack within the competitive timeframe, demonstrating reliable performance in challenging flight scenarios.
 
 ## Technical Stack
 
 **Development Environment**: MATLAB, Simulink  
-**Control Systems**: Closed-loop yaw control, PID controllers  
-**Computer Vision**: Dynamic masking, ray-tracing algorithms  
-**Hardware**: Parrot Mambo drone platform
-
-## Research Impact
-
-The developed autonomous navigation system demonstrates advanced integration of computer vision and control theory for practical drone applications, contributing to the field of autonomous aerial robotics with competition-validated performance metrics.
