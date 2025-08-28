@@ -34,14 +34,11 @@ image:
 #     icon: file-alt
 ---
 
-**Supervisor: Dr. Rishi Verma, Bhabha Atomic Research Centre (BARC)**  
-**Duration: Jun '24 – Jul '24**
 
-This project develops a sophisticated image-based visual servoing system that combines advanced computer vision algorithms with radar control mechanisms to achieve real-time UAV tracking and automated radar positioning for surveillance applications.
 
-## Project Overview
+## Overview
 
-The research focuses on implementing an automated radar alignment system using state-of-the-art object detection and tracking algorithms to maintain continuous lock on unmanned aerial vehicles (UAVs) through integrated hardware-software control systems.
+This project develops a sophisticated image-based visual servoing system that combines advanced computer vision algorithms with radar control mechanisms to achieve real-time UAV tracking and automated radar positioning for surveillance applications. The research focuses on implementing an automated radar alignment system using state-of-the-art object detection and tracking algorithms to maintain continuous lock on unmanned aerial vehicles (UAVs) through integrated hardware-software control systems.
 
 ## Key Achievements
 
