@@ -1,5 +1,5 @@
 ---
-title: Large-Scale-DRL-Exploration-with-Tunable-Adaptive-Exploration-Exploitation
+title: Large-Scale DRL Exploration with Tunable Adaptive Exploration-Exploitation
 summary: Deep reinforcement learning-based reactive planner for large-scale Lidar-based autonomous robot exploration in 2D action space with novel alpha conditioning for exploration-exploitation control.
 tags:
   - robotics
