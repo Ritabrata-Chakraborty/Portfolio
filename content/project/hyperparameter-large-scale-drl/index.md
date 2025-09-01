@@ -1,5 +1,5 @@
 ---
-title: Large-Scale DRL-based Robot Exploration with Alpha Conditioning
+title: Large-Scale-DRL-Exploration-with-Tunable-Adaptive-Exploration-Exploitation
 summary: Deep reinforcement learning-based reactive planner for large-scale Lidar-based autonomous robot exploration in 2D action space with novel alpha conditioning for exploration-exploitation control.
 tags:
   - robotics
@@ -23,7 +23,7 @@ links:
     icon_pack: fas
     icon: file-pdf
   - name: "Code"
-    url: "https://github.com/marmotlab/large-scale-DRL-exploration"
+    url: "https://github.com/Ritabrata-Chakraborty/Large-Scale-DRL-Exploration-with-Tunable-Adaptive-Exploration-Exploitation"
     icon_pack: fab
     icon: github
 ---
