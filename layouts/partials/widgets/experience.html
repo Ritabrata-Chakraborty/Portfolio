@@ -1,0 +1,75 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $columns := $page.Params.design.columns | default "2" }}
+
+<div class="col-12 {{if ne $columns "1"}}col-lg-8{{end}}">
+  {{ with $page.Content }}{{ . }}{{ end }}
+
+  {{ if $page.Params.experience }}
+  <div class="row experience">
+    {{ range $page.Params.experience }}
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col {{if gt (len $page.Params.experience) 1}}border-right{{end}}">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border exp-fill">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col {{if gt (len $page.Params.experience) 1}}border-right{{end}}">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+
+          {{ $company := .company }}
+          {{ $supervisor_url := .supervisor_url }}
+          <div class="section-subheading card-title exp-company text-muted my-0">
+            {{ with .company_logo }}
+              <img src="{{ printf "media/icons/brands/%s.svg" . | relURL }}" alt="{{ $company }}" class="experience-logo">
+            {{ end }}
+            
+            <span class="exp-company-name">{{ $company }}</span>
+            
+            {{ with .supervisor }}
+              <span class="exp-separator"> · </span>
+              <span class="exp-supervisor">
+                {{ if $supervisor_url }}
+                  <a href="{{ $supervisor_url }}" target="_blank" rel="noopener">{{ . }}</a>
+                {{ else }}
+                  {{ . }}
+                {{ end }}
+              </span>
+            {{ end }}
+          </div>
+
+          <div class="section-subheading card-title exp-title text-muted my-0">{{ .title | markdownify | emojify }}</div>
+          
+          <!-- Custom supervisor field removed since it's now integrated above -->
+          
+          {{ with .location }}
+          <div class="card-text exp-meta">
+            <i class="fas fa-map-marker-alt exp-meta-icon"></i>
+            {{ . }}
+          </div>
+          {{ end }}
+
+          <div class="card-text exp-meta">
+            <i class="fas fa-calendar exp-meta-icon"></i>
+            {{ (time .date_start).Format ($page.Params.date_format | default "January 2006") }}
+            {{- if .date_end }} – {{ (time .date_end).Format ($page.Params.date_format | default "January 2006") }}
+            {{- else }} – {{ i18n "present" | default "Present" }}{{- end }}
+          </div>
+
+          {{ with .description }}<div class="card-text">{{ . | markdownify | emojify }}</div>{{ end }}
+
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</div> 
