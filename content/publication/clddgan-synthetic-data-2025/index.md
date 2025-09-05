@@ -17,10 +17,9 @@ publishDate: "2025-09-05T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: 
-publication_short: 
+publication: Manuscript in preparation
+publication_short: In Preparation
 
-abstract: ""
 
 # Summary. An optional shortened abstract.
 summary: "This study presents CLDDGAN for generating high-quality synthetic CWT data and fault classification using the lightweight LiteFormer2D architecture for rotating machinery fault diagnosis."
