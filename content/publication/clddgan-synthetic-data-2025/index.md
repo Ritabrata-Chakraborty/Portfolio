@@ -1,38 +1,39 @@
 ---
-title: "An Efficient Approach for Synthetic Data Generation and Fault Diagnosis for Rotating Machinery"
+title: "Classifier Latent Denoising Diffusion GAN for Synthetic CWT Data Generation in Rotating Machinery Fault Diagnosis"
 authors:
 - admin
 - T. Mian
 - P. Kundu
-date: "2025-07-05T00:00:00Z"
+date: "2025-09-05T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-07-05T00:00:00Z"
+publishDate: "2025-09-05T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: The Institution of Engineering and Technology (IET) Conference Proceedings
 publication_short: IET 2025
 
-abstract: "This study explores the use of an Auxiliary Classifier Wasserstein GAN with Gradient Penalty (ACWGAN-GP) for synthetic data generaticontent/publication/synthetic-data-phm-2025on and fault diagnosis in rotating machinery. The proposed framework addresses data scarcity and class imbalance by generating diverse time-series signals using a 1D-CNN generator and a Temporal Convolutional Network (TCN)-based discriminator, both enhanced with positional embeddings. The discriminator also functions as a fault classifier. Statistical similarity metrics, PCC, Cosine Similarity, KL Divergence, and MMD, are used to validate sample quality. Experiments on the CWRU-bearing dataset demonstrate improved classification robustness and effectiveness."
+abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "This study explores the use of an Auxiliary Classifier Wasserstein GAN with Gradient Penalty (ACWGAN-GP) for synthetic data generation and fault diagnosis in rotating machinery, addressing data scarcity and class imbalance challenges."
+summary: "This study presents a Classifier Latent Denoising Diffusion GAN (CLDDGAN) for generating synthetic Continuous Wavelet Transform (CWT) data to address data scarcity in rotating machinery fault diagnosis applications."
 
 tags:
 - Fault Diagnosis
 - Synthetic Data
 - Rotating Machinery
-- ACWGAN-GP
-- Temporal Convolutional Networks
+- Diffusion-GAN
+- CWT Data Generation
 - Deep Learning
 - Predictive Maintenance
+- Denoising Diffusion
 
 featured: false
 
@@ -51,7 +52,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Synthetic CWT Generation Pipeline'
+  caption: 'Synthetic CWT Data Generation Pipeline'
   focal_point: ""
   preview_only: false
 
@@ -68,5 +69,4 @@ projects: [clddgan-cwt]
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
 This work addresses the challenge of limited fault data in rotating machinery by developing efficient synthetic data generation techniques using auxiliary classifier Wasserstein GANs and conditional latent denoising diffusion models.
