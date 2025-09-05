@@ -1,5 +1,5 @@
 ---
-title: "Classifier Latent Denoising Diffusion GAN for Synthetic CWT Data Generation in Rotating Machinery Fault Diagnosis"
+title: "CLDDGAN for CWT Generation and Fault Classification Using LiteFormer2D"
 authors:
 - admin
 - T. Mian
@@ -23,7 +23,7 @@ publication_short:
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "This study presents a Classifier Latent Denoising Diffusion GAN (CLDDGAN) for generating synthetic Continuous Wavelet Transform (CWT) data to address data scarcity in rotating machinery fault diagnosis applications."
+summary: "This study presents CLDDGAN for generating high-quality synthetic CWT data and fault classification using the lightweight LiteFormer2D architecture for rotating machinery fault diagnosis."
 
 tags:
 - Fault Diagnosis
@@ -39,7 +39,7 @@ featured: false
 
 links:
 - name: "Project"
-  url: "xxx"
+  url: "https://ritabrata-chakraborty.github.io/Portfolio/project/clddgan-cwt/"
   icon_pack: fas
   icon: external-link-alt
 url_dataset: ''
@@ -60,7 +60,7 @@ image:
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder name, e.g. `internal-project`.
 #   Otherwise, set `projects: []`.
-projects: [clddgan-cwt]
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -69,4 +69,5 @@ projects: [clddgan-cwt]
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-This work addresses the challenge of limited fault data in rotating machinery by developing efficient synthetic data generation techniques using auxiliary classifier Wasserstein GANs and conditional latent denoising diffusion models.
+This work introduces CLDDGAN for synthetic CWT data generation combined with LiteFormer2D for efficient fault classification in rotating machinery, addressing data scarcity challenges while maintaining computational efficiency.
+
