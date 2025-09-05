@@ -17,8 +17,8 @@ publishDate: "2025-09-05T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: The Institution of Engineering and Technology (IET) Conference Proceedings
-publication_short: IET 2025
+publication: 
+publication_short: 
 
 abstract: ""
 
