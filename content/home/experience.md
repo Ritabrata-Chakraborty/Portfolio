@@ -34,10 +34,12 @@ experience:
     date_end: 
     description: |2-
     
-        Supervisor: [Mr. Siddarth Malreddy](https://in.linkedin.com/in/malreddysid), Tech Lead Manager & [Mr. Ishan Nigam](https://www.linkedin.com/in/ishannigam/), Senior ML Engineer, Uber
+        **Supervisor:** [Mr. Siddarth Malreddy](https://in.linkedin.com/in/malreddysid), Tech Lead Manager & [Mr. Ishan Nigam](https://www.linkedin.com/in/ishannigam/), Senior ML Engineer, Uber
         
         * Augmented uLabel with deep learning object tracking for automated RGB/IR video annotation, reducing manual effort
         * Deployed XGBoost anomaly detection in human-in-the-loop tracking validation for frame-level annotation accuracy
+        
+        **Tech Stack:** PyTorch, Python, C++
 
   - title: Research Intern
     company: National University of Singapore (NUS)
@@ -50,7 +52,7 @@ experience:
     date_end: 
     description: |2-
     
-        Supervisor: [Dr. Guillaume Sartoretti](https://cde.nus.edu.sg/me/staff/sartoretti-guillaume-a/), Assistant Professor, MARMoT Lab, NUS
+        **Supervisor:** [Dr. Guillaume Sartoretti](https://cde.nus.edu.sg/me/staff/sartoretti-guillaume-a/), Assistant Professor, MARMoT Lab, NUS
         
         **Vision-Attention-Driven Autonomous Navigation with Semantic Understanding**
         * Enhanced CogniPlan with cross-attention between frontier and node embeddings to enrich node representations
@@ -59,38 +61,8 @@ experience:
         **Uncertainty-Guided Path Planning via Conditional Layout Prediction**
         * Architected CogniPlan, integrating Wasserstein GAN-based conditional inpainting model and graph attention network for uncertainty-aware navigation
         * Achieved up to 17.7% shorter exploration paths and 3.9% improved navigation efficiency over state-of-the-art baselines across 100+ unseen maps, using a lightweight model with fewer than 0.35M parameters enabling real-time CPU inference
-
-  - title: Research Intern
-    company: CSIR-CEERI
-    company_url: 'https://ceeri.res.in'
-    supervisor: Dr. Kaushal Kishore
-    supervisor_url: 'https://ieeexplore.ieee.org/author/37085653936'
-    company_logo: org-ceeri
-    location: Rajasthan, India
-    date_start: '2024-01-01'
-    date_end: '2025-02-28'
-    description: |2-
-    
-        Supervisor: [Dr. Kaushal Kishore](https://ieeexplore.ieee.org/author/37085653936), Senior Scientist, CSIR-CEERI
         
-        * Engineered a UAV-based orchard monitoring system using YOLOv11 (Box mAP50: 95.5%, Mask mAP50: 96.5%)
-        * Programmed B-spline trajectory logic and implemented custom yaw-roll controller to minimize drift under wind
-
-  - title: Summer Research Intern
-    company: Bhabha Atomic Research Centre (BARC)
-    company_url: 'https://barc.gov.in'
-    supervisor: Dr. Rishi Verma
-    supervisor_url: 'https://www.researchgate.net/profile/Rishi-Verma-3'
-    company_logo: org-barc
-    location: Visakhapatnam, India
-    date_start: '2024-06-01'
-    date_end: '2024-07-31'
-    description: |2-
-    
-        Supervisor: [Dr. Rishi Verma](https://www.researchgate.net/profile/Rishi-Verma-3), PPEMD Head, Bhabha Atomic Research Centre (BARC)
-        
-        * Orchestrated radar alignment using YOLOv8 + DeepSORT, boosting tracking recall to 91% and speed by 13%
-        * Implemented PLC-based actuation system for continuous UAV lock-in
+        **Tech Stack:** ROS Noetic (with Gazebo, Rviz), PyTorch, Python
 
   - title: Research Intern
     company: KU Leuven
@@ -103,7 +75,7 @@ experience:
     date_end: 
     description: |2-
     
-        Supervisor: [Dr. Pradeep Kundu](https://www.kuleuven.be/wieiswie/en/person/00155770), Assistant Professor, KU Leuven
+        **Supervisor:** [Dr. Pradeep Kundu](https://www.kuleuven.be/wieiswie/en/person/00155770), Assistant Professor, KU Leuven
         
         **Auxiliary Classifier WGAN-GP for Time-Series Sensor Data Generation**
         * Built ACWGAN-GP with TCN discriminator to augment minority fault classes, reaching ~100% classification accuracy
@@ -112,6 +84,46 @@ experience:
         **Conditional Latent Diffusion-GAN for CWT Generation and LiteFormer-based Classification**
         * Developed Conditional Latent Denoising Diffusion GAN (LDDGAN) with Supervised Contrastive Loss (SCL) for latent class separation (99.9% AE accuracy, 16× compression with EvoNorm-S0)
         * Designed LiteFormer variants integrating Continuous Wavelet Convolution (CWC), Haar DWT, WDCNN-BiLSTM-Siamese Network, and CWMS-GAN-inspired architectures, achieving up to 99.18% fault classification accuracy
+        
+        **Tech Stack:** PyTorch, Python
+
+  - title: Research Intern
+    company: CSIR-CEERI
+    company_url: 'https://ceeri.res.in'
+    supervisor: Dr. Kaushal Kishore
+    supervisor_url: 'https://ieeexplore.ieee.org/author/37085653936'
+    company_logo: org-ceeri
+    location: Rajasthan, India
+    date_start: '2024-01-01'
+    date_end: '2025-02-28'
+    description: |2-
+    
+        **Supervisor:** [Dr. Kaushal Kishore](https://ieeexplore.ieee.org/author/37085653936), Senior Scientist, CSIR-CEERI
+        
+        **Monocular Vision-Based UAV Navigation for Orchard Monitoring**
+        * Engineered a UAV-based orchard monitoring system using YOLOv11 (Box mAP50: 95.5%, Mask mAP50: 96.5%)
+        * Programmed B-spline trajectory logic and implemented custom yaw-roll controller to minimize drift under wind
+        
+        **Tech Stack:** YOLOv11, ROS Noetic, AirSim, NVIDIA Jetson Orin NX
+
+  - title: Summer Research Intern
+    company: Bhabha Atomic Research Centre (BARC)
+    company_url: 'https://barc.gov.in'
+    supervisor: Dr. Rishi Verma
+    supervisor_url: 'https://www.researchgate.net/profile/Rishi-Verma-3'
+    company_logo: org-barc
+    location: Visakhapatnam, India
+    date_start: '2024-06-01'
+    date_end: '2024-07-31'
+    description: |2-
+    
+        **Supervisor:** [Dr. Rishi Verma](https://www.researchgate.net/profile/Rishi-Verma-3), PPEMD Head, Bhabha Atomic Research Centre (BARC)
+        
+        **Image-Based Visual Servoing for Automated Radar Control and UAV Tracking**
+        * Orchestrated radar alignment using YOLOv8 + DeepSORT, boosting tracking recall to 91% and speed by 13%
+        * Implemented PLC-based actuation system for continuous UAV lock-in
+        
+        **Tech Stack:** YOLOv8, DeepSORT, Python
 
 design:
   columns: '2'
