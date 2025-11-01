@@ -22,19 +22,19 @@ weight: 30
 * Junior Science Talent Search Examination - **Rank 26/70000** (2014) -->
   
 - **3rd Place, [MathWorks Global Drone Student Challenge](https://in.mathworks.com/academia/students/competitions/minidrones/global-drone-student-challenge.html)**, MathWorks (2025)
-  - [Certificate](https://drive.google.com/file/d/1D0-xmEtlKox0QLbPWZO_Cq4jK4ENG7y7/view?usp=drive_link)
-  - [Project]({{< relref "/project/autonomous-drone-navigation" >}})
+  - 📜 [Certificate](https://drive.google.com/file/d/1D0-xmEtlKox0QLbPWZO_Cq4jK4ENG7y7/view?usp=drive_link)
+  - 🔗 [Project]({{< relref "/project/autonomous-drone-navigation" >}})
 
 - **Finalist, [AI for Space and Geospatial Innovation (ISRO Immersion Startup-Challenge)](https://cie.iiit.ac.in/ai-for-space-amp-geospatial-innovation/)**, CIE-IIITH (2024)
-  - [Presentation](https://drive.google.com/file/d/16G0VYC5aEpGW_xqj6y0GRwX1Hb5cWeJk/view?usp=drive_link)
-  - [Project]({{< relref "/project/lunar-surface-modeling" >}})
+  - 📊 [Presentation](https://drive.google.com/file/d/16G0VYC5aEpGW_xqj6y0GRwX1Hb5cWeJk/view?usp=drive_link)
+  - 🔗 [Project]({{< relref "/project/lunar-surface-modeling" >}})
 
 - **Top 15 (Top 5 in College), [The American Express Campus Challenge (Product Track)](https://unstop.com/competitions/product-track-the-american-express-campus-challenge-2024-981114)**, American Express (2024)
-  - [Presentation](https://drive.google.com/file/d/1oC9seJ8GRzicnij6xViUjAum3Zq5Vjlr/view?usp=drive_link)
+  - 📊 [Presentation](https://drive.google.com/file/d/1oC9seJ8GRzicnij6xViUjAum3Zq5Vjlr/view?usp=drive_link)
 
 - **5th Place + Best Remote Maintenance Award, [European Rover Challenge (ERC), Remote Edition](https://roverchallenge.eu/)**, European Space Foundation (2023)
-  - [Report](https://drive.google.com/file/d/1qAeYAupdwq-eb-d-lgASr4xD_Kj0AXmk/view?usp=drive_link)
-  - [Project]({{< relref "/project/exomy-rover-navigation" >}})
+  - 📄 [Report](https://drive.google.com/file/d/1qAeYAupdwq-eb-d-lgASr4xD_Kj0AXmk/view?usp=drive_link)
+  - 🔗 [Project]({{< relref "/project/exomy-rover-navigation" >}})
 
 
 
