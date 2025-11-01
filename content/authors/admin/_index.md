@@ -84,7 +84,7 @@ I'm currently seeking **funding and collaborators** for two ongoing initiatives:
 - **🏑 Automated Hockey Ball Launcher** - Planned hardware-software system for controlled shot generation and data collection. Progress limited by hardware and funding. Seeking collaborators to advance this project.  
 {{< icon name="external-link-alt" pack="fas" >}} [Proposal](https://drive.google.com/file/d/1h7X9fIiih37ivgERVR-wbWsDEil0qvpI/view?usp=drive_link)
 
-- **🌑 3D Lunar/Mars Terrain Modelling for Rover Simulation** - Proposed DEM-based 3D planetary terrain environment for rover navigation research. Delayed by resource constraints. Open to collaboration from planetary robotics experts.  
+- **🌑 3D Lunar/Mars Terrain Modelling for Rover Simulation** - Proposed DEM-based 3D planetary terrain environment for rover navigation research. Open to collaboration from planetary robotics experts.  
 {{< icon name="external-link-alt" pack="fas" >}} [Proposal](https://docs.google.com/document/d/1HRz1ukUfeNL3hqlYc-ujwStbHiagaJXslbwzokdMNBc/edit?tab=t.0)
 
 Beyond these specific projects, I'm open to **internships, research partnerships, and other professional opportunities** in robotics, computer vision, and autonomous systems. Whether you're interested in collaboration, have project ideas, or want to discuss potential roles, I'd be glad to connect.
