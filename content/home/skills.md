@@ -9,52 +9,60 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Technical Expertise
+title: Technical Skills
 subtitle: My technical skills and core competencies
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
+- icon: graduation-cap
+  icon_pack: fas
+  name: Relevant Courses
+  description: |
+    • Machine Learning
+    • Deep Learning
+    • Foundations of Data Science
+    • Applied Statistical Methods
+    • Linear Algebra
+    • Computer Programming
+    • Engineering Optimization
+    • Differential Equations
+    • Design of Machine Elements
+    • Digital Twins
+- icon: code
+  icon_pack: fas
+  name: Programming Languages
+  description: |
+    • Python
+    • C++
+    • C
+    • Shell (Linux)
 - icon: robot
   icon_pack: fas
   name: Robotics & Simulation
   description: |
-    • ROS (Gazebo, Rviz)
+    • ROS (with Gazebo, Rviz)
+    • MAVROS
     • Navigation Stack
     • MoveIt
-    • MAVROS
     • AirSim
-    • MATLAB, Simulink
-    • QGIS
     • Unity
-    • Unreal Engine (UE)
-- icon: eye
-  icon_pack: fas
-  name: Computer Vision & 3D Perception
-  description: |
-    • OpenCV
-    • Open3D
-    • Matplotlib
-    • Seaborn
-    • Plotly
-    • PCL (Point Cloud Library)
-    • PyTorch3D
-    • Detectron2
-    • YOLO (Ultralytics)
-    • Albumentations
+    • Unreal Engine
+    • MATLAB
+    • Simulink
+    • QGIS
 - icon: brain
   icon_pack: fas
-  name: Machine Learning & Data Science
+  name: Machine Learning
   description: |
     • PyTorch
     • TensorFlow
     • Scikit-Learn
-    • NumPy
-    • Pandas
-    • SciPy
-    • Hugging Face
-    • W&B
+    • OpenCV
+    • Open3D
+    • Matplotlib
+    • Weights & Biases (W&B)
 - icon: microchip
   icon_pack: fas
   name: Hardware & Embedded Systems
@@ -65,22 +73,13 @@ feature:
     • IMUs
     • Stereo Camera
     • 3D LiDAR
-- icon: code
-  icon_pack: fas
-  name: Programming Languages
-  description: |
-    • Python
-    • C++
-    • C
-    • Shell (Linux)
 - icon: cog
   icon_pack: fas
-  name: CAD & Mechanical Design
+  name: CAD & Mechanical Simulation
   description: |
+    • ANSYS Mechanical
     • SolidWorks
     • Fusion 360
-    • ANSYS Mechanical
-    • AutoCAD
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
