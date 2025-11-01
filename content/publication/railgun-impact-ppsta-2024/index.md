@@ -23,7 +23,7 @@ publication_short: PPSTA 2024
 abstract: "This study investigates the impact resistance of layered composite materials subjected to high-velocity impact, using both experimental and FEM analysis. Materials like SS 304, Al 6061-T6, and GFRP have been strategically layered for optimal energy absorption and protection. Experimental testing with an electromagnetic launcher facility (RAFTAR) at BARC (F), Visakhapatnam, and simulations based on Johnson-Cook models provide insights into deformation and failure mechanisms."
 
 # Summary. An optional shortened abstract.
-summary: "This study investigates the impact resistance of layered composite materials (SS 304, Al 6061-T6, GFRP) subjected to high-velocity impact using experimental testing with RAFTAR facility and FEM analysis with Johnson-Cook models."
+# summary: "This study investigates the impact resistance of layered composite materials (SS 304, Al 6061-T6, GFRP) subjected to high-velocity impact using experimental testing with RAFTAR facility and FEM analysis with Johnson-Cook models."
 
 tags:
 - High-Velocity Impact

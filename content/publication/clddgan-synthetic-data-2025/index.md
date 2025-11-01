@@ -1,5 +1,5 @@
 ---
-title: "CLDDGAN for CWT Generation and Fault Classification Using LiteFormer2D"
+title: "Conditional Latent Diffusion-GAN for Synthetic CWT Generation and LiteFormer-based Fault Classification in Rotating Machinery"
 authors:
 - admin
 - T. Mian
@@ -22,7 +22,7 @@ publication_short: In Preparation
 
 
 # Summary. An optional shortened abstract.
-summary: "This study presents CLDDGAN for generating high-quality synthetic CWT data and fault classification using the lightweight LiteFormer2D architecture for rotating machinery fault diagnosis."
+# summary: "This study presents CLDDGAN for generating high-quality synthetic CWT data and fault classification using the lightweight LiteFormer2D architecture for rotating machinery fault diagnosis."
 
 tags:
 - Fault Diagnosis
