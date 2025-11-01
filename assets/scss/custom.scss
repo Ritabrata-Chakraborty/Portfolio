@@ -1,3 +1,13 @@
+/* Prevent all-caps on headings */
+h1, h2, h3, h4, h5, h6,
+.section-heading,
+.page-heading,
+.home-section h1,
+.home-section h2,
+.home-section h3 {
+  text-transform: none !important;
+}
+
 /* Custom CSS to rotate avatar 90 degrees to the right */
 .avatar img,
 .avatar-circle img,
@@ -88,20 +98,4 @@
   width: auto;
   margin-right: 0.5rem;
   vertical-align: middle;
-}
-
-/* Alternating title letter sizes */
-.alternating-title {
-  font-weight: normal !important;
-  text-transform: uppercase;
-}
-
-.alternating-title .letter-large {
-  font-size: 1em;
-  font-weight: normal;
-}
-
-.alternating-title .letter-small {
-  font-size: calc(1em - 2px);
-  font-weight: normal;
 }
