@@ -4,8 +4,21 @@ h1, h2, h3, h4, h5, h6,
 .page-heading,
 .home-section h1,
 .home-section h2,
-.home-section h3 {
+.home-section h3,
+.home-section .section-heading,
+section h1,
+section h2,
+section h3,
+.wg-about h2,
+article h1,
+article h2,
+article h3,
+.page-header h1,
+.universal-wrapper h1,
+.universal-wrapper h2,
+.universal-wrapper h3 {
   text-transform: none !important;
+  letter-spacing: normal !important;
 }
 
 /* Custom CSS to rotate avatar 90 degrees to the right */
