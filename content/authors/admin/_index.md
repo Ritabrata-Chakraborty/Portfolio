@@ -75,7 +75,7 @@ Beyond my current role, I've worked on projects involving UAV navigation, multi-
 
 If you have relevant expertise, resources, or interest in these projects, I invite you to connect and explore how we can move these initiatives forward together. -->
 
---- 
+<!-- ---  -->
 
 ## Open Collaboration & Opportunities
 
