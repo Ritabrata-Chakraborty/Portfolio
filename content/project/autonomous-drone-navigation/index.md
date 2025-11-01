@@ -1,5 +1,5 @@
 ---
-title: Autonomous Drone Navigation | MathWorks Global Student Drone Challenge 2025
+title: MathWorks Global Student Drone Challenge 2025
 summary: Vision-based autonomous drone navigation system for competitive drone racing, implementing dynamic masking, ray-tracing, and closed-loop control.
 tags:
   - robotics

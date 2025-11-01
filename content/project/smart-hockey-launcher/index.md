@@ -1,5 +1,5 @@
 ---
-title: Design and Development of Smart Automated Field Hockey Ball Launcher
+title: Physics-Based Launcher Mechanical Design and FEM Analysis
 authors:
 - admin
 - Mani Sankar Dasgupta

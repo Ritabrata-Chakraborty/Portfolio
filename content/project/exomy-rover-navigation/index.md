@@ -1,5 +1,5 @@
 ---
-title: ExoMy Rover Navigation and UR3 Arm Motion Planning | ERC 2023 Remote
+title: European Rover Challenge (ERC) Remote 2023
 summary: Autonomous rover navigation system with robotic arm manipulation for space exploration, achieving 5th place and Best Maintenance Award at European Rover Challenge 2023.
 tags:
   - robotics
