@@ -46,7 +46,7 @@ links:
   url: "https://yizhuo-wang.com/cogniplan/"
   icon_pack: fas
   icon: external-link-alt
-- name: "PDF"
+- name: "Paper"
   url: "https://www.arxiv.org/abs/2508.03027"
   icon_pack: fas
   icon: file-pdf
