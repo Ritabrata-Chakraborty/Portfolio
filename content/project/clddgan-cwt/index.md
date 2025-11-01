@@ -10,7 +10,7 @@ tags:
 date: "2025-04-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: '/Portfolio/publication/clddgan-synthetic-data-2025/'
 
 image:
   caption: CLDDGAN Architecture with LiteFormer2D

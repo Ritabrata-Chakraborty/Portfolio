@@ -1,6 +1,6 @@
 ---
-title: MathWorks Global Student Drone Challenge 2025
-summary: Vision-based autonomous drone navigation system implementing dynamic masking, ray-tracing, and closed-loop control for optimized track completion in competitive environments.
+title: Autonomous Drone Navigation | MathWorks Global Student Drone Challenge 2025
+summary: Vision-based autonomous drone navigation system for competitive drone racing, implementing dynamic masking, ray-tracing, and closed-loop control.
 tags:
   - robotics
 date: "2025-03-01T00:00:00Z"
@@ -16,39 +16,20 @@ image:
   focal_point: Smart
   preview_only: false
 
-# links:
-#   - name: "Paper"
-#     url: "#"
-#     icon_pack: fas
-#     icon: file-pdf
-#   - name: "Code"
-#     url: "#"
-#     icon_pack: fab
-#     icon: github
-#   - name: "Report"
-#     url: "#"
-#     icon_pack: fas
-#     icon: file-alt
+links:
 ---
 
 **Competition: MathWorks Global Student Drone Challenge**  
 **Result: 3rd Place (2025)**
 
-This project develops an autonomous drone navigation system for the MathWorks Global Student Drone Challenge, implementing advanced vision-based control algorithms for precise flight path optimization and autonomous landing capabilities.
-
-## Project Overview
-
-The research focuses on developing a comprehensive autonomous navigation solution for Parrot Mambo drones, combining computer vision techniques with advanced control systems to achieve optimal performance in competitive drone racing environments.
+Developed an autonomous drone navigation system for the MathWorks Global Student Drone Challenge, achieving 3rd place through advanced vision-based control algorithms and optimized flight performance.
 
 ## Key Achievements
 
-• **Vision-Based Control Implementation**: Programmed sophisticated vision-based control algorithms for Parrot Mambo using dynamic masking techniques, ray-tracing algorithms, and closed-loop yaw control for precise navigation and obstacle avoidance.
+• Programmed vision-based control for Parrot Mambo drone using masking, ray-tracing, and closed-loop yaw control
 
-• **Adaptive Flight Optimization**:
-Integrated intelligent speed variation algorithms and zone-based automatic landing systems to minimize track completion time while maintaining flight stability and safety.
-
-• **Competition Performance**: Developed and tested the complete autonomous navigation stack within the competitive timeframe, demonstrating reliable performance in challenging flight scenarios.
+• Optimized speed control and zone-based auto-landing to reduce track completion time
 
 ## Technical Stack
 
-**Development Environment**: MATLAB, Simulink  
+**Tech Stack**: MATLAB, Simulink  
