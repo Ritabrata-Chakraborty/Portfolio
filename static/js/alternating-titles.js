@@ -1,4 +1,3 @@
-<script>
 // Alternating title letter sizes
 document.addEventListener('DOMContentLoaded', function() {
   // Target all section headings
@@ -40,5 +39,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-</script>
 
