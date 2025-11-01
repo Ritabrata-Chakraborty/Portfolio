@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: Experience
+title: '<span class="title-lg">E</span><span class="title-sm">XPER</span><span class="title-lg">I</span><span class="title-sm">ENCE</span>'
 subtitle:
 
 # Date format for experience

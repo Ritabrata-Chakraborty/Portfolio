@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 80
 
-title: Contact
+title: '<span class="title-lg">C</span><span class="title-sm">ONT</span><span class="title-lg">A</span><span class="title-sm">CT</span>'
 subtitle:
 
 content:

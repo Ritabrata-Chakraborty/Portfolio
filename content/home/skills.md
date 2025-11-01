@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Technical Expertise
+title: '<span class="title-lg">T</span><span class="title-sm">ECHN</span><span class="title-lg">I</span><span class="title-sm">CAL</span> <span class="title-lg">E</span><span class="title-sm">XPERT</span><span class="title-lg">I</span><span class="title-sm">SE</span>'
 subtitle: My technical skills and core competencies
 
 # Showcase personal skills or business features.
