@@ -22,7 +22,7 @@ interests:
 - Autonomous Systems & UAV Navigation
 - Multi-Robot Coordination
 - Path Planning & SLAM
-- Data Science & Synthetic Data Generation (Predictive Maintenance)
+- Generative AI (Predictive Maintenance)
 
 # Education
 education:
@@ -59,7 +59,7 @@ I'm **Ritabrata Chakraborty**, a final-year student at **BITS Pilani** pursuing 
 
 My journey began with game development in high school and has since evolved into a deep focus on machine learning, robotics, and computer vision. Currently, I work at Uber as a Machine Learning Intern, developing foundation model-driven annotation pipelines** that support autonomous vehicle perception systems.
 
-Beyond my current role, I've worked on projects involving UAV navigation, multi-robot coordination, synthetic data generation, and uncertainty-guided path planning**. My goal is to bring cutting-edge ML research into practical robotics applications, bridging the gap between academic innovation and real-world deployment.
+Beyond my current role, I've worked on projects involving UAV navigation, multi-robot coordination, synthetic data generation, and uncertainty-guided path planning. My goal is to bring cutting-edge ML research into practical robotics applications, bridging the gap between academic innovation and real-world deployment.
 
 ---
 
