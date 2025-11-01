@@ -35,18 +35,6 @@ experience:
         * Led a team of 25+ members to organize 4+ technical workshops with HVAC industry experts
         * Hosted 3 competitions and networking events, engaging 200+ students in HVAC innovation and awareness
 
-  - title: Teaching Assistant - Materials Science and Engineering
-    company: BITS Pilani
-    company_url: 'https://bits-pilani.ac.in'
-    company_logo: org-bitsp
-    location: Rajasthan, India
-    date_start: '2024-09-01'
-    date_end: '2024-12-31'
-    description: |2-
-        * Course: ME F216: Materials Science and Engineering
-        * Assisted 100+ students in labs and tutorials, clarifying concepts and linking theory to practical applications
-        * Evaluated assignments and supported faculty in delivering high-impact teaching sessions
-
   - title: President & Secretary
     company: Mechanical Engineering Association (MEA), BITS Pilani
     company_url: 'https://bits-pilani.ac.in'
@@ -68,6 +56,7 @@ experience:
     description: |2-
         * Supervised 5 interdisciplinary robotics teams (30+ members) on Micromouse and Hexapod projects
         * Oversaw lab resources, conducted weekly reviews, and mentored 50+ students in hands-on technical skills
+
 design:
   columns: '2'
 ---

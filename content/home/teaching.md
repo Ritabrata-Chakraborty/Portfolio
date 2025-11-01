@@ -36,6 +36,18 @@ experience:
         * Assisted 100+ students in labs and tutorials, clarifying concepts and linking theory to practical applications
         * Evaluated assignments and supported faculty in delivering high-impact teaching sessions
 
+  - title: Teaching Assistant - Materials Science and Engineering
+    company: BITS Pilani
+    company_url: 'https://bits-pilani.ac.in'
+    company_logo: org-bitsp
+    location: Rajasthan, India
+    date_start: '2024-09-01'
+    date_end: '2024-12-31'
+    description: |2-
+        * Course: ME F216: Materials Science and Engineering
+        * Assisted 100+ students in labs and tutorials, clarifying concepts and linking theory to practical applications
+        * Evaluated assignments and supported faculty in delivering high-impact teaching sessions
+
 design:
   columns: '2'
 ---
