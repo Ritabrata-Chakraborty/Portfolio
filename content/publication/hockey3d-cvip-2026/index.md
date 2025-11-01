@@ -43,7 +43,7 @@ tags:
 featured: false
 
 links:
-- name: "PDF"
+- name: "Paper"
   url: "https://drive.google.com/file/d/1XSeU50fM_yJUn0u2wcNOM2itZovqAA2V/view?usp=drive_link"
   icon_pack: fas
   icon: file-pdf
