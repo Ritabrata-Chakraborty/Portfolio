@@ -36,25 +36,14 @@ image:
 
 
 
-## Overview
-
-This project develops a sophisticated image-based visual servoing system that combines advanced computer vision algorithms with radar control mechanisms to achieve real-time UAV tracking and automated radar positioning for surveillance applications. The research focuses on implementing an automated radar alignment system using state-of-the-art object detection and tracking algorithms to maintain continuous lock on unmanned aerial vehicles (UAVs) through integrated hardware-software control systems.
+Advanced image-based visual servoing system for automated radar positioning and UAV tracking through real-time computer vision and hardware control integration.
 
 ## Key Achievements
 
-• **YOLOv8 + DeepSORT Integration**: Implemented and optimized the detection-tracking pipeline, achieving 91% tracking recall and 13% improvement in processing speed through model pruning and optimized batching techniques.
+• Implemented YOLOv8 + DeepSORT detection-tracking pipeline achieving 91% tracking recall and 13% speed improvement
 
-• **PLC-based Actuation System**: Designed and integrated a programmable logic controller (PLC) based actuation interface that enables continuous UAV lock-in capabilities with seamless target handover mechanisms.
-
-• **End-to-End Pipeline Development**: Authored comprehensive Python scripts, deployment configurations, and evaluation frameworks for training, inference, and benchmarking the complete visual servoing system.
+• Integrated PLC-based actuation system for continuous UAV lock-in with seamless target handover
 
 ## Technical Stack
 
-**Computer Vision**: YOLOv8, DeepSORT  
-**Programming**: Python  
-**Control Systems**: PLC-based actuation  
-**Performance**: 91% tracking recall, 13% speed optimization
-
-## Research Impact
-
-The developed system demonstrates significant improvements in automated surveillance capabilities, combining deep learning-based object detection with robust tracking algorithms and hardware integration for practical defense and security applications.
+**Tech Stack**: YOLOv8, DeepSORT, Python, PLC-based actuation
