@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-title: '<span class="title-lg">A</span><span class="title-sm">BOUT</span> <span class="title-lg">M</span><span class="title-sm">E</span>'
+title: About Me
 
 # Choose the user profile to display
 # This should be the username (folder name) of a profile in your `content/authors/` folder.

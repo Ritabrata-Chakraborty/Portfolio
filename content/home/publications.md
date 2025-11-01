@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 50
 
-title: '<span class="title-lg">R</span><span class="title-sm">ECENT</span> <span class="title-lg">P</span><span class="title-sm">UBLIC</span><span class="title-lg">A</span><span class="title-sm">TIONS</span>'
+title: Recent Publications
 subtitle: ''
 
 content:

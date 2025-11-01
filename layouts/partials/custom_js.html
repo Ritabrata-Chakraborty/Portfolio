@@ -1,0 +1,50 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Function to apply alternating letter sizes to titles
+  function applyAlternatingLetterSizes() {
+    // Select all section titles
+    const titles = document.querySelectorAll('.home-section h1, .home-section h2, .page-heading h1, h1.article-title, .section-heading h1');
+    
+    titles.forEach(title => {
+      // Skip if already processed
+      if (title.classList.contains('alternating-processed')) {
+        return;
+      }
+      
+      const text = title.textContent.trim();
+      title.innerHTML = ''; // Clear the content
+      
+      // Create a span for each letter with alternating sizes
+      for (let i = 0; i < text.length; i++) {
+        const char = text[i];
+        const span = document.createElement('span');
+        span.textContent = char;
+        
+        // Apply smaller size to even-indexed letters (0, 2, 4, ...)
+        // Apply larger size to odd-indexed letters (1, 3, 5, ...)
+        if (char !== ' ') {
+          if (i % 2 === 0) {
+            span.style.fontSize = '0.85em';
+            span.style.verticalAlign = 'baseline';
+          } else {
+            span.style.fontSize = '1em';
+            span.style.verticalAlign = 'baseline';
+          }
+        }
+        
+        title.appendChild(span);
+      }
+      
+      title.classList.add('alternating-processed');
+    });
+  }
+  
+  // Apply on page load
+  applyAlternatingLetterSizes();
+  
+  // Reapply when new content is loaded (for SPA-like navigation)
+  const observer = new MutationObserver(applyAlternatingLetterSizes);
+  observer.observe(document.body, { childList: true, subtree: true });
+});
+</script>
+

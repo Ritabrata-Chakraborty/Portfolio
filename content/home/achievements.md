@@ -6,7 +6,7 @@ design:
   columns: '2'
 
 # ... Put Your Section Options Here (title etc.) ...
-title: '<span class="title-lg">A</span><span class="title-sm">CHIEV</span><span class="title-lg">E</span><span class="title-sm">MENTS</span>'
+title: Achievements
 weight: 30
 
 ---

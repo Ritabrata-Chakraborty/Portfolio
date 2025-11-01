@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 25
 
-title: '<span class="title-lg">P</span><span class="title-sm">ROJ</span><span class="title-lg">E</span><span class="title-sm">CTS</span>'
+title: Projects
 subtitle: 'Some of the things I have built in the past'
 
 content:
