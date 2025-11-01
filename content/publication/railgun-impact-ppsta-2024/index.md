@@ -78,5 +78,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-This study examines layered metal-composite shields (SS 304, Al 6061-T6, GFRP) under high-velocity impact using RAFTAR electromagnetic testing and FEM simulations with Johnson-Cook models, providing insights for defense applications.

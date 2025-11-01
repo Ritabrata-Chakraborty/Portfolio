@@ -18,19 +18,16 @@ publication_types: ["8"]
 # Publication name and optional abbreviated publication name.
 publication: Intellectual Property
 publication_short: IP 2025
-
-abstract: "This paper presents a monocular vision-based approach for treeline following, designed to maintain stability under mild wind disturbances. In structured orchards, where trees are arranged in parallel rows, precise automated navigation is essential. Unlike traditional grid-based or path-trail methods, this work utilises instance segmentation to identify and track individual treelines, ensuring accurate differentiation. A curve-fitting algorithm generates a navigation line, with its offset and slope relative to the image centre guiding yaw and roll corrections, while pitch remains constant. The proposed method improves UAV stability and precision in orchard environments, advancing agricultural automation."
+abstract: "This paper introduces a monocular vision-driven strategy for treeline tracking in orchards, capable of maintaining stability under moderate wind disturbances. In structured agricultural environments where trees are planted in parallel rows, accurate autonomous navigation is critical. Departing from conventional grid-based or path-following techniques, this research leverages instance segmentation to detect and track individual treelines with high precision. A curve-fitting algorithm constructs a navigation trajectory whose offset and slope relative to the image center determine yaw and roll adjustments, while maintaining constant pitch. The proposed approach enhances UAV stability and navigational accuracy in orchard settings, contributing to the advancement of automated agricultural systems."
 
 # Summary. An optional shortened abstract.
-summary: "Monocular vision-based UAV treeline following system using instance segmentation and curve-fitting algorithms for precise orchard navigation under wind disturbances."
+# summary: "Monocular vision-based UAV treeline following system using instance segmentation and curve-fitting algorithms for precise orchard navigation under wind disturbances."
 
 tags:
 - UAV Navigation
 - Monocular Vision
 - Treeline Following
 - Instance Segmentation
-- Curve Fitting
-- Wind Disturbance
 - Orchard Automation
 - Agricultural UAV
 - Computer Vision
@@ -74,4 +71,3 @@ projects: []
 slides: ""
 ---
 
-This research presents a monocular vision-based UAV system for autonomous treeline following in orchards. Using instance segmentation and curve-fitting algorithms, the system calculates yaw and roll corrections from the fitted line's offset and slope, maintaining stability under wind disturbances.

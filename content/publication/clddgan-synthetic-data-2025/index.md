@@ -68,5 +68,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-This work introduces CLDDGAN for synthetic CWT data generation combined with LiteFormer2D for efficient fault classification in rotating machinery, addressing data scarcity challenges while maintaining computational efficiency.
-
