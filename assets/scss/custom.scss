@@ -195,3 +195,11 @@ img[src$=".gif"] {
   flex-shrink: 0 !important;
   margin-left: auto !important;
 }
+
+/* Make navigation menu items larger */
+.navbar-nav .nav-link {
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
