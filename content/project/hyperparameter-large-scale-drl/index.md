@@ -32,9 +32,9 @@ links:
 
 Deep reinforcement learning-based reactive planner for large-scale Lidar-based autonomous robot exploration with tunable exploration-exploitation control.
 
-• Developed attention-based DRL system with alpha conditioning for dynamic exploration-exploitation balance
+• Optimized distributed Soft Actor-Critic (SAC) training through comprehensive hyperparameter tuning with experience replay buffer optimization and adaptive learning rate scheduling
 
-• Achieved 12% improvement in path efficiency and 60% reduction in planning time over state-of-the-art methods
+• Engineered Alpha Conditioning system with continuous parameter control for precise exploration-exploitation behavior modulation in robot navigation policies
 
 ## Technical Stack
 
