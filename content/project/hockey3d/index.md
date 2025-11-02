@@ -6,7 +6,6 @@ authors:
 summary: 3D ball trajectory reconstruction achieving 0.76m RMSE and shot classification with 96.4% accuracy using TCN-attention.
 tags:
   - computer-vision
-  - sports-analytics
 date: "2024-04-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
