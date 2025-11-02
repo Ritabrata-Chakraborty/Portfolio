@@ -163,3 +163,39 @@ img[src$=".gif"] {
   display: flex !important;
   justify-content: center !important;
 }
+
+/* Center navigation bar items */
+.navbar-nav {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Center the entire navbar content */
+.navbar .container,
+.navbar .container-fluid {
+  justify-content: center !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+/* Ensure navbar items are centered */
+.navbar-collapse {
+  flex-grow: 0 !important;
+  justify-content: center !important;
+}
+
+/* Center the navbar toggler and brand together */
+.navbar-brand {
+  margin-right: auto !important;
+}
+
+.navbar-nav {
+  flex-direction: row !important;
+  align-items: center !important;
+}
+
+/* Keep search and theme toggle on the right but centered vertically */
+.navbar-nav .nav-item {
+  display: flex !important;
+  align-items: center !important;
+}
