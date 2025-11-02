@@ -164,38 +164,57 @@ img[src$=".gif"] {
   justify-content: center !important;
 }
 
-/* Center navigation bar items */
-.navbar-nav {
-  margin-left: auto !important;
-  margin-right: auto !important;
+/* Force center alignment for entire navigation bar */
+.navbar-brand-wrapper {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
 }
 
-/* Center the entire navbar content */
-.navbar .container,
-.navbar .container-fluid {
-  justify-content: center !important;
+.navbar .container {
   display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+/* Center all navbar content */
+.navbar-collapse {
+  display: flex !important;
+  justify-content: center !important;
+  flex-grow: 1 !important;
+}
+
+/* Center navigation links */
+.navbar-nav {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+}
+
+/* Ensure the main navbar uses flexbox and centers content */
+.navbar {
+  text-align: center !important;
+}
+
+.navbar > .container,
+.navbar > .container-fluid {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   flex-wrap: wrap !important;
 }
 
-/* Ensure navbar items are centered */
-.navbar-collapse {
-  flex-grow: 0 !important;
-  justify-content: center !important;
-}
-
-/* Center the navbar toggler and brand together */
-.navbar-brand {
-  margin-right: auto !important;
-}
-
-.navbar-nav {
-  flex-direction: row !important;
-  align-items: center !important;
-}
-
-/* Keep search and theme toggle on the right but centered vertically */
-.navbar-nav .nav-item {
+/* Center the navigation items within the collapse */
+#navbar-main {
   display: flex !important;
-  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+/* Align nav items in center */
+ul.navbar-nav {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
