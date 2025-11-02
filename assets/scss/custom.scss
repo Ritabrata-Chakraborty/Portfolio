@@ -127,3 +127,20 @@ img[src$=".gif"] {
   image-rendering: auto !important;
   -webkit-image-rendering: auto !important;
 }
+
+/* Center project filter buttons */
+.isotope-filters,
+.pub-filters,
+.portfolio-filters,
+.project-toolbar {
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+/* Center the button group container */
+.btn-toolbar,
+.filter-button-group {
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+}
