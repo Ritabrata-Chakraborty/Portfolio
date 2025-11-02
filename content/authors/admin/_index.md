@@ -49,6 +49,9 @@ social:
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Ritabrata-Chakraborty-3/research
+- icon: scopus
+  icon_pack: ai
+  link: https://www.scopus.com/authid/detail.uri?authorId=60101248100
 
 email: "ritabratabits [at] gmail [dot] com"
 
