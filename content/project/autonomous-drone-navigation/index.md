@@ -3,6 +3,7 @@ title: MathWorks Global Student Drone Challenge 2025
 summary: 3rd place autonomous drone navigation system using vision-based control with masking, ray-tracing, and closed-loop yaw control.
 tags:
   - robotics
+  - sim
 date: "2025-03-01T00:00:00Z"
 
 authors:

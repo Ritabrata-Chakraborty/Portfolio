@@ -3,6 +3,7 @@ title: European Rover Challenge (ERC) Remote 2023
 summary: 5th place + Best Maintenance Award - ExoMy rover navigation with UR3 arm manipulation using ArUco detection and MoveIt motion planning.
 tags:
   - robotics
+  - sim
 date: "2023-04-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

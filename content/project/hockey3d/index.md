@@ -16,8 +16,6 @@ image:
   caption: Hockey3D Dataset and Pipeline
   focal_point: Smart
   preview_only: false
-  # Preserve GIF animation
-  filename: featured.png
 
 links:
 ---
