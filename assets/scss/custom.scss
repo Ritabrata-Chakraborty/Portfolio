@@ -144,3 +144,22 @@ img[src$=".gif"] {
   justify-content: center !important;
   flex-wrap: wrap !important;
 }
+
+/* Center filter buttons on home page projects section (within the content column) */
+.home-section .isotope-filters,
+.home-section .portfolio-filters,
+.home-section .btn-toolbar,
+.home-section .project-toolbar {
+  text-align: center !important;
+  justify-content: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* For 2-column layout, center filters in the right column */
+.home-section.wg-portfolio .col-12.col-lg-8 .isotope-filters,
+.home-section.wg-portfolio .col-12.col-lg-8 .btn-toolbar {
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+}
