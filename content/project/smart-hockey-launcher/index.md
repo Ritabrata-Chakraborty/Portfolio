@@ -3,7 +3,7 @@ title: Physics-Based Launcher Mechanical Design and FEM Analysis
 authors:
 - admin
 - Mani Sankar Dasgupta
-summary: Programmable hockey ball launcher with FEM-validated mechanical design, achieving 150 km/h launch speeds using CFRP composite and stainless steel components.
+summary: FEM-validated hockey ball launcher achieving 150 km/h with CFRP composite design and safety factor 2.07 at 496 RPM.
 tags:
   - robotics
   - fem
@@ -24,11 +24,9 @@ links:
     icon: file-alt
 ---
 
-**Project Duration**: April 2024 - October 2025
+## Overview
 
 Developed an automated field hockey ball launcher system with precision mechanical design and FEM analysis, addressing the lack of automated training equipment in field hockey through innovative engineering solutions.
-
-## Key Achievements
 
 • Fabricated programmable launcher achieving 150 km/h using CFRP composite and stainless steel components
 

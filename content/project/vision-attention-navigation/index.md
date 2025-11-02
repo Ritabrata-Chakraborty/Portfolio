@@ -1,6 +1,6 @@
 ---
 title: Vision-Attention-Driven Autonomous Navigation with Semantic Understanding
-summary: Enhanced autonomous navigation system integrating cross-attention mechanisms and visual navigation transformers for adaptive exploration strategies with semantic context.
+summary: CogniPlan enhancement with cross-attention mechanisms and ViNT integration for semantic-aware adaptive exploration.
 tags:
   - robotics
   - deep-learning
@@ -20,11 +20,9 @@ image:
 links:
 ---
 
-**Project Duration**: August 2025 - Present
+## Overview
 
 Advanced autonomous navigation system that enhances CogniPlan with cross-attention mechanisms and semantic understanding capabilities for improved exploration strategies.
-
-## Key Achievements
 
 • Enhanced CogniPlan with cross-attention between frontier and node embeddings to enrich node representations
 

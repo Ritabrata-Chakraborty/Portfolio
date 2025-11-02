@@ -28,9 +28,9 @@ links:
     icon: github
 ---
 
-Deep reinforcement learning-based reactive planner for large-scale Lidar-based autonomous robot exploration with tunable exploration-exploitation control.
+## Overview
 
-## Key Achievements
+Deep reinforcement learning-based reactive planner for large-scale Lidar-based autonomous robot exploration with tunable exploration-exploitation control.
 
 • Developed attention-based DRL system with alpha conditioning for dynamic exploration-exploitation balance
 

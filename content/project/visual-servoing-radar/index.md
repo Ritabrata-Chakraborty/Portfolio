@@ -36,9 +36,9 @@ image:
 
 
 
-Advanced image-based visual servoing system for automated radar positioning and UAV tracking through real-time computer vision and hardware control integration.
+## Overview
 
-## Key Achievements
+Advanced image-based visual servoing system for automated radar positioning and UAV tracking through real-time computer vision and hardware control integration.
 
 • Implemented YOLOv8 + DeepSORT detection-tracking pipeline achieving 91% tracking recall and 13% speed improvement
 

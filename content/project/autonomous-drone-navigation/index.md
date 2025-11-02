@@ -1,6 +1,6 @@
 ---
 title: MathWorks Global Student Drone Challenge 2025
-summary: Vision-based autonomous drone navigation system for competitive drone racing, implementing dynamic masking, ray-tracing, and closed-loop control.
+summary: 3rd place autonomous drone navigation system using vision-based control with masking, ray-tracing, and closed-loop yaw control.
 tags:
   - robotics
 date: "2025-03-01T00:00:00Z"
@@ -19,12 +19,11 @@ image:
 links:
 ---
 
-**Competition: MathWorks Global Student Drone Challenge**  
-**Result: 3rd Place (2025)**
+**Competition Result: 3rd Place (2025)**
+
+## Overview
 
 Developed an autonomous drone navigation system for the MathWorks Global Student Drone Challenge, achieving 3rd place through advanced vision-based control algorithms and optimized flight performance.
-
-## Key Achievements
 
 • Programmed vision-based control for Parrot Mambo drone using masking, ray-tracing, and closed-loop yaw control
 

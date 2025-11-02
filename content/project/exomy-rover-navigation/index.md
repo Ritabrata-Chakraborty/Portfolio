@@ -1,6 +1,6 @@
 ---
 title: European Rover Challenge (ERC) Remote 2023
-summary: Autonomous rover navigation system with robotic arm manipulation for space exploration, achieving 5th place and Best Maintenance Award at European Rover Challenge 2023.
+summary: 5th place + Best Maintenance Award - ExoMy rover navigation with UR3 arm manipulation using ArUco detection and MoveIt motion planning.
 tags:
   - robotics
 date: "2023-04-01T00:00:00Z"
@@ -20,12 +20,11 @@ links:
     icon: file-alt
 ---
 
-**Competition: European Rover Challenge (ERC) Remote Edition**  
-**Result: 5th Place + Best Maintenance Award (2023)**
+**Competition Result: 5th Place + Best Maintenance Award (2023)**
+
+## Overview
 
 Developed a comprehensive autonomous rover navigation and robotic manipulation system for the European Rover Challenge, combining computer vision, autonomous navigation, and precision robotic arm control for space exploration applications.
-
-## Key Achievements
 
 • Navigated ExoMy rover using ArUco detection, Ackermann steering, and spot turns for autonomous hazard avoidance
 

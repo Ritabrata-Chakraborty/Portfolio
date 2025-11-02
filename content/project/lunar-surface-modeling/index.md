@@ -23,12 +23,11 @@ links:
     icon: file-alt
 ---
 
-**Competition: AI for Space and Geospatial Innovation (ISRO Immersion Startup-Challenge)**  
-**Result: Finalist (2024)**
+**Competition Result: Finalist (2024)**
+
+## Overview
 
 High-fidelity 3D lunar surface modeling system using Chandrayaan-2 TMC DEM data and Unreal Engine 5 for planetary rover mission planning and autonomous navigation research.
-
-## Key Achievements
 
 • Implemented Chandrayaan-2 DEM data import pipeline with Nanite-powered terrain rendering
 
