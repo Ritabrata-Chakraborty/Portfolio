@@ -49,7 +49,7 @@ social:
 - icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Ritabrata-Chakraborty-3/research
-- icon: scopus
+- icon: ai-scopus
   icon_pack: ai
   link: https://www.scopus.com/authid/detail.uri?authorId=60101248100
 
@@ -94,4 +94,4 @@ Beyond these specific projects, I'm open to internships, research partnerships, 
 
 ---
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}} Résumé {{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my [Résumé](https://drive.google.com/file/d/1D5DvGEboxw2V1Rhbo7yxPopAd09fYRyi/view?usp=drive_link).
