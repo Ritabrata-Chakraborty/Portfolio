@@ -112,3 +112,18 @@ article h3,
   margin-right: 0.5rem;
   vertical-align: middle;
 }
+
+/* Ensure GIF animations play in project cards */
+.card img[src$=".gif"],
+.portfolio-item img[src$=".gif"],
+.project-card img[src$=".gif"],
+article img[src$=".gif"] {
+  /* Prevent lazy loading interference */
+  loading: eager !important;
+}
+
+/* Force browser to render GIFs as animated */
+img[src$=".gif"] {
+  image-rendering: auto !important;
+  -webkit-image-rendering: auto !important;
+}
