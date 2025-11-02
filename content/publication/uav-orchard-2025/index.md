@@ -17,7 +17,7 @@ publication_types: ["8"]
 
 # Publication name and optional abbreviated publication name.
 publication: Intellectual Property
-publication_short: IP 2025
+publication_short: Intellectual Property 2025
 abstract: "This paper introduces a monocular vision-driven strategy for treeline tracking in orchards, capable of maintaining stability under moderate wind disturbances. In structured agricultural environments where trees are planted in parallel rows, accurate autonomous navigation is critical. Departing from conventional grid-based or path-following techniques, this research leverages instance segmentation to detect and track individual treelines with high precision. A curve-fitting algorithm constructs a navigation trajectory whose offset and slope relative to the image center determine yaw and roll adjustments, while maintaining constant pitch. The proposed approach enhances UAV stability and navigational accuracy in orchard settings, contributing to the advancement of automated agricultural systems."
 
 # Summary. An optional shortened abstract.
