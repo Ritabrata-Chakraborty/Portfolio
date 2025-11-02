@@ -16,8 +16,8 @@ publishDate: "2025-01-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: Conference on Computer Vision and Image Processing (CVIP)
-publication_short: In Preparation. CVIP 2026
+publication: "In preparation for Conference on Computer Vision and Image Processing (CVIP) 2026"
+publication_short: "CVIP 2026 (In Prep)"
 
 abstract: "While sports analytics has advanced significantly for popular sports, many domains remain underserved, particularly field hockey, which lacks comprehensive studies on shot statistics and trajectory analysis. We present a generic computer vision and machine learning pipeline applicable to any sports broadcast video, demonstrated specifically for field hockey shot analysis. Our contributions are threefold: (1) 3D Trajectory Reconstruction: We employ PnLCalib for camera calibration, conduct extensive ablations across detection methods (YOLO, RF-DETR, BlurBall, WASB) with Hough Circle, and formulate 3D localization as a Bayesian optimization problem—assuming parametric 3D trajectories, we project them to 2D image space and iteratively refine parameters to match observed detections. (2) Shot Classification with Comprehensive Ablations: We evaluate multiple ML/DL architectures including temporal models (TCN, LSTM, BiLSTM, GRU, Transformer) and classical methods (XGBoost, Random Forest, SVM, KNN) on seven hockey shot types (Hit/Drive, Slap Shot, Push Shot, Flick, Scoop, Tomahawk/Reverse Hit, Sweep Hit), achieving 96.4% accuracy with our TCN architecture. (3) Real-World Dataset: We make publicly available a dataset extracted from broadcast videos with annotated 3D trajectories and shot labels, addressing critical data scarcity in field hockey analytics. Our modular pipeline achieves sub-meter 3D localization accuracy and provides a reusable framework for trajectory analysis across different sports."
 

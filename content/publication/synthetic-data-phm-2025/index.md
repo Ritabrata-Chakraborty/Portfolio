@@ -17,8 +17,8 @@ publishDate: "2025-07-05T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Prognostics and System Health Management Conference (PHM), Published in IET Conference Proceedings
-publication_short: PHM 2025
+publication: "Prognostics and System Health Management Conference (PHM) 2025, IET Conference Proceedings"
+publication_short: "PHM 2025"
 
 abstract: "This study explores the use of an Auxiliary Classifier Wasserstein GAN with Gradient Penalty (ACWGAN-GP) for synthetic data generation and fault diagnosis in rotating machinery. The proposed framework addresses data scarcity and class imbalance by generating diverse time-series signals using a 1D-CNN generator and a Temporal Convolutional Network (TCN)-based discriminator, both enhanced with positional embeddings. The discriminator also functions as a fault classifier. Statistical similarity metrics including PCC, Cosine Similarity, KL Divergence, and MMD are used to validate sample quality. Experiments on the CWRU-bearing dataset demonstrate improved classification robustness and effectiveness, reaching ~100% classification accuracy."
 

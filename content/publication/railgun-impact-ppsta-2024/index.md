@@ -16,8 +16,8 @@ publishDate: "2024-09-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Pulsed Power Science, Technology and Applications (PPSTA)
-publication_short: PPSTA 2024
+publication: "Pulsed Power Science, Technology and Applications (PPSTA) 2024"
+publication_short: "PPSTA 2024"
 
 
 abstract: "This study investigates the impact resistance of layered composite materials subjected to high-velocity impact, using both experimental and FEM analysis. Materials like SS 304, Al 6061-T6, and GFRP have been strategically layered for optimal energy absorption and protection. Experimental testing with an electromagnetic launcher facility (RAFTAR) at BARC (F), Visakhapatnam, and simulations based on Johnson-Cook models provide insights into deformation and failure mechanisms."

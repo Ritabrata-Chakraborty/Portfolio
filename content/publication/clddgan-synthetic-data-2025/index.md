@@ -17,8 +17,8 @@ publishDate: "2025-09-05T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: Manuscript in preparation
-publication_short: In Preparation
+publication: "Manuscript in preparation for journal submission"
+publication_short: "In Preparation"
 
 
 # Summary. An optional shortened abstract.
