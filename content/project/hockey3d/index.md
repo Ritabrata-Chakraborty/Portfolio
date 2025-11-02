@@ -1,9 +1,9 @@
 ---
-title: "Hockey3D: A Public Field Hockey Shot Trajectory Dataset with 3D Reconstruction and Shot Type Classification"
+title: "Computer Vision Pipeline for 3D Trajectory Reconstruction and Shot Classification"
 authors:
 - admin
 - M. Dasgupta
-summary: 3D ball trajectory reconstruction achieving 0.76m RMSE and shot classification with 95.2% accuracy using TCN-attention.
+summary: 3D ball trajectory reconstruction achieving 0.76m RMSE and shot classification with 96.4% accuracy using TCN-attention.
 tags:
   - computer-vision
   - sports-analytics
@@ -17,7 +17,7 @@ image:
   focal_point: Smart
   preview_only: false
   # Preserve GIF animation
-  filename: featured.gif
+  filename: featured.png
 
 links:
 ---

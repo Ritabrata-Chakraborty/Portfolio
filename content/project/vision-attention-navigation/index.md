@@ -8,6 +8,9 @@ date: "2025-08-01T00:00:00Z"
 
 authors:
 - admin
+- Yizhuo Wang
+- Derek Tan
+- Guillaume Sartoretti
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
