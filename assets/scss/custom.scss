@@ -164,36 +164,38 @@ img[src$=".gif"] {
   justify-content: center !important;
 }
 
-/* Navbar layout: Name left, Nav center, Search/Theme right */
-.navbar .container {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-  flex-wrap: nowrap !important;
-}
+/* Navbar layout: constrain desktop only so mobile collapse keeps working */
+@media (min-width: 992px) {
+  .navbar .container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    flex-wrap: nowrap !important;
+  }
 
-/* Keep brand (name) on the left */
-.navbar-brand {
-  flex-shrink: 0 !important;
-}
+  /* Keep brand (name) on the left */
+  .navbar-brand {
+    flex-shrink: 0 !important;
+  }
 
-/* Center the main navigation menu */
-.navbar-collapse {
-  display: flex !important;
-  justify-content: center !important;
-  flex-grow: 1 !important;
-}
+  /* Center the main navigation menu */
+  .navbar-collapse {
+    display: flex !important;
+    justify-content: center !important;
+    flex-grow: 1 !important;
+  }
 
-/* Center navigation links within collapse */
-#navbar-main .navbar-nav:first-child {
-  justify-content: center !important;
-  flex-grow: 1 !important;
-}
+  /* Center navigation links within collapse */
+  #navbar-main .navbar-nav:first-child {
+    justify-content: center !important;
+    flex-grow: 1 !important;
+  }
 
-/* Keep search and theme toggle on the right */
-#navbar-main .navbar-nav:last-child {
-  flex-shrink: 0 !important;
-  margin-left: auto !important;
+  /* Keep search and theme toggle on the right */
+  #navbar-main .navbar-nav:last-child {
+    flex-shrink: 0 !important;
+    margin-left: auto !important;
+  }
 }
 
 /* Make navigation menu items slightly larger */
