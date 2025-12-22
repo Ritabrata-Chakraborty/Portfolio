@@ -58,8 +58,11 @@ markup:
     endLevel: 3
 imaging:
   resampleFilter: lanczos
-  quality: 95
+  quality: 100
   anchor: smart
+  # Prevent resizing of large images - set very high limits
+  # This ensures avatars maintain their original 3000x3000 resolution
+  hint: photo
 timeout: 600000
 taxonomies:
   tag: tags

@@ -110,6 +110,7 @@ plugins_css: ["custom"]
 avatar:
   gravatar: false
   shape: circle
+  # Ensure avatar uses full resolution - theme may resize, but this helps preserve quality
 publications:
   date_format: January 2006
   citation_style: apa
