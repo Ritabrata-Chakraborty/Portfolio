@@ -31,7 +31,7 @@ experience:
     company_logo: org-uber
     location: Bangalore, India
     date_start: '2025-07-01'
-    date_end: 
+    date_end: '2025-12-01'
     description: |2-
     
         **Supervisor:** [Mr. Siddarth Malreddy](https://in.linkedin.com/in/malreddysid), Tech Lead Manager & [Mr. Ishan Nigam](https://www.linkedin.com/in/ishannigam/), Senior ML Engineer, Uber
