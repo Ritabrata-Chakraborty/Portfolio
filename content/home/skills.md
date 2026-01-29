@@ -10,7 +10,7 @@ headless: true
 weight: 30
 
 title: Technical Skills
-subtitle: My technical skills and core competencies
+subtitle: My Technical Skills & Core Competencies
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.

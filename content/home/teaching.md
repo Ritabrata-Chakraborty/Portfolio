@@ -12,7 +12,7 @@ headless: true
 weight: 60
 
 title: Teaching
-subtitle: Teaching assistantships at BITS Pilani
+subtitle: Teaching Assistantships at BITS Pilani
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
