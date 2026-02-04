@@ -14,14 +14,10 @@ image:
   preview_only: false
 
 links:
-  - name: "PDF"
-    url: "#"
+  - name: "Paper"
+    url: "https://drive.google.com/file/d/1Uimegpx43p9dfY7lvgPU_LR3ERb3-YJP/view"
     icon_pack: fas
     icon: file-pdf
-  - name: "Code"
-    url: "#"
-    icon_pack: fab
-    icon: github
 ---
 
 A novel approach combining importance sampling with DDPG for improved deep reinforcement learning performance and sample efficiency.
