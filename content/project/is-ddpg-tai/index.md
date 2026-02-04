@@ -1,16 +1,15 @@
 ---
-title: 'Importance Sampling for Deep Deterministic Policy Gradient'
+title: 'Multi-Critic DDPG for Autonomous Indoor Drone Navigation'
 summary: A novel approach combining importance sampling with DDPG for improved deep reinforcement learning performance and sample efficiency.
 tags:
-  - deep-learning
-  - reinforcement-learning
+  - robotics
 date: "2026-01-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: '/Portfolio/publication/is-ddpg-tai-2026/'
 
 image:
-  caption: IS-DDPG Architecture
+  caption: Simulation
   focal_point: Smart
   preview_only: false
 

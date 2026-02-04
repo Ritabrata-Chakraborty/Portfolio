@@ -1,6 +1,7 @@
 ---
-title: "Importance Sampling for Deep Deterministic Policy Gradient"
+title: "Multi-Critic DDPG for Autonomous Indoor Drone Navigation"
 authors:
+- K. Kishore
 - admin
 date: "2026-01-01T00:00:00Z"
 doi: ""
@@ -34,13 +35,9 @@ featured: true
 
 links:
 - name: "Paper"
-  url: "#"
+  url: "https://drive.google.com/file/d/1Uimegpx43p9dfY7lvgPU_LR3ERb3-YJP/view"
   icon_pack: fas
   icon: file-pdf
-- name: "Code"
-  url: "#"
-  icon_pack: fab
-  icon: github
 url_dataset: ''
 url_poster: ''
 url_project: ''
