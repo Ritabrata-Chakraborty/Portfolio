@@ -65,18 +65,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-## Abstract
-
-Deep Deterministic Policy Gradient (DDPG) is a widely used algorithm for continuous control tasks in reinforcement learning. However, like many off-policy algorithms, DDPG can suffer from inefficient sample utilization and slow convergence. This paper introduces Importance Sampling for DDPG (IS-DDPG), a novel approach that combines importance sampling techniques with the DDPG algorithm to improve sample efficiency and learning performance.
-
-## Key Contributions
-
-- Novel integration of importance sampling with DDPG
-- Improved sample efficiency in continuous control tasks
-- Theoretical analysis of convergence properties
-- Extensive experimental validation on benchmark tasks
-
-## Results
-
-IS-DDPG demonstrates significant improvements over baseline DDPG across multiple continuous control benchmarks, achieving faster convergence and higher final performance.

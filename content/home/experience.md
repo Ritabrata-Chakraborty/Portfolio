@@ -95,16 +95,20 @@ experience:
     company_logo: org-ceeri
     location: Rajasthan, India
     date_start: '2024-01-01'
-    date_end: '2025-02-28'
+    date_end: 
     description: |2-
     
-        **Supervisor:** [Dr. Kaushal Kishore](https://ieeexplore.ieee.org/author/37085653936), Senior Scientist, CSIR-CEERI
+        **Supervisor:** [Dr. Kaushal Kishore](https://ieeexplore.ieee.org/author/37085653936), Principal Scientist, CSIR-CEERI
         
+        **Exploring Unknown Indoor Environments with Drones Using a Multi-Critic DDPG Architecture**
+        * Orchestrated a multi-critic DDPG control system for continuous pitch–yaw–roll drone navigation in indoor spaces
+        * Implemented a hybrid reward structure with artificial potential fields and precision replay into DDPG, improving navigation
+
         **Monocular Vision-Based UAV Navigation for Orchard Monitoring**
         * Engineered a UAV-based orchard monitoring system using YOLOv11 (Box mAP50: 95.5%, Mask mAP50: 96.5%)
         * Programmed B-spline trajectory logic and implemented custom yaw-roll controller to minimize drift under wind
         
-        **Tech Stack:** YOLOv11, ROS Noetic, AirSim, NVIDIA Jetson Orin NX
+        **Tech Stack:** PyTorch, Python, ROS Noetic, AirSim, NVIDIA Jetson Orin NX
 
   - title: Summer Research Intern
     company: Bhabha Atomic Research Centre (BARC)
