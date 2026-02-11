@@ -1,4 +1,4 @@
----
+<!-- ---
 title: High-Velocity Impact Testing and Analysis of Layered Metal-Composite Shields Using Electromagnetic Railguns
 summary: This study investigates the impact resistance of layered composite materials (SS 304, Al 6061-T6, GFRP) subjected to high-velocity impact using experimental testing with RAFTAR facility and FEM analysis with Johnson-Cook models.
 tags:
@@ -63,4 +63,4 @@ Railgun is a sophisticated finite element analysis (FEA) tool specifically desig
 
 - Validated against experimental data with <5% error
 - Reduced simulation time by 60% through optimization
-- Contributed to successful railgun prototype development
+- Contributed to successful railgun prototype development -->

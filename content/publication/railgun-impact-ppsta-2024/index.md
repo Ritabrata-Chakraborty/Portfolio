@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "High-Velocity Impact Testing and Analysis of Layered Metal-Composite Shields Using Electromagnetic Railguns"
 authors:
 - admin
@@ -77,4 +77,4 @@ projects: []
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: ""
----
+--- -->

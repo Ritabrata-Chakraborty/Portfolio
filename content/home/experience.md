@@ -110,24 +110,24 @@ experience:
         
         **Tech Stack:** PyTorch, Python, ROS Noetic, AirSim, NVIDIA Jetson Orin NX
 
-  - title: Summer Research Intern
-    company: Bhabha Atomic Research Centre (BARC)
-    company_url: 'https://barc.gov.in'
-    supervisor: Dr. Rishi Verma
-    supervisor_url: 'https://www.researchgate.net/profile/Rishi-Verma-3'
-    company_logo: org-barc
-    location: Visakhapatnam, India
-    date_start: '2024-06-01'
-    date_end: '2024-07-31'
-    description: |2-
+  # - title: Summer Research Intern
+  #   company: Bhabha Atomic Research Centre (BARC)
+  #   company_url: 'https://barc.gov.in'
+  #   supervisor: Dr. Rishi Verma
+  #   supervisor_url: 'https://www.researchgate.net/profile/Rishi-Verma-3'
+  #   company_logo: org-barc
+  #   location: Visakhapatnam, India
+  #   date_start: '2024-06-01'
+  #   date_end: '2024-07-31'
+  #   description: |2-
     
-        **Supervisor:** [Dr. Rishi Verma](https://www.researchgate.net/profile/Rishi-Verma-3), PPEMD Head, Bhabha Atomic Research Centre (BARC)
+  #       **Supervisor:** [Dr. Rishi Verma](https://www.researchgate.net/profile/Rishi-Verma-3), PPEMD Head, Bhabha Atomic Research Centre (BARC)
         
-        **Image-Based Visual Servoing for Automated Radar Control and UAV Tracking**
-        * Orchestrated radar alignment using YOLOv8 + DeepSORT, boosting tracking recall to 91% and speed by 13%
-        * Implemented PLC-based actuation system for continuous UAV lock-in
+  #       **Image-Based Visual Servoing for Automated Radar Control and UAV Tracking**
+  #       * Orchestrated radar alignment using YOLOv8 + DeepSORT, boosting tracking recall to 91% and speed by 13%
+  #       * Implemented PLC-based actuation system for continuous UAV lock-in
         
-        **Tech Stack:** YOLOv8, DeepSORT, Python
+  #       **Tech Stack:** YOLOv8, DeepSORT, Python
 
 design:
   columns: '2'
