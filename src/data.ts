@@ -40,7 +40,7 @@ export const portfolioData = {
   ],
   publications: [
     {
-      title: "3D Gaussian Splatting.",
+      title: "GS-SDE: 3D Gaussian Splatting-based Adaptive Scene Modeling in Semi-Dynamic Environments.",
       authors: "Anonymous et al.",
       venue: "IEEE Transactions on Automation Science and Engineering (T-ASE)",
       shortVenue: "IEEE-TASE",
@@ -107,7 +107,7 @@ export const portfolioData = {
       authors: "Y. Wang, H. He, Y. Cao, J. Liang, R. Chakraborty, and G. Sartoretti",
       venue: "Conference on Robot Learning (CoRL), South Korea",
       shortVenue: "CoRL '25",
-      status: "Accepted at CoRL 2025",
+      status: "Published in Proceedings of Machine Learning Research 2025",
       year: "2025",
       type: "Conference",
       image: "proj-cogniplan.webp",
