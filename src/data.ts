@@ -105,9 +105,9 @@ export const portfolioData = {
     {
       title: "CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction.",
       authors: "Y. Wang, H. He, Y. Cao, J. Liang, R. Chakraborty, and G. Sartoretti",
-      venue: "Conference on Robot Learning (CoRL), South Korea",
+      venue: "Conference on Robot Learning (CoRL) 2025, South Korea",
       shortVenue: "CoRL '25",
-      status: "Published in PMLR; Accepted at CoRL 2025",
+      status: "Published in Proceedings of Machine Learning Research (PMLR)",
       year: "2025",
       type: "Conference",
       image: "proj-cogniplan.webp",
@@ -120,9 +120,9 @@ export const portfolioData = {
     {
       title: "An Efficient Approach for Synthetic Data Generation and Fault Diagnosis for Rotating Machinery.",
       authors: "R. Chakraborty, T. Mian, and P. Kundu",
-      venue: "Prognostics and Health Management (PHM), Belgium",
+      venue: "Prognostics and Health Management Conference (PHM) 2025, Belgium",
       shortVenue: "PHM '25",
-      status: "Published in IET Conference Proceedings; Accepted at PHM 2025",
+      status: "Published in IET Conference Proceedings",
       year: "2025",
       type: "Conference",
       image: "proj-efficient-gan.webp",
