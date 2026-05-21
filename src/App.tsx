@@ -390,7 +390,7 @@ export default function App() {
                     )}
                   </div>
 
-                  <h3 className="theme-card font-medium text-slate-900 mb-2 leading-snug">"{pub.title}"</h3>
+                  <h3 className="theme-card font-medium text-slate-900 mb-2 leading-snug">{pub.title}</h3>
                   <p className="text-slate-600 theme-body mb-2">
                     {pub.role ? 'Authors:' : 'By:'}{' '}
                     {pub.authors.split(', ').map((part, i) => {
