@@ -2,7 +2,7 @@
 
 Personal research portfolio site built with React, TypeScript, and Vite.
 
-**Live site:** https://rc.github.io/Portfolio/
+**Live site:** https://ritabrata-chakraborty.github.io/Portfolio/
 
 ---
 
