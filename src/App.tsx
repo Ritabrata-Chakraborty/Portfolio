@@ -144,10 +144,10 @@ export default function App() {
               <h3 className="theme-section font-mono text-blue-600 mb-6 uppercase tracking-widest">About Me</h3>
               <div className="space-y-6 text-slate-600 leading-relaxed theme-card">
                 <p>
-                  I am a researcher and engineer bridging the domains of <strong className="text-slate-900 font-medium">Aerial Robotics</strong>, <strong className="text-slate-900 font-medium">Computer Vision</strong>, and <strong className="text-slate-900 font-medium">Autonomous Navigation</strong>. My work focuses on building robust systems that allow autonomous agents to operate reliably in perception-degraded and GPS-denied environments.
+                  I am a researcher, engineer, and startup-oriented builder working at the intersection of <strong className="text-slate-900 font-medium">Aerial Robotics</strong>, <strong className="text-slate-900 font-medium">Computer Vision</strong>, and <strong className="text-slate-900 font-medium">Autonomous Navigation</strong>. I develop robust AI systems for perception-degraded and GPS-denied environments, with experience across academia and industry.
                 </p>
                 <p>
-                  I recently completed an ML Internship at <strong className="text-slate-900 font-medium">Uber</strong>, developing foundation model-driven annotation pipelines for autonomous vehicle perception. I am now actively seeking research collaborations in path-planning, embedded AI, and multi-agent systems, and will be joining <strong className="text-slate-900 font-medium">UPenn's MSE Robotics</strong> program in Fall 2026.
+                  I've worked at <strong className="text-slate-900 font-medium">National University of Singapore</strong>, <strong className="text-slate-900 font-medium">KU Leuven</strong>, and <strong className="text-slate-900 font-medium">CSIR-CEERI</strong>, alongside an ML Internship at <strong className="text-slate-900 font-medium">Uber (AI Solutions)</strong>. Incoming <strong className="text-slate-900 font-medium">MSE Robotics student at University of Pennsylvania</strong> (Fall 2026), actively exploring research collaborations and startup opportunities in embodied AI, path planning, embedded intelligence, and multi-agent systems.
                 </p>
               </div>
             </motion.div>
