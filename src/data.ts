@@ -5,7 +5,7 @@ export const portfolioData = {
     phone: "+91 89107 83548",
     github: "https://github.com/Ritabrata-Chakraborty",
     googleScholar: "https://scholar.google.com/citations?user=JikCewwAAAAJ&hl=en",
-    portfolio: "https://ritabrata-chakraborty.github.io/Portfolio/",
+    portfolio: "https://rc.github.io/Portfolio/",
     resume: "https://drive.google.com/file/d/1D5DvGEboxw2V1Rhbo7yxPopAd09fYRyi/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/ritabrata-chakraborty-a63268251/",
     researchGate: "https://www.researchgate.net/profile/Ritabrata-Chakraborty-3/research",

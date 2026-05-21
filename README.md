@@ -2,7 +2,7 @@
 
 Personal research portfolio site built with React, TypeScript, and Vite.
 
-**Live site:** https://ritabrata-chakraborty.github.io/Portfolio/
+**Live site:** https://rc.github.io/Portfolio/
 
 ---
 
@@ -21,7 +21,7 @@ Personal research portfolio site built with React, TypeScript, and Vite.
 
 ## Tech Stack
 
-- React 18 + TypeScript
+- React 19 + TypeScript
 - Vite
 - Tailwind CSS
 - Framer Motion (`motion/react`)
@@ -38,7 +38,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173
+Open http://localhost:3000
 
 ---
 
