@@ -18,7 +18,9 @@ export const portfolioData = {
       degree: "M.S.E in Robotics",
       gpa: "-/4.0",
       duration: "Aug '26 – Present",
-      achievements: [],
+      achievements: [
+        "Vice President — South Asian Association (Rangoli)",
+      ],
       image: "org-upenn.webp"
     },
     {
@@ -32,7 +34,8 @@ export const portfolioData = {
         "Merit-cum-Need Scholarship — Institute (Consecutive Recipient, Top 8%)",
         "President & Secretary — Mechanical Engineering Association (MEA)",
         "President & Tech Fest Coordinator — ISHRAE BITS Pilani Chapter",
-        "Project Manager — Tinkerer's Lab",
+        "Project Manager — Tinkerer's Lab (TL)",
+        "Treasurer — Bengali Cultural Association (Moruchhaya)",
         "Teaching Assistant — Foundations of Data Science, Advanced Mechanics of Solids, Materials Science",
       ],
       image: "org-bitsp.webp"
@@ -54,9 +57,9 @@ export const portfolioData = {
     {
       title: "Navigating Without Satellites: A Critical Survey of GNSS-Denied UAV Navigation.",
       authors: "R. Chakraborty, and K. Kishore",
-      venue: "IEEE Transactions on Robotics (T-RO)",
-      shortVenue: "IEEE-TRO",
-      status: "In Preparation for IEEE T-RO",
+      venue: "Robotica",
+      shortVenue: "Robotica",
+      status: "Submitted to Robotica",
       year: "2026",
       type: "Journal",
       image: "proj-gnss-denied.webp",
@@ -91,17 +94,17 @@ export const portfolioData = {
     //     paper: "https://drive.google.com/file/d/1XSeU50fM_yJUn0u2wcNOM2itZovqAA2V/view?usp=drive_link"
     //   }
     // },
-    {
-      title: "A Physics-Informed Comparative Study of Continuous and Discrete Latent Generative Augmentation for Bearing Fault Diagnosis Under Extreme Data Scarcity.",
-      authors: "R. Chakraborty, and P. Kundu",
-      venue: "IEEE Transactions on Industrial Informatics (T-II)",
-      shortVenue: "IEEE-TII",
-      status: "In Preparation for IEEE T-II",
-      year: "2026",
-      type: "Journal",
-      image: "proj-clddgan.webp",
-      links: {}
-    },
+    // {
+    //   title: "A Physics-Informed Comparative Study of Continuous and Discrete Latent Generative Augmentation for Bearing Fault Diagnosis Under Extreme Data Scarcity.",
+    //   authors: "R. Chakraborty, and P. Kundu",
+    //   venue: "IEEE Transactions on Industrial Informatics (T-II)",
+    //   shortVenue: "IEEE-TII",
+    //   status: "In Preparation for IEEE T-II",
+    //   year: "2026",
+    //   type: "Journal",
+    //   image: "proj-clddgan.webp",
+    //   links: {}
+    // },
     {
       title: "CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction.",
       authors: "Y. Wang, H. He, Y. Cao, J. Liang, R. Chakraborty, and G. Sartoretti",
