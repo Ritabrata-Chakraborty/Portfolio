@@ -19,6 +19,7 @@ export const portfolioData = {
       gpa: "-/4.0",
       duration: "Aug '26 – Present",
       achievements: [
+        "Deputy Director of Academic Programming — Graduate and Professional Student Assembly (GAPSA)",
         "Vice President — South Asian Association (Rangoli)",
       ],
       image: "org-upenn.webp"
@@ -57,9 +58,9 @@ export const portfolioData = {
     {
       title: "Navigating Without Satellites: A Critical Survey of GNSS-Denied UAV Navigation.",
       authors: "R. Chakraborty, and K. Kishore",
-      venue: "Robotica",
-      shortVenue: "Robotica",
-      status: "Submitted to Robotica",
+      venue: "IEEE Transactions on Artificial Intelligence (T-AI)",
+      shortVenue: "IEEE T-AI",
+      status: "Submitted to IEEE T-AI",
       year: "2026",
       type: "Journal",
       image: "proj-gnss-denied.webp",
