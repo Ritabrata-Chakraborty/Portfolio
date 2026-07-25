@@ -56,6 +56,18 @@ export const portfolioData = {
       links: {}
     },
     {
+      title: "Limits of Wearable Gait Analysis for Age Classification in Young Adults: Anthropometry Over Age.",
+      authors: "Anonymous et al.",
+      venue: "7th IEEE India Council International Subsections Conference (INDISCON 2026)",
+      shortVenue: "IEEE INDISCON",
+      status: "Peer Review Completed for IEEE INDISCON",
+      year: "2026",
+      type: "Conference",
+      role: "Peer Reviewer",
+      image: "proj-gait.webp",
+      links: {}
+    },
+    {
       title: "Navigating Without Satellites: A Critical Survey of GNSS-Denied UAV Navigation.",
       authors: "R. Chakraborty, and K. Kishore",
       venue: "IEEE Transactions on Artificial Intelligence (T-AI)",
