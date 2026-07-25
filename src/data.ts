@@ -68,6 +68,18 @@ export const portfolioData = {
       links: {}
     },
     {
+      title: "Anonymous.",
+      authors: "Anonymous et al.",
+      venue: "IEEE Gujarat Section Conference 2026",
+      shortVenue: "IEEE GSC",
+      status: "Peer Review in Progress for IEEE Gujarat Section Conference",
+      year: "2026",
+      type: "Conference",
+      role: "Peer Reviewer",
+      image: "proj-gs.webp",
+      links: {}
+    },
+    {
       title: "Navigating Without Satellites: A Critical Survey of GNSS-Denied UAV Navigation.",
       authors: "R. Chakraborty, and K. Kishore",
       venue: "IEEE Transactions on Artificial Intelligence (T-AI)",
