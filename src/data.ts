@@ -6,7 +6,7 @@ export const portfolioData = {
     github: "https://github.com/Ritabrata-Chakraborty",
     googleScholar: "https://scholar.google.com/citations?user=JikCewwAAAAJ&hl=en",
     portfolio: "https://ritabrata-chakraborty.github.io/Portfolio/",
-    resume: "https://drive.google.com/file/d/1D5DvGEboxw2V1Rhbo7yxPopAd09fYRyi/view?usp=drive_link",
+    resume: "https://drive.google.com/file/d/1xoP2CaMMK-wV4_ZoMH2P9Vc9vkb0acPv/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/ritabrata-chakraborty-a63268251/",
     researchGate: "https://www.researchgate.net/profile/Ritabrata-Chakraborty-3/research",
   },
@@ -17,7 +17,7 @@ export const portfolioData = {
       location: "Philadelphia, USA",
       degree: "M.S.E in Robotics",
       gpa: "-/4.0",
-      duration: "Aug '26 – Present",
+      duration: "Aug '26 – May '28",
       achievements: [
         "Deputy Director of Academic Programming — Graduate and Professional Student Assembly (GAPSA)",
         "Vice President — South Asian Association (Rangoli)",
@@ -37,6 +37,7 @@ export const portfolioData = {
         "President & Tech Fest Coordinator — ISHRAE BITS Pilani Chapter",
         "Project Manager — Tinkerer's Lab (TL)",
         "Treasurer — Bengali Cultural Association (Moruchhaya)",
+        "Volunteer — Junoon, National Service Scheme (NSS)",
         "Teaching Assistant — Foundations of Data Science, Advanced Mechanics of Solids, Materials Science",
       ],
       image: "org-bitsp.webp"
@@ -237,6 +238,79 @@ export const portfolioData = {
         { title: "Monocular Vision-Based UAV Navigation for Orchard Monitoring" }
       ],
       techStack: "PyTorch, Python, ROS Noetic, AirSim, NVIDIA Jetson Orin NX"
+    },
+    {
+      institution: "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
+      institutionLink: "https://www.bits-pilani.ac.in/",
+      role: "Research Assistant",
+      duration: "Apr '24 – Oct '25",
+      location: "Rajasthan, India",
+      supervisors: [
+        { name: "Dr. Mani Shankar Dasgupta, Senior Professor", link: "https://www.bits-pilani.ac.in/pilani/m-s-dasgupta/" },
+      ],
+      image: "org-bitsp.webp",
+      projects: [
+        { title: "Physics-Based Launcher Mechanical Design and FEM Analysis" },
+        { title: "Computer Vision Pipeline for 3D Trajectory Reconstruction and Shot Classification" },
+        { title: "Finite Element Analysis of Running Track Surfaces" }
+      ],
+      techStack: "Fusion 360, ANSYS Mechanical, PyTorch, Python, OpenCV"
+    },
+    {
+      institution: "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
+      institutionLink: "https://www.bits-pilani.ac.in/",
+      role: "Research Assistant",
+      duration: "May '25 – Aug '25",
+      location: "Rajasthan, India",
+      supervisors: [
+        { name: "Dr. Avinash Gautam, Associate Professor", link: "https://www.bits-pilani.ac.in/pilani/avinash-gautam/" },
+      ],
+      image: "org-bitsp.webp",
+      projects: [
+        { title: "Vision-Language Grounded Multi-Robot Coordination and Navigation" }
+      ]
+    },
+    {
+      institution: "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
+      institutionLink: "https://www.bits-pilani.ac.in/",
+      role: "Research Assistant",
+      duration: "Aug '24 – Dec '24",
+      location: "Rajasthan, India",
+      supervisors: [
+        { name: "Dr. Rajneesh Choubisa, Associate Professor", link: "https://www.bits-pilani.ac.in/pilani/rajneesh-choubisa/" },
+      ],
+      image: "org-bitsp.webp",
+      projects: [
+        { title: "Primal World Beliefs in Engineering Students" }
+      ]
+    },
+    // {
+    //   institution: "Bhabha Atomic Research Centre (BARC)",
+    //   institutionLink: "https://www.barc.gov.in/",
+    //   role: "Research Intern",
+    //   duration: "Jun '24 – Jul '24",
+    //   location: "Maharashtra, India",
+    //   supervisors: [
+    //     { name: "Dr. Rishi Verma, Head (ESDS), PPEMD", link: "https://www.researchgate.net/profile/Rishi-Verma-3" },
+    //   ],
+    //   image: "org-barc.jpg",
+    //   projects: [
+    //     { title: "Image-Based Visual Servoing for Automated Radar Control and UAV Tracking" },
+    //     { title: "Impact Testing and Analysis of Metal-Composite Shields Using Electromagnetic Railguns" }
+    //   ]
+    // },
+    {
+      institution: "Knowledge Cultivator",
+      role: "Subject Matter Expert",
+      duration: "Nov '23 – Feb '24",
+      location: "Remote",
+      supervisors: [
+        { name: "Self-supervised" },
+      ],
+      projects: [
+        { title: "Technical Problem-Solving and Academic Content Authoring" }
+      ],
+      techStack: "MATLAB, Python, CAD"
     }
   ],
   skills: [
@@ -248,7 +322,7 @@ export const portfolioData = {
     {
       category: "Programming Languages",
       icon: "Code2",
-      items: ["Python", "C++", "C", "Shell (Linux)"]
+      items: ["Python", "C++", "C", "C#", "Java", "Bash (Shell)"]
     },
     {
       category: "Robotics & Simulation",
@@ -256,9 +330,19 @@ export const portfolioData = {
       items: ["ROS (with Gazebo, Rviz)", "MAVROS", "Navigation Stack", "MoveIt", "AirSim", "Unity", "Unreal Engine", "MATLAB", "Simulink", "QGIS"]
     },
     {
-      category: "Machine Learning",
+      category: "Machine Learning & Deep Learning",
       icon: "BrainCircuit",
-      items: ["PyTorch", "TensorFlow", "Scikit-Learn", "OpenCV", "Open3D", "Matplotlib", "Weights & Biases (W&B)"]
+      items: ["PyTorch", "TensorFlow", "Keras", "Scikit-Learn", "XGBoost", "LightGBM", "OpenCV", "Open3D"]
+    },
+    {
+      category: "Data Science & Visualization",
+      icon: "Database",
+      items: ["NumPy", "Pandas", "SciPy", "StatsModels", "Matplotlib", "Seaborn", "Weights & Biases (W&B)", "Excel"]
+    },
+    {
+      category: "Cloud & MLOps",
+      icon: "Cloud",
+      items: ["AWS (S3, EC2, SageMaker)", "Azure (Foundry)", "Google Cloud Platform (GCP)", "Docker", "Git", "GitHub Actions"]
     },
     {
       category: "Hardware & Embedded Systems",
@@ -269,6 +353,21 @@ export const portfolioData = {
       category: "CAD & Mechanical Simulation",
       icon: "Wrench",
       items: ["ANSYS Mechanical", "SolidWorks", "Fusion 360"]
+    },
+    {
+      category: "Leadership & Organization",
+      icon: "Users",
+      items: ["Event Planning", "Team Management", "Budget Allocation", "Mentorship", "Cross-Functional Coordination"]
+    },
+    {
+      category: "Communication",
+      icon: "MessageSquare",
+      items: ["Public Speaking", "Stakeholder Outreach", "Technical Writing"]
+    },
+    {
+      category: "Productivity Software",
+      icon: "LayoutGrid",
+      items: ["Microsoft Office (Excel, PowerPoint, Word)", "Google Workspace"]
     }
   ],
   achievements: [
@@ -379,6 +478,21 @@ export const portfolioData = {
       image: "proj-exomy.webp",
       links: { report: "https://drive.google.com/file/d/1qAeYAupdwq-eb-d-lgASr4xD_Kj0AXmk/view?usp=drive_link" },
       tags: ["Robotics", "Vision", "Simulation"]
+    },
+    {
+      title: "Vision-Guided Robotic Arm for Simulated Oral Cancer Screening",
+      links: {},
+      tags: ["Robotics", "Vision", "Simulation"]
+    },
+    {
+      title: "Air Quality Index Forecasting Using Time Series Models",
+      links: { report: "https://drive.google.com/file/d/19VMK7SCWqU9Bv2O01lgY_h-JgHfI49gh/view?usp=drive_link" },
+      tags: []
+    },
+    {
+      title: "Cricket Team Optimization — American Express Campus Challenge 2024",
+      links: { presentation: "https://drive.google.com/file/d/1oC9seJ8GRzicnij6xViUjAum3Zq5Vjlr/view?usp=drive_link" },
+      tags: []
     }
   ]
 };

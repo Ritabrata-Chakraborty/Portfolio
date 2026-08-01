@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { BackgroundCanvas } from './components/BackgroundCanvas';
 import { portfolioData } from './data';
-import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, BrainCircuit, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, BrainCircuit, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap, Database, Cloud, Users, MessageSquare, LayoutGrid } from 'lucide-react';
 
 const iconMap: Record<string, React.ElementType> = {
-  BookOpen, Code2, Cpu, BrainCircuit, Microchip, Wrench
+  BookOpen, Code2, Cpu, BrainCircuit, Microchip, Wrench, Database, Cloud, Users, MessageSquare, LayoutGrid
 };
 
 // Reusable Section Component
