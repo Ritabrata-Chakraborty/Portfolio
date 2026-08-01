@@ -10,13 +10,13 @@ const iconMap: Record<string, React.ElementType> = {
 
 // Reusable Section Component
 const Section = ({ id, title, children }: { id: string; title: string; children: React.ReactNode }) => (
-  <section id={id} className="py-12 relative z-10 scroll-mt-20">
+  <section id={id} className="py-6 relative z-10 scroll-mt-20">
     <div className="max-w-6xl mx-auto px-6">
-      <motion.h2 
+      <motion.h2
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="theme-section font-semibold mb-8 text-slate-800 tracking-wide"
+        className="theme-section font-semibold mb-5 text-slate-800 tracking-wide"
       >
         {title}
       </motion.h2>
@@ -75,9 +75,9 @@ export default function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-[85vh] flex flex-col justify-center relative z-10 px-6 pt-28 pb-20 mt-10 md:mt-0" id="about">
+      <section className="flex flex-col justify-center relative z-10 px-6 pt-24 pb-6" id="about">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
             {/* Left Column: Name & Links */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -139,10 +139,10 @@ export default function App() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="col-span-1 md:col-span-2 glass-panel p-8 md:p-10 rounded-3xl h-full flex flex-col justify-center"
+              className="col-span-1 md:col-span-2 glass-panel p-6 rounded-2xl h-full flex flex-col justify-center"
             >
-              <h3 className="theme-section font-mono text-blue-600 mb-6 uppercase tracking-widest">About Me</h3>
-              <div className="space-y-6 text-slate-600 leading-relaxed theme-card">
+              <h3 className="theme-section font-mono text-blue-600 mb-3 uppercase tracking-widest">About Me</h3>
+              <div className="space-y-3 text-slate-600 leading-relaxed theme-card">
                 <p>
                   I am a researcher, engineer, and startup-oriented builder working at the intersection of <strong className="text-slate-900 font-medium">Aerial Robotics</strong>, <strong className="text-slate-900 font-medium">Computer Vision</strong>, and <strong className="text-slate-900 font-medium">Autonomous Navigation</strong>. I develop robust AI systems for perception-degraded and GPS-denied environments, with experience across academia and industry.
                 </p>
@@ -158,7 +158,7 @@ export default function App() {
         <motion.div 
           animate={{ y: [0, 10, 0] }} 
           transition={{ repeat: Infinity, duration: 2 }}
-          className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center opacity-50 text-slate-500"
+          className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex flex-col items-center opacity-50 text-slate-500"
         >
           <ChevronDown size={20} />
         </motion.div>
@@ -170,7 +170,7 @@ export default function App() {
           {/* Master Timeline Line */}
           <div className="hidden md:block absolute left-[154px] top-6 bottom-4 w-px bg-blue-200 z-0" />
           
-          <div className="space-y-6 md:space-y-8">
+          <div className="space-y-4">
             {education.map((edu, idx) => (
               <motion.div 
                 key={idx}
@@ -193,10 +193,10 @@ export default function App() {
                 </div>
                 
                 {/* Right side: Content */}
-                <div className="glass-panel p-5 md:p-6 rounded-2xl group hover:border-blue-300 transition-colors h-fit text-left bg-white/40">
+                <div className="glass-panel p-4 md:p-5 rounded-xl group hover:border-blue-300 transition-colors h-fit text-left bg-white/40">
                   <div className="flex flex-row gap-4 items-start mb-2">
                     {edu.image && (
-                      <div className="w-[5.5rem] h-[5.5rem] md:w-[6.5rem] md:h-[6.5rem] rounded-xl overflow-hidden border border-slate-200 p-0.5 shadow-sm bg-white shrink-0">
+                      <div className="w-[4.5rem] h-[4.5rem] md:w-[5rem] md:h-[5rem] rounded-lg overflow-hidden border border-slate-200 p-0.5 shadow-sm bg-white shrink-0">
                          <img src={edu.image} alt={edu.institution} className="w-full h-full object-cover rounded-lg" loading="lazy" />
                       </div>
                     )}
@@ -225,7 +225,7 @@ export default function App() {
                   </div>
                   
                   {edu.achievements.length > 0 && (
-                    <ul className="space-y-2 mt-4 pt-4 border-t border-slate-100 text-slate-600 theme-body">
+                    <ul className="space-y-1.5 mt-3 pt-3 border-t border-slate-100 text-slate-600 theme-body">
                       {edu.achievements.map((ach, i) => (
                         <li key={i} className="flex items-start gap-2.5">
                           <span className="text-blue-500 mt-0.5">▹</span>
@@ -247,7 +247,7 @@ export default function App() {
           {/* Master Timeline Line */}
           <div className="hidden md:block absolute left-[154px] top-6 bottom-4 w-px bg-blue-200 z-0" />
 
-          <div className="space-y-6 md:space-y-8">
+          <div className="space-y-4">
             {experience.map((exp, idx) => (
               <motion.div 
                 key={idx}
@@ -270,10 +270,10 @@ export default function App() {
                 </div>
                 
                 {/* Right side: Content */}
-                <div className="glass-panel p-5 md:p-8 rounded-2xl group hover:border-blue-300 transition-colors h-fit text-left bg-white/40">
+                <div className="glass-panel p-4 md:p-5 rounded-xl group hover:border-blue-300 transition-colors h-fit text-left bg-white/40">
                   <div className="flex flex-row gap-4 items-start mb-2">
                     {exp.image && (
-                      <div className="w-12 h-12 md:w-16 md:h-16 aspect-square rounded-xl overflow-hidden border border-slate-200 p-0.5 shadow-sm bg-white shrink-0 mt-1">
+                      <div className="w-12 h-12 md:w-14 md:h-14 aspect-square rounded-lg overflow-hidden border border-slate-200 p-0.5 shadow-sm bg-white shrink-0 mt-1">
                          <img src={exp.image} alt={exp.institution} className="w-full h-full object-cover rounded-lg" loading="lazy" />
                       </div>
                     )}
@@ -303,7 +303,7 @@ export default function App() {
                     </div>
                   </div>
                   
-                  <div className="text-slate-700 theme-body mb-6 mt-4 border-b border-blue-100/50 pb-4">
+                  <div className="text-slate-700 theme-body mb-4 mt-3 border-b border-blue-100/50 pb-3">
                     <span className="font-bold text-slate-900 font-mono theme-meta uppercase tracking-wider mr-2">
                       {exp.supervisors.length > 1 ? "Supervisors:" : "Supervisor:"}
                     </span>
@@ -317,7 +317,7 @@ export default function App() {
                     ))}
                   </div>
 
-                  <div className="space-y-6">
+                  <div className="space-y-3">
                     {exp.projects.map((proj, pIdx) => (
                       <div key={pIdx}>
                         <h4 className="font-medium text-slate-800 theme-body leading-snug">{proj.title}</h4>
@@ -336,7 +336,7 @@ export default function App() {
                   </div>
 
                   {exp.techStack && (
-                    <div className="mt-6 pt-4 border-t border-slate-100 flex flex-wrap items-center gap-2">
+                    <div className="mt-4 pt-3 border-t border-slate-100 flex flex-wrap items-center gap-2">
                       <span className="theme-meta uppercase tracking-wider font-bold text-slate-900 font-mono">Tech Stack:</span>
                       <span className="theme-meta font-mono text-slate-600 bg-white px-2.5 py-1 rounded border border-slate-200 shadow-sm">{exp.techStack}</span>
                     </div>
@@ -351,7 +351,7 @@ export default function App() {
 
       {/* Publications */}
       <Section id="publications" title="Publications">
-        <div className="flex flex-wrap items-center gap-2 mb-6 justify-start">
+        <div className="flex flex-wrap items-center gap-2 mb-4 justify-start">
           {pubFilters.map((f) => (
             <button
               key={f}
@@ -366,7 +366,7 @@ export default function App() {
             </button>
           ))}
         </div>
-        <div className="grid grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 gap-4">
           {filteredPubs.map((pub, idx) => (
             <motion.div 
               key={idx}
@@ -374,11 +374,11 @@ export default function App() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              className="glass-panel p-5 md:p-6 rounded-2xl group hover:border-blue-300 transition-colors bg-white/40"
+              className="glass-panel p-4 md:p-5 rounded-xl group hover:border-blue-300 transition-colors bg-white/40"
             >
-              <div className="flex flex-col md:flex-row gap-6 items-start md:items-center">
+              <div className="flex flex-col md:flex-row gap-4 items-start md:items-center">
                 <div className="flex-1 w-full order-2 md:order-1">
-                  <div className="flex flex-wrap gap-2 items-center mb-3 theme-meta uppercase tracking-widest font-semibold">
+                  <div className="flex flex-wrap gap-2 items-center mb-2 theme-meta uppercase tracking-widest font-semibold">
                     <span className="px-2.5 py-1 rounded-lg bg-blue-100 text-blue-700 border border-blue-200 shadow-sm">
                       {pub.shortVenue}
                     </span>
@@ -411,13 +411,13 @@ export default function App() {
                     })}
                   </p>
 
-                  <div className="text-slate-500 theme-body mb-4 flex flex-col gap-0.5">
+                  <div className="text-slate-500 theme-body mb-3 flex flex-col gap-0.5">
                     <i>{pub.status}</i>
                     <span className="font-medium text-blue-700">{pub.venue}</span>
                   </div>
 
                   {pub.links && (
-                    <div className="flex flex-wrap gap-2 mt-4">
+                    <div className="flex flex-wrap gap-2 mt-3">
                       {pub.links.paper && (
                         <a href={pub.links.paper} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:bg-white transition-all">
                           <FileText size={14} /> Paper
@@ -438,7 +438,7 @@ export default function App() {
                 </div>
 
                 {pub.image && (
-                  <div className="w-full md:w-56 aspect-[3/2] flex-shrink-0 rounded-xl overflow-hidden glass-panel border p-1 shadow-sm bg-white order-1 md:order-2">
+                  <div className="w-full md:w-48 aspect-[3/2] flex-shrink-0 rounded-lg overflow-hidden glass-panel border p-1 shadow-sm bg-white order-1 md:order-2">
                      <img src={pub.image} alt={pub.title} className="w-full h-full object-cover rounded-lg" loading="lazy" />
                   </div>
                 )}
@@ -451,7 +451,7 @@ export default function App() {
       {/* Projects */}
       <Section id="projects" title="Projects">
         {/* Project Filters */}
-        <div className="flex flex-wrap items-center gap-2 mb-6 justify-center">
+        <div className="flex flex-wrap items-center gap-2 mb-4 justify-center">
           {allTags.map((tag) => (
             <button
               key={tag}
@@ -475,16 +475,16 @@ export default function App() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.05 }}
-              className="break-inside-avoid glass-panel p-1 rounded-2xl bg-white shadow-sm hover:shadow-md hover:border-blue-300 transition-all group overflow-hidden"
+              className="break-inside-avoid glass-panel p-1 rounded-xl bg-white shadow-sm hover:shadow-md hover:border-blue-300 transition-all group overflow-hidden"
             >
-              <div className="w-full relative bg-slate-100 rounded-[0.85rem] overflow-hidden aspect-[4/3]">
+              <div className="w-full relative bg-slate-100 rounded-[0.6rem] overflow-hidden aspect-[4/3]">
                 {proj.image ? (
                   <img src={proj.image} alt={proj.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                 ) : (
                   <div className="w-full h-full bg-slate-100" />
                 )}
               </div>
-              <div className="p-4 flex flex-col gap-3 w-full">
+              <div className="p-3 flex flex-col gap-2 w-full">
                 <div className="w-full text-center">
                   <h3 className="theme-card font-semibold text-blue-700 leading-snug">{proj.title}</h3>
                   {proj.description && <p className="theme-body text-slate-600 leading-relaxed mt-1">{proj.description}</p>}
@@ -532,7 +532,7 @@ export default function App() {
 
       {/* Achievements */}
       <Section id="achievements" title="Achievements">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3">
           {achievements.map((ach, idx) => (
             <motion.div
               key={idx}
@@ -540,7 +540,7 @@ export default function App() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.08 }}
-              className="glass-panel p-5 rounded-2xl bg-white/40 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3"
+              className="glass-panel p-4 rounded-xl bg-white/40 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3"
             >
               <div className="flex items-start gap-3 flex-1 min-w-0">
                 <div className="w-8 h-8 flex-shrink-0 bg-amber-50 border border-amber-200 rounded-lg flex items-center justify-center mt-0.5">
@@ -587,14 +587,14 @@ export default function App() {
 
       {/* Blogs */}
       <Section id="blogs" title="Blogs">
-        <div className="glass-panel p-8 text-center rounded-2xl bg-white/40 border-dashed border-2 border-slate-200 flex flex-col items-center justify-center min-h-[150px]">
+        <div className="glass-panel p-6 text-center rounded-xl bg-white/40 border-dashed border-2 border-slate-200 flex flex-col items-center justify-center min-h-[100px]">
            <p className="text-slate-500 text-sm font-medium tracking-wide">Coming Soon...</p>
         </div>
       </Section>
 
       {/* Skills */}
       <Section id="skills" title="Technical Skills">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {skills.map((skillGroup, idx) => {
             const Icon = iconMap[skillGroup.icon];
             return (
@@ -604,12 +604,12 @@ export default function App() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="glass-panel p-6 rounded-2xl flex flex-col items-center text-center hover:border-blue-300 transition-all bg-white/40"
+                className="glass-panel p-5 rounded-xl flex flex-col items-center text-center hover:border-blue-300 transition-all bg-white/40"
               >
-                <div className="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-3 shadow-sm border border-blue-100">
-                  {Icon && <Icon size={20} />}
+                <div className="w-10 h-10 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mb-2 shadow-sm border border-blue-100">
+                  {Icon && <Icon size={18} />}
                 </div>
-                <h3 className="theme-card font-bold tracking-wide text-slate-800 mb-4 pb-3 border-b border-slate-200 w-full text-center">
+                <h3 className="theme-card font-bold tracking-wide text-slate-800 mb-3 pb-2 border-b border-slate-200 w-full text-center">
                   {skillGroup.category}
                 </h3>
                 <div className="flex flex-wrap gap-1.5 justify-center">

@@ -68,6 +68,15 @@ Tailwind v4 through `@tailwindcss/vite` (no `tailwind.config.js`). Design tokens
 `bg-atmosphere`, `text-gradient`, and the `theme-hero`/`theme-section`/`theme-card`/`theme-body`/
 `theme-meta` font-size classes. Change global type scale in `src/themeConfig.ts`, not in the markup.
 
+**Spacing scale — keep it tight and uniform.** The user's standing preference is compact cards and
+even gaps between every section; large padding and big corner radii read as unpolished.
+
+- Section rhythm: `Section` uses `py-6` and its heading `mb-5`. The hero uses `pt-24 pb-6` (no
+  `min-h`) so the hero→Education gap equals the gap between any two sections. Changing one of
+  these three values without the others reintroduces the uneven gap.
+- Cards: `p-4 md:p-5` with `rounded-xl`. Card lists use `space-y-4` / `gap-4`, filter rows `mb-4`.
+- Do not reach for `rounded-2xl`/`rounded-3xl` or `p-6`+ on content cards.
+
 ## Deploy
 
 Push to `master` → `.github/workflows/deploy.yml` runs `npm ci && npm run build` and publishes
