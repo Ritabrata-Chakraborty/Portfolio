@@ -55,13 +55,8 @@ export default function App() {
 
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 glass-panel border-b-0 border-x-0 border-t-0 bg-opacity-80 backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center text-sm font-medium tracking-wide">
-          <a href="#" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-full border border-blue-600/30 flex items-center justify-center bg-blue-600/10 group-hover:bg-blue-600/20 transition-colors">
-              <span className="text-blue-600 font-bold">RC</span>
-            </div>
-          </a>
-          <div className="hidden md:flex gap-8 text-slate-600">
+        <div className="max-w-7xl mx-auto px-6 py-3 flex justify-center items-center text-sm font-medium tracking-wide">
+          <div className="hidden md:flex gap-7 text-slate-600">
             <a href="#about" className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">About</a>
             <a href="#education" className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">Education</a>
             <a href="#experience" className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">Experience</a>
@@ -86,11 +81,11 @@ export default function App() {
               className="col-span-1 flex flex-col justify-between gap-6"
             >
               <div className="flex flex-col items-center text-center gap-4">
-                <div className="w-32 h-32 md:w-40 md:h-40 rounded-2xl overflow-hidden glass-panel border p-1 shadow-sm bg-white mx-auto">
-                  <img src="avatar.webp" alt={personalInfo.name} className="w-full h-full object-cover rounded-xl" />
+                <div className="w-24 h-24 md:w-28 md:h-28 rounded-xl overflow-hidden glass-panel border p-1 shadow-sm bg-white mx-auto">
+                  <img src="avatar.webp" alt={personalInfo.name} className="w-full h-full object-cover rounded-lg" />
                 </div>
                 <div>
-                  <h1 className="font-medium mb-2 tracking-wide text-slate-900 uppercase whitespace-nowrap overflow-visible" style={{ fontSize: '1.25rem' }}>
+                  <h1 className="font-medium mb-1 tracking-wide text-slate-900 uppercase whitespace-nowrap overflow-visible" style={{ fontSize: '1.05rem' }}>
                     {personalInfo.name}
                   </h1>
                   <h2 className="theme-card text-blue-600 font-medium tracking-wide uppercase">
@@ -101,33 +96,30 @@ export default function App() {
               
               <div className="flex flex-col gap-4">
                 <div className="flex justify-center gap-3">
-                  <a href={`mailto:${personalInfo.email}`} className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-3 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Email">
-                    <Mail size={20} />
+                  <a href={`mailto:${personalInfo.email}`} className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Email">
+                    <Mail size={16} />
                   </a>
-                  <a href={personalInfo.linkedin} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-3 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="LinkedIn">
-                    <Linkedin size={20} />
+                  <a href={personalInfo.linkedin} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="LinkedIn">
+                    <Linkedin size={16} />
                   </a>
-                  <a href={personalInfo.github} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-3 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="GitHub">
-                    <Github size={20} />
+                  <a href={personalInfo.github} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="GitHub">
+                    <Github size={16} />
                   </a>
                   {personalInfo.googleScholar && (
-                    <a href={personalInfo.googleScholar} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-3 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Google Scholar">
-                      <GraduationCap size={20} />
+                    <a href={personalInfo.googleScholar} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Google Scholar">
+                      <GraduationCap size={16} />
                     </a>
                   )}
                   {personalInfo.researchGate && (
-                    <a href={personalInfo.researchGate} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-3 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Research Scholar">
-                      <BookOpen size={20} />
+                    <a href={personalInfo.researchGate} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Research Scholar">
+                      <BookOpen size={16} />
                     </a>
                   )}
                 </div>
                 <div className="flex flex-col gap-2">
-                  <a href={personalInfo.portfolio} target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 px-6 py-2.5 rounded-xl bg-blue-600 text-white shadow-[0_4px_14px_0_rgba(37,99,235,0.39)] hover:bg-blue-700 hover:shadow-[0_6px_20px_rgba(37,99,235,0.23)] transition-all text-sm font-medium">
-                    <ExternalLink size={16} /> Original Portfolio
-                  </a>
-                  {personalInfo.resume && (
-                    <a href={personalInfo.resume} target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 px-6 py-2.5 rounded-xl border border-slate-200 bg-white/60 text-slate-700 hover:border-blue-300 hover:text-blue-600 hover:bg-white transition-all text-sm font-medium shadow-sm">
-                      <FileText size={16} /> Résumé
+                  {personalInfo.cv && (
+                    <a href={personalInfo.cv} target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 px-5 py-2 rounded-lg bg-blue-600 text-white shadow-[0_4px_14px_0_rgba(37,99,235,0.39)] hover:bg-blue-700 hover:shadow-[0_6px_20px_rgba(37,99,235,0.23)] transition-all text-xs font-medium">
+                      <FileText size={14} /> CV
                     </a>
                   )}
                 </div>
@@ -160,7 +152,7 @@ export default function App() {
           transition={{ repeat: Infinity, duration: 2 }}
           className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex flex-col items-center opacity-50 text-slate-500"
         >
-          <ChevronDown size={20} />
+          <ChevronDown size={16} />
         </motion.div>
       </section>
 

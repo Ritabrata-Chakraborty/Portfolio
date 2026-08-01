@@ -13,11 +13,11 @@
 
 :root {
   --theme-font: 'Inter', sans-serif;
-  --theme-size-hero: 2rem;
-  --theme-size-section: 1.35rem;
-  --theme-size-card: 1.1rem;
-  --theme-size-body: 1rem;
-  --theme-size-meta: 0.85rem;
+  --theme-size-hero: 1.6rem;
+  --theme-size-section: 1.05rem;
+  --theme-size-card: 0.9rem;
+  --theme-size-body: 0.85rem;
+  --theme-size-meta: 0.7rem;
 }
 
 body {

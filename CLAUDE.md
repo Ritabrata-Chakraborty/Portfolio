@@ -77,6 +77,20 @@ even gaps between every section; large padding and big corner radii read as unpo
 - Cards: `p-4 md:p-5` with `rounded-xl`. Card lists use `space-y-4` / `gap-4`, filter rows `mb-4`.
 - Do not reach for `rounded-2xl`/`rounded-3xl` or `p-6`+ on content cards.
 
+**Type scale.** Deliberately small for a dense, professional feel. The five sizes are defined
+**twice** — `src/themeConfig.ts` (applied at runtime by `ThemeProvider`) and the `:root` block of
+`src/index.css` (the pre-hydration values). **Change both or the page flashes at the old size.**
+Current: hero `1.6rem`, section `1.05rem`, card `0.9rem`, body `0.85rem`, meta `0.7rem`.
+Inter and JetBrains Mono are loaded from Google Fonts in `index.html`; without that link the CSS
+font stacks silently fall back to system sans.
+
+### Verifying layout changes
+
+Framer Motion's `whileInView` keeps every section below the fold at `opacity: 0`, so a headless
+screenshot captures a blank page. To check a layout change visually, temporarily append
+`#root [style*="opacity"] { opacity: 1 !important; transform: none !important; }` to
+`src/index.css`, screenshot, then revert it — do not commit that rule.
+
 ## Deploy
 
 Push to `master` → `.github/workflows/deploy.yml` runs `npm ci && npm run build` and publishes
@@ -91,7 +105,12 @@ source for education, publications, experience, projects, achievements, and lead
   when adding to the portfolio, take wording from the résumé rather than inventing it.
 - **Keep entries concise.** Portfolio entries are titles and short phrases, not résumé bullet
   prose — the existing entries set the length to match.
-- Do not add BARC experience to the live site; it stays commented out in `data.ts`.
+- **`projects` is not just the résumé's Projects section.** Every item under an Experience section
+  is also its own project entry (one résumé item = one project card), including the indented
+  sub-items such as the two field-hockey-launcher entries.
+- Do not add BARC to the live site — neither the experience nor its two projects. All three stay
+  commented out in `data.ts`, kept accurate so they can be uncommented later.
+- The CV link lives at `personalInfo.cv` and is surfaced by a single "CV" button in the hero.
 
 ## Working agreement
 

@@ -6,7 +6,7 @@ export const portfolioData = {
     github: "https://github.com/Ritabrata-Chakraborty",
     googleScholar: "https://scholar.google.com/citations?user=JikCewwAAAAJ&hl=en",
     portfolio: "https://ritabrata-chakraborty.github.io/Portfolio/",
-    resume: "https://drive.google.com/file/d/1xoP2CaMMK-wV4_ZoMH2P9Vc9vkb0acPv/view?usp=drive_link",
+    cv: "https://drive.google.com/file/d/1xoP2CaMMK-wV4_ZoMH2P9Vc9vkb0acPv/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/ritabrata-chakraborty-a63268251/",
     researchGate: "https://www.researchgate.net/profile/Ritabrata-Chakraborty-3/research",
   },
@@ -484,6 +484,41 @@ export const portfolioData = {
       links: {},
       tags: ["Robotics", "Vision", "Simulation"]
     },
+    {
+      title: "Vision-Language Grounded Multi-Robot Coordination and Navigation",
+      links: {},
+      tags: ["Robotics", "Vision"]
+    },
+    {
+      title: "Vision-Attention-Driven Autonomous Navigation with Semantic Understanding",
+      links: {},
+      tags: ["Robotics", "Vision"]
+    },
+    {
+      title: "Automated Video Annotation with Deep Learning",
+      links: {},
+      tags: ["Vision"]
+    },
+    {
+      title: "Finite Element Analysis of Running Track Surfaces",
+      links: {},
+      tags: ["CAD/FEM", "Simulation"]
+    },
+    {
+      title: "Primal World Beliefs in Engineering Students",
+      links: { report: "https://drive.google.com/file/d/1Lik6wGn2XzuU0ZIgEgo5Yz3FChDTb2qQ/view?usp=drive_link" },
+      tags: []
+    },
+    // {
+    //   title: "Image-Based Visual Servoing for Automated Radar Control and UAV Tracking",
+    //   links: {},
+    //   tags: ["Robotics", "Vision"]
+    // },
+    // {
+    //   title: "Impact Testing and Analysis of Metal-Composite Shields Using Electromagnetic Railguns",
+    //   links: {},
+    //   tags: ["CAD/FEM", "Simulation"]
+    // },
     {
       title: "Air Quality Index Forecasting Using Time Series Models",
       links: { report: "https://drive.google.com/file/d/19VMK7SCWqU9Bv2O01lgY_h-JgHfI49gh/view?usp=drive_link" },

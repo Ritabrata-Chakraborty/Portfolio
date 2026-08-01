@@ -9,9 +9,9 @@ export interface ThemeConfig {
 
 export const themeConfig: ThemeConfig = {
   fontFamily: "'Inter', sans-serif",
-  fontSizeHero: '2rem',
-  fontSizeSectionTitle: '1.35rem',
-  fontSizeCardTitle: '1.1rem',
-  fontSizeBody: '1rem',
-  fontSizeMeta: '0.85rem',
+  fontSizeHero: '1.6rem',
+  fontSizeSectionTitle: '1.05rem',
+  fontSizeCardTitle: '0.9rem',
+  fontSizeBody: '0.85rem',
+  fontSizeMeta: '0.7rem',
 };
