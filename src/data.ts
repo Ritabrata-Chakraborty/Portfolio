@@ -373,12 +373,6 @@ export const portfolioData = {
   ],
   achievements: [
     {
-      title: "Graduate Student Member — IEEE",
-      organizer: "Institute of Electrical and Electronics Engineers",
-      year: "2026",
-      links: {}
-    },
-    {
       title: "Finalist — Meta PyTorch OpenEnv Hackathon",
       organizer: "Meta X Scaler School of Technology",
       year: "2026",

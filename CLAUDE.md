@@ -41,6 +41,8 @@ These are implicit — nothing enforces them, so breaking one silently drops con
   `type` must match one of `Journal`/`Conference`/`Workshop`/`Poster`/`Patent`. The `Peer Review`
   filter matches `role === 'Peer Reviewer'` — that same `role` also renders the amber badge.
   **Workshop and Poster are deliberately empty** (the only poster is BARC work, kept commented out).
+  Peer-review entries carry a real `type` too, so every non-`Peer Review` filter also excludes
+  `role === 'Peer Reviewer'` — otherwise reviewed papers surface under Journal/Conference.
 - **Project tags** (`App.tsx:32`): `allTags` is hardcoded as
   `All | Simulation | Vision | Robotics | Gen-AI | Design | Others`. A project whose `tags` contain
   a string not in that list is only reachable under `All`; a new category requires editing
@@ -87,6 +89,9 @@ even gaps between every section; large padding and big corner radii read as unpo
   `min-h`) so the hero→Education gap equals the gap between any two sections. Changing one of
   these three values without the others reintroduces the uneven gap.
 - Cards: `p-4 md:p-5` with `rounded-xl`. Card lists use `space-y-4` / `gap-4`, filter rows `mb-4`.
+- Project cards are a CSS **masonry** (`columns-*` + `break-inside-avoid`), not a grid, sized by
+  `getColumnsClass`. Cap it at `lg:columns-4`: with 5 columns, column balancing fits everything in
+  four and leaves the fifth visibly empty on filters like Robotics.
 - Do not reach for `rounded-2xl`/`rounded-3xl` or `p-6`+ on content cards.
 
 **Type scale.** Deliberately small for a dense, professional feel. The five sizes are defined

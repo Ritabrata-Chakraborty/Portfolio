@@ -38,14 +38,15 @@ export default function App() {
     ? publications
     : pubFilter === 'Peer Review'
       ? publications.filter(p => p.role === 'Peer Reviewer')
-      : publications.filter(p => p.type === pubFilter);
+      : publications.filter(p => p.type === pubFilter && p.role !== 'Peer Reviewer');
 
   const getColumnsClass = (count: number) => {
     if (count === 1) return 'columns-1 max-w-[300px] mx-auto';
     if (count === 2) return 'columns-1 sm:columns-2 max-w-[600px] mx-auto';
     if (count === 3) return 'columns-1 sm:columns-2 md:columns-3 max-w-[900px] mx-auto';
     if (count === 4) return 'columns-1 sm:columns-2 md:columns-3 lg:columns-4 max-w-[1200px] mx-auto';
-    return 'columns-1 sm:columns-2 md:columns-3 lg:columns-5';
+    // 5 columns leaves the last one empty once balancing fits everything in 4.
+    return 'columns-1 sm:columns-2 md:columns-3 lg:columns-4';
   };
 
   return (
