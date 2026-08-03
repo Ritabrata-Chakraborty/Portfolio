@@ -45,6 +45,10 @@ These are implicit — nothing enforces them, so breaking one silently drops con
 - **Optional fields degrade gracefully**: `image`, `location`, `techStack`, `links`,
   `projects[].bullets`, and `description` are all conditionally rendered. Omitting `image` on an
   experience renders no logo; omitting it on a project renders a grey placeholder box.
+- **Project link order is fixed**: Paper → Project → Code → Report → Presentation → PDF. The
+  buttons render in JSX source order, so adding a link type means placing it in that sequence.
+- **Skill `icon` must exist in `iconMap`** (`App.tsx:7`). An unmapped name is guarded, so it fails
+  silently as an empty icon tile rather than an error — check the map when adding a category.
 - `education[].achievements` is a flat string array and is where leadership, teaching, and
   scholarship entries live — there is no separate leadership section.
 
@@ -110,7 +114,11 @@ source for education, publications, experience, projects, achievements, and lead
   sub-items such as the two field-hockey-launcher entries.
 - Do not add BARC to the live site — neither the experience nor its two projects. All three stay
   commented out in `data.ts`, kept accurate so they can be uncommented later.
-- The CV link lives at `personalInfo.cv` and is surfaced by a single "CV" button in the hero.
+- The CV link lives at `personalInfo.cv` and is surfaced as one more circular icon button in the
+  hero's social row (Email, LinkedIn, GitHub, Scholar, ResearchGate, CV) — there is no large
+  call-to-action button, and `personalInfo.portfolio` is now unused by the UI.
+- Skill categories mirror the résumé's `Technical Skills` lines one-for-one, including the merged
+  **AI & Data Science** and **Leadership & Communication** groupings.
 
 ## Working agreement
 

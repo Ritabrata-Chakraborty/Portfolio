@@ -330,14 +330,9 @@ export const portfolioData = {
       items: ["ROS (with Gazebo, Rviz)", "MAVROS", "Navigation Stack", "MoveIt", "AirSim", "Unity", "Unreal Engine", "MATLAB", "Simulink", "QGIS"]
     },
     {
-      category: "Machine Learning & Deep Learning",
+      category: "AI & Data Science",
       icon: "BrainCircuit",
-      items: ["PyTorch", "TensorFlow", "Keras", "Scikit-Learn", "XGBoost", "LightGBM", "OpenCV", "Open3D"]
-    },
-    {
-      category: "Data Science & Visualization",
-      icon: "Database",
-      items: ["NumPy", "Pandas", "SciPy", "StatsModels", "Matplotlib", "Seaborn", "Weights & Biases (W&B)", "Excel"]
+      items: ["PyTorch", "TensorFlow", "Keras", "Scikit-Learn", "XGBoost", "LightGBM", "OpenCV", "Open3D", "NumPy", "Pandas", "SciPy", "StatsModels", "Matplotlib", "Seaborn", "Weights & Biases (W&B)", "Excel"]
     },
     {
       category: "Cloud & MLOps",
@@ -355,14 +350,9 @@ export const portfolioData = {
       items: ["ANSYS Mechanical", "SolidWorks", "Fusion 360"]
     },
     {
-      category: "Leadership & Organization",
+      category: "Leadership & Communication",
       icon: "Users",
-      items: ["Event Planning", "Team Management", "Budget Allocation", "Mentorship", "Cross-Functional Coordination"]
-    },
-    {
-      category: "Communication",
-      icon: "MessageSquare",
-      items: ["Public Speaking", "Stakeholder Outreach", "Technical Writing"]
+      items: ["Event Planning", "Team Management", "Budget Allocation", "Mentorship", "Cross-Functional Coordination", "Public Speaking", "Stakeholder Outreach", "Technical Writing"]
     },
     {
       category: "Productivity Software",

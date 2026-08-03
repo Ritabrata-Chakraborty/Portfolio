@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { BackgroundCanvas } from './components/BackgroundCanvas';
 import { portfolioData } from './data';
-import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, BrainCircuit, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap, Database, Cloud, Users, MessageSquare, LayoutGrid } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, BrainCircuit, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap, Cloud, Users, LayoutGrid } from 'lucide-react';
 
 const iconMap: Record<string, React.ElementType> = {
-  BookOpen, Code2, Cpu, BrainCircuit, Microchip, Wrench, Database, Cloud, Users, MessageSquare, LayoutGrid
+  BookOpen, Code2, Cpu, BrainCircuit, Microchip, Wrench, Cloud, Users, LayoutGrid
 };
 
 // Reusable Section Component
@@ -81,7 +81,7 @@ export default function App() {
               className="col-span-1 flex flex-col justify-between gap-6"
             >
               <div className="flex flex-col items-center text-center gap-4">
-                <div className="w-24 h-24 md:w-28 md:h-28 rounded-xl overflow-hidden glass-panel border p-1 shadow-sm bg-white mx-auto">
+                <div className="w-28 h-28 md:w-36 md:h-36 rounded-xl overflow-hidden glass-panel border p-1 shadow-sm bg-white mx-auto">
                   <img src="avatar.webp" alt={personalInfo.name} className="w-full h-full object-cover rounded-lg" />
                 </div>
                 <div>
@@ -94,35 +94,31 @@ export default function App() {
                 </div>
               </div>
               
-              <div className="flex flex-col gap-4">
-                <div className="flex justify-center gap-3">
-                  <a href={`mailto:${personalInfo.email}`} className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Email">
-                    <Mail size={16} />
+              <div className="flex justify-center gap-3 flex-wrap">
+                <a href={`mailto:${personalInfo.email}`} className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Email">
+                  <Mail size={16} />
+                </a>
+                <a href={personalInfo.linkedin} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="LinkedIn">
+                  <Linkedin size={16} />
+                </a>
+                <a href={personalInfo.github} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="GitHub">
+                  <Github size={16} />
+                </a>
+                {personalInfo.googleScholar && (
+                  <a href={personalInfo.googleScholar} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Google Scholar">
+                    <GraduationCap size={16} />
                   </a>
-                  <a href={personalInfo.linkedin} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="LinkedIn">
-                    <Linkedin size={16} />
+                )}
+                {personalInfo.researchGate && (
+                  <a href={personalInfo.researchGate} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Research Scholar">
+                    <BookOpen size={16} />
                   </a>
-                  <a href={personalInfo.github} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="GitHub">
-                    <Github size={16} />
+                )}
+                {personalInfo.cv && (
+                  <a href={personalInfo.cv} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="CV">
+                    <FileText size={16} />
                   </a>
-                  {personalInfo.googleScholar && (
-                    <a href={personalInfo.googleScholar} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Google Scholar">
-                      <GraduationCap size={16} />
-                    </a>
-                  )}
-                  {personalInfo.researchGate && (
-                    <a href={personalInfo.researchGate} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Research Scholar">
-                      <BookOpen size={16} />
-                    </a>
-                  )}
-                </div>
-                <div className="flex flex-col gap-2">
-                  {personalInfo.cv && (
-                    <a href={personalInfo.cv} target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 px-5 py-2 rounded-lg bg-blue-600 text-white shadow-[0_4px_14px_0_rgba(37,99,235,0.39)] hover:bg-blue-700 hover:shadow-[0_6px_20px_rgba(37,99,235,0.23)] transition-all text-xs font-medium">
-                      <FileText size={14} /> CV
-                    </a>
-                  )}
-                </div>
+                )}
               </div>
             </motion.div>
 
@@ -489,14 +485,19 @@ export default function App() {
                         <FileText size={12} /> Paper
                       </a>
                     )}
+                    {proj.links.project && (
+                      <a href={proj.links.project} className="flex items-center gap-1.5 px-2.5 py-1 border border-slate-200 bg-slate-50 rounded text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
+                        <ExternalLink size={12} /> Project
+                      </a>
+                    )}
                     {proj.links.code && (
                       <a href={proj.links.code} className="flex items-center gap-1.5 px-2.5 py-1 border border-slate-200 bg-slate-50 rounded text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
                         <Code size={12} /> Code
                       </a>
                     )}
-                    {proj.links.pdf && (
-                      <a href={proj.links.pdf} className="flex items-center gap-1.5 px-2.5 py-1 border border-slate-200 bg-slate-50 rounded text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
-                        <File size={12} /> PDF
+                    {proj.links.report && (
+                      <a href={proj.links.report} className="flex items-center gap-1.5 px-2.5 py-1 border border-blue-200 bg-blue-50/50 rounded text-xs font-medium text-blue-700 hover:bg-blue-100 transition-colors">
+                        <FileText size={12} /> Report
                       </a>
                     )}
                     {proj.links.presentation && (
@@ -504,14 +505,9 @@ export default function App() {
                         <MonitorPlay size={12} /> Presentation
                       </a>
                     )}
-                    {proj.links.project && (
-                      <a href={proj.links.project} className="flex items-center gap-1.5 px-2.5 py-1 border border-slate-200 bg-slate-50 rounded text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
-                        <ExternalLink size={12} /> Project
-                      </a>
-                    )}
-                    {proj.links.report && (
-                      <a href={proj.links.report} className="flex items-center gap-1.5 px-2.5 py-1 border border-blue-200 bg-blue-50/50 rounded text-xs font-medium text-blue-700 hover:bg-blue-100 transition-colors">
-                        <FileText size={12} /> Report
+                    {proj.links.pdf && (
+                      <a href={proj.links.pdf} className="flex items-center gap-1.5 px-2.5 py-1 border border-slate-200 bg-slate-50 rounded text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
+                        <File size={12} /> PDF
                       </a>
                     )}
                   </div>
