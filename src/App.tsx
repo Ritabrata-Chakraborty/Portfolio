@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { BackgroundCanvas } from './components/BackgroundCanvas';
 import { portfolioData } from './data';
-import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, BrainCircuit, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap, Cloud, Users, LayoutGrid } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, Sparkles, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap, Cloud, Users, LayoutGrid } from 'lucide-react';
 
 const iconMap: Record<string, React.ElementType> = {
-  BookOpen, Code2, Cpu, BrainCircuit, Microchip, Wrench, Cloud, Users, LayoutGrid
+  BookOpen, Code2, Cpu, Sparkles, Microchip, Wrench, Cloud, Users, LayoutGrid
 };
 
 // Reusable Section Component
@@ -29,11 +29,11 @@ export default function App() {
   const { personalInfo, education, publications, experience, skills, projects, achievements } = portfolioData;
 
   const [selectedTag, setSelectedTag] = useState('All');
-  const allTags = ["All", "Simulation", "Vision", "Robotics", "Gen-AI", "CAD/FEM"];
+  const allTags = ["All", "Simulation", "Vision", "Robotics", "Gen-AI", "Design", "Others"];
   const filteredProjects = selectedTag === 'All' ? projects : projects.filter(p => p.tags?.includes(selectedTag));
 
   const [pubFilter, setPubFilter] = useState('All');
-  const pubFilters = ["All", "Journal", "Conference", "Patent", "Peer Review"];
+  const pubFilters = ["All", "Journal", "Conference", "Workshop", "Poster", "Patent", "Peer Review"];
   const filteredPubs = pubFilter === 'All'
     ? publications
     : pubFilter === 'Peer Review'
@@ -411,14 +411,14 @@ export default function App() {
                           <FileText size={14} /> Paper
                         </a>
                       )}
-                      {pub.links.code && (
-                        <a href={pub.links.code} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:bg-white transition-all">
-                          <Code size={14} /> Code
-                        </a>
-                      )}
                       {pub.links.project && (
                         <a href={pub.links.project} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:bg-white transition-all">
                           <Link size={14} /> Project
+                        </a>
+                      )}
+                      {pub.links.code && (
+                        <a href={pub.links.code} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:bg-white transition-all">
+                          <Code size={14} /> Code
                         </a>
                       )}
                     </div>

@@ -173,6 +173,17 @@ export const portfolioData = {
         paper: "https://drive.google.com/file/d/1TZ-1WKuYXeAOZaP7R5TnSufCdyz3sn4a/view?usp=sharing"
       }
     }
+    // BARC-derived; stays hidden like the rest of the BARC work.
+    // {
+    //   title: "High-Velocity Impact Testing and Analysis of Layered Metal-Composite Shields Using Electromagnetic Railgun.",
+    //   authors: "R. Chakraborty",
+    //   venue: "Pulsed Power Science, Technology and Application (PPSTA), Visakhapatnam, India",
+    //   shortVenue: "PPSTA",
+    //   status: "Presented as Poster at PPSTA",
+    //   year: "2024",
+    //   type: "Poster",
+    //   links: {}
+    // },
   ],
   experience: [
     {
@@ -187,9 +198,9 @@ export const portfolioData = {
       ],
       image: "org-uber.webp",
       projects: [
-        { title: "Automated Video Annotation with Deep Learning" }
+        { title: "Object Tracking and Annotation Anomaly Detection" }
       ],
-      techStack: "PyTorch, Python, C++"
+      techStack: "Python, C++, PyTorch, XGBoost"
     },
     {
       institution: "National University of Singapore (NUS)",
@@ -205,7 +216,7 @@ export const portfolioData = {
         { title: "Vision-Attention-Driven Autonomous Navigation with Semantic Understanding" },
         { title: "Uncertainty-Guided Path Planning via Conditional Layout Prediction" }
       ],
-      techStack: "ROS Noetic (with Gazebo, Rviz), PyTorch, Python"
+      techStack: "Python, PyTorch, ROS Noetic (with Gazebo, Rviz)"
     },
     {
       institution: "KU Leuven",
@@ -221,7 +232,7 @@ export const portfolioData = {
         { title: "Physics-Informed Latent Augmentation for Bearing Fault Diagnosis" },
         { title: "Auxiliary Classifier WGAN-GP for Time-Series Sensor Data Generation" }
       ],
-      techStack: "PyTorch, Python"
+      techStack: "Python, PyTorch"
     },
     {
       institution: "CSIR-Central Electronics Engineering Research Institute",
@@ -237,7 +248,7 @@ export const portfolioData = {
         { title: "Multi-Critic Off-Policy RL for Autonomous Indoor Drone Navigation" },
         { title: "Monocular Vision-Based UAV Navigation for Orchard Monitoring" }
       ],
-      techStack: "PyTorch, Python, ROS Noetic, AirSim, NVIDIA Jetson Orin NX"
+      techStack: "Python, PyTorch, ROS Noetic (with Gazebo, Rviz), AirSim, NVIDIA Jetson Orin NX"
     },
     {
       institution: "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
@@ -246,7 +257,7 @@ export const portfolioData = {
       duration: "Apr '24 – Oct '25",
       location: "Rajasthan, India",
       supervisors: [
-        { name: "Dr. Mani Shankar Dasgupta, Senior Professor", link: "https://www.bits-pilani.ac.in/pilani/m-s-dasgupta/" },
+        { name: "Dr. Mani Shankar Dasgupta, Associate Professor", link: "https://www.bits-pilani.ac.in/pilani/m-s-dasgupta/" },
       ],
       image: "org-bitsp.webp",
       projects: [
@@ -254,7 +265,7 @@ export const portfolioData = {
         { title: "Computer Vision Pipeline for 3D Trajectory Reconstruction and Shot Classification" },
         { title: "Finite Element Analysis of Running Track Surfaces" }
       ],
-      techStack: "Fusion 360, ANSYS Mechanical, PyTorch, Python, OpenCV"
+      techStack: "Python, PyTorch, OpenCV, ANSYS Mechanical, Fusion 360"
     },
     {
       institution: "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
@@ -310,7 +321,7 @@ export const portfolioData = {
       projects: [
         { title: "Technical Problem-Solving and Academic Content Authoring" }
       ],
-      techStack: "MATLAB, Python, CAD"
+      techStack: "Python, MATLAB, SolidWorks"
     }
   ],
   skills: [
@@ -331,7 +342,7 @@ export const portfolioData = {
     },
     {
       category: "AI & Data Science",
-      icon: "BrainCircuit",
+      icon: "Sparkles",
       items: ["PyTorch", "TensorFlow", "Keras", "Scikit-Learn", "XGBoost", "LightGBM", "OpenCV", "Open3D", "NumPy", "Pandas", "SciPy", "StatsModels", "Matplotlib", "Seaborn", "Weights & Biases (W&B)", "Excel"]
     },
     {
@@ -361,6 +372,12 @@ export const portfolioData = {
     }
   ],
   achievements: [
+    {
+      title: "Graduate Student Member — IEEE",
+      organizer: "Institute of Electrical and Electronics Engineers",
+      year: "2026",
+      links: {}
+    },
     {
       title: "Finalist — Meta PyTorch OpenEnv Hackathon",
       organizer: "Meta X Scaler School of Technology",
@@ -461,7 +478,7 @@ export const portfolioData = {
       title: "Physics-Based Launcher Mechanical Design and FEM Analysis",
       image: "proj-hockey-launcher.webp",
       links: { report: "https://drive.google.com/file/d/1IuOxvcOJYzLelGn2VaZ4dIr59AIDP1BI/view?usp=drive_link"},
-      tags: ["CAD/FEM"]
+      tags: ["Design"]
     },
     {
       title: "European Rover Challenge (ERC) Remote 2023",
@@ -471,33 +488,39 @@ export const portfolioData = {
     },
     {
       title: "Vision-Guided Robotic Arm for Simulated Oral Cancer Screening",
+      image: "proj-oral.webp",
       links: {},
       tags: ["Robotics", "Vision", "Simulation"]
     },
     {
       title: "Vision-Language Grounded Multi-Robot Coordination and Navigation",
+      image: "proj-vlm.webp",
       links: {},
       tags: ["Robotics", "Vision"]
     },
     {
       title: "Vision-Attention-Driven Autonomous Navigation with Semantic Understanding",
+      image: "proj-vint.webp",
       links: {},
       tags: ["Robotics", "Vision"]
     },
     {
-      title: "Automated Video Annotation with Deep Learning",
+      title: "Object Tracking and Annotation Anomaly Detection",
+      image: "proj-anomaly.webp",
       links: {},
       tags: ["Vision"]
     },
     {
       title: "Finite Element Analysis of Running Track Surfaces",
+      image: "proj-fea.webp",
       links: {},
-      tags: ["CAD/FEM", "Simulation"]
+      tags: ["Design"]
     },
     {
       title: "Primal World Beliefs in Engineering Students",
+      image: "proj-primal.webp",
       links: { report: "https://drive.google.com/file/d/1Lik6wGn2XzuU0ZIgEgo5Yz3FChDTb2qQ/view?usp=drive_link" },
-      tags: []
+      tags: ["Others"]
     },
     // {
     //   title: "Image-Based Visual Servoing for Automated Radar Control and UAV Tracking",
@@ -507,17 +530,19 @@ export const portfolioData = {
     // {
     //   title: "Impact Testing and Analysis of Metal-Composite Shields Using Electromagnetic Railguns",
     //   links: {},
-    //   tags: ["CAD/FEM", "Simulation"]
+    //   tags: ["Design", "Simulation"]
     // },
     {
       title: "Air Quality Index Forecasting Using Time Series Models",
+      image: "proj-aqi.webp",
       links: { report: "https://drive.google.com/file/d/19VMK7SCWqU9Bv2O01lgY_h-JgHfI49gh/view?usp=drive_link" },
-      tags: []
+      tags: ["Others"]
     },
     {
       title: "Cricket Team Optimization — American Express Campus Challenge 2024",
+      image: "proj-cricket.webp",
       links: { presentation: "https://drive.google.com/file/d/1oC9seJ8GRzicnij6xViUjAum3Zq5Vjlr/view?usp=drive_link" },
-      tags: []
+      tags: ["Others"]
     }
   ]
 };

@@ -36,17 +36,25 @@ There is no test suite and no ESLint config; `npm run lint` is a TypeScript type
 
 These are implicit — nothing enforces them, so breaking one silently drops content from the page:
 
-- **Publications filters** (`App.tsx:36`): buttons are `All | Journal | Conference | Patent | Peer Review`.
-  `type` must match one of `Journal`/`Conference`/`Patent`. The `Peer Review` filter matches
-  `role === 'Peer Reviewer'` — that same `role` field also renders the amber badge on the card.
+- **Publications filters** (`App.tsx:36`): buttons are
+  `All | Journal | Conference | Workshop | Poster | Patent | Peer Review`, in that order.
+  `type` must match one of `Journal`/`Conference`/`Workshop`/`Poster`/`Patent`. The `Peer Review`
+  filter matches `role === 'Peer Reviewer'` — that same `role` also renders the amber badge.
+  **Workshop and Poster are deliberately empty** (the only poster is BARC work, kept commented out).
 - **Project tags** (`App.tsx:32`): `allTags` is hardcoded as
-  `All | Simulation | Vision | Robotics | Gen-AI | CAD/FEM`. A project whose `tags` contain a
-  string not in that list is only reachable under `All`; a new category requires editing `allTags`.
+  `All | Simulation | Vision | Robotics | Gen-AI | Design | Others`. A project whose `tags` contain
+  a string not in that list is only reachable under `All`; a new category requires editing
+  `allTags`. `Design` covers CAD/FEM work (it was renamed from `CAD/FEM`); `Others` holds entries
+  that fit no technical category (Primal World Beliefs, AQI forecasting, cricket optimisation).
 - **Optional fields degrade gracefully**: `image`, `location`, `techStack`, `links`,
   `projects[].bullets`, and `description` are all conditionally rendered. Omitting `image` on an
   experience renders no logo; omitting it on a project renders a grey placeholder box.
-- **Project link order is fixed**: Paper → Project → Code → Report → Presentation → PDF. The
-  buttons render in JSX source order, so adding a link type means placing it in that sequence.
+- **Link order is fixed** for both projects and publications: Paper → Project → Code → Report →
+  Presentation → PDF. The buttons render in JSX source order, so adding a link type means placing
+  it in that sequence in both blocks.
+- **`techStack` follows a fixed order**: programming languages (Python, C++, …) → ML/CV libraries
+  (PyTorch, OpenCV, XGBoost) → ROS → simulation software (AirSim, MATLAB) → hardware (Jetson) →
+  CAD/FEM software (ANSYS Mechanical, Fusion 360, SolidWorks).
 - **Skill `icon` must exist in `iconMap`** (`App.tsx:7`). An unmapped name is guarded, so it fails
   silently as an empty icon tile rather than an error — check the map when adding a category.
 - `education[].achievements` is a flat string array and is where leadership, teaching, and
@@ -112,8 +120,10 @@ source for education, publications, experience, projects, achievements, and lead
 - **`projects` is not just the résumé's Projects section.** Every item under an Experience section
   is also its own project entry (one résumé item = one project card), including the indented
   sub-items such as the two field-hockey-launcher entries.
-- Do not add BARC to the live site — neither the experience nor its two projects. All three stay
-  commented out in `data.ts`, kept accurate so they can be uncommented later.
+- Do not add BARC to the live site — not the experience, its two projects, nor the PPSTA poster.
+  All stay commented out in `data.ts`, kept accurate so they can be uncommented later.
+- The résumé's **Competitive Examinations** (GRE/TOEFL/JEE) are intentionally *not* on the site;
+  its **Professional Activities** (IEEE membership) is folded into `achievements`.
 - The CV link lives at `personalInfo.cv` and is surfaced as one more circular icon button in the
   hero's social row (Email, LinkedIn, GitHub, Scholar, ResearchGate, CV) — there is no large
   call-to-action button, and `personalInfo.portfolio` is now unused by the UI.
