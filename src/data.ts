@@ -229,7 +229,7 @@ export const portfolioData = {
       ],
       image: "org-kul.webp",
       projects: [
-        { title: "Physics-Informed Latent Augmentation for Bearing Fault Diagnosis" },
+        { title: "Physics-Informed Generative Modeling for Bearing Fault Diagnosis Under Data Scarcity" },
         { title: "Auxiliary Classifier WGAN-GP for Time-Series Sensor Data Generation" }
       ],
       techStack: "Python, PyTorch"
@@ -245,7 +245,7 @@ export const portfolioData = {
       ],
       image: "org-ceeri.webp",
       projects: [
-        { title: "Multi-Critic Off-Policy RL for Autonomous Indoor Drone Navigation" },
+        { title: "Multi-Critic Decomposition for Autonomous Indoor Navigation" },
         { title: "Monocular Vision-Based UAV Navigation for Orchard Monitoring" }
       ],
       techStack: "Python, PyTorch, ROS Noetic (with Gazebo, Rviz), AirSim, NVIDIA Jetson Orin NX"
@@ -421,13 +421,13 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "Multi-Critic Off-Policy RL for Autonomous Indoor Drone Navigation",
+      title: "Multi-Critic Decomposition for Autonomous Indoor Navigation",
       image: "proj-rl.webp",
       links: { paper: "https://drive.google.com/file/d/1Uimegpx43p9dfY7lvgPU_LR3ERb3-YJP/view", code: "https://github.com/Ritabrata-Chakraborty/Quadcopter-RL-Off-Policy-Velocity-Control" },
       tags: ["Robotics"]
     },
     {
-      title: "3D Lunar Surface Modeling Using Chandrayaan-2 TMC DEM Data",
+      title: "3D Lunar Surface Modeling from DEM Data — ISRO Immersion Challenge 2024",
       image: "proj-lunar.webp",
       links: { presentation: "https://drive.google.com/file/d/1QHn3U-iJFZyzYMW3TUlMg7MbXFU9p19_/view" },
       tags: ["Simulation"]
@@ -439,31 +439,31 @@ export const portfolioData = {
       tags: ["Robotics"]
     },
     {
-      title: "Conditional Latent Diffusion-GAN for Synthetic CWT Generation and LiteFormer-based Fault Classification in Rotating Machinery",
+      title: "Physics-Informed Generative Modeling for Bearing Fault Diagnosis Under Data Scarcity",
       image: "proj-clddgan.webp",
       links: {},
       tags: ["Gen-AI"]
     },
     {
-      title: "An Efficient Approach for Synthetic Data Generation and Fault Diagnosis for Rotating Machinery",
+      title: "Auxiliary Classifier WGAN-GP for Time-Series Sensor Data Generation",
       image: "proj-efficient-gan.webp",
       links: { paper: "https://digital-library.theiet.org/doi/10.1049/icp.2025.2364", code: "https://github.com/Ritabrata-Chakraborty/An-Efficient-Approach-for-Synthetic-Data-Generation-and-Fault-Diagnosis-for-Rotating-Machinery" },
       tags: ["Gen-AI"]
     },
     {
-      title: "CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction",
+      title: "Uncertainty-Guided Path Planning via Conditional Layout Prediction",
       image: "proj-cogniplan.webp",
       links: { paper: "https://www.arxiv.org/abs/2508.03027", project: "https://yizhuo-wang.com/cogniplan/", code: "https://github.com/marmotlab/CogniPlan" },
       tags: ["Robotics"]
     },
     {
-      title: "MathWorks Global Student Drone Challenge 2025",
+      title: "Autonomous Drone Navigation — MathWorks Global Student Drone Challenge 2025",
       image: "proj-drone-challenge.webp",
       links: {},
       tags: ["Robotics", "Vision"]
     },
     {
-      title: "Path Planning of Low-Altitude UAV for Tree Canopy Tracking and Orchard Monitoring",
+      title: "Monocular Vision-Based UAV Navigation for Orchard Monitoring",
       image: "proj-uav-orchard.webp",
       links: { paper: "https://drive.google.com/file/d/1TZ-1WKuYXeAOZaP7R5TnSufCdyz3sn4a/view?usp=drive_link", code: "https://github.com/Ritabrata-Chakraborty/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring" },
       tags: ["Robotics", "Vision"]
@@ -481,7 +481,7 @@ export const portfolioData = {
       tags: ["Design"]
     },
     {
-      title: "European Rover Challenge (ERC) Remote 2023",
+      title: "ExoMy Rover Navigation and UR3 Arm Motion Planning — ERC 2023 Remote",
       image: "proj-exomy.webp",
       links: { report: "https://drive.google.com/file/d/1qAeYAupdwq-eb-d-lgASr4xD_Kj0AXmk/view?usp=drive_link" },
       tags: ["Robotics", "Vision", "Simulation"]
@@ -495,12 +495,6 @@ export const portfolioData = {
     {
       title: "Vision-Language Grounded Multi-Robot Coordination and Navigation",
       image: "proj-vlm.webp",
-      links: {},
-      tags: ["Robotics", "Vision"]
-    },
-    {
-      title: "Vision-Attention-Driven Autonomous Navigation with Semantic Understanding",
-      image: "proj-vint.webp",
       links: {},
       tags: ["Robotics", "Vision"]
     },
@@ -539,7 +533,7 @@ export const portfolioData = {
       tags: ["Others"]
     },
     {
-      title: "Cricket Team Optimization — American Express Campus Challenge 2024",
+      title: "Cricket Team Optimization — AMEX Campus Challenge 2024 (Product Track)",
       image: "proj-cricket.webp",
       links: { presentation: "https://drive.google.com/file/d/1oC9seJ8GRzicnij6xViUjAum3Zq5Vjlr/view?usp=drive_link" },
       tags: ["Others"]

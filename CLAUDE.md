@@ -120,6 +120,12 @@ source for education, publications, experience, projects, achievements, and lead
 - **`projects` is not just the résumé's Projects section.** Every item under an Experience section
   is also its own project entry (one résumé item = one project card), including the indented
   sub-items such as the two field-hockey-launcher entries.
+- **A project card's title is the résumé's own wording for that item, verbatim** — the experience
+  item's heading, or the Projects-section heading. Do not substitute the related *publication*
+  title: the CogniPlan, ACWGAN-GP, and orchard-patent papers each have a different name from the
+  work item they came from, and the project cards use the work item's name.
+  `Vision-Attention-Driven Autonomous Navigation` is the one deliberate exception — it stays in the
+  NUS experience entry but has no project card.
 - Do not add BARC to the live site — not the experience, its two projects, nor the PPSTA poster.
   All stay commented out in `data.ts`, kept accurate so they can be uncommented later.
 - The résumé's **Competitive Examinations** (GRE/TOEFL/JEE) are intentionally *not* on the site;
