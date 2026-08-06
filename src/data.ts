@@ -6,7 +6,7 @@ export const portfolioData = {
     github: "https://github.com/Ritabrata-Chakraborty",
     googleScholar: "https://scholar.google.com/citations?user=JikCewwAAAAJ&hl=en",
     portfolio: "https://ritabrata-chakraborty.github.io/Portfolio/",
-    cv: "https://drive.google.com/file/d/1xoP2CaMMK-wV4_ZoMH2P9Vc9vkb0acPv/view?usp=drive_link",
+    cv: "https://drive.google.com/file/d/1MmHxbD5gJHIH4p7o5VlPfcgNlQ1qpb8B/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/ritabrata-chakraborty-a63268251/",
     researchGate: "https://www.researchgate.net/profile/Ritabrata-Chakraborty-3/research",
   },
