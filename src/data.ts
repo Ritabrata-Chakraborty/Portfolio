@@ -69,6 +69,18 @@ export const portfolioData = {
       links: {}
     },
     {
+      title: "IoT-Based Smart Irrigation Systems.",
+      authors: "Anonymous et al.",
+      venue: "7th IEEE India Council International Subsections Conference (INDISCON 2026)",
+      shortVenue: "IEEE INDISCON",
+      status: "Peer Review Completed for IEEE INDISCON",
+      year: "2026",
+      type: "Conference",
+      role: "Peer Reviewer",
+      image: "proj-irrigation.webp",
+      links: {}
+    },
+    {
       title: "Anonymous.",
       authors: "Anonymous et al.",
       venue: "IEEE Gujarat Section Conference 2026",
