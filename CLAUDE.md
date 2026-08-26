@@ -56,9 +56,11 @@ These are implicit — nothing enforces them, so breaking one silently drops con
 - **Optional fields degrade gracefully**: `image`, `location`, `techStack`, `links`,
   `projects[].bullets`, and `description` are all conditionally rendered. Omitting `image` on an
   experience renders no logo; omitting it on a project renders a grey placeholder box.
-- **Link order is fixed** for both projects and publications: Paper → Project → Code → Report →
-  Presentation → PDF. The buttons render in JSX source order, so adding a link type means placing
-  it in that sequence in both blocks.
+- **Link order is fixed** for both projects and publications: Paper → Poster → Project → Code →
+  Report → Presentation → PDF. The buttons render in JSX source order, so adding a link type means
+  placing it in that sequence in both blocks. `poster` uses the `Image` icon (aliased `ImageIcon` in
+  `App.tsx` to avoid clashing with the DOM `Image` global) — distinct from `presentation`'s
+  `MonitorPlay`, since a poster PDF/photo and a slide deck read as different artifacts.
 - **`techStack` follows a fixed order**: programming languages (Python, C++, …) → ML/CV libraries
   (PyTorch, OpenCV, XGBoost) → ROS → simulation software (AirSim, MATLAB) → hardware (Jetson) →
   CAD/FEM software (ANSYS Mechanical, Fusion 360, SolidWorks).

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { BackgroundCanvas } from './components/BackgroundCanvas';
 import { portfolioData } from './data';
-import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, Sparkles, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap, Cloud, Users, LayoutGrid } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, Sparkles, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap, Cloud, Users, LayoutGrid, Image as ImageIcon } from 'lucide-react';
 
 const iconMap: Record<string, React.ElementType> = {
   BookOpen, Code2, Cpu, Sparkles, Microchip, Wrench, Cloud, Users, LayoutGrid
@@ -429,6 +429,11 @@ export default function App() {
                           <FileText size={14} /> Paper
                         </a>
                       )}
+                      {pub.links.poster && (
+                        <a href={pub.links.poster} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:bg-white transition-all">
+                          <ImageIcon size={14} /> Poster
+                        </a>
+                      )}
                       {pub.links.project && (
                         <a href={pub.links.project} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:bg-white transition-all">
                           <Link size={14} /> Project
@@ -502,6 +507,11 @@ export default function App() {
                     {proj.links.paper && (
                       <a href={proj.links.paper} className="flex items-center gap-1.5 px-2.5 py-1 border border-blue-200 bg-blue-50/50 rounded text-xs font-medium text-blue-700 hover:bg-blue-100 transition-colors">
                         <FileText size={12} /> Paper
+                      </a>
+                    )}
+                    {proj.links.poster && (
+                      <a href={proj.links.poster} className="flex items-center gap-1.5 px-2.5 py-1 border border-blue-200 bg-blue-50/50 rounded text-xs font-medium text-blue-700 hover:bg-blue-100 transition-colors">
+                        <ImageIcon size={12} /> Poster
                       </a>
                     )}
                     {proj.links.project && (
