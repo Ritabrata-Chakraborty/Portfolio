@@ -200,7 +200,7 @@ export const portfolioData = {
     {
       title: "High-Velocity Impact Testing and Analysis of Layered Metal-Composite Shields Using Electromagnetic Railgun.",
       authors: "R. Chakraborty",
-      venue: "Pulsed Power Science, Technology and Application (PPSTA), Visakhapatnam, India",
+      venue: "Pulsed Power Science, Technology and Application (PPSTA)",
       shortVenue: "PPSTA",
       status: "Presented as Poster at PPSTA",
       year: "2024",
