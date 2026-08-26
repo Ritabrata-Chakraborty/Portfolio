@@ -530,6 +530,7 @@ export const portfolioData = {
     },
     {
       title: "Impact Testing and Analysis of Metal-Composite Shields Using Electromagnetic Railguns",
+      image: "proj-railgun.webp",
       links: {
         poster: "https://drive.google.com/file/d/1OYv4bZBQV_vTbe1WTLtOoCF73OjacjLu/view?usp=drive_link"
       },
