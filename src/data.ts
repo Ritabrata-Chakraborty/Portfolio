@@ -206,7 +206,9 @@ export const portfolioData = {
       year: "2024",
       type: "Poster",
       image: "proj-railgun.webp",
-      links: {}
+      links: {
+        presentation: "https://drive.google.com/file/d/1OYv4bZBQV_vTbe1WTLtOoCF73OjacjLu/view?usp=drive_link"
+      }
     }
   ],
   experience: [
@@ -528,7 +530,9 @@ export const portfolioData = {
     },
     {
       title: "Impact Testing and Analysis of Metal-Composite Shields Using Electromagnetic Railguns",
-      links: {},
+      links: {
+        presentation: "https://drive.google.com/file/d/1OYv4bZBQV_vTbe1WTLtOoCF73OjacjLu/view?usp=drive_link"
+      },
       tags: ["Design", "Simulation"]
     },
     {
