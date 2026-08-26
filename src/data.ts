@@ -81,6 +81,30 @@ export const portfolioData = {
       links: {}
     },
     {
+      title: "Generative AI and Computer Vision Based Multi-Assessment System for Early Prediction and Diagnosis of Autism Spectrum Disorder (ASD).",
+      authors: "Anonymous et al.",
+      venue: "7th IEEE India Council International Subsections Conference (INDISCON 2026)",
+      shortVenue: "IEEE INDISCON",
+      status: "Peer Review Completed for IEEE INDISCON",
+      year: "2026",
+      type: "Conference",
+      role: "Peer Reviewer",
+      image: "proj-gs.webp",
+      links: {}
+    },
+    {
+      title: "AquaNode: Design and Implementation of a Low-Cost Automated Water Tank Monitoring and Valve Control System Using Arduino and Ultrasonic Sensing.",
+      authors: "Anonymous et al.",
+      venue: "7th IEEE India Council International Subsections Conference (INDISCON 2026)",
+      shortVenue: "IEEE INDISCON",
+      status: "Peer Review Completed for IEEE INDISCON",
+      year: "2026",
+      type: "Conference",
+      role: "Peer Reviewer",
+      image: "proj-gs.webp",
+      links: {}
+    },
+    {
       title: "Anonymous.",
       authors: "Anonymous et al.",
       venue: "IEEE Gujarat Section Conference 2026",
@@ -184,18 +208,17 @@ export const portfolioData = {
       links: {
         paper: "https://drive.google.com/file/d/1TZ-1WKuYXeAOZaP7R5TnSufCdyz3sn4a/view?usp=sharing"
       }
+    },
+    {
+      title: "High-Velocity Impact Testing and Analysis of Layered Metal-Composite Shields Using Electromagnetic Railgun.",
+      authors: "R. Chakraborty",
+      venue: "Pulsed Power Science, Technology and Application (PPSTA), Visakhapatnam, India",
+      shortVenue: "PPSTA",
+      status: "Presented as Poster at PPSTA",
+      year: "2024",
+      type: "Poster",
+      links: {}
     }
-    // BARC-derived; stays hidden like the rest of the BARC work.
-    // {
-    //   title: "High-Velocity Impact Testing and Analysis of Layered Metal-Composite Shields Using Electromagnetic Railgun.",
-    //   authors: "R. Chakraborty",
-    //   venue: "Pulsed Power Science, Technology and Application (PPSTA), Visakhapatnam, India",
-    //   shortVenue: "PPSTA",
-    //   status: "Presented as Poster at PPSTA",
-    //   year: "2024",
-    //   type: "Poster",
-    //   links: {}
-    // },
   ],
   experience: [
     {
@@ -307,21 +330,21 @@ export const portfolioData = {
         { title: "Primal World Beliefs in Engineering Students" }
       ]
     },
-    // {
-    //   institution: "Bhabha Atomic Research Centre (BARC)",
-    //   institutionLink: "https://www.barc.gov.in/",
-    //   role: "Research Intern",
-    //   duration: "Jun '24 – Jul '24",
-    //   location: "Maharashtra, India",
-    //   supervisors: [
-    //     { name: "Dr. Rishi Verma, Head (ESDS), PPEMD", link: "https://www.researchgate.net/profile/Rishi-Verma-3" },
-    //   ],
-    //   image: "org-barc.jpg",
-    //   projects: [
-    //     { title: "Image-Based Visual Servoing for Automated Radar Control and UAV Tracking" },
-    //     { title: "Impact Testing and Analysis of Metal-Composite Shields Using Electromagnetic Railguns" }
-    //   ]
-    // },
+    {
+      institution: "Bhabha Atomic Research Centre (BARC)",
+      institutionLink: "https://www.barc.gov.in/",
+      role: "Research Intern",
+      duration: "Jun '24 – Jul '24",
+      location: "Maharashtra, India",
+      supervisors: [
+        { name: "Dr. Rishi Verma, Head (ESDS), PPEMD", link: "https://www.researchgate.net/profile/Rishi-Verma-3" },
+      ],
+      image: "org-barc.webp",
+      projects: [
+        { title: "Image-Based Visual Servoing for Automated Radar Control and UAV Tracking" },
+        { title: "Impact Testing and Analysis of Metal-Composite Shields Using Electromagnetic Railguns" }
+      ]
+    },
     {
       institution: "Knowledge Cultivator",
       role: "Subject Matter Expert",
@@ -522,16 +545,16 @@ export const portfolioData = {
       links: { report: "https://drive.google.com/file/d/1Lik6wGn2XzuU0ZIgEgo5Yz3FChDTb2qQ/view?usp=drive_link" },
       tags: ["Others"]
     },
-    // {
-    //   title: "Image-Based Visual Servoing for Automated Radar Control and UAV Tracking",
-    //   links: {},
-    //   tags: ["Robotics", "Vision"]
-    // },
-    // {
-    //   title: "Impact Testing and Analysis of Metal-Composite Shields Using Electromagnetic Railguns",
-    //   links: {},
-    //   tags: ["Design", "Simulation"]
-    // },
+    {
+      title: "Image-Based Visual Servoing for Automated Radar Control and UAV Tracking",
+      links: {},
+      tags: ["Robotics", "Vision"]
+    },
+    {
+      title: "Impact Testing and Analysis of Metal-Composite Shields Using Electromagnetic Railguns",
+      links: {},
+      tags: ["Design", "Simulation"]
+    },
     {
       title: "Air Quality Index Forecasting Using Time Series Models",
       image: "proj-aqi.webp",

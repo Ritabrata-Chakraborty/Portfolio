@@ -40,7 +40,7 @@ These are implicit — nothing enforces them, so breaking one silently drops con
   `All | Journal | Conference | Workshop | Poster | Patent | Peer Review`, in that order.
   `type` must match one of `Journal`/`Conference`/`Workshop`/`Poster`/`Patent`. The `Peer Review`
   filter matches `role === 'Peer Reviewer'` — that same `role` also renders the amber badge.
-  **Workshop and Poster are deliberately empty** (the only poster is BARC work, kept commented out).
+  **Workshop is deliberately empty**; Poster holds the BARC PPSTA entry.
   Peer-review entries carry a real `type` too, so every non-`Peer Review` filter also excludes
   `role === 'Peer Reviewer'` — otherwise reviewed papers surface under Journal/Conference.
 - **Project tags** (`App.tsx:32`): `allTags` is hardcoded as
@@ -131,8 +131,9 @@ source for education, publications, experience, projects, achievements, and lead
   work item they came from, and the project cards use the work item's name.
   `Vision-Attention-Driven Autonomous Navigation` is the one deliberate exception — it stays in the
   NUS experience entry but has no project card.
-- Do not add BARC to the live site — not the experience, its two projects, nor the PPSTA poster.
-  All stay commented out in `data.ts`, kept accurate so they can be uncommented later.
+- BARC is live: the experience entry, its two project cards, and the PPSTA poster publication are
+  all uncommented in `data.ts`. (Earlier revisions of this file said to keep BARC hidden — that was
+  reversed on request; the commented-out pattern itself is still the right tool for hiding entries.)
 - The résumé's **Competitive Examinations** (GRE/TOEFL/JEE) are intentionally *not* on the site;
   its **Professional Activities** (IEEE membership) is folded into `achievements`.
 - The CV link lives at `personalInfo.cv` and is surfaced as one more circular icon button in the
