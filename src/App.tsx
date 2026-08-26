@@ -375,7 +375,8 @@ export default function App() {
                     {pub.role}
                   </span>
                 </div>
-                <h3 className="theme-card font-medium text-slate-900 leading-snug">{pub.title}</h3>
+                <h3 className="theme-card font-medium text-slate-900 mb-1.5 leading-snug">{pub.title}</h3>
+                <span className="theme-body font-medium text-blue-700">{pub.venue}</span>
               </motion.div>
             ) : (
             <motion.div
