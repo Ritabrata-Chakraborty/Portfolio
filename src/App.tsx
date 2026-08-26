@@ -357,7 +357,28 @@ export default function App() {
         </div>
         <div className="grid grid-cols-1 gap-4">
           {filteredPubs.map((pub, idx) => (
-            <motion.div 
+            pub.role === 'Peer Reviewer' ? (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.1 }}
+                className="glass-panel p-4 rounded-xl group hover:border-blue-300 transition-colors bg-white/40"
+              >
+                <div className="flex flex-wrap gap-2 items-center mb-2 theme-meta uppercase tracking-widest font-semibold">
+                  <span className="px-2.5 py-1 rounded-lg bg-blue-100 text-blue-700 border border-blue-200 shadow-sm">
+                    {pub.shortVenue}
+                  </span>
+                  <span className="text-slate-500 font-mono bg-white px-2.5 py-1 rounded-lg border border-slate-300 shadow-sm">{pub.year}</span>
+                  <span className="px-2.5 py-1 rounded-lg bg-amber-50 text-amber-700 border border-amber-200 shadow-sm">
+                    {pub.role}
+                  </span>
+                </div>
+                <h3 className="theme-card font-medium text-slate-900 leading-snug">{pub.title}</h3>
+              </motion.div>
+            ) : (
+            <motion.div
               key={idx}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -372,11 +393,6 @@ export default function App() {
                       {pub.shortVenue}
                     </span>
                     <span className="text-slate-500 font-mono bg-white px-2.5 py-1 rounded-lg border border-slate-300 shadow-sm">{pub.year}</span>
-                    {pub.role && (
-                      <span className="px-2.5 py-1 rounded-lg bg-amber-50 text-amber-700 border border-amber-200 shadow-sm">
-                        {pub.role}
-                      </span>
-                    )}
                   </div>
 
                   <h3 className="theme-card font-medium text-slate-900 mb-2 leading-snug">{pub.title}</h3>
@@ -433,6 +449,7 @@ export default function App() {
                 )}
               </div>
             </motion.div>
+            )
           ))}
         </div>
       </Section>

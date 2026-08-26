@@ -43,6 +43,11 @@ These are implicit — nothing enforces them, so breaking one silently drops con
   **Workshop is deliberately empty**; Poster holds the BARC PPSTA entry.
   Peer-review entries carry a real `type` too, so every non-`Peer Review` filter also excludes
   `role === 'Peer Reviewer'` — otherwise reviewed papers surface under Journal/Conference.
+- **Peer-review cards render as a distinct, shorter layout** (`App.tsx`, the
+  `pub.role === 'Peer Reviewer'` branch in the publications map): badge row, title, nothing else —
+  no image, no authors line, no status/venue line. Only non-peer-review publications get the full
+  card with image, authors, and status. Keep both branches in sync on shared styling (badge colors,
+  card radius) but do not merge them back into one layout.
 - **Project tags** (`App.tsx:32`): `allTags` is hardcoded as
   `All | Simulation | Vision | Robotics | Gen-AI | Design | Others`. A project whose `tags` contain
   a string not in that list is only reachable under `All`; a new category requires editing
