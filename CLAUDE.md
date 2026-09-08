@@ -155,8 +155,10 @@ source for education, publications, experience, projects, achievements, and lead
   call-to-action button, and `personalInfo.portfolio` is now unused by the UI.
 - Skill categories mirror the résumé's `Technical Skills` lines one-for-one, including the merged
   **AI & Data Science** and **Leadership & Communication** groupings.
-- Peer-review entries with no supplied image default to reusing `proj-gs.webp` as a placeholder
-  (several INDISCON/GSC entries do this) — swap in a real image if the user later provides one.
+- **Peer-review entries carry no `image` field at all** — they don't need one, since the compact
+  peer-review card never renders an image regardless. Don't add one for a new peer-review entry,
+  even when the user supplies a picture. `proj-gait.webp` and `proj-irrigation.webp` in `public/`
+  are now-unreferenced leftovers from when peer reviews used to show images; harmless, left in place.
 
 ## Working agreement
 

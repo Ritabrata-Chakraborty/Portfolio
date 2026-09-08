@@ -53,7 +53,6 @@ export const portfolioData = {
       year: "2026",
       type: "Journal",
       role: "Peer Reviewer",
-      image: "proj-gs.webp",
       links: {}
     },
     {
@@ -65,7 +64,6 @@ export const portfolioData = {
       year: "2026",
       type: "Conference",
       role: "Peer Reviewer",
-      image: "proj-gait.webp",
       links: {}
     },
     {
@@ -77,7 +75,6 @@ export const portfolioData = {
       year: "2026",
       type: "Conference",
       role: "Peer Reviewer",
-      image: "proj-irrigation.webp",
       links: {}
     },
     {
@@ -89,7 +86,6 @@ export const portfolioData = {
       year: "2026",
       type: "Conference",
       role: "Peer Reviewer",
-      image: "proj-gs.webp",
       links: {}
     },
     {
@@ -101,7 +97,6 @@ export const portfolioData = {
       year: "2026",
       type: "Conference",
       role: "Peer Reviewer",
-      image: "proj-gs.webp",
       links: {}
     },
     {
@@ -113,7 +108,6 @@ export const portfolioData = {
       year: "2026",
       type: "Conference",
       role: "Peer Reviewer",
-      image: "proj-gs.webp",
       links: {}
     },
     {
@@ -125,7 +119,6 @@ export const portfolioData = {
       year: "2026",
       type: "Conference",
       role: "Peer Reviewer",
-      image: "proj-gs.webp",
       links: {}
     },
     {
@@ -137,7 +130,6 @@ export const portfolioData = {
       year: "2026",
       type: "Conference",
       role: "Peer Reviewer",
-      image: "proj-gs.webp",
       links: {}
     },
     {
