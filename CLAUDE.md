@@ -143,11 +143,20 @@ source for education, publications, experience, projects, achievements, and lead
   reversed on request; the commented-out pattern itself is still the right tool for hiding entries.)
 - The résumé's **Competitive Examinations** (GRE/TOEFL/JEE) are intentionally *not* on the site;
   its **Professional Activities** (IEEE membership) is folded into `achievements`.
+- **Deliberate divergences from the résumé — do not "fix" these to match it:**
+  - The résumé's **Subject Matter Expert / Knowledge Cultivator** experience (Nov '23–Feb '24) is
+    intentionally absent from `data.ts`; it was removed on request even though the résumé keeps it.
+  - `personalInfo.github` points to `github.com/robotics1106`, not the résumé's
+    `Ritabrata-Chakraborty` GitHub link — a separate handle the user asked to use here specifically.
+  - The hero's **About Me** copy is authored directly by the user, not derived from the résumé.
+    Don't regenerate or "improve" it against résumé wording; only change it on explicit instruction.
 - The CV link lives at `personalInfo.cv` and is surfaced as one more circular icon button in the
   hero's social row (Email, LinkedIn, GitHub, Scholar, ResearchGate, CV) — there is no large
   call-to-action button, and `personalInfo.portfolio` is now unused by the UI.
 - Skill categories mirror the résumé's `Technical Skills` lines one-for-one, including the merged
   **AI & Data Science** and **Leadership & Communication** groupings.
+- Peer-review entries with no supplied image default to reusing `proj-gs.webp` as a placeholder
+  (several INDISCON/GSC entries do this) — swap in a real image if the user later provides one.
 
 ## Working agreement
 
