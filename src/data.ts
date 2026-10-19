@@ -3,7 +3,7 @@ export const portfolioData = {
     name: "Ritabrata Chakraborty",
     email: "ritabratabits@gmail.com",
     phone: "+91 89107 83548",
-    github: "https://github.com/robotics1106",
+    github: "https://github.com/Ritabrata-Chakraborty",
     googleScholar: "https://scholar.google.com/citations?user=JikCewwAAAAJ&hl=en",
     portfolio: "https://ritabrata-chakraborty.github.io/Portfolio/",
     cv: "https://drive.google.com/file/d/1MmHxbD5gJHIH4p7o5VlPfcgNlQ1qpb8B/view?usp=sharing",

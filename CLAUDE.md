@@ -146,8 +146,8 @@ source for education, publications, experience, projects, achievements, and lead
 - **Deliberate divergences from the résumé — do not "fix" these to match it:**
   - The résumé's **Subject Matter Expert / Knowledge Cultivator** experience (Nov '23–Feb '24) is
     intentionally absent from `data.ts`; it was removed on request even though the résumé keeps it.
-  - `personalInfo.github` points to `github.com/robotics1106`, not the résumé's
-    `Ritabrata-Chakraborty` GitHub link — a separate handle the user asked to use here specifically.
+  - `personalInfo.github` points to `github.com/Ritabrata-Chakraborty` (the account was renamed
+    from `robotics1106`; old `robotics1106.github.io` Pages URLs now 404).
   - The hero's **About Me** copy is authored directly by the user, not derived from the résumé.
     Don't regenerate or "improve" it against résumé wording; only change it on explicit instruction.
 - The CV link lives at `personalInfo.cv` and is surfaced as one more circular icon button in the
