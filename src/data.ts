@@ -193,7 +193,7 @@ export const portfolioData = {
       type: "Conference",
       image: "proj-cogniplan.webp",
       links: {
-        paper: "https://www.arxiv.org/abs/2508.03027",
+        paper: "https://arxiv.org/pdf/2508.03027",
         code: "https://github.com/marmotlab/CogniPlan",
         project: "https://yizhuo-wang.com/cogniplan/"
       }
@@ -208,7 +208,8 @@ export const portfolioData = {
       type: "Conference",
       image: "proj-efficient-gan.webp",
       links: {
-        paper: "https://digital-library.theiet.org/doi/10.1049/icp.2025.2364",
+        paper: "https://ieeexplore.ieee.org/document/11090096",
+        project: "https://ritabrata-chakraborty.github.io/An-Efficient-Approach-for-Synthetic-Data-Generation-and-Fault-Diagnosis-for-Rotating-Machinery/",
         code: "https://github.com/Ritabrata-Chakraborty/An-Efficient-Approach-for-Synthetic-Data-Generation-and-Fault-Diagnosis-for-Rotating-Machinery"
       }
     },
@@ -222,7 +223,9 @@ export const portfolioData = {
       type: "Patent",
       image: "proj-uav-orchard.webp",
       links: {
-        paper: "https://drive.google.com/file/d/1TZ-1WKuYXeAOZaP7R5TnSufCdyz3sn4a/view?usp=sharing"
+        paper: "https://drive.google.com/file/d/1CMH3KU0Kgo8L-cQNC2fqTfHuR0cpWf5W/view?usp=drive_link",
+        project: "https://ritabrata-chakraborty.github.io/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring/",
+        code: "https://github.com/Ritabrata-Chakraborty/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring"
       }
     },
     {
@@ -235,7 +238,8 @@ export const portfolioData = {
       type: "Poster",
       image: "proj-railgun.webp",
       links: {
-        poster: "https://drive.google.com/file/d/1OYv4bZBQV_vTbe1WTLtOoCF73OjacjLu/view?usp=drive_link"
+        poster: "https://drive.google.com/file/d/1PlaW5f1lktrN9NA7tXuF_4OQ6oCWsMgv/view?usp=drive_link",
+        project: "https://ritabrata-chakraborty.github.io/Railgun-Impact-Layered-Shields/"
       }
     }
   ],
@@ -458,13 +462,13 @@ export const portfolioData = {
     {
       title: "Multi-Critic Decomposition for Autonomous Indoor Navigation",
       image: "proj-rl.webp",
-      links: { paper: "https://drive.google.com/file/d/1Uimegpx43p9dfY7lvgPU_LR3ERb3-YJP/view", code: "https://github.com/Ritabrata-Chakraborty/Quadcopter-RL-Off-Policy-Velocity-Control" },
+      links: { paper: "https://drive.google.com/file/d/1ZbXVK82uE7esc_MJddMygPwYf34Kf8oD/view?usp=drive_link", code: "https://github.com/Ritabrata-Chakraborty/Quadcopter-RL-Off-Policy-Velocity-Control" },
       tags: ["Robotics"]
     },
     {
       title: "3D Lunar Surface Modeling from DEM Data — ISRO Immersion Challenge 2024",
       image: "proj-lunar.webp",
-      links: { presentation: "https://drive.google.com/file/d/1QHn3U-iJFZyzYMW3TUlMg7MbXFU9p19_/view" },
+      links: { presentation: "https://drive.google.com/file/d/16G0VYC5aEpGW_xqj6y0GRwX1Hb5cWeJk/view?usp=drive_link" },
       tags: ["Simulation"]
     },
     {
@@ -482,13 +486,13 @@ export const portfolioData = {
     {
       title: "Auxiliary Classifier WGAN-GP for Time-Series Sensor Data Generation",
       image: "proj-efficient-gan.webp",
-      links: { paper: "https://digital-library.theiet.org/doi/10.1049/icp.2025.2364", code: "https://github.com/Ritabrata-Chakraborty/An-Efficient-Approach-for-Synthetic-Data-Generation-and-Fault-Diagnosis-for-Rotating-Machinery" },
+      links: { paper: "https://ieeexplore.ieee.org/document/11090096", project: "https://ritabrata-chakraborty.github.io/An-Efficient-Approach-for-Synthetic-Data-Generation-and-Fault-Diagnosis-for-Rotating-Machinery/", code: "https://github.com/Ritabrata-Chakraborty/An-Efficient-Approach-for-Synthetic-Data-Generation-and-Fault-Diagnosis-for-Rotating-Machinery" },
       tags: ["Gen-AI"]
     },
     {
       title: "Uncertainty-Guided Path Planning via Conditional Layout Prediction",
       image: "proj-cogniplan.webp",
-      links: { paper: "https://www.arxiv.org/abs/2508.03027", project: "https://yizhuo-wang.com/cogniplan/", code: "https://github.com/marmotlab/CogniPlan" },
+      links: { paper: "https://arxiv.org/pdf/2508.03027", project: "https://yizhuo-wang.com/cogniplan/", code: "https://github.com/marmotlab/CogniPlan" },
       tags: ["Robotics"]
     },
     {
@@ -500,7 +504,7 @@ export const portfolioData = {
     {
       title: "Monocular Vision-Based UAV Navigation for Orchard Monitoring",
       image: "proj-uav-orchard.webp",
-      links: { paper: "https://drive.google.com/file/d/1TZ-1WKuYXeAOZaP7R5TnSufCdyz3sn4a/view?usp=drive_link", code: "https://github.com/Ritabrata-Chakraborty/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring" },
+      links: { paper: "https://drive.google.com/file/d/1CMH3KU0Kgo8L-cQNC2fqTfHuR0cpWf5W/view?usp=drive_link", project: "https://ritabrata-chakraborty.github.io/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring/", code: "https://github.com/Ritabrata-Chakraborty/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring" },
       tags: ["Robotics", "Vision"]
     },
     {
@@ -548,7 +552,7 @@ export const portfolioData = {
     {
       title: "Primal World Beliefs in Engineering Students",
       image: "proj-primal.webp",
-      links: { report: "https://drive.google.com/file/d/1Lik6wGn2XzuU0ZIgEgo5Yz3FChDTb2qQ/view?usp=drive_link" },
+      links: { paper: "https://ritabrata-chakraborty.github.io/Primal-World-Beliefs-Engineering/paper.pdf", project: "https://ritabrata-chakraborty.github.io/Primal-World-Beliefs-Engineering/", code: "https://github.com/Ritabrata-Chakraborty/Primal-World-Beliefs-Engineering" },
       tags: ["Others"]
     },
     {
@@ -561,14 +565,15 @@ export const portfolioData = {
       title: "Impact Testing and Analysis of Metal-Composite Shields Using Electromagnetic Railguns",
       image: "proj-railgun.webp",
       links: {
-        poster: "https://drive.google.com/file/d/1OYv4bZBQV_vTbe1WTLtOoCF73OjacjLu/view?usp=drive_link"
+        poster: "https://drive.google.com/file/d/1PlaW5f1lktrN9NA7tXuF_4OQ6oCWsMgv/view?usp=drive_link",
+        project: "https://ritabrata-chakraborty.github.io/Railgun-Impact-Layered-Shields/"
       },
       tags: ["Design", "Simulation"]
     },
     {
       title: "Air Quality Index Forecasting Using Time Series Models",
       image: "proj-aqi.webp",
-      links: { report: "https://drive.google.com/file/d/19VMK7SCWqU9Bv2O01lgY_h-JgHfI49gh/view?usp=drive_link" },
+      links: { code: "https://github.com/Ritabrata-Chakraborty/AQI-Forecasting", report: "https://drive.google.com/file/d/19VMK7SCWqU9Bv2O01lgY_h-JgHfI49gh/view?usp=drive_link" },
       tags: ["Others"]
     },
     {

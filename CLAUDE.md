@@ -150,6 +150,11 @@ source for education, publications, experience, projects, achievements, and lead
     from `robotics1106`; old `robotics1106.github.io` Pages URLs now 404).
   - The hero's **About Me** copy is authored directly by the user, not derived from the résumé.
     Don't regenerate or "improve" it against résumé wording; only change it on explicit instruction.
+- **Links come from the résumé first, then the per-paper project pages.** Several works have their
+  own GitHub Pages site (`ritabrata-chakraborty.github.io/<repo>/`: orchard UAV, railgun, primal
+  world beliefs, PHM ACWGAN-GP). Their entries carry a `project` link to that page, and the Drive
+  `paper`/`poster` link is the one that page itself uses. `Railgun-Impact-Layered-Shields` is a
+  **private** repo, so it gets no `code` link (it would 404 for visitors) — only its page and poster.
 - The CV link lives at `personalInfo.cv` and is surfaced as one more circular icon button in the
   hero's social row (Email, LinkedIn, GitHub, Scholar, ResearchGate, CV) — there is no large
   call-to-action button, and `personalInfo.portfolio` is now unused by the UI.
