@@ -249,7 +249,7 @@ export const portfolioData = {
       type: "Patent",
       image: "proj-uav-orchard.webp",
       links: {
-        paper: "https://drive.google.com/file/d/1CMH3KU0Kgo8L-cQNC2fqTfHuR0cpWf5W/view?usp=drive_link",
+        paper: "https://drive.google.com/file/d/14MlPYhrZaG7jGeKUAV2oOqH_XkbmXJ9A/view?usp=sharing",
         project: "https://ritabrata-chakraborty.github.io/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring/",
         code: "https://github.com/Ritabrata-Chakraborty/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring"
       }
@@ -530,7 +530,7 @@ export const portfolioData = {
     {
       title: "Monocular Vision-Based UAV Navigation for Orchard Monitoring",
       image: "proj-uav-orchard.webp",
-      links: { paper: "https://drive.google.com/file/d/1CMH3KU0Kgo8L-cQNC2fqTfHuR0cpWf5W/view?usp=drive_link", project: "https://ritabrata-chakraborty.github.io/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring/", code: "https://github.com/Ritabrata-Chakraborty/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring" },
+      links: { paper: "https://drive.google.com/file/d/14MlPYhrZaG7jGeKUAV2oOqH_XkbmXJ9A/view?usp=sharing", project: "https://ritabrata-chakraborty.github.io/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring/", code: "https://github.com/Ritabrata-Chakraborty/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring" },
       tags: ["Robotics", "Vision"]
     },
     {
