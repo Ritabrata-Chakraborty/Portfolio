@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { BackgroundCanvas } from './components/BackgroundCanvas';
+import { ThemeToggle } from './components/ThemePanel';
 import { portfolioData } from './data';
-import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, Sparkles, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap, Cloud, Users, LayoutGrid, Image as ImageIcon } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, Sparkles, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap, Cloud, Users, LayoutGrid, Award, Image as ImageIcon } from 'lucide-react';
 
 const iconMap: Record<string, React.ElementType> = {
   BookOpen, Code2, Cpu, Sparkles, Microchip, Wrench, Cloud, Users, LayoutGrid
@@ -16,9 +16,10 @@ const Section = ({ id, title, children }: { id: string; title: string; children:
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="theme-section font-semibold mb-5 text-slate-800 tracking-wide"
+        className="theme-section font-serif font-semibold mb-5 text-fg flex items-center gap-4"
       >
         {title}
+        <span className="flex-1 h-px bg-rule" />
       </motion.h2>
       {children}
     </div>
@@ -51,21 +52,21 @@ export default function App() {
 
   return (
     <div className="min-h-screen relative font-sans">
-      <div className="fixed inset-0 bg-atmosphere pointer-events-none" />
-      <BackgroundCanvas />
-
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 glass-panel border-b-0 border-x-0 border-t-0 bg-opacity-80 backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-6 py-3 flex justify-center items-center text-sm font-medium tracking-wide">
-          <div className="hidden md:flex gap-7 text-slate-600">
-            <a href="#about" className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">About</a>
-            <a href="#education" className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">Education</a>
-            <a href="#experience" className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">Experience</a>
-            <a href="#publications" className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">Publications</a>
-            <a href="#projects" className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">Projects</a>
-            <a href="#achievements" className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">Achievements</a>
-            <a href="#blogs" className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">Blogs</a>
-            <a href="#skills" className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">Skills</a>
+      <nav className="fixed top-0 w-full z-50 nav-bar">
+        <div className="max-w-7xl mx-auto px-6 py-2.5 flex justify-end md:justify-center items-center relative">
+          <div className="hidden md:flex gap-7 text-muted">
+            <a href="#about" className="hover:text-accent transition-colors uppercase text-xs tracking-widest font-medium">About</a>
+            <a href="#education" className="hover:text-accent transition-colors uppercase text-xs tracking-widest font-medium">Education</a>
+            <a href="#experience" className="hover:text-accent transition-colors uppercase text-xs tracking-widest font-medium">Experience</a>
+            <a href="#publications" className="hover:text-accent transition-colors uppercase text-xs tracking-widest font-medium">Publications</a>
+            <a href="#projects" className="hover:text-accent transition-colors uppercase text-xs tracking-widest font-medium">Projects</a>
+            <a href="#achievements" className="hover:text-accent transition-colors uppercase text-xs tracking-widest font-medium">Achievements</a>
+            <a href="#blogs" className="hover:text-accent transition-colors uppercase text-xs tracking-widest font-medium">Blogs</a>
+            <a href="#skills" className="hover:text-accent transition-colors uppercase text-xs tracking-widest font-medium">Skills</a>
+          </div>
+          <div className="md:absolute md:right-6">
+            <ThemeToggle />
           </div>
         </div>
       </nav>
@@ -82,42 +83,42 @@ export default function App() {
               className="col-span-1 flex flex-col justify-between gap-6"
             >
               <div className="flex flex-col items-center text-center gap-4">
-                <div className="w-28 h-28 md:w-36 md:h-36 rounded-xl overflow-hidden glass-panel border p-1 shadow-sm bg-white mx-auto">
-                  <img src="avatar.webp" alt={personalInfo.name} className="w-full h-full object-cover rounded-lg" />
+                <div className="w-28 h-28 md:w-36 md:h-36 rounded-full overflow-hidden border border-rule p-1 bg-card mx-auto">
+                  <img src="avatar.webp" alt={personalInfo.name} className="w-full h-full object-cover rounded-full" />
                 </div>
                 <div>
-                  <h1 className="font-medium mb-1 tracking-wide text-slate-900 uppercase whitespace-nowrap overflow-visible" style={{ fontSize: '1.05rem' }}>
+                  <h1 className="theme-hero font-serif font-semibold mb-1.5 text-fg whitespace-nowrap overflow-visible tracking-tight">
                     {personalInfo.name}
                   </h1>
-                  <h2 className="theme-card text-blue-600 font-medium tracking-wide uppercase">
+                  <h2 className="kicker">
                     Robotics Researcher
                   </h2>
                 </div>
               </div>
-              
-              <div className="flex justify-center gap-3 flex-wrap">
-                <a href={`mailto:${personalInfo.email}`} className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Email">
-                  <Mail size={16} />
+
+              <div className="flex justify-center gap-2.5 flex-wrap">
+                <a href={`mailto:${personalInfo.email}`} className="icon-btn" title="Email">
+                  <Mail size={15} />
                 </a>
-                <a href={personalInfo.linkedin} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="LinkedIn">
-                  <Linkedin size={16} />
+                <a href={personalInfo.linkedin} target="_blank" rel="noreferrer" className="icon-btn" title="LinkedIn">
+                  <Linkedin size={15} />
                 </a>
-                <a href={personalInfo.github} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="GitHub">
-                  <Github size={16} />
+                <a href={personalInfo.github} target="_blank" rel="noreferrer" className="icon-btn" title="GitHub">
+                  <Github size={15} />
                 </a>
                 {personalInfo.googleScholar && (
-                  <a href={personalInfo.googleScholar} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Google Scholar">
-                    <GraduationCap size={16} />
+                  <a href={personalInfo.googleScholar} target="_blank" rel="noreferrer" className="icon-btn" title="Google Scholar">
+                    <GraduationCap size={15} />
                   </a>
                 )}
                 {personalInfo.researchGate && (
-                  <a href={personalInfo.researchGate} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="Research Scholar">
-                    <BookOpen size={16} />
+                  <a href={personalInfo.researchGate} target="_blank" rel="noreferrer" className="icon-btn" title="Research Scholar">
+                    <BookOpen size={15} />
                   </a>
                 )}
                 {personalInfo.cv && (
-                  <a href={personalInfo.cv} target="_blank" rel="noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors bg-white/60 p-2 rounded-full border border-slate-200 hover:border-blue-300 shadow-sm" title="CV">
-                    <FileText size={16} />
+                  <a href={personalInfo.cv} target="_blank" rel="noreferrer" className="icon-btn" title="CV">
+                    <FileText size={15} />
                   </a>
                 )}
               </div>
@@ -128,26 +129,26 @@ export default function App() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="col-span-1 md:col-span-2 glass-panel p-6 rounded-2xl h-full flex flex-col justify-center"
+              className="col-span-1 md:col-span-2 card p-4 md:p-5 h-full flex flex-col justify-center"
             >
-              <h3 className="theme-section font-mono text-blue-600 mb-3 uppercase tracking-widest">About Me</h3>
-              <div className="space-y-3 text-slate-600 leading-relaxed theme-card">
+              <h3 className="kicker mb-3">About Me</h3>
+              <div className="space-y-3 text-muted leading-relaxed theme-card">
                 <p>
-                  I'm a first-year <strong className="text-slate-900 font-medium">M.S.E. in Robotics</strong> student at the <strong className="text-slate-900 font-medium">University of Pennsylvania</strong>, researching at the intersection of <strong className="text-slate-900 font-medium">Aerial Robotics</strong>, <strong className="text-slate-900 font-medium">Vision-Language Models (VLMs)</strong>, <strong className="text-slate-900 font-medium">Reinforcement Learning</strong>, and <strong className="text-slate-900 font-medium">Perception & Vision</strong>. I build AI systems for perception-degraded, GPS-denied environments, with experience spanning academia and industry.
+                  I'm a first-year <strong className="text-fg font-medium">M.S.E. in Robotics</strong> student at the <strong className="text-fg font-medium">University of Pennsylvania</strong>, researching at the intersection of <strong className="text-fg font-medium">Aerial Robotics</strong>, <strong className="text-fg font-medium">Vision-Language Models (VLMs)</strong>, <strong className="text-fg font-medium">Reinforcement Learning</strong>, and <strong className="text-fg font-medium">Perception & Vision</strong>. I build AI systems for perception-degraded, GPS-denied environments, with experience spanning academia and industry.
                 </p>
                 <p>
-                  I've worked at <strong className="text-slate-900 font-medium">National University of Singapore</strong>, <strong className="text-slate-900 font-medium">KU Leuven</strong>, and <strong className="text-slate-900 font-medium">CSIR-CEERI</strong>, alongside an ML Internship at <strong className="text-slate-900 font-medium">Uber (AI Solutions)</strong>. Outside of research, I enjoy game development and chess.
+                  I've worked at <strong className="text-fg font-medium">National University of Singapore</strong>, <strong className="text-fg font-medium">KU Leuven</strong>, and <strong className="text-fg font-medium">CSIR-CEERI</strong>, alongside an ML Internship at <strong className="text-fg font-medium">Uber (AI Solutions)</strong>. Outside of research, I enjoy game development and chess.
                 </p>
               </div>
             </motion.div>
           </div>
         </div>
-        
+
         {/* Scroll indicator */}
-        <motion.div 
-          animate={{ y: [0, 10, 0] }} 
+        <motion.div
+          animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
-          className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex flex-col items-center opacity-50 text-slate-500"
+          className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex flex-col items-center opacity-50 text-muted"
         >
           <ChevronDown size={16} />
         </motion.div>
@@ -157,11 +158,11 @@ export default function App() {
       <Section id="education" title="Education">
         <div className="relative">
           {/* Master Timeline Line */}
-          <div className="hidden md:block absolute left-[154px] top-6 bottom-4 w-px bg-blue-200 z-0" />
-          
+          <div className="hidden md:block absolute left-[154px] top-6 bottom-4 w-px bg-rule z-0" />
+
           <div className="space-y-4">
             {education.map((edu, idx) => (
-              <motion.div 
+              <motion.div
                 key={idx}
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -171,53 +172,53 @@ export default function App() {
               >
                 {/* Left side: Date */}
                 <div className="flex flex-col justify-start pt-4 z-10">
-                  <div className="theme-meta font-mono text-slate-500 text-center font-semibold bg-white/60 px-4 py-1 rounded border border-slate-100 hidden md:block">
+                  <div className="theme-meta font-mono text-muted text-center font-medium bg-card px-1.5 py-1 rounded-md border border-rule whitespace-nowrap hidden md:block">
                     {edu.duration}
                   </div>
                 </div>
-                
+
                 {/* Timeline Dot */}
                 <div className="hidden md:flex flex-col items-center justify-start pt-6 z-10">
-                  <div className="w-3 h-3 bg-blue-500 rounded-full shadow-[0_0_0_4px_#f0f7fd]" />
+                  <div className="w-2.5 h-2.5 bg-accent rounded-full ring-4 ring-bg" />
                 </div>
-                
+
                 {/* Right side: Content */}
-                <div className="glass-panel p-4 md:p-5 rounded-xl group hover:border-blue-300 transition-colors h-fit text-left bg-white/40">
+                <div className="card card-hover p-4 md:p-5 h-fit text-left">
                   <div className="flex flex-row gap-4 items-start mb-2">
                     {edu.image && (
-                      <div className="w-[4.5rem] h-[4.5rem] md:w-[5rem] md:h-[5rem] rounded-lg overflow-hidden border border-slate-200 p-0.5 shadow-sm bg-white shrink-0">
-                         <img src={edu.image} alt={edu.institution} className="w-full h-full object-cover rounded-lg" loading="lazy" />
+                      <div className="w-[4.5rem] h-[4.5rem] md:w-[5rem] md:h-[5rem] rounded-lg overflow-hidden border border-rule p-0.5 bg-white shrink-0">
+                         <img src={edu.image} alt={edu.institution} className="w-full h-full object-cover rounded-md" loading="lazy" />
                       </div>
                     )}
                     <div className="flex flex-col flex-1">
                       <div className="flex justify-between items-start mb-1 flex-col md:flex-row md:items-center gap-2">
-                        <h3 className="theme-card font-semibold text-slate-900 leading-snug">{edu.degree}</h3>
-                        <span className="text-xs font-mono text-blue-700 bg-blue-100/50 px-2.5 py-1 rounded-full border border-blue-200 md:hidden">{edu.duration}</span>
+                        <h3 className="theme-card font-semibold text-fg leading-snug">{edu.degree}</h3>
+                        <span className="pill pill-accent md:hidden">{edu.duration}</span>
                       </div>
 
-                      <div className="theme-card text-slate-800 font-medium mb-1">
+                      <div className="theme-card text-fg mb-1">
                         {edu.institutionLink ? (
-                          <a href={edu.institutionLink} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 hover:underline transition-colors">{edu.institution}</a>
+                          <a href={edu.institutionLink} target="_blank" rel="noopener noreferrer" className="hover:text-accent hover:underline transition-colors">{edu.institution}</a>
                         ) : edu.institution}
                       </div>
 
-                      <div className="text-slate-500 text-xs flex items-center gap-1 font-medium mb-2">
+                      <div className="text-muted text-xs flex items-center gap-1 mb-2">
                         <MapPin size={12} />{edu.location}
                       </div>
 
                       {edu.gpa && (
-                        <span className="self-start px-3 py-1 bg-white shadow-sm text-xs font-mono text-slate-600 border border-slate-200 rounded-lg font-medium">
-                          CGPA: <span className="font-semibold text-slate-800">{edu.gpa}</span>
+                        <span className="pill self-start">
+                          CGPA:&nbsp;<span className="font-semibold text-fg">{edu.gpa}</span>
                         </span>
                       )}
                     </div>
                   </div>
-                  
+
                   {edu.achievements.length > 0 && (
-                    <ul className="space-y-1.5 mt-3 pt-3 border-t border-slate-100 text-slate-600 theme-body">
+                    <ul className="space-y-1.5 mt-3 pt-3 border-t border-rule text-muted theme-body">
                       {edu.achievements.map((ach, i) => (
                         <li key={i} className="flex items-start gap-2.5">
-                          <span className="text-blue-500 mt-0.5">▹</span>
+                          <span className="text-accent mt-0.5">▹</span>
                           <span className="leading-relaxed">{ach}</span>
                         </li>
                       ))}
@@ -234,11 +235,11 @@ export default function App() {
       <Section id="experience" title="Experience">
         <div className="relative">
           {/* Master Timeline Line */}
-          <div className="hidden md:block absolute left-[154px] top-6 bottom-4 w-px bg-blue-200 z-0" />
+          <div className="hidden md:block absolute left-[154px] top-6 bottom-4 w-px bg-rule z-0" />
 
           <div className="space-y-4">
             {experience.map((exp, idx) => (
-              <motion.div 
+              <motion.div
                 key={idx}
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -248,59 +249,59 @@ export default function App() {
               >
                 {/* Left side: Date */}
                 <div className="flex flex-col justify-start pt-4 z-10">
-                  <div className="theme-meta font-mono text-slate-500 text-center font-semibold bg-white/60 px-4 py-1 rounded border border-slate-100 hidden md:block">
+                  <div className="theme-meta font-mono text-muted text-center font-medium bg-card px-1.5 py-1 rounded-md border border-rule whitespace-nowrap hidden md:block">
                     {exp.duration}
                   </div>
                 </div>
-                
+
                 {/* Timeline Dot */}
                 <div className="hidden md:flex flex-col items-center justify-start pt-6 z-10">
-                  <div className="w-3 h-3 bg-blue-500 rounded-full shadow-[0_0_0_4px_#f0f7fd]" />
+                  <div className="w-2.5 h-2.5 bg-accent rounded-full ring-4 ring-bg" />
                 </div>
-                
+
                 {/* Right side: Content */}
-                <div className="glass-panel p-4 md:p-5 rounded-xl group hover:border-blue-300 transition-colors h-fit text-left bg-white/40">
+                <div className="card card-hover p-4 md:p-5 h-fit text-left">
                   <div className="flex flex-row gap-4 items-start mb-2">
                     {exp.image && (
-                      <div className="w-12 h-12 md:w-14 md:h-14 aspect-square rounded-lg overflow-hidden border border-slate-200 p-0.5 shadow-sm bg-white shrink-0 mt-1">
-                         <img src={exp.image} alt={exp.institution} className="w-full h-full object-cover rounded-lg" loading="lazy" />
+                      <div className="w-12 h-12 md:w-14 md:h-14 aspect-square rounded-lg overflow-hidden border border-rule p-0.5 bg-white shrink-0 mt-1">
+                         <img src={exp.image} alt={exp.institution} className="w-full h-full object-cover rounded-md" loading="lazy" />
                       </div>
                     )}
                     <div className="flex flex-col flex-1">
                         <div className="flex justify-between items-start mb-1 flex-col gap-2">
-                          <h3 className="theme-card font-semibold text-blue-700 leading-snug">
-                            {exp.role} <span className="text-slate-400 font-light mx-1 hidden md:inline">|</span>{" "}
-                            <span className="text-slate-900 block md:inline mt-1 md:mt-0">
+                          <h3 className="theme-card font-semibold text-accent leading-snug">
+                            {exp.role} <span className="text-rule font-light mx-1 hidden md:inline">|</span>{" "}
+                            <span className="text-fg block md:inline mt-1 md:mt-0">
                               {exp.institutionLink ? (
-                                <a href={exp.institutionLink} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 hover:underline transition-colors">{exp.institution}</a>
+                                <a href={exp.institutionLink} target="_blank" rel="noopener noreferrer" className="hover:text-accent hover:underline transition-colors">{exp.institution}</a>
                               ) : exp.institution}
                             </span>
                           </h3>
                         </div>
 
-                        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 mb-2 text-[0.8rem] md:hidden">
-                          <span className="font-mono text-blue-700 bg-blue-100/50 px-2.5 py-1 rounded-full border border-blue-200">
+                        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 mb-2 md:hidden">
+                          <span className="pill pill-accent">
                             {exp.duration}
                           </span>
                         </div>
 
                         {exp.location && (
-                          <div className="text-slate-500 text-xs flex items-center gap-1 font-medium">
+                          <div className="text-muted text-xs flex items-center gap-1">
                             <MapPin size={12} />{exp.location}
                           </div>
                         )}
                     </div>
                   </div>
-                  
-                  <div className="text-slate-700 theme-body mb-4 mt-3 border-b border-blue-100/50 pb-3">
-                    <span className="font-bold text-slate-900 font-mono theme-meta uppercase tracking-wider mr-2">
+
+                  <div className="text-muted theme-body mb-4 mt-3 border-b border-rule pb-3">
+                    <span className="font-semibold text-fg font-mono theme-meta uppercase tracking-wider mr-2">
                       {exp.supervisors.length > 1 ? "Supervisors:" : "Supervisor:"}
                     </span>
                     {exp.supervisors.map((s, i) => (
                       <span key={i}>
-                        {i > 0 && <span className="text-slate-400 mx-1">&</span>}
+                        {i > 0 && <span className="text-muted mx-1">&</span>}
                         {s.link ? (
-                          <a href={s.link} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">{s.name}</a>
+                          <a href={s.link} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">{s.name}</a>
                         ) : s.name}
                       </span>
                     ))}
@@ -309,12 +310,12 @@ export default function App() {
                   <div className="space-y-3">
                     {exp.projects.map((proj, pIdx) => (
                       <div key={pIdx}>
-                        <h4 className="font-medium text-slate-800 theme-body leading-snug">{proj.title}</h4>
+                        <h4 className="font-medium text-fg theme-body leading-snug">{proj.title}</h4>
                         {proj.bullets && proj.bullets.length > 0 && (
                           <ul className="space-y-2 w-full mt-2.5">
                             {proj.bullets.map((bullet, bIdx) => (
-                              <li key={bIdx} className="text-slate-600 theme-body leading-relaxed flex items-start gap-2.5 w-full">
-                                <span className="text-blue-500 mt-0.5 text-xs font-bold font-mono shrink-0">▹</span>
+                              <li key={bIdx} className="text-muted theme-body leading-relaxed flex items-start gap-2.5 w-full">
+                                <span className="text-accent mt-0.5 text-xs font-bold font-mono shrink-0">▹</span>
                                 <span className="flex-1 w-0 min-w-0">{bullet}</span>
                               </li>
                             ))}
@@ -325,12 +326,12 @@ export default function App() {
                   </div>
 
                   {exp.techStack && (
-                    <div className="mt-4 pt-3 border-t border-slate-100 flex flex-wrap items-center gap-2">
-                      <span className="theme-meta uppercase tracking-wider font-bold text-slate-900 font-mono">Tech Stack:</span>
-                      <span className="theme-meta font-mono text-slate-600 bg-white px-2.5 py-1 rounded border border-slate-200 shadow-sm">{exp.techStack}</span>
+                    <div className="mt-4 pt-3 border-t border-rule flex flex-wrap items-center gap-2">
+                      <span className="theme-meta uppercase tracking-wider font-semibold text-fg font-mono">Tech Stack:</span>
+                      <span className="pill">{exp.techStack}</span>
                     </div>
                   )}
-                  
+
                 </div>
               </motion.div>
             ))}
@@ -345,11 +346,8 @@ export default function App() {
             <button
               key={f}
               onClick={() => setPubFilter(f)}
-              className={`px-3.5 py-1.5 rounded-lg theme-body transition-all font-medium ${
-                pubFilter === f
-                  ? 'bg-blue-600 text-white shadow-md border border-blue-600'
-                  : 'bg-white/80 text-slate-600 border border-slate-200 hover:border-blue-300 hover:text-blue-600 hover:bg-white shadow-sm'
-              }`}
+              data-active={pubFilter === f}
+              className="filter-btn theme-body"
             >
               {f}
             </button>
@@ -364,19 +362,15 @@ export default function App() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="glass-panel p-4 rounded-xl group hover:border-blue-300 transition-colors bg-white/40"
+                className="card card-hover p-4"
               >
-                <div className="flex flex-wrap gap-2 items-center mb-2 theme-meta uppercase tracking-widest font-semibold">
-                  <span className="px-2.5 py-1 rounded-lg bg-blue-100 text-blue-700 border border-blue-200 shadow-sm">
-                    {pub.shortVenue}
-                  </span>
-                  <span className="text-slate-500 font-mono bg-white px-2.5 py-1 rounded-lg border border-slate-300 shadow-sm">{pub.year}</span>
-                  <span className="px-2.5 py-1 rounded-lg bg-amber-50 text-amber-700 border border-amber-200 shadow-sm">
-                    {pub.role}
-                  </span>
+                <div className="flex flex-wrap gap-2 items-center mb-2 uppercase tracking-widest font-semibold">
+                  <span className="pill pill-accent">{pub.shortVenue}</span>
+                  <span className="pill">{pub.year}</span>
+                  <span className="pill pill-warn">{pub.role}</span>
                 </div>
-                <h3 className="theme-card font-medium text-slate-900 mb-1.5 leading-snug">{pub.title}</h3>
-                <span className="theme-body font-medium text-blue-700">{pub.venue}</span>
+                <h3 className="theme-card font-semibold text-fg mb-1.5 leading-snug">{pub.title}</h3>
+                <span className="theme-body font-medium text-accent">{pub.venue}</span>
               </motion.div>
             ) : (
             <motion.div
@@ -385,19 +379,17 @@ export default function App() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              className="glass-panel p-4 md:p-5 rounded-xl group hover:border-blue-300 transition-colors bg-white/40"
+              className="card card-hover p-4 md:p-5"
             >
               <div className="flex flex-col md:flex-row gap-4 items-start md:items-center">
                 <div className="flex-1 w-full order-2 md:order-1">
-                  <div className="flex flex-wrap gap-2 items-center mb-2 theme-meta uppercase tracking-widest font-semibold">
-                    <span className="px-2.5 py-1 rounded-lg bg-blue-100 text-blue-700 border border-blue-200 shadow-sm">
-                      {pub.shortVenue}
-                    </span>
-                    <span className="text-slate-500 font-mono bg-white px-2.5 py-1 rounded-lg border border-slate-300 shadow-sm">{pub.year}</span>
+                  <div className="flex flex-wrap gap-2 items-center mb-2 uppercase tracking-widest font-semibold">
+                    <span className="pill pill-accent">{pub.shortVenue}</span>
+                    <span className="pill">{pub.year}</span>
                   </div>
 
-                  <h3 className="theme-card font-medium text-slate-900 mb-2 leading-snug">{pub.title}</h3>
-                  <p className="text-slate-600 theme-body mb-2">
+                  <h3 className="theme-card font-semibold text-fg mb-2 leading-snug">{pub.title}</h3>
+                  <p className="text-muted theme-body mb-2">
                     Authors:{' '}
                     {pub.authors.split(', ').map((part, i) => {
                       const hasAnd = part.startsWith('and ');
@@ -409,7 +401,7 @@ export default function App() {
                         <span key={i}>
                           {i > 0 && ', '}
                           {hasAnd && 'and '}
-                          <span className={isMe ? 'text-slate-900 font-semibold' : 'text-slate-600'}>
+                          <span className={isMe ? 'text-fg font-semibold underline decoration-rule underline-offset-2' : 'text-muted'}>
                             {name}
                           </span>
                         </span>
@@ -417,31 +409,31 @@ export default function App() {
                     })}
                   </p>
 
-                  <div className="text-slate-500 theme-body mb-3 flex flex-col gap-0.5">
+                  <div className="text-muted theme-body mb-3 flex flex-col gap-0.5">
                     <i>{pub.status}</i>
-                    <span className="font-medium text-blue-700">{pub.venue}</span>
+                    <span className="font-medium text-accent">{pub.venue}</span>
                   </div>
 
                   {pub.links && (
                     <div className="flex flex-wrap gap-2 mt-3">
                       {pub.links.paper && (
-                        <a href={pub.links.paper} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:bg-white transition-all">
-                          <FileText size={14} /> Paper
+                        <a href={pub.links.paper} target="_blank" rel="noopener noreferrer" className="btn-link">
+                          <FileText size={13} /> Paper
                         </a>
                       )}
                       {pub.links.poster && (
-                        <a href={pub.links.poster} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:bg-white transition-all">
-                          <ImageIcon size={14} /> Poster
+                        <a href={pub.links.poster} target="_blank" rel="noopener noreferrer" className="btn-link">
+                          <ImageIcon size={13} /> Poster
                         </a>
                       )}
                       {pub.links.project && (
-                        <a href={pub.links.project} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:bg-white transition-all">
-                          <Link size={14} /> Project
+                        <a href={pub.links.project} target="_blank" rel="noopener noreferrer" className="btn-link">
+                          <Link size={13} /> Project
                         </a>
                       )}
                       {pub.links.code && (
-                        <a href={pub.links.code} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 border border-slate-200 rounded-md text-xs font-medium text-slate-600 hover:text-blue-600 hover:border-blue-300 hover:bg-white transition-all">
-                          <Code size={14} /> Code
+                        <a href={pub.links.code} target="_blank" rel="noopener noreferrer" className="btn-link">
+                          <Code size={13} /> Code
                         </a>
                       )}
                     </div>
@@ -449,8 +441,8 @@ export default function App() {
                 </div>
 
                 {pub.image && (
-                  <div className="w-full md:w-48 aspect-[3/2] flex-shrink-0 rounded-lg overflow-hidden glass-panel border p-1 shadow-sm bg-white order-1 md:order-2">
-                     <img src={pub.image} alt={pub.title} className="w-full h-full object-cover rounded-lg" loading="lazy" />
+                  <div className="w-full md:w-48 aspect-[3/2] flex-shrink-0 rounded-lg overflow-hidden border border-rule p-1 bg-white order-1 md:order-2">
+                     <img src={pub.image} alt={pub.title} className="w-full h-full object-cover rounded-md" loading="lazy" />
                   </div>
                 )}
               </div>
@@ -468,11 +460,8 @@ export default function App() {
             <button
               key={tag}
               onClick={() => setSelectedTag(tag)}
-              className={`px-3.5 py-1.5 rounded-lg theme-body transition-all font-medium ${
-                selectedTag === tag 
-                  ? 'bg-blue-600 text-white shadow-md border border-blue-600' 
-                  : 'bg-white/80 text-slate-600 border border-slate-200 hover:border-blue-300 hover:text-blue-600 hover:bg-white shadow-sm'
-              }`}
+              data-active={selectedTag === tag}
+              className="filter-btn theme-body"
             >
               {tag}
             </button>
@@ -481,61 +470,61 @@ export default function App() {
 
         <div className={`gap-4 space-y-4 ${getColumnsClass(filteredProjects.length)}`}>
           {filteredProjects.map((proj, idx) => (
-            <motion.div 
+            <motion.div
               key={idx}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.05 }}
-              className="break-inside-avoid glass-panel p-1 rounded-xl bg-white shadow-sm hover:shadow-md hover:border-blue-300 transition-all group overflow-hidden"
+              className="break-inside-avoid card card-hover p-1 group overflow-hidden"
             >
-              <div className="w-full relative bg-slate-100 rounded-[0.6rem] overflow-hidden aspect-[4/3]">
+              <div className="w-full relative bg-head rounded-[0.6rem] overflow-hidden aspect-[4/3]">
                 {proj.image ? (
                   <img src={proj.image} alt={proj.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                 ) : (
-                  <div className="w-full h-full bg-slate-100" />
+                  <div className="w-full h-full bg-head" />
                 )}
               </div>
-              <div className="p-3 flex flex-col gap-2 w-full">
+              <div className="p-3 flex flex-col gap-2.5 w-full">
                 <div className="w-full text-center">
-                  <h3 className="theme-card font-semibold text-blue-700 leading-snug">{proj.title}</h3>
-                  {proj.description && <p className="theme-body text-slate-600 leading-relaxed mt-1">{proj.description}</p>}
+                  <h3 className="theme-card font-semibold text-fg leading-snug">{proj.title}</h3>
+                  {proj.description && <p className="theme-body text-muted leading-relaxed mt-1">{proj.description}</p>}
                 </div>
 
                 {proj.links && Object.keys(proj.links).length > 0 && (
-                  <div className="flex flex-wrap gap-2 justify-center">
+                  <div className="flex flex-wrap gap-1.5 justify-center">
                     {proj.links.paper && (
-                      <a href={proj.links.paper} className="flex items-center gap-1.5 px-2.5 py-1 border border-blue-200 bg-blue-50/50 rounded text-xs font-medium text-blue-700 hover:bg-blue-100 transition-colors">
+                      <a href={proj.links.paper} className="btn-link">
                         <FileText size={12} /> Paper
                       </a>
                     )}
                     {proj.links.poster && (
-                      <a href={proj.links.poster} className="flex items-center gap-1.5 px-2.5 py-1 border border-blue-200 bg-blue-50/50 rounded text-xs font-medium text-blue-700 hover:bg-blue-100 transition-colors">
+                      <a href={proj.links.poster} className="btn-link">
                         <ImageIcon size={12} /> Poster
                       </a>
                     )}
                     {proj.links.project && (
-                      <a href={proj.links.project} className="flex items-center gap-1.5 px-2.5 py-1 border border-slate-200 bg-slate-50 rounded text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
+                      <a href={proj.links.project} className="btn-link">
                         <ExternalLink size={12} /> Project
                       </a>
                     )}
                     {proj.links.code && (
-                      <a href={proj.links.code} className="flex items-center gap-1.5 px-2.5 py-1 border border-slate-200 bg-slate-50 rounded text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
+                      <a href={proj.links.code} className="btn-link">
                         <Code size={12} /> Code
                       </a>
                     )}
                     {proj.links.report && (
-                      <a href={proj.links.report} className="flex items-center gap-1.5 px-2.5 py-1 border border-blue-200 bg-blue-50/50 rounded text-xs font-medium text-blue-700 hover:bg-blue-100 transition-colors">
+                      <a href={proj.links.report} className="btn-link">
                         <FileText size={12} /> Report
                       </a>
                     )}
                     {proj.links.presentation && (
-                      <a href={proj.links.presentation} className="flex items-center gap-1.5 px-2.5 py-1 border border-blue-200 bg-blue-50/50 rounded text-xs font-medium text-blue-700 hover:bg-blue-100 transition-colors">
+                      <a href={proj.links.presentation} className="btn-link">
                         <MonitorPlay size={12} /> Presentation
                       </a>
                     )}
                     {proj.links.pdf && (
-                      <a href={proj.links.pdf} className="flex items-center gap-1.5 px-2.5 py-1 border border-slate-200 bg-slate-50 rounded text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
+                      <a href={proj.links.pdf} className="btn-link">
                         <File size={12} /> PDF
                       </a>
                     )}
@@ -557,41 +546,41 @@ export default function App() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.08 }}
-              className="glass-panel p-4 rounded-xl bg-white/40 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3"
+              className="card card-hover p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3"
             >
               <div className="flex items-start gap-3 flex-1 min-w-0">
-                <div className="w-8 h-8 flex-shrink-0 bg-amber-50 border border-amber-200 rounded-lg flex items-center justify-center mt-0.5">
-                  <GraduationCap size={16} className="text-amber-600" />
+                <div className="w-8 h-8 flex-shrink-0 bg-accent-soft text-accent rounded-lg flex items-center justify-center mt-0.5">
+                  <Award size={16} />
                 </div>
                 <div className="min-w-0">
-                  <p className="theme-body font-semibold text-slate-800 leading-snug">{ach.title}</p>
-                  <p className="theme-card text-slate-600 font-normal mt-0.5">{ach.organizer} · {ach.year}</p>
+                  <p className="theme-body font-semibold text-fg leading-snug">{ach.title}</p>
+                  <p className="theme-body text-muted mt-0.5">{ach.organizer} · {ach.year}</p>
                 </div>
               </div>
               {Object.keys(ach.links).length > 0 && (
                 <div className="flex flex-wrap gap-2 sm:flex-shrink-0">
                   {ach.links.certificate && (
-                    <a href={ach.links.certificate} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-2.5 py-1 border border-amber-200 bg-amber-50/50 rounded text-xs font-medium text-amber-700 hover:bg-amber-100 transition-colors">
+                    <a href={ach.links.certificate} target="_blank" rel="noopener noreferrer" className="btn-link">
                       <FileText size={12} /> Certificate
                     </a>
                   )}
                   {ach.links.presentation && (
-                    <a href={ach.links.presentation} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-2.5 py-1 border border-blue-200 bg-blue-50/50 rounded text-xs font-medium text-blue-700 hover:bg-blue-100 transition-colors">
+                    <a href={ach.links.presentation} target="_blank" rel="noopener noreferrer" className="btn-link">
                       <MonitorPlay size={12} /> Presentation
                     </a>
                   )}
                   {ach.links.report && (
-                    <a href={ach.links.report} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-2.5 py-1 border border-blue-200 bg-blue-50/50 rounded text-xs font-medium text-blue-700 hover:bg-blue-100 transition-colors">
+                    <a href={ach.links.report} target="_blank" rel="noopener noreferrer" className="btn-link">
                       <FileText size={12} /> Report
                     </a>
                   )}
                   {ach.links.project && (
-                    <a href={ach.links.project} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-2.5 py-1 border border-slate-200 bg-slate-50 rounded text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
+                    <a href={ach.links.project} target="_blank" rel="noopener noreferrer" className="btn-link">
                       <ExternalLink size={12} /> Project
                     </a>
                   )}
                   {ach.links.code && (
-                    <a href={ach.links.code} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-2.5 py-1 border border-slate-200 bg-slate-50 rounded text-xs font-medium text-slate-700 hover:bg-slate-100 transition-colors">
+                    <a href={ach.links.code} target="_blank" rel="noopener noreferrer" className="btn-link">
                       <Code size={12} /> Code
                     </a>
                   )}
@@ -604,8 +593,8 @@ export default function App() {
 
       {/* Blogs */}
       <Section id="blogs" title="Blogs">
-        <div className="glass-panel p-6 text-center rounded-xl bg-white/40 border-dashed border-2 border-slate-200 flex flex-col items-center justify-center min-h-[100px]">
-           <p className="text-slate-500 text-sm font-medium tracking-wide">Coming Soon...</p>
+        <div className="p-5 text-center rounded-xl border border-dashed border-rule flex flex-col items-center justify-center min-h-[100px]">
+           <p className="text-muted text-sm font-medium tracking-wide">Coming Soon...</p>
         </div>
       </Section>
 
@@ -615,23 +604,23 @@ export default function App() {
           {skills.map((skillGroup, idx) => {
             const Icon = iconMap[skillGroup.icon];
             return (
-              <motion.div 
+              <motion.div
                 key={idx}
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="glass-panel p-5 rounded-xl flex flex-col items-center text-center hover:border-blue-300 transition-all bg-white/40"
+                className="card card-hover p-4 md:p-5 flex flex-col items-center text-center"
               >
-                <div className="w-10 h-10 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center mb-2 shadow-sm border border-blue-100">
-                  {Icon && <Icon size={18} />}
+                <div className="w-9 h-9 bg-accent-soft text-accent rounded-lg flex items-center justify-center mb-2">
+                  {Icon && <Icon size={17} />}
                 </div>
-                <h3 className="theme-card font-bold tracking-wide text-slate-800 mb-3 pb-2 border-b border-slate-200 w-full text-center">
+                <h3 className="theme-card font-semibold text-fg mb-3 pb-2 border-b border-rule w-full text-center">
                   {skillGroup.category}
                 </h3>
                 <div className="flex flex-wrap gap-1.5 justify-center">
                   {skillGroup.items.map((item, i) => (
-                    <span key={i} className="px-2.5 py-1 rounded bg-white text-slate-600 theme-meta shadow-sm border border-slate-200 font-medium hover:border-blue-300 hover:text-blue-600 transition-colors cursor-default">
+                    <span key={i} className="pill cursor-default">
                       {item}
                     </span>
                   ))}
@@ -642,6 +631,9 @@ export default function App() {
         </div>
       </Section>
 
+      <footer className="py-8 text-center theme-meta text-muted border-t border-rule mt-6">
+        © {new Date().getFullYear()} {personalInfo.name}
+      </footer>
     </div>
   );
 }

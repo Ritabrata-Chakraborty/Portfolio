@@ -29,8 +29,9 @@ There is no test suite and no ESLint config; `npm run lint` is a TypeScript type
   Adding or editing any content means editing this file **only**.
 - `src/App.tsx` — one default-export component that renders every section from `portfolioData`.
   Touch it only to change layout, filters, or markup.
-- `src/components/` — `BackgroundCanvas.tsx` (animated backdrop), `ThemePanel.tsx`
-  (`ThemeProvider`, pushes `themeConfig.ts` values into CSS custom properties on mount).
+- `src/components/` — `ThemePanel.tsx`: `ThemeProvider` (pushes `themeConfig.ts` values into CSS
+  custom properties on mount) and `ThemeToggle` (the System/Light/Dark switch in the nav).
+  `BackgroundCanvas.tsx` (the old blue particle backdrop) is no longer rendered; the file is unused.
 
 ### Data-shape contracts that App.tsx depends on
 
@@ -39,15 +40,15 @@ These are implicit — nothing enforces them, so breaking one silently drops con
 - **Publications filters** (`App.tsx:36`): buttons are
   `All | Journal | Conference | Workshop | Poster | Patent | Peer Review`, in that order.
   `type` must match one of `Journal`/`Conference`/`Workshop`/`Poster`/`Patent`. The `Peer Review`
-  filter matches `role === 'Peer Reviewer'` — that same `role` also renders the amber badge.
+  filter matches `role === 'Peer Reviewer'` — that same `role` also renders the amber `pill-warn` badge.
   **Workshop is deliberately empty**; Poster holds the BARC PPSTA entry.
   Peer-review entries carry a real `type` too, so every non-`Peer Review` filter also excludes
   `role === 'Peer Reviewer'` — otherwise reviewed papers surface under Journal/Conference.
 - **Peer-review cards render as a distinct, shorter layout** (`App.tsx`, the
   `pub.role === 'Peer Reviewer'` branch in the publications map): badge row, title, full venue name
-  in blue — no image, no authors line, no status line. Only non-peer-review publications get the
-  full card with image, authors, and status. Keep both branches in sync on shared styling (badge
-  colors, card radius, the blue venue text) but do not merge them back into one layout.
+  in the accent color — no image, no authors line, no status line. Only non-peer-review publications
+  get the full card with image, authors, and status. Keep both branches in sync on shared styling
+  (`pill` badges, card radius, the accent venue text) but do not merge them back into one layout.
 - **Project tags** (`App.tsx:32`): `allTags` is hardcoded as
   `All | Simulation | Vision | Robotics | Gen-AI | Design | Others`. A project whose `tags` contain
   a string not in that list is only reachable under `All`; a new category requires editing
@@ -84,10 +85,30 @@ BARC experience already follow this convention. Preserve it.
 
 ### Styling
 
-Tailwind v4 through `@tailwindcss/vite` (no `tailwind.config.js`). Design tokens live in the
-`@theme` block of `src/index.css`; the custom classes used throughout `App.tsx` are `glass-panel`,
-`bg-atmosphere`, `text-gradient`, and the `theme-hero`/`theme-section`/`theme-card`/`theme-body`/
-`theme-meta` font-size classes. Change global type scale in `src/themeConfig.ts`, not in the markup.
+Tailwind v4 through `@tailwindcss/vite` (no `tailwind.config.js`). The look is a clean academic
+style deliberately matching the per-paper project pages (e.g. the PHM ACWGAN-GP site): deep teal
+accent, hairline rules, solid cards, no glass/blur, gradients, or particle backdrop.
+
+- **Color tokens** are CSS variables (`--bg --fg --muted --rule --card --head --accent --accent-soft
+  --warn --warn-soft`) defined **three times** in `src/index.css`: light on `:root`, dark under
+  `@media (prefers-color-scheme: dark) :root:not([data-theme="light"])`, and dark again under
+  `:root[data-theme="dark"]`. Change a dark value in both dark blocks. `@theme inline` maps them to
+  Tailwind colors, so markup uses `text-fg`, `text-muted`, `bg-card`, `border-rule`, `text-accent`,
+  `bg-accent-soft`, … — **never raw `slate-*`/`blue-*` utilities**, which don't switch with the theme.
+- **Light/dark**: defaults to system. `ThemeToggle` stores `light`/`dark` in `localStorage.theme`
+  (System removes the key) and sets `data-theme` on `<html>`; an inline script in `index.html`
+  applies it before first paint to avoid a flash. Logos and publication images sit on a `bg-white`
+  frame on purpose so white-background logos read correctly in dark mode.
+- **Component classes** (`card`, `card-hover`, `kicker`, `pill`/`pill-accent`/`pill-warn`,
+  `btn-link`, `filter-btn` with `data-active`, `icon-btn`, `nav-bar`) live inside
+  `@layer components` — keep them there, or their `display`/padding beats Tailwind utilities like
+  `md:hidden` (this once made the mobile date pill show on desktop).
+- **Fonts**: Source Serif 4 for the name and section headings (`font-serif`), Inter for body, and
+  JetBrains Mono for pills/dates — all loaded from Google Fonts in `index.html`.
+- Section headings are serif with a hairline rule filling the rest of the row. The avatar is a
+  **circle** (`rounded-full`) with a thin ring.
+- Font sizes use the `theme-hero`/`theme-section`/`theme-card`/`theme-body`/`theme-meta` classes.
+  Change global type scale in `src/themeConfig.ts`, not in the markup.
 
 **Spacing scale — keep it tight and uniform.** The user's standing preference is compact cards and
 even gaps between every section; large padding and big corner radii read as unpolished.
@@ -104,16 +125,16 @@ even gaps between every section; large padding and big corner radii read as unpo
 **Type scale.** Deliberately small for a dense, professional feel. The five sizes are defined
 **twice** — `src/themeConfig.ts` (applied at runtime by `ThemeProvider`) and the `:root` block of
 `src/index.css` (the pre-hydration values). **Change both or the page flashes at the old size.**
-Current: hero `1.6rem`, section `1.05rem`, card `0.9rem`, body `0.85rem`, meta `0.7rem`.
-Inter and JetBrains Mono are loaded from Google Fonts in `index.html`; without that link the CSS
-font stacks silently fall back to system sans.
+Current: hero `1.6rem`, section `1.2rem` (serif reads smaller), card `0.9rem`, body `0.85rem`,
+meta `0.7rem`. Without the Google Fonts link in `index.html` the font stacks silently fall back.
 
 ### Verifying layout changes
 
 Framer Motion's `whileInView` keeps every section below the fold at `opacity: 0`, so a headless
 screenshot captures a blank page. To check a layout change visually, temporarily append
 `#root [style*="opacity"] { opacity: 1 !important; transform: none !important; }` to
-`src/index.css`, screenshot, then revert it — do not commit that rule.
+`src/index.css`, screenshot, then revert it — do not commit that rule. Headless Chrome takes
+`--blink-settings=preferredColorScheme=0` (dark) or `=1` (light) to check both themes.
 
 ## Deploy
 
