@@ -53,6 +53,17 @@ export default function App() {
     p.role !== 'Peer Reviewer' || filteredPubs.find(q => q.role === 'Peer Reviewer' && q.shortVenue === p.shortVenue) === p
   );
 
+  // Skills render as three fixed columns; the short groups stack in the middle one.
+  // A category not listed here falls into the last column rather than disappearing.
+  const skillColumnNames = [
+    ["Relevant Courses", "Robotics & Simulation"],
+    ["Programming Languages", "Hardware & Embedded Systems", "CAD & Mechanical Simulation"],
+    ["AI & Data Science", "Cloud & MLOps"],
+  ];
+  const skillColumns = skillColumnNames.map((names, i) => skills.filter(s =>
+    names.includes(s.category) || (i === skillColumnNames.length - 1 && !skillColumnNames.flat().includes(s.category))
+  ));
+
   const getColumnsClass = (count: number) => {
     if (count === 1) return 'columns-1 max-w-[300px] mx-auto';
     if (count === 2) return 'columns-1 sm:columns-2 max-w-[600px] mx-auto';
@@ -619,8 +630,10 @@ export default function App() {
 
       {/* Skills */}
       <Section id="skills" title="Technical Skills">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {skills.map((skillGroup, idx) => {
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          {skillColumns.map((column, cIdx) => (
+          <div key={cIdx} className="flex flex-col gap-4">
+          {column.map((skillGroup, idx) => {
             const Icon = iconMap[skillGroup.icon];
             return (
               <motion.div
@@ -628,8 +641,8 @@ export default function App() {
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
-                transition={{ delay: idx * 0.1 }}
-                className="card card-hover p-4 md:p-5 flex flex-col items-center text-center"
+                transition={{ delay: (cIdx + idx) * 0.1 }}
+                className="card card-hover p-4 md:p-5 flex flex-col items-center text-center flex-1"
               >
                 <div className="w-9 h-9 bg-accent-soft text-accent rounded-lg flex items-center justify-center mb-2">
                   {Icon && <Icon size={17} />}
@@ -647,6 +660,8 @@ export default function App() {
               </motion.div>
             )
           })}
+          </div>
+          ))}
         </div>
       </Section>
 

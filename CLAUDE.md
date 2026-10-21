@@ -72,6 +72,11 @@ These are implicit — nothing enforces them, so breaking one silently drops con
 - **`techStack` follows a fixed order**: programming languages (Python, C++, …) → ML/CV libraries
   (PyTorch, OpenCV, XGBoost) → ROS → simulation software (AirSim, MATLAB) → hardware (Jetson) →
   CAD/FEM software (ANSYS Mechanical, Fusion 360, SolidWorks).
+- **Skills render as three fixed columns**, not a flowing grid: `skillColumnNames` in `App.tsx` maps
+  category names to columns — Relevant Courses + Robotics & Simulation | Programming Languages +
+  Hardware & Embedded Systems + CAD & Mechanical Simulation (the short groups, stacked) | AI & Data
+  Science + Cloud & MLOps. Cards are `flex-1` so each column ends flush. Renaming a category in
+  `data.ts` means renaming it there too; an unlisted category falls into the last column.
 - **Skill `icon` must exist in `iconMap`** (`App.tsx:7`). An unmapped name is guarded, so it fails
   silently as an empty icon tile rather than an error — check the map when adding a category.
 - `education[].achievements` is a flat string array and is where leadership, teaching, and
