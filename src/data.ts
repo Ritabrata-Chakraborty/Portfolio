@@ -56,6 +56,17 @@ export const portfolioData = {
       links: {}
     },
     {
+      title: "RoSe6D: Role-Separated Structure-Aware Guidance for RGB-Based 6D Object Pose Estimation.",
+      authors: "Anonymous et al.",
+      venue: "IEEE Transactions on Automation Science and Engineering (T-ASE)",
+      shortVenue: "IEEE-TASE",
+      status: "Peer Review Completed for IEEE T-ASE",
+      year: "2026",
+      type: "Journal",
+      role: "Peer Reviewer",
+      links: {}
+    },
+    {
       title: "Limits of Wearable Gait Analysis for Age Classification in Young Adults: Anthropometry Over Age.",
       authors: "Anonymous et al.",
       venue: "7th IEEE India Council International Subsections Conference (INDISCON 2026)",
@@ -157,6 +168,21 @@ export const portfolioData = {
       links: {
         paper: "https://drive.google.com/file/d/1ZbXVK82uE7esc_MJddMygPwYf34Kf8oD/view?usp=drive_link",
         code: "https://github.com/Ritabrata-Chakraborty/Quadcopter-RL-Off-Policy-Velocity-Control"
+      }
+    },
+    {
+      title: "A Safe Harbour in a Cut-Throat World? General and Engineering-Specific Primal World Beliefs Among Indian Engineering Undergraduates.",
+      authors: "R. Chakraborty",
+      venue: "Journal of Social and Educational Research",
+      shortVenue: "JSER",
+      status: "Submitted to Journal of Social and Educational Research",
+      year: "2026",
+      type: "Journal",
+      image: "proj-primal.webp",
+      links: {
+        paper: "https://ritabrata-chakraborty.github.io/Primal-World-Beliefs-Engineering/paper.pdf",
+        project: "https://ritabrata-chakraborty.github.io/Primal-World-Beliefs-Engineering/",
+        code: "https://github.com/Ritabrata-Chakraborty/Primal-World-Beliefs-Engineering"
       }
     },
     // {
@@ -404,17 +430,17 @@ export const portfolioData = {
       category: "CAD & Mechanical Simulation",
       icon: "Wrench",
       items: ["ANSYS Mechanical", "SolidWorks", "Fusion 360"]
-    },
-    {
-      category: "Leadership & Communication",
-      icon: "Users",
-      items: ["Event Planning", "Team Management", "Budget Allocation", "Mentorship", "Cross-Functional Coordination", "Public Speaking", "Stakeholder Outreach", "Technical Writing"]
-    },
-    {
-      category: "Productivity Software",
-      icon: "LayoutGrid",
-      items: ["Microsoft Office (Excel, PowerPoint, Word)", "Google Workspace"]
     }
+    // {
+    //   category: "Leadership & Communication",
+    //   icon: "Users",
+    //   items: ["Event Planning", "Team Management", "Budget Allocation", "Mentorship", "Cross-Functional Coordination", "Public Speaking", "Stakeholder Outreach", "Technical Writing"]
+    // },
+    // {
+    //   category: "Productivity Software",
+    //   icon: "LayoutGrid",
+    //   items: ["Microsoft Office (Excel, PowerPoint, Word)", "Google Workspace"]
+    // }
   ],
   achievements: [
     {

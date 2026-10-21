@@ -45,10 +45,17 @@ These are implicit — nothing enforces them, so breaking one silently drops con
   Peer-review entries carry a real `type` too, so every non-`Peer Review` filter also excludes
   `role === 'Peer Reviewer'` — otherwise reviewed papers surface under Journal/Conference.
 - **Peer-review cards render as a distinct, shorter layout** (`App.tsx`, the
-  `pub.role === 'Peer Reviewer'` branch in the publications map): badge row, title, full venue name
-  in the accent color — no image, no authors line, no status line. Only non-peer-review publications
-  get the full card with image, authors, and status. Keep both branches in sync on shared styling
-  (`pill` badges, card radius, the accent venue text) but do not merge them back into one layout.
+  `pub.role === 'Peer Reviewer'` branch in the publications map): badge row, title list, full venue
+  name in the accent color — no image, no authors line, no status line. Only non-peer-review
+  publications get the full card with image, authors, and status. Keep both branches in sync on
+  shared styling (`pill` badges, card radius, the accent venue text) but do not merge them back into
+  one layout.
+- **Peer reviews are grouped: one card per venue**, keyed on `shortVenue` (`reviewsByVenue` /
+  `shownPubs` in `App.tsx`). The card lists every reviewed title for that venue as `▹` bullets and
+  sits where the venue's first entry appears in `data.ts`. When a venue spans several years, the year
+  pill shows them all, descending, joined by ` · ` (e.g. `2026 · 2025`). Data stays one entry per
+  reviewed paper — add a new review as its own entry with the same `shortVenue`; the venue name shown
+  is the first entry's `venue`, so keep that string venue-generic if years differ.
 - **Project tags** (`App.tsx:32`): `allTags` is hardcoded as
   `All | Simulation | Vision | Robotics | Gen-AI | Design | Others`. A project whose `tags` contain
   a string not in that list is only reachable under `All`; a new category requires editing
@@ -179,8 +186,9 @@ source for education, publications, experience, projects, achievements, and lead
 - The CV link lives at `personalInfo.cv` and is surfaced as one more circular icon button in the
   hero's social row (Email, LinkedIn, GitHub, Scholar, ResearchGate, CV) — there is no large
   call-to-action button, and `personalInfo.portfolio` is now unused by the UI.
-- Skill categories mirror the résumé's `Technical Skills` lines one-for-one, including the merged
-  **AI & Data Science** and **Leadership & Communication** groupings.
+- Skill categories mirror the résumé's `Technical Skills` lines, including the merged
+  **AI & Data Science** grouping — except **Leadership & Communication** and **Productivity
+  Software**, which are commented out in `data.ts` on request (deliberately not shown on the site).
 - **Peer-review entries carry no `image` field at all** — they don't need one, since the compact
   peer-review card never renders an image regardless. Don't add one for a new peer-review entry,
   even when the user supplies a picture. `proj-gait.webp` and `proj-irrigation.webp` in `public/`

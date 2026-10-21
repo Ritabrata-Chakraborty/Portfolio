@@ -41,6 +41,18 @@ export default function App() {
       ? publications.filter(p => p.role === 'Peer Reviewer')
       : publications.filter(p => p.type === pubFilter && p.role !== 'Peer Reviewer');
 
+  // Peer reviews collapse into one card per venue, shown where that venue first appears.
+  const reviewsByVenue = new Map<string, { titles: string[]; years: string[] }>();
+  filteredPubs.filter(p => p.role === 'Peer Reviewer').forEach(p => {
+    const group = reviewsByVenue.get(p.shortVenue) ?? { titles: [], years: [] };
+    group.titles.push(p.title);
+    if (!group.years.includes(p.year)) group.years = [...group.years, p.year].sort((a, b) => b.localeCompare(a));
+    reviewsByVenue.set(p.shortVenue, group);
+  });
+  const shownPubs = filteredPubs.filter(p =>
+    p.role !== 'Peer Reviewer' || filteredPubs.find(q => q.role === 'Peer Reviewer' && q.shortVenue === p.shortVenue) === p
+  );
+
   const getColumnsClass = (count: number) => {
     if (count === 1) return 'columns-1 max-w-[300px] mx-auto';
     if (count === 2) return 'columns-1 sm:columns-2 max-w-[600px] mx-auto';
@@ -354,7 +366,7 @@ export default function App() {
           ))}
         </div>
         <div className="grid grid-cols-1 gap-4">
-          {filteredPubs.map((pub, idx) => (
+          {shownPubs.map((pub, idx) => (
             pub.role === 'Peer Reviewer' ? (
               <motion.div
                 key={idx}
@@ -366,10 +378,17 @@ export default function App() {
               >
                 <div className="flex flex-wrap gap-2 items-center mb-2 uppercase tracking-widest font-semibold">
                   <span className="pill pill-accent">{pub.shortVenue}</span>
-                  <span className="pill">{pub.year}</span>
+                  <span className="pill">{reviewsByVenue.get(pub.shortVenue)!.years.join(' · ')}</span>
                   <span className="pill pill-warn">{pub.role}</span>
                 </div>
-                <h3 className="theme-card font-semibold text-fg mb-1.5 leading-snug">{pub.title}</h3>
+                <ul className="space-y-1.5 mb-2">
+                  {reviewsByVenue.get(pub.shortVenue)!.titles.map((title, i) => (
+                    <li key={i} className="theme-card font-semibold text-fg leading-snug flex items-start gap-2.5">
+                      <span className="text-accent text-xs mt-0.5 shrink-0">▹</span>
+                      <span>{title}</span>
+                    </li>
+                  ))}
+                </ul>
                 <span className="theme-body font-medium text-accent">{pub.venue}</span>
               </motion.div>
             ) : (
