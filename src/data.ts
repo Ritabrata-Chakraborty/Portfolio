@@ -180,7 +180,7 @@ export const portfolioData = {
       type: "Journal",
       image: "proj-primal.webp",
       links: {
-        paper: "https://ritabrata-chakraborty.github.io/Primal-World-Beliefs-Engineering/paper.pdf",
+        paper: "https://doi.org/10.31235/osf.io/c7s4b_v1",
         project: "https://ritabrata-chakraborty.github.io/Primal-World-Beliefs-Engineering/",
         code: "https://github.com/Ritabrata-Chakraborty/Primal-World-Beliefs-Engineering"
       }
@@ -578,7 +578,7 @@ export const portfolioData = {
     {
       title: "Primal World Beliefs in Engineering Students",
       image: "proj-primal.webp",
-      links: { paper: "https://ritabrata-chakraborty.github.io/Primal-World-Beliefs-Engineering/paper.pdf", project: "https://ritabrata-chakraborty.github.io/Primal-World-Beliefs-Engineering/", code: "https://github.com/Ritabrata-Chakraborty/Primal-World-Beliefs-Engineering" },
+      links: { paper: "https://doi.org/10.31235/osf.io/c7s4b_v1", project: "https://ritabrata-chakraborty.github.io/Primal-World-Beliefs-Engineering/", code: "https://github.com/Ritabrata-Chakraborty/Primal-World-Beliefs-Engineering" },
       tags: ["Others"]
     },
     {
