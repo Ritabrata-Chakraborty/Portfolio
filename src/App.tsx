@@ -27,7 +27,7 @@ const Section = ({ id, title, children }: { id: string; title: string; children:
 );
 
 export default function App() {
-  const { personalInfo, education, publications, experience, skills, projects, achievements } = portfolioData;
+  const { personalInfo, education, publications, experience, skills, projects, achievements, blogs } = portfolioData;
 
   const [selectedTag, setSelectedTag] = useState('All');
   const allTags = ["All", "Simulation", "Vision", "Robotics", "Gen-AI", "Design", "Others"];
@@ -623,8 +623,26 @@ export default function App() {
 
       {/* Blogs */}
       <Section id="blogs" title="Blogs">
-        <div className="p-5 text-center rounded-xl border border-dashed border-rule flex flex-col items-center justify-center min-h-[100px]">
-           <p className="text-muted text-sm font-medium tracking-wide">Coming Soon...</p>
+        {/* Fixed-width cards sit side by side and scroll horizontally once they overflow. */}
+        <div className="flex gap-4 overflow-x-auto no-scrollbar snap-x snap-mandatory">
+          {blogs.map((blog, idx) => (
+            <motion.a
+              key={idx}
+              href={blog.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.05 }}
+              className="card card-hover p-1 group overflow-hidden shrink-0 w-64 md:w-72 snap-start"
+            >
+              <div className="w-full bg-head rounded-[0.6rem] overflow-hidden aspect-[4/3]">
+                <img src={blog.image} alt={blog.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+              </div>
+              <h3 className="p-3 theme-card font-semibold text-fg leading-snug text-center group-hover:text-accent transition-colors">{blog.title}</h3>
+            </motion.a>
+          ))}
         </div>
       </Section>
 

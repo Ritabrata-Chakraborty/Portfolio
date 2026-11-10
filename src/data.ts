@@ -644,5 +644,12 @@ export const portfolioData = {
       links: { presentation: "https://drive.google.com/file/d/1oC9seJ8GRzicnij6xViUjAum3Zq5Vjlr/view?usp=drive_link" },
       tags: ["Others"]
     }
+  ],
+  blogs: [
+    {
+      title: "Validating Bounding Box Annotations",
+      image: "blog-uber-bbox.webp",
+      link: "https://www.uber.com/us/en/blog/validating-bounding-box/"
+    }
   ]
 };

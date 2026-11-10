@@ -25,7 +25,8 @@ There is no test suite and no ESLint config; `npm run lint` is a TypeScript type
 **Content and presentation are fully separated, and this is the single most important fact:**
 
 - `src/data.ts` — the entire site's content as one `portfolioData` object
-  (`personalInfo`, `education`, `publications`, `experience`, `skills`, `achievements`, `projects`).
+  (`personalInfo`, `education`, `publications`, `experience`, `skills`, `achievements`, `projects`,
+  `blogs`).
   Adding or editing any content means editing this file **only**.
 - `src/App.tsx` — one default-export component that renders every section from `portfolioData`.
   Touch it only to change layout, filters, or markup.
@@ -79,6 +80,11 @@ These are implicit — nothing enforces them, so breaking one silently drops con
   `data.ts` means renaming it there too; an unlisted category falls into the last column.
 - **Skill `icon` must exist in `iconMap`** (`App.tsx:7`). An unmapped name is guarded, so it fails
   silently as an empty icon tile rather than an error — check the map when adding a category.
+- **Blogs** (`blogs` in `data.ts`: `title`, `image`, `link`) render as fixed-width cards (`w-64 md:w-72`,
+  `shrink-0`) in one row that scrolls horizontally once it overflows (`overflow-x-auto` + snap). The
+  scrollbar is hidden on request via the `no-scrollbar` component class — don't add a visible bar or
+  arrows. Each card is the blog's title plus the **first picture in the post** (the hero image),
+  saved as `blog-*.webp`, and the whole card links to the post. Newest posts go first.
 - `education[].achievements` is a flat string array and is where leadership, teaching, and
   scholarship entries live — there is no separate leadership section.
 
@@ -87,7 +93,7 @@ These are implicit — nothing enforces them, so breaking one silently drops con
 Flat files in `public/`, referenced from `data.ts` by **bare filename** (e.g. `"org-nus.webp"`),
 never with a leading `/` — `vite.config.ts` sets `base: '/Portfolio/'` and a rooted path would
 break under the GitHub Pages subpath. Prefer `.webp`; the convention is `org-*` for institution
-logos and `proj-*` / `pub-*` for publication and project imagery. Resize new images to roughly
+logos, `proj-*` / `pub-*` for publication and project imagery, and `blog-*` for blog cards. Resize new images to roughly
 match the existing ones (~1280px wide) before converting.
 
 ### Hiding entries
@@ -112,7 +118,7 @@ accent, hairline rules, solid cards, no glass/blur, gradients, or particle backd
   applies it before first paint to avoid a flash. Logos and publication images sit on a `bg-white`
   frame on purpose so white-background logos read correctly in dark mode.
 - **Component classes** (`card`, `card-hover`, `kicker`, `pill`/`pill-accent`/`pill-warn`,
-  `btn-link`, `filter-btn` with `data-active`, `icon-btn`, `nav-bar`) live inside
+  `btn-link`, `filter-btn` with `data-active`, `icon-btn`, `no-scrollbar`, `nav-bar`) live inside
   `@layer components` — keep them there, or their `display`/padding beats Tailwind utilities like
   `md:hidden` (this once made the mobile date pill show on desktop).
 - **Fonts**: Source Serif 4 for the name and section headings (`font-serif`), Inter for body, and

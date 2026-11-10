@@ -165,6 +165,10 @@ body {
   }
   .icon-btn:hover { border-color: var(--accent); color: var(--accent); }
 
+  /* Horizontal scroller with no visible scrollbar (Blogs row). */
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+
   .nav-bar {
     background: color-mix(in srgb, var(--bg) 85%, transparent);
     backdrop-filter: blur(10px);
