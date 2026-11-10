@@ -147,9 +147,9 @@ export const portfolioData = {
     {
       title: "Navigating Without Satellites: A Critical Survey of GNSS-Denied UAV Navigation.",
       authors: "R. Chakraborty, and K. Kishore",
-      venue: "IEEE Transactions on Artificial Intelligence (T-AI)",
-      shortVenue: "IEEE T-AI",
-      status: "Submitted to IEEE T-AI",
+      venue: "International Journal of Intelligent Robotics and Applications (IJIRA), Springer",
+      shortVenue: "Springer IJIRA",
+      status: "Submitted to Springer IJIRA",
       year: "2026",
       type: "Journal",
       image: "proj-gnss-denied.webp",

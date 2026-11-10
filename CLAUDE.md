@@ -175,7 +175,10 @@ source for education, publications, experience, projects, achievements, and lead
   KU Leuven experience entry but its project card is commented out on request; the GRASP
   **Risk-Aware Contextual Uncertainty Resolution** item has no card yet (no image — ask before
   adding one). The **Contacts Carry the Depth** card (CVPR work) has no résumé work item, so it uses
-  the paper title.
+  the paper title. Its image `proj-contacts-depth.webp` is an **animated WebP** converted from the user's
+  demo GIF (smaller than the GIF; `<img>` animates it). Convert future GIFs the same way.
+- The GNSS-denied survey is submitted to **Springer IJIRA**, not IEEE T-AI — the résumé still says T-AI
+  (as of 2026-11-09); the portfolio is right, don't "sync" it back.
 - **Penn work:** GRASP Lab research (Dr. Vijay Kumar) is the newest experience entry, using the
   `org-upenn.webp` logo. The Applied ML TA role (CIS 4190/5190) is a line in the Penn education
   entry's `achievements`, mirroring how BITS TA roles are listed.
