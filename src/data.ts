@@ -21,6 +21,7 @@ export const portfolioData = {
       achievements: [
         "Deputy Director of Academic Programming — Graduate and Professional Student Assembly (GAPSA)",
         "Vice President — South Asian Association (Rangoli)",
+        "Teaching Assistant — CIS 4190/5190: Applied Machine Learning",
       ],
       image: "org-upenn.webp"
     },
@@ -210,6 +211,21 @@ export const portfolioData = {
     //   links: {}
     // },
     {
+      title: "Contacts Carry the Depth: A Learned Flight Prior for Monocular 3D Soccer Ball Reconstruction.",
+      authors: "R. Chakraborty",
+      venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      shortVenue: "CVPR",
+      status: "Under Review at CVPR 2027",
+      year: "2027",
+      type: "Conference",
+      image: "proj-contacts-depth.webp",
+      links: {
+        paper: "https://drive.google.com/file/d/1fm7H2eX5RU7oMdsMyRRYagpet79bKsat/view?usp=drive_link",
+        project: "https://ritabrata-chakraborty.github.io/Contacts-Carry-the-Depth/",
+        code: "https://github.com/Ritabrata-Chakraborty/Contacts-Carry-the-Depth"
+      }
+    },
+    {
       title: "CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction.",
       authors: "Y. Wang, H. He, Y. Cao, J. Liang, R. Chakraborty, and G. Sartoretti",
       venue: "Conference on Robot Learning (CoRL), South Korea",
@@ -270,6 +286,20 @@ export const portfolioData = {
     }
   ],
   experience: [
+    {
+      institution: "GRASP Laboratory, University of Pennsylvania",
+      institutionLink: "https://www.grasp.upenn.edu/",
+      role: "Research Assistant",
+      duration: "Nov '26 – Present",
+      location: "Philadelphia, USA",
+      supervisors: [
+        { name: "Dr. Vijay Kumar, Professor", link: "https://www.kumarrobotics.org/" },
+      ],
+      image: "org-upenn.webp",
+      projects: [
+        { title: "Risk-Aware Contextual Uncertainty Resolution for Language-Guided Robots" }
+      ]
+    },
     {
       institution: "Uber",
       institutionLink: "https://www.uber.com/",
@@ -486,6 +516,12 @@ export const portfolioData = {
   ],
   projects: [
     {
+      title: "Contacts Carry the Depth: A Learned Flight Prior for Monocular 3D Soccer Ball Reconstruction",
+      image: "proj-contacts-depth.webp",
+      links: { paper: "https://drive.google.com/file/d/1fm7H2eX5RU7oMdsMyRRYagpet79bKsat/view?usp=drive_link", project: "https://ritabrata-chakraborty.github.io/Contacts-Carry-the-Depth/", code: "https://github.com/Ritabrata-Chakraborty/Contacts-Carry-the-Depth" },
+      tags: ["Vision"]
+    },
+    {
       title: "Multi-Critic Decomposition for Autonomous Indoor Navigation",
       image: "proj-rl.webp",
       links: { paper: "https://drive.google.com/file/d/1ZbXVK82uE7esc_MJddMygPwYf34Kf8oD/view?usp=drive_link", code: "https://github.com/Ritabrata-Chakraborty/Quadcopter-RL-Off-Policy-Velocity-Control" },
@@ -503,12 +539,12 @@ export const portfolioData = {
       links: { paper: "https://arxiv.org/abs/2403.10833", code: "https://github.com/Ritabrata-Chakraborty/Large-Scale-DRL-Exploration-with-Tunable-Adaptive-Exploration-Exploitation" },
       tags: ["Robotics"]
     },
-    {
-      title: "Physics-Informed Generative Modeling for Bearing Fault Diagnosis Under Data Scarcity",
-      image: "proj-clddgan.webp",
-      links: {},
-      tags: ["Gen-AI"]
-    },
+    // {
+    //   title: "Physics-Informed Generative Modeling for Bearing Fault Diagnosis Under Data Scarcity",
+    //   image: "proj-clddgan.webp",
+    //   links: {},
+    //   tags: ["Gen-AI"]
+    // },
     {
       title: "Auxiliary Classifier WGAN-GP for Time-Series Sensor Data Generation",
       image: "proj-efficient-gan.webp",

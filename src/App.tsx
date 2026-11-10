@@ -157,10 +157,10 @@ export default function App() {
               <h3 className="kicker mb-3">About Me</h3>
               <div className="space-y-3 text-muted leading-relaxed theme-card">
                 <p>
-                  I'm a first-year <strong className="text-fg font-medium">M.S.E. in Robotics</strong> student at the <strong className="text-fg font-medium">University of Pennsylvania</strong>, researching at the intersection of <strong className="text-fg font-medium">Aerial Robotics</strong>, <strong className="text-fg font-medium">Vision-Language Models (VLMs)</strong>, <strong className="text-fg font-medium">Reinforcement Learning</strong>, and <strong className="text-fg font-medium">Perception & Vision</strong>. I build AI systems for perception-degraded, GPS-denied environments, with experience spanning academia and industry.
+                  I'm a first-year <strong className="text-fg font-medium">M.S.E. in Robotics</strong> student at the <strong className="text-fg font-medium">University of Pennsylvania</strong>, researching at the intersection of <strong className="text-fg font-medium">Aerial Robotics</strong>, <strong className="text-fg font-medium">Vision-Language Models (VLMs)</strong>, <strong className="text-fg font-medium">Reinforcement Learning</strong>, and <strong className="text-fg font-medium">Perception & Vision</strong>. I'm also exploring entrepreneurship and am always open to conversations about startup ideas.
                 </p>
                 <p>
-                  I've worked at <strong className="text-fg font-medium">National University of Singapore</strong>, <strong className="text-fg font-medium">KU Leuven</strong>, and <strong className="text-fg font-medium">CSIR-CEERI</strong>, alongside an ML Internship at <strong className="text-fg font-medium">Uber (AI Solutions)</strong>. Outside of research, I enjoy game development and chess.
+                  I've worked at the <strong className="text-fg font-medium">GRASP Lab (UPenn)</strong>, <strong className="text-fg font-medium">National University of Singapore</strong>, <strong className="text-fg font-medium">KU Leuven</strong>, and <strong className="text-fg font-medium">CSIR-CEERI</strong>, alongside an ML Internship at <strong className="text-fg font-medium">Uber (AI Solutions)</strong>. Outside of research, I enjoy game development and chess.
                 </p>
               </div>
             </motion.div>

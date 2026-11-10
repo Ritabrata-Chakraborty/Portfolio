@@ -171,6 +171,14 @@ source for education, publications, experience, projects, achievements, and lead
   work item they came from, and the project cards use the work item's name.
   `Vision-Attention-Driven Autonomous Navigation` is the one deliberate exception — it stays in the
   NUS experience entry but has no project card.
+  Other exceptions: **Physics-Informed Generative Modeling for Bearing Fault Diagnosis** stays in the
+  KU Leuven experience entry but its project card is commented out on request; the GRASP
+  **Risk-Aware Contextual Uncertainty Resolution** item has no card yet (no image — ask before
+  adding one). The **Contacts Carry the Depth** card (CVPR work) has no résumé work item, so it uses
+  the paper title.
+- **Penn work:** GRASP Lab research (Dr. Vijay Kumar) is the newest experience entry, using the
+  `org-upenn.webp` logo. The Applied ML TA role (CIS 4190/5190) is a line in the Penn education
+  entry's `achievements`, mirroring how BITS TA roles are listed.
 - BARC is live: the experience entry, its two project cards, and the PPSTA poster publication are
   all uncommented in `data.ts`. (Earlier revisions of this file said to keep BARC hidden — that was
   reversed on request; the commented-out pattern itself is still the right tool for hiding entries.)
@@ -183,6 +191,8 @@ source for education, publications, experience, projects, achievements, and lead
     from `robotics1106`; old `robotics1106.github.io` Pages URLs now 404).
   - The hero's **About Me** copy is authored directly by the user, not derived from the résumé.
     Don't regenerate or "improve" it against résumé wording; only change it on explicit instruction.
+    Current content (set by the user): the first paragraph ends with an openness to entrepreneurship
+    and startup ideas, and the second paragraph's list of labs starts with the GRASP Lab (UPenn).
 - **Links come from the résumé first, then the per-paper project pages.** Several works have their
   own GitHub Pages site (`ritabrata-chakraborty.github.io/<repo>/`: orchard UAV, railgun, primal
   world beliefs, PHM ACWGAN-GP). Their entries carry a `project` link to that page, and the Drive
