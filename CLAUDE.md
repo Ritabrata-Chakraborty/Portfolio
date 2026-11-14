@@ -206,7 +206,8 @@ source for education, publications, experience, projects, achievements, and lead
     and startup ideas, and the second paragraph's list of labs starts with the GRASP Lab (UPenn).
 - **Links come from the résumé first, then the per-paper project pages.** Several works have their
   own GitHub Pages site (`ritabrata-chakraborty.github.io/<repo>/`: orchard UAV, railgun, primal
-  world beliefs, PHM ACWGAN-GP). Their entries carry a `project` link to that page, and the Drive
+  world beliefs, PHM ACWGAN-GP, CVPR ball flights, and `3D-Lunar-Surface-Modeling` — built from the
+  ISRO slide deck, page-only repo with no code, so no `code` link). Their entries carry a `project` link to that page, and the Drive
   `paper`/`poster` link is the one that page itself uses. `Railgun-Impact-Layered-Shields` is a
   **private** repo, so it gets no `code` link (it would 404 for visitors) — only its page and poster.
 - **Password-gated project pages** (railgun, orchard UAV) are built by each repo's

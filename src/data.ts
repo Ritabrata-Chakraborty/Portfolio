@@ -154,7 +154,7 @@ export const portfolioData = {
       type: "Journal",
       image: "proj-gnss-denied.webp",
       links: {
-          paper: "https://drive.google.com/file/d/1y3PC6fdyNwgKXBCm4wfoiL4wZD5VuxfH/view?usp=drive_link"
+          paper: "https://drive.google.com/file/d/1YITNkaBIcTZyL39HGXi_YDE_gruBrJ8E/view?usp=drive_link"
       }
     },
     {
@@ -495,6 +495,7 @@ export const portfolioData = {
       year: "2024",
       links: {
         presentation: "https://drive.google.com/file/d/16G0VYC5aEpGW_xqj6y0GRwX1Hb5cWeJk/view?usp=drive_link",
+        project: "https://ritabrata-chakraborty.github.io/3D-Lunar-Surface-Modeling/",
       }
     },
     {
@@ -530,7 +531,7 @@ export const portfolioData = {
     {
       title: "3D Lunar Surface Modeling from DEM Data — ISRO Immersion Challenge 2024",
       image: "proj-lunar.webp",
-      links: { presentation: "https://drive.google.com/file/d/16G0VYC5aEpGW_xqj6y0GRwX1Hb5cWeJk/view?usp=drive_link" },
+      links: { project: "https://ritabrata-chakraborty.github.io/3D-Lunar-Surface-Modeling/", presentation: "https://drive.google.com/file/d/16G0VYC5aEpGW_xqj6y0GRwX1Hb5cWeJk/view?usp=drive_link" },
       tags: ["Simulation"]
     },
     {
