@@ -167,7 +167,7 @@ export const portfolioData = {
       type: "Journal",
       image: "proj-rl.webp",
       links: {
-        paper: "https://drive.google.com/file/d/1ZbXVK82uE7esc_MJddMygPwYf34Kf8oD/view?usp=drive_link",
+        paper: "https://drive.google.com/file/d/1wCBw8Mkod9_Q-zyYivNVM8mkOO3psKBZ/view?usp=sharing",
         code: "https://github.com/Ritabrata-Chakraborty/Quadcopter-RL-Off-Policy-Velocity-Control"
       }
     },
@@ -524,7 +524,7 @@ export const portfolioData = {
     {
       title: "Multi-Critic Decomposition for Autonomous Indoor Navigation",
       image: "proj-rl.webp",
-      links: { paper: "https://drive.google.com/file/d/1ZbXVK82uE7esc_MJddMygPwYf34Kf8oD/view?usp=drive_link", code: "https://github.com/Ritabrata-Chakraborty/Quadcopter-RL-Off-Policy-Velocity-Control" },
+      links: { paper: "https://drive.google.com/file/d/1wCBw8Mkod9_Q-zyYivNVM8mkOO3psKBZ/view?usp=sharing", code: "https://github.com/Ritabrata-Chakraborty/Quadcopter-RL-Off-Policy-Velocity-Control" },
       tags: ["Robotics"]
     },
     {
@@ -602,7 +602,7 @@ export const portfolioData = {
     {
       title: "Object Tracking and Annotation Anomaly Detection",
       image: "proj-anomaly.webp",
-      links: {},
+      links: { blog: "https://www.uber.com/us/en/blog/validating-bounding-box/" },
       tags: ["Vision"]
     },
     {

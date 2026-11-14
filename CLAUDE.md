@@ -65,8 +65,9 @@ These are implicit — nothing enforces them, so breaking one silently drops con
 - **Optional fields degrade gracefully**: `image`, `location`, `techStack`, `links`,
   `projects[].bullets`, and `description` are all conditionally rendered. Omitting `image` on an
   experience renders no logo; omitting it on a project renders a grey placeholder box.
-- **Link order is fixed** for both projects and publications: Paper → Poster → Project → Code →
-  Report → Presentation → PDF. The buttons render in JSX source order, so adding a link type means
+- **Link order is fixed** for both projects and publications: Paper → Poster → Project → (Blog,
+  projects only) → Code → Report → Presentation → PDF. `blog` (`Newspaper` icon) links a project to a
+  write-up — the Uber anomaly-detection card points at the Uber Engineering blog post. The buttons render in JSX source order, so adding a link type means
   placing it in that sequence in both blocks. `poster` uses the `Image` icon (aliased `ImageIcon` in
   `App.tsx` to avoid clashing with the DOM `Image` global) — distinct from `presentation`'s
   `MonitorPlay`, since a poster PDF/photo and a slide deck read as different artifacts.
@@ -208,6 +209,11 @@ source for education, publications, experience, projects, achievements, and lead
   world beliefs, PHM ACWGAN-GP). Their entries carry a `project` link to that page, and the Drive
   `paper`/`poster` link is the one that page itself uses. `Railgun-Impact-Layered-Shields` is a
   **private** repo, so it gets no `code` link (it would 404 for visitors) — only its page and poster.
+- **Password-gated project pages** (railgun, orchard UAV) are built by each repo's
+  `tools/build_page.py`: locked sections are AES-GCM encrypted with a key derived from
+  `PAGE_PASSWORD`, from the private source `site/index.html`. Changing the password means re-running
+  the build in that repo. Never write the password into this file or any other public file. Railgun's
+  `site/` is committed (private repo); the orchard repo is public and its `site/` source is not in it.
 - The CV link lives at `personalInfo.cv` and is surfaced as one more circular icon button in the
   hero's social row (Email, LinkedIn, GitHub, Scholar, ResearchGate, CV) — there is no large
   call-to-action button, and `personalInfo.portfolio` is now unused by the UI.

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { ThemeToggle } from './components/ThemePanel';
 import { portfolioData } from './data';
-import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, Sparkles, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap, Cloud, Users, LayoutGrid, Award, Image as ImageIcon } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, ChevronDown, MapPin, BookOpen, Code2, Cpu, Sparkles, Microchip, Wrench, FileText, Code, Link, MonitorPlay, File, GraduationCap, Cloud, Users, LayoutGrid, Award, Newspaper, Image as ImageIcon } from 'lucide-react';
 
 const iconMap: Record<string, React.ElementType> = {
   BookOpen, Code2, Cpu, Sparkles, Microchip, Wrench, Cloud, Users, LayoutGrid
@@ -536,6 +536,11 @@ export default function App() {
                     {proj.links.project && (
                       <a href={proj.links.project} className="btn-link">
                         <ExternalLink size={12} /> Project
+                      </a>
+                    )}
+                    {proj.links.blog && (
+                      <a href={proj.links.blog} className="btn-link">
+                        <Newspaper size={12} /> Blog
                       </a>
                     )}
                     {proj.links.code && (
