@@ -180,8 +180,9 @@ source for education, publications, experience, projects, achievements, and lead
   Other exceptions: **Physics-Informed Generative Modeling for Bearing Fault Diagnosis** stays in the
   KU Leuven experience entry but its project card is commented out on request; the GRASP
   **Risk-Aware Contextual Uncertainty Resolution** item has no card yet (no image — ask before
-  adding one). The **Contacts Carry the Depth** card (CVPR work) has no résumé work item, so it uses
-  the paper title. Its image `proj-contacts-depth.webp` is an **animated WebP** converted from the user's
+  adding one). The CVPR work's card has no résumé work item, so it uses the paper title,
+  **From Broadcast Video to 3D Soccer Ball Flights: Learned Priors under Imperfect Observations**
+  (renamed from "Contacts Carry the Depth"; links point to the `Broadcast-to-3D-Ball-Flights` page/repo). Its image `proj-contacts-depth.webp` is an **animated WebP** converted from the user's
   demo GIF (smaller than the GIF; `<img>` animates it). Convert future GIFs the same way.
 - The GNSS-denied survey is submitted to **Springer IJIRA**, not IEEE T-AI — the résumé still says T-AI
   (as of 2026-11-09); the portfolio is right, don't "sync" it back.

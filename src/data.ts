@@ -211,7 +211,7 @@ export const portfolioData = {
     //   links: {}
     // },
     {
-      title: "Contacts Carry the Depth: A Learned Flight Prior for Monocular 3D Soccer Ball Reconstruction.",
+      title: "From Broadcast Video to 3D Soccer Ball Flights: Learned Priors under Imperfect Observations.",
       authors: "R. Chakraborty",
       venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       shortVenue: "CVPR",
@@ -220,9 +220,9 @@ export const portfolioData = {
       type: "Conference",
       image: "proj-contacts-depth.webp",
       links: {
-        paper: "https://drive.google.com/file/d/1fm7H2eX5RU7oMdsMyRRYagpet79bKsat/view?usp=drive_link",
-        project: "https://ritabrata-chakraborty.github.io/Contacts-Carry-the-Depth/",
-        code: "https://github.com/Ritabrata-Chakraborty/Contacts-Carry-the-Depth"
+        paper: "https://drive.google.com/file/d/1dfEeKTfYVOfY5Zk2wM1QfNqNbv5XL9To/view?usp=drive_link",
+        project: "https://ritabrata-chakraborty.github.io/Broadcast-to-3D-Ball-Flights/",
+        code: "https://github.com/Ritabrata-Chakraborty/Broadcast-to-3D-Ball-Flights"
       }
     },
     {
@@ -516,9 +516,9 @@ export const portfolioData = {
   ],
   projects: [
     {
-      title: "Contacts Carry the Depth: A Learned Flight Prior for Monocular 3D Soccer Ball Reconstruction",
+      title: "From Broadcast Video to 3D Soccer Ball Flights: Learned Priors under Imperfect Observations",
       image: "proj-contacts-depth.webp",
-      links: { paper: "https://drive.google.com/file/d/1fm7H2eX5RU7oMdsMyRRYagpet79bKsat/view?usp=drive_link", project: "https://ritabrata-chakraborty.github.io/Contacts-Carry-the-Depth/", code: "https://github.com/Ritabrata-Chakraborty/Contacts-Carry-the-Depth" },
+      links: { paper: "https://drive.google.com/file/d/1dfEeKTfYVOfY5Zk2wM1QfNqNbv5XL9To/view?usp=drive_link", project: "https://ritabrata-chakraborty.github.io/Broadcast-to-3D-Ball-Flights/", code: "https://github.com/Ritabrata-Chakraborty/Broadcast-to-3D-Ball-Flights" },
       tags: ["Vision"]
     },
     {
