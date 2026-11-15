@@ -46,6 +46,17 @@ export const portfolioData = {
   ],
   publications: [
     {
+      title: "Selected as Peer Reviewer for CVPR 2027.",
+      authors: "Anonymous et al.",
+      venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      shortVenue: "CVPR",
+      status: "Selected as Peer Reviewer for CVPR",
+      year: "2027",
+      type: "Conference",
+      role: "Peer Reviewer",
+      links: {}
+    },
+    {
       title: "GS-SDE: 3D Gaussian Splatting-based Adaptive Scene Modeling in Semi-Dynamic Environments.",
       authors: "Anonymous et al.",
       venue: "IEEE Transactions on Automation Science and Engineering (T-ASE)",

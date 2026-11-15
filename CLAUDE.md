@@ -57,6 +57,11 @@ These are implicit — nothing enforces them, so breaking one silently drops con
   pill shows them all, descending, joined by ` · ` (e.g. `2026 · 2025`). Data stays one entry per
   reviewed paper — add a new review as its own entry with the same `shortVenue`; the venue name shown
   is the first entry's `venue`, so keep that string venue-generic if years differ.
+- **CVPR 2027 peer-review card** is a placeholder: the résumé only says "Selected as peer reviewer",
+  so its single bullet is that sentence rather than a paper title (reviewed papers are confidential).
+  Once a review is completed, follow the other venues — one entry per reviewed paper, same
+  `shortVenue: "CVPR"` (this doesn't collide with the user's own CVPR *submission*, which has
+  `role` unset and is excluded from the grouping).
 - **Project tags** (`App.tsx:32`): `allTags` is hardcoded as
   `All | Simulation | Vision | Robotics | Gen-AI | Design | Others`. A project whose `tags` contain
   a string not in that list is only reachable under `All`; a new category requires editing
